@@ -1,0 +1,32 @@
+const fs = require('fs')
+const { exec } = require('child_process')
+const CHILDS_CODE_MAP = require('../data/childs')
+
+const obj = {}
+async function start(innerPath) {
+    fs.readdirSync(innerPath).forEach(item => {
+        let code1 = item.split('_')[0]
+        let code2 = item.split('_')[1]
+
+        if (CHILDS_CODE_MAP[code1]) {
+            if (!obj[code1]) {
+                obj[code1] = {}
+            }
+            obj[code1].name = CHILDS_CODE_MAP[code1].name || '???'
+            obj[code1].star = CHILDS_CODE_MAP[code1].star || ''
+            obj[code1].attribute = CHILDS_CODE_MAP[code1].attribute || ''
+            obj[code1].id = code1
+            if (!obj[code1].variants) {
+                obj[code1].variants = {}
+            }
+            if (CHILDS_CODE_MAP[code1].variants[code2]) {
+                obj[code1].variants[code2] = CHILDS_CODE_MAP[code1].variants[code2]
+            }
+        }
+    })
+}
+
+start('..\\static')
+
+fs.unlink('./log.txt', () => {})
+fs.appendFile('./log.txt', JSON.stringify(obj), () => {}) 

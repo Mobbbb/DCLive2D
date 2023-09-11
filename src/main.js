@@ -13,10 +13,10 @@ const App = Vue.createApp({
         this.changeChilds()
     },
     methods: {
+        // todo  + s 温泉
+        // 和谐 未和谐
         changeChilds() {
             this.selectedChildConfig = CHILDS_CODE_MAP[this.selectedChildId]
-            console.log(Object.keys(this.selectedChildConfig.variants)[0])
-            console.log(this.selectedChildConfig)
             this.selectedVariantId = Object.keys(this.selectedChildConfig.variants)[0]
             initModel(`${this.selectedChildId}_${this.selectedVariantId}`)
         },
