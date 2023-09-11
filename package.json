@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "0.11.1"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "N/A"
+  },
+  "author": "Mob",
+  "license": "MIT"
+}
