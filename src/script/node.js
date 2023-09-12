@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { exec } = require('child_process')
 const CHILDS_CODE_MAP = require('../data/childs')
 
 const obj = {}
@@ -20,7 +19,10 @@ async function start(innerPath) {
                 obj[code1].variants = {}
             }
             if (CHILDS_CODE_MAP[code1].variants[code2]) {
-                obj[code1].variants[code2] = CHILDS_CODE_MAP[code1].variants[code2]
+                obj[code1].variants[code2] = {
+                    title: CHILDS_CODE_MAP[code1].variants[code2].title,
+                    id: code2,
+                }
             }
         }
     })

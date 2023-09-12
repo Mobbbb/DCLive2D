@@ -6,34 +6,44 @@ const CHILDS_CODE_MAP = {
         "id": "c000",
         "variants": {
             "10": {
-                "title": "Mysterious"
+                "title": "Mysterious",
+                "id": "10"
             },
             "11": {
-                "title": "Girl's School"
+                "title": "Girl's School",
+                "id": "11"
             },
             "12": {
-                "title": "Swimsuit"
+                "title": "Swimsuit",
+                "id": "12"
             },
             "13": {
-                "title": "Summer Pants"
+                "title": "Summer Pants",
+                "id": "13"
             },
             "14": {
-                "title": "Dress"
+                "title": "Dress",
+                "id": "14"
             },
             "15": {
-                "title": ""
+                "title": "",
+                "id": "15"
             },
             "16": {
-                "title": ""
+                "title": "",
+                "id": "16"
             },
             "17": {
-                "title": ""
+                "title": "",
+                "id": "17"
             },
             "18": {
-                "title": ""
+                "title": "",
+                "id": "18"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -44,22 +54,28 @@ const CHILDS_CODE_MAP = {
         "id": "c001",
         "variants": {
             "12": {
-                "title": "Seaside"
+                "title": "Seaside",
+                "id": "12"
             },
             "14": {
-                "title": "Teacher"
+                "title": "Teacher",
+                "id": "14"
             },
             "16": {
-                "title": "Swimsuit"
+                "title": "Swimsuit",
+                "id": "16"
             },
             "17": {
-                "title": "Petit"
+                "title": "Petit",
+                "id": "17"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Battlesuit"
+                "title": "Battlesuit",
+                "id": "02"
             }
         }
     },
@@ -70,22 +86,28 @@ const CHILDS_CODE_MAP = {
         "id": "c002",
         "variants": {
             "10": {
-                "title": "Seaside"
+                "title": "Seaside",
+                "id": "10"
             },
             "11": {
-                "title": "Student"
+                "title": "Student",
+                "id": "11"
             },
             "12": {
-                "title": "Summer Camp"
+                "title": "Summer Camp",
+                "id": "12"
             },
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Battlesuit"
+                "title": "Battlesuit",
+                "id": "02"
             }
         }
     },
@@ -96,37 +118,48 @@ const CHILDS_CODE_MAP = {
         "id": "c003",
         "variants": {
             "10": {
-                "title": "Seaside"
+                "title": "Seaside",
+                "id": "10"
             },
             "11": {
-                "title": "Student"
+                "title": "Student",
+                "id": "11"
             },
             "13": {
-                "title": "Summer Dream"
+                "title": "Summer Dream",
+                "id": "13"
             },
             "14": {
-                "title": "Lucifer"
+                "title": "Lucifer",
+                "id": "14"
             },
             "15": {
-                "title": "Satan"
+                "title": "Satan",
+                "id": "15"
             },
             "16": {
-                "title": "Crimson"
+                "title": "Crimson",
+                "id": "16"
             },
             "17": {
-                "title": "Mini"
+                "title": "Mini",
+                "id": "17"
             },
             "18": {
-                "title": "Cheerleader"
+                "title": "Cheerleader",
+                "id": "18"
             },
             "89": {
-                "title": "Lucifer"
+                "title": "Lucifer",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Battlesuit"
+                "title": "Battlesuit",
+                "id": "02"
             }
         }
     },
@@ -137,13 +170,16 @@ const CHILDS_CODE_MAP = {
         "id": "c004",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Neighborly"
+                "title": "Neighborly",
+                "id": "01"
             },
             "02": {
-                "title": "Warmharted"
+                "title": "Warmharted",
+                "id": "02"
             }
         }
     },
@@ -154,13 +190,16 @@ const CHILDS_CODE_MAP = {
         "id": "c005",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Zooming"
+                "title": "Zooming",
+                "id": "01"
             },
             "02": {
-                "title": "Rampaging"
+                "title": "Rampaging",
+                "id": "02"
             }
         }
     },
@@ -171,13 +210,16 @@ const CHILDS_CODE_MAP = {
         "id": "c007",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hot"
+                "title": "Hot",
+                "id": "01"
             },
             "02": {
-                "title": "Fiery"
+                "title": "Fiery",
+                "id": "02"
             }
         }
     },
@@ -188,13 +230,16 @@ const CHILDS_CODE_MAP = {
         "id": "c008",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Warrior"
+                "title": "Warrior",
+                "id": "01"
             },
             "02": {
-                "title": "Militant"
+                "title": "Militant",
+                "id": "02"
             }
         }
     },
@@ -205,13 +250,16 @@ const CHILDS_CODE_MAP = {
         "id": "c009",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mercenary"
+                "title": "Mercenary",
+                "id": "01"
             },
             "02": {
-                "title": "Fixer"
+                "title": "Fixer",
+                "id": "02"
             }
         }
     },
@@ -222,13 +270,16 @@ const CHILDS_CODE_MAP = {
         "id": "c010",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bluffing"
+                "title": "Bluffing",
+                "id": "01"
             },
             "02": {
-                "title": "Vain"
+                "title": "Vain",
+                "id": "02"
             }
         }
     },
@@ -239,13 +290,16 @@ const CHILDS_CODE_MAP = {
         "id": "c011",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Volunteer"
+                "title": "Volunteer",
+                "id": "01"
             },
             "02": {
-                "title": "Devoted"
+                "title": "Devoted",
+                "id": "02"
             }
         }
     },
@@ -256,13 +310,16 @@ const CHILDS_CODE_MAP = {
         "id": "c012",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hotblooded"
+                "title": "Hotblooded",
+                "id": "01"
             },
             "02": {
-                "title": "Final"
+                "title": "Final",
+                "id": "02"
             }
         }
     },
@@ -273,13 +330,16 @@ const CHILDS_CODE_MAP = {
         "id": "c013",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Moonless"
+                "title": "Moonless",
+                "id": "01"
             },
             "02": {
-                "title": "Lunar"
+                "title": "Lunar",
+                "id": "02"
             }
         }
     },
@@ -290,13 +350,16 @@ const CHILDS_CODE_MAP = {
         "id": "c014",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Starry"
+                "title": "Starry",
+                "id": "01"
             },
             "02": {
-                "title": "Galaxy"
+                "title": "Galaxy",
+                "id": "02"
             }
         }
     },
@@ -307,7 +370,8 @@ const CHILDS_CODE_MAP = {
         "id": "c015",
         "variants": {
             "01": {
-                "title": "Seasonal"
+                "title": "Seasonal",
+                "id": "01"
             }
         }
     },
@@ -318,13 +382,16 @@ const CHILDS_CODE_MAP = {
         "id": "c017",
         "variants": {
             "00": {
-                "title": "Puppy"
+                "title": "Puppy",
+                "id": "00"
             },
             "01": {
-                "title": "Guard Dog"
+                "title": "Guard Dog",
+                "id": "01"
             },
             "02": {
-                "title": "Defenser"
+                "title": "Defenser",
+                "id": "02"
             }
         }
     },
@@ -335,13 +402,16 @@ const CHILDS_CODE_MAP = {
         "id": "c018",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Little"
+                "title": "Little",
+                "id": "01"
             },
             "02": {
-                "title": "Immature"
+                "title": "Immature",
+                "id": "02"
             }
         }
     },
@@ -352,13 +422,16 @@ const CHILDS_CODE_MAP = {
         "id": "c019",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Frenzied"
+                "title": "Frenzied",
+                "id": "01"
             },
             "02": {
-                "title": "Raging"
+                "title": "Raging",
+                "id": "02"
             }
         }
     },
@@ -369,13 +442,16 @@ const CHILDS_CODE_MAP = {
         "id": "c020",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dangerous"
+                "title": "Dangerous",
+                "id": "01"
             },
             "02": {
-                "title": "Gambling"
+                "title": "Gambling",
+                "id": "02"
             }
         }
     },
@@ -386,16 +462,20 @@ const CHILDS_CODE_MAP = {
         "id": "c022",
         "variants": {
             "10": {
-                "title": "Maid Mood"
+                "title": "Maid Mood",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lazy"
+                "title": "Lazy",
+                "id": "01"
             },
             "02": {
-                "title": "Woeful"
+                "title": "Woeful",
+                "id": "02"
             }
         }
     },
@@ -406,10 +486,12 @@ const CHILDS_CODE_MAP = {
         "id": "c023",
         "variants": {
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -420,13 +502,16 @@ const CHILDS_CODE_MAP = {
         "id": "c024",
         "variants": {
             "00": {
-                "title": "Neighbor"
+                "title": "Neighbor",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Arch Duke"
+                "title": "Arch Duke",
+                "id": "02"
             }
         }
     },
@@ -437,13 +522,16 @@ const CHILDS_CODE_MAP = {
         "id": "c026",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Delightful"
+                "title": "Delightful",
+                "id": "01"
             },
             "02": {
-                "title": "Delirious"
+                "title": "Delirious",
+                "id": "02"
             }
         }
     },
@@ -454,13 +542,16 @@ const CHILDS_CODE_MAP = {
         "id": "c027",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Awakened"
+                "title": "Awakened",
+                "id": "01"
             },
             "02": {
-                "title": "Genuine"
+                "title": "Genuine",
+                "id": "02"
             }
         }
     },
@@ -471,16 +562,20 @@ const CHILDS_CODE_MAP = {
         "id": "c028",
         "variants": {
             "10": {
-                "title": "Day Dream"
+                "title": "Day Dream",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Successful"
+                "title": "Successful",
+                "id": "01"
             },
             "02": {
-                "title": "Shining"
+                "title": "Shining",
+                "id": "02"
             }
         }
     },
@@ -491,13 +586,16 @@ const CHILDS_CODE_MAP = {
         "id": "c029",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Night"
+                "title": "Night",
+                "id": "01"
             },
             "02": {
-                "title": "Lunar"
+                "title": "Lunar",
+                "id": "02"
             }
         }
     },
@@ -508,13 +606,16 @@ const CHILDS_CODE_MAP = {
         "id": "c030",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Roaming"
+                "title": "Roaming",
+                "id": "01"
             },
             "02": {
-                "title": "Tom-Boy"
+                "title": "Tom-Boy",
+                "id": "02"
             }
         }
     },
@@ -525,13 +626,16 @@ const CHILDS_CODE_MAP = {
         "id": "c031",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Innocent"
+                "title": "Innocent",
+                "id": "01"
             },
             "02": {
-                "title": "Pure"
+                "title": "Pure",
+                "id": "02"
             }
         }
     },
@@ -542,13 +646,16 @@ const CHILDS_CODE_MAP = {
         "id": "c032",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lively"
+                "title": "Lively",
+                "id": "01"
             },
             "02": {
-                "title": "Non-Stop"
+                "title": "Non-Stop",
+                "id": "02"
             }
         }
     },
@@ -559,13 +666,16 @@ const CHILDS_CODE_MAP = {
         "id": "c033",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Tranquil"
+                "title": "Tranquil",
+                "id": "01"
             },
             "02": {
-                "title": "Reclusive"
+                "title": "Reclusive",
+                "id": "02"
             }
         }
     },
@@ -576,13 +686,16 @@ const CHILDS_CODE_MAP = {
         "id": "c034",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lazy"
+                "title": "Lazy",
+                "id": "01"
             },
             "02": {
-                "title": "Haughty"
+                "title": "Haughty",
+                "id": "02"
             }
         }
     },
@@ -593,13 +706,16 @@ const CHILDS_CODE_MAP = {
         "id": "c035",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dawn"
+                "title": "Dawn",
+                "id": "01"
             },
             "02": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "02"
             }
         }
     },
@@ -610,16 +726,20 @@ const CHILDS_CODE_MAP = {
         "id": "c036",
         "variants": {
             "10": {
-                "title": "Collector"
+                "title": "Collector",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Squandering"
+                "title": "Squandering",
+                "id": "01"
             },
             "02": {
-                "title": "Buyer"
+                "title": "Buyer",
+                "id": "02"
             }
         }
     },
@@ -630,13 +750,16 @@ const CHILDS_CODE_MAP = {
         "id": "c037",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Lord"
+                "title": "Dark Lord",
+                "id": "02"
             }
         }
     },
@@ -647,19 +770,24 @@ const CHILDS_CODE_MAP = {
         "id": "c038",
         "variants": {
             "10": {
-                "title": "Kr Base E"
+                "title": "Kr Base E",
+                "id": "10"
             },
             "11": {
-                "title": "Kr Awaken S"
+                "title": "Kr Awaken S",
+                "id": "11"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Spiteful"
+                "title": "Spiteful",
+                "id": "01"
             },
             "02": {
-                "title": "Charming"
+                "title": "Charming",
+                "id": "02"
             }
         }
     },
@@ -670,13 +798,16 @@ const CHILDS_CODE_MAP = {
         "id": "c039",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Furious"
+                "title": "Furious",
+                "id": "01"
             },
             "02": {
-                "title": "Devout"
+                "title": "Devout",
+                "id": "02"
             }
         }
     },
@@ -687,13 +818,16 @@ const CHILDS_CODE_MAP = {
         "id": "c040",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lawful"
+                "title": "Lawful",
+                "id": "01"
             },
             "02": {
-                "title": "Law-Abiding"
+                "title": "Law-Abiding",
+                "id": "02"
             }
         }
     },
@@ -704,13 +838,16 @@ const CHILDS_CODE_MAP = {
         "id": "c041",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Night"
+                "title": "Night",
+                "id": "01"
             },
             "02": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "02"
             }
         }
     },
@@ -721,16 +858,20 @@ const CHILDS_CODE_MAP = {
         "id": "c043",
         "variants": {
             "10": {
-                "title": "Shooting Star"
+                "title": "Shooting Star",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Conceited"
+                "title": "Conceited",
+                "id": "01"
             },
             "02": {
-                "title": "Egotistical"
+                "title": "Egotistical",
+                "id": "02"
             }
         }
     },
@@ -741,13 +882,16 @@ const CHILDS_CODE_MAP = {
         "id": "c044",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Aimless"
+                "title": "Aimless",
+                "id": "01"
             },
             "02": {
-                "title": "Vagabond"
+                "title": "Vagabond",
+                "id": "02"
             }
         }
     },
@@ -758,28 +902,36 @@ const CHILDS_CODE_MAP = {
         "id": "c045",
         "variants": {
             "10": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "10"
             },
             "11": {
-                "title": "Highlight"
+                "title": "Highlight",
+                "id": "11"
             },
             "12": {
-                "title": "Break Time"
+                "title": "Break Time",
+                "id": "12"
             },
             "13": {
-                "title": "Lovely Star"
+                "title": "Lovely Star",
+                "id": "13"
             },
             "89": {
-                "title": "Highlight"
+                "title": "Highlight",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Singing"
+                "title": "Singing",
+                "id": "01"
             },
             "02": {
-                "title": "Delightful"
+                "title": "Delightful",
+                "id": "02"
             }
         }
     },
@@ -790,13 +942,16 @@ const CHILDS_CODE_MAP = {
         "id": "c047",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Smoldering"
+                "title": "Smoldering",
+                "id": "01"
             },
             "02": {
-                "title": "White Flame"
+                "title": "White Flame",
+                "id": "02"
             }
         }
     },
@@ -807,16 +962,20 @@ const CHILDS_CODE_MAP = {
         "id": "c048",
         "variants": {
             "10": {
-                "title": "Role of the Nurse"
+                "title": "Role of the Nurse",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Melancholy"
+                "title": "Melancholy",
+                "id": "01"
             },
             "02": {
-                "title": "Love-Hate"
+                "title": "Love-Hate",
+                "id": "02"
             }
         }
     },
@@ -827,16 +986,20 @@ const CHILDS_CODE_MAP = {
         "id": "c049",
         "variants": {
             "10": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lost"
+                "title": "Lost",
+                "id": "01"
             },
             "02": {
-                "title": "Blind Faith"
+                "title": "Blind Faith",
+                "id": "02"
             }
         }
     },
@@ -847,30 +1010,36 @@ const CHILDS_CODE_MAP = {
         "id": "c050",
         "variants": {
             "02": {
-                "title": "Tyrannical"
+                "title": "Tyrannical",
+                "id": "02"
             }
         }
     },
     "c051": {
-        "name": "Frej",
-        "star": "",
-        "attribute": "",
+        "name": "弗雷",
+        "star": "5",
+        "attribute": "D",
         "id": "c051",
         "variants": {
             "12": {
-                "title": "Role of Tybalt"
+                "title": "Role of Tybalt",
+                "id": "12"
             },
             "21": {
-                "title": "Cursed Doll"
+                "title": "Cursed Doll",
+                "id": "21"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Bad Boy"
+                "title": "Bad Boy",
+                "id": "02"
             }
         }
     },
@@ -881,13 +1050,16 @@ const CHILDS_CODE_MAP = {
         "id": "c052",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dramatic"
+                "title": "Dramatic",
+                "id": "01"
             },
             "02": {
-                "title": "Deceptive"
+                "title": "Deceptive",
+                "id": "02"
             }
         }
     },
@@ -898,19 +1070,24 @@ const CHILDS_CODE_MAP = {
         "id": "c053",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "11": {
-                "title": ""
+                "title": "",
+                "id": "11"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hesitant"
+                "title": "Hesitant",
+                "id": "01"
             },
             "02": {
-                "title": "Clairvoyant"
+                "title": "Clairvoyant",
+                "id": "02"
             }
         }
     },
@@ -921,13 +1098,16 @@ const CHILDS_CODE_MAP = {
         "id": "c054",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "01"
             },
             "02": {
-                "title": "Heroic"
+                "title": "Heroic",
+                "id": "02"
             }
         }
     },
@@ -938,13 +1118,16 @@ const CHILDS_CODE_MAP = {
         "id": "c055",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -955,13 +1138,16 @@ const CHILDS_CODE_MAP = {
         "id": "c056",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Martyr"
+                "title": "Martyr",
+                "id": "01"
             },
             "02": {
-                "title": "Sacrificial"
+                "title": "Sacrificial",
+                "id": "02"
             }
         }
     },
@@ -972,25 +1158,32 @@ const CHILDS_CODE_MAP = {
         "id": "c057",
         "variants": {
             "10": {
-                "title": "Night of Drinking"
+                "title": "Night of Drinking",
+                "id": "10"
             },
             "87": {
-                "title": "Night of Drinking"
+                "title": "Night of Drinking",
+                "id": "87"
             },
             "88": {
-                "title": "Blackstar"
+                "title": "Blackstar",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Blackstar"
+                "title": "Blackstar",
+                "id": "02"
             }
         }
     },
@@ -1001,13 +1194,16 @@ const CHILDS_CODE_MAP = {
         "id": "c058",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Rakshasa"
+                "title": "Rakshasa",
+                "id": "02"
             }
         }
     },
@@ -1018,13 +1214,16 @@ const CHILDS_CODE_MAP = {
         "id": "c060",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Counterattack"
+                "title": "Counterattack",
+                "id": "01"
             },
             "02": {
-                "title": "Avenger"
+                "title": "Avenger",
+                "id": "02"
             }
         }
     },
@@ -1035,19 +1234,24 @@ const CHILDS_CODE_MAP = {
         "id": "c061",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Underground"
+                "title": "Underground",
+                "id": "01"
             },
             "02": {
-                "title": "Midnight"
+                "title": "Midnight",
+                "id": "02"
             }
         }
     },
@@ -1058,13 +1262,16 @@ const CHILDS_CODE_MAP = {
         "id": "c062",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Fragrant"
+                "title": "Fragrant",
+                "id": "01"
             },
             "02": {
-                "title": "Alluring"
+                "title": "Alluring",
+                "id": "02"
             }
         }
     },
@@ -1075,13 +1282,16 @@ const CHILDS_CODE_MAP = {
         "id": "c063",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Timid"
+                "title": "Timid",
+                "id": "01"
             },
             "02": {
-                "title": "Speculative"
+                "title": "Speculative",
+                "id": "02"
             }
         }
     },
@@ -1092,13 +1302,16 @@ const CHILDS_CODE_MAP = {
         "id": "c064",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Reigning"
+                "title": "Reigning",
+                "id": "01"
             },
             "02": {
-                "title": "Conquering"
+                "title": "Conquering",
+                "id": "02"
             }
         }
     },
@@ -1109,13 +1322,16 @@ const CHILDS_CODE_MAP = {
         "id": "c065",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Blooming"
+                "title": "Blooming",
+                "id": "01"
             },
             "02": {
-                "title": "Profuse"
+                "title": "Profuse",
+                "id": "02"
             }
         }
     },
@@ -1126,13 +1342,16 @@ const CHILDS_CODE_MAP = {
         "id": "c066",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Self-Righteous"
+                "title": "Self-Righteous",
+                "id": "01"
             },
             "02": {
-                "title": "Machiavellian"
+                "title": "Machiavellian",
+                "id": "02"
             }
         }
     },
@@ -1143,13 +1362,16 @@ const CHILDS_CODE_MAP = {
         "id": "c067",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Unknown"
+                "title": "Unknown",
+                "id": "01"
             },
             "02": {
-                "title": "Trancendent"
+                "title": "Trancendent",
+                "id": "02"
             }
         }
     },
@@ -1160,13 +1382,16 @@ const CHILDS_CODE_MAP = {
         "id": "c068",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Challenger"
+                "title": "Challenger",
+                "id": "01"
             },
             "02": {
-                "title": "Gourmet"
+                "title": "Gourmet",
+                "id": "02"
             }
         }
     },
@@ -1177,13 +1402,16 @@ const CHILDS_CODE_MAP = {
         "id": "c069",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Restorative"
+                "title": "Restorative",
+                "id": "01"
             },
             "02": {
-                "title": "Tuning"
+                "title": "Tuning",
+                "id": "02"
             }
         }
     },
@@ -1194,13 +1422,16 @@ const CHILDS_CODE_MAP = {
         "id": "c070",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Future"
+                "title": "Future",
+                "id": "01"
             },
             "02": {
-                "title": "Universal"
+                "title": "Universal",
+                "id": "02"
             }
         }
     },
@@ -1211,13 +1442,16 @@ const CHILDS_CODE_MAP = {
         "id": "c072",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Explorer"
+                "title": "Explorer",
+                "id": "01"
             },
             "02": {
-                "title": "Shadow"
+                "title": "Shadow",
+                "id": "02"
             }
         }
     },
@@ -1228,13 +1462,16 @@ const CHILDS_CODE_MAP = {
         "id": "c073",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Self-Deprecating"
+                "title": "Self-Deprecating",
+                "id": "01"
             },
             "02": {
-                "title": "Hollow"
+                "title": "Hollow",
+                "id": "02"
             }
         }
     },
@@ -1245,13 +1482,16 @@ const CHILDS_CODE_MAP = {
         "id": "c074",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cheerful"
+                "title": "Cheerful",
+                "id": "01"
             },
             "02": {
-                "title": "Passionate"
+                "title": "Passionate",
+                "id": "02"
             }
         }
     },
@@ -1262,13 +1502,16 @@ const CHILDS_CODE_MAP = {
         "id": "c075",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Odorous"
+                "title": "Odorous",
+                "id": "01"
             },
             "02": {
-                "title": "Pleasured"
+                "title": "Pleasured",
+                "id": "02"
             }
         }
     },
@@ -1279,13 +1522,16 @@ const CHILDS_CODE_MAP = {
         "id": "c081",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Broken"
+                "title": "Broken",
+                "id": "01"
             },
             "02": {
-                "title": "Drifting"
+                "title": "Drifting",
+                "id": "02"
             }
         }
     },
@@ -1296,13 +1542,16 @@ const CHILDS_CODE_MAP = {
         "id": "c082",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Artisanal"
+                "title": "Artisanal",
+                "id": "01"
             },
             "02": {
-                "title": "Prophetic"
+                "title": "Prophetic",
+                "id": "02"
             }
         }
     },
@@ -1313,13 +1562,16 @@ const CHILDS_CODE_MAP = {
         "id": "c083",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Battlefield"
+                "title": "Battlefield",
+                "id": "01"
             },
             "02": {
-                "title": "Tactician"
+                "title": "Tactician",
+                "id": "02"
             }
         }
     },
@@ -1330,13 +1582,16 @@ const CHILDS_CODE_MAP = {
         "id": "c085",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Malicious"
+                "title": "Malicious",
+                "id": "01"
             },
             "02": {
-                "title": "Judge"
+                "title": "Judge",
+                "id": "02"
             }
         }
     },
@@ -1347,13 +1602,16 @@ const CHILDS_CODE_MAP = {
         "id": "c086",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Seasoned"
+                "title": "Seasoned",
+                "id": "01"
             },
             "02": {
-                "title": "Flavored"
+                "title": "Flavored",
+                "id": "02"
             }
         }
     },
@@ -1364,13 +1622,16 @@ const CHILDS_CODE_MAP = {
         "id": "c087",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Pure-White"
+                "title": "Pure-White",
+                "id": "01"
             },
             "02": {
-                "title": "Brilliant"
+                "title": "Brilliant",
+                "id": "02"
             }
         }
     },
@@ -1381,13 +1642,16 @@ const CHILDS_CODE_MAP = {
         "id": "c090",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Resurgent"
+                "title": "Resurgent",
+                "id": "01"
             },
             "02": {
-                "title": "Reviving"
+                "title": "Reviving",
+                "id": "02"
             }
         }
     },
@@ -1398,13 +1662,16 @@ const CHILDS_CODE_MAP = {
         "id": "c091",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "01"
             },
             "02": {
-                "title": "Loyal"
+                "title": "Loyal",
+                "id": "02"
             }
         }
     },
@@ -1415,10 +1682,12 @@ const CHILDS_CODE_MAP = {
         "id": "c092",
         "variants": {
             "01": {
-                "title": "Hygienic"
+                "title": "Hygienic",
+                "id": "01"
             },
             "02": {
-                "title": "Fastidious"
+                "title": "Fastidious",
+                "id": "02"
             }
         }
     },
@@ -1429,13 +1698,16 @@ const CHILDS_CODE_MAP = {
         "id": "c095",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "HotBlooded"
+                "title": "HotBlooded",
+                "id": "01"
             },
             "02": {
-                "title": "Passionate"
+                "title": "Passionate",
+                "id": "02"
             }
         }
     },
@@ -1446,13 +1718,16 @@ const CHILDS_CODE_MAP = {
         "id": "c099",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bored"
+                "title": "Bored",
+                "id": "01"
             },
             "02": {
-                "title": "Roaring"
+                "title": "Roaring",
+                "id": "02"
             }
         }
     },
@@ -1463,16 +1738,20 @@ const CHILDS_CODE_MAP = {
         "id": "c101",
         "variants": {
             "10": {
-                "title": "Miracle"
+                "title": "Miracle",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Naive"
+                "title": "Naive",
+                "id": "01"
             },
             "02": {
-                "title": "Praising"
+                "title": "Praising",
+                "id": "02"
             }
         }
     },
@@ -1483,10 +1762,12 @@ const CHILDS_CODE_MAP = {
         "id": "c106",
         "variants": {
             "01": {
-                "title": "Vengeful"
+                "title": "Vengeful",
+                "id": "01"
             },
             "02": {
-                "title": "Plotting"
+                "title": "Plotting",
+                "id": "02"
             }
         }
     },
@@ -1497,16 +1778,20 @@ const CHILDS_CODE_MAP = {
         "id": "c107",
         "variants": {
             "10": {
-                "title": "Atré Akihabara's mascot style"
+                "title": "Atré Akihabara's mascot style",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Glittering"
+                "title": "Glittering",
+                "id": "01"
             },
             "02": {
-                "title": "Admirable"
+                "title": "Admirable",
+                "id": "02"
             }
         }
     },
@@ -1517,10 +1802,12 @@ const CHILDS_CODE_MAP = {
         "id": "c109",
         "variants": {
             "01": {
-                "title": "Acoustic"
+                "title": "Acoustic",
+                "id": "01"
             },
             "02": {
-                "title": "Full Bloom"
+                "title": "Full Bloom",
+                "id": "02"
             }
         }
     },
@@ -1531,16 +1818,20 @@ const CHILDS_CODE_MAP = {
         "id": "c110",
         "variants": {
             "10": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Persistent"
+                "title": "Persistent",
+                "id": "01"
             },
             "02": {
-                "title": "Venturer"
+                "title": "Venturer",
+                "id": "02"
             }
         }
     },
@@ -1551,27 +1842,31 @@ const CHILDS_CODE_MAP = {
         "id": "c112",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Truth-Seeker"
+                "title": "Truth-Seeker",
+                "id": "01"
             },
             "02": {
-                "title": "Sage"
+                "title": "Sage",
+                "id": "02"
             }
         }
     },
-    "c113": {
-        "name": "Kuma",
-        "star": "",
-        "attribute": "",
-        "id": "c113",
-        "variants": {
-            "00": {
-                "title": "Human"
-            }
-        }
-    },
+    // "c113": {
+    //     "name": "Kuma",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c113",
+    //     "variants": {
+    //         "00": {
+    //             "title": "Human",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c115": {
         "name": "Sonnet",
         "star": "",
@@ -1579,13 +1874,16 @@ const CHILDS_CODE_MAP = {
         "id": "c115",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Sorrowful"
+                "title": "Sorrowful",
+                "id": "01"
             },
             "02": {
-                "title": "Reconciliatory"
+                "title": "Reconciliatory",
+                "id": "02"
             }
         }
     },
@@ -1596,13 +1894,16 @@ const CHILDS_CODE_MAP = {
         "id": "c116",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Perceptive"
+                "title": "Perceptive",
+                "id": "01"
             },
             "02": {
-                "title": "Prima"
+                "title": "Prima",
+                "id": "02"
             }
         }
     },
@@ -1613,13 +1914,16 @@ const CHILDS_CODE_MAP = {
         "id": "c117",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Loyal"
+                "title": "Loyal",
+                "id": "01"
             },
             "02": {
-                "title": "Pious"
+                "title": "Pious",
+                "id": "02"
             }
         }
     },
@@ -1630,13 +1934,16 @@ const CHILDS_CODE_MAP = {
         "id": "c120",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Meadow"
+                "title": "Meadow",
+                "id": "01"
             },
             "02": {
-                "title": "Free"
+                "title": "Free",
+                "id": "02"
             }
         }
     },
@@ -1647,13 +1954,16 @@ const CHILDS_CODE_MAP = {
         "id": "c121",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Night"
+                "title": "Night",
+                "id": "01"
             },
             "02": {
-                "title": "Thundering"
+                "title": "Thundering",
+                "id": "02"
             }
         }
     },
@@ -1664,13 +1974,16 @@ const CHILDS_CODE_MAP = {
         "id": "c122",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Materialistic"
+                "title": "Materialistic",
+                "id": "01"
             },
             "02": {
-                "title": "Covetous"
+                "title": "Covetous",
+                "id": "02"
             }
         }
     },
@@ -1681,13 +1994,16 @@ const CHILDS_CODE_MAP = {
         "id": "c123",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Creative"
+                "title": "Creative",
+                "id": "01"
             },
             "02": {
-                "title": "Cheerful"
+                "title": "Cheerful",
+                "id": "02"
             }
         }
     },
@@ -1698,22 +2014,28 @@ const CHILDS_CODE_MAP = {
         "id": "c124",
         "variants": {
             "10": {
-                "title": "Cyan Rose"
+                "title": "Cyan Rose",
+                "id": "10"
             },
             "11": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "11"
             },
             "12": {
-                "title": "Racia Suit"
+                "title": "Racia Suit",
+                "id": "12"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Forbidden"
+                "title": "Forbidden",
+                "id": "01"
             },
             "02": {
-                "title": "Original Sin"
+                "title": "Original Sin",
+                "id": "02"
             }
         }
     },
@@ -1724,19 +2046,24 @@ const CHILDS_CODE_MAP = {
         "id": "c125",
         "variants": {
             "10": {
-                "title": "Romantic"
+                "title": "Romantic",
+                "id": "10"
             },
             "89": {
-                "title": "Romantic"
+                "title": "Romantic",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Comedy"
+                "title": "Comedy",
+                "id": "01"
             },
             "02": {
-                "title": "Sworn Blade Hero"
+                "title": "Sworn Blade Hero",
+                "id": "02"
             }
         }
     },
@@ -1747,13 +2074,16 @@ const CHILDS_CODE_MAP = {
         "id": "c126",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Your"
+                "title": "Your",
+                "id": "01"
             },
             "02": {
-                "title": "Exclusive"
+                "title": "Exclusive",
+                "id": "02"
             }
         }
     },
@@ -1764,16 +2094,20 @@ const CHILDS_CODE_MAP = {
         "id": "c127",
         "variants": {
             "10": {
-                "title": "Second Coming"
+                "title": "Second Coming",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Wild"
+                "title": "Wild",
+                "id": "01"
             },
             "02": {
-                "title": "Phantom Night"
+                "title": "Phantom Night",
+                "id": "02"
             }
         }
     },
@@ -1784,13 +2118,16 @@ const CHILDS_CODE_MAP = {
         "id": "c128",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Fragmented"
+                "title": "Fragmented",
+                "id": "01"
             },
             "02": {
-                "title": "Weird"
+                "title": "Weird",
+                "id": "02"
             }
         }
     },
@@ -1801,13 +2138,16 @@ const CHILDS_CODE_MAP = {
         "id": "c129",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Honorable"
+                "title": "Honorable",
+                "id": "01"
             },
             "02": {
-                "title": "Empress"
+                "title": "Empress",
+                "id": "02"
             }
         }
     },
@@ -1818,13 +2158,16 @@ const CHILDS_CODE_MAP = {
         "id": "c130",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Strategic"
+                "title": "Strategic",
+                "id": "01"
             },
             "02": {
-                "title": "Master"
+                "title": "Master",
+                "id": "02"
             }
         }
     },
@@ -1835,13 +2178,16 @@ const CHILDS_CODE_MAP = {
         "id": "c131",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Returned"
+                "title": "Returned",
+                "id": "01"
             },
             "02": {
-                "title": "Lion"
+                "title": "Lion",
+                "id": "02"
             }
         }
     },
@@ -1852,13 +2198,16 @@ const CHILDS_CODE_MAP = {
         "id": "c132",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Composed"
+                "title": "Composed",
+                "id": "01"
             },
             "02": {
-                "title": "Aesthetic"
+                "title": "Aesthetic",
+                "id": "02"
             }
         }
     },
@@ -1869,13 +2218,16 @@ const CHILDS_CODE_MAP = {
         "id": "c133",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Armageddon"
+                "title": "Armageddon",
+                "id": "01"
             },
             "02": {
-                "title": "Showdown"
+                "title": "Showdown",
+                "id": "02"
             }
         }
     },
@@ -1886,16 +2238,20 @@ const CHILDS_CODE_MAP = {
         "id": "c134",
         "variants": {
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -1906,13 +2262,16 @@ const CHILDS_CODE_MAP = {
         "id": "c135",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Warrior"
+                "title": "Warrior",
+                "id": "01"
             },
             "02": {
-                "title": "Loner"
+                "title": "Loner",
+                "id": "02"
             }
         }
     },
@@ -1923,13 +2282,16 @@ const CHILDS_CODE_MAP = {
         "id": "c139",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Floral"
+                "title": "Floral",
+                "id": "01"
             },
             "02": {
-                "title": "Hidden"
+                "title": "Hidden",
+                "id": "02"
             }
         }
     },
@@ -1940,7 +2302,8 @@ const CHILDS_CODE_MAP = {
         "id": "c140",
         "variants": {
             "01": {
-                "title": "Guarding"
+                "title": "Guarding",
+                "id": "01"
             }
         }
     },
@@ -1951,13 +2314,16 @@ const CHILDS_CODE_MAP = {
         "id": "c141",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Monolouging"
+                "title": "Monolouging",
+                "id": "01"
             },
             "02": {
-                "title": "One Sided"
+                "title": "One Sided",
+                "id": "02"
             }
         }
     },
@@ -1968,13 +2334,16 @@ const CHILDS_CODE_MAP = {
         "id": "c142",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Night Maiden"
+                "title": "Night Maiden",
+                "id": "01"
             },
             "02": {
-                "title": "Dreamer"
+                "title": "Dreamer",
+                "id": "02"
             }
         }
     },
@@ -1985,13 +2354,16 @@ const CHILDS_CODE_MAP = {
         "id": "c144",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Black Night"
+                "title": "Black Night",
+                "id": "01"
             },
             "02": {
-                "title": "Festive"
+                "title": "Festive",
+                "id": "02"
             }
         }
     },
@@ -2002,13 +2374,16 @@ const CHILDS_CODE_MAP = {
         "id": "c147",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Frenzied"
+                "title": "Frenzied",
+                "id": "01"
             },
             "02": {
-                "title": "Bloody"
+                "title": "Bloody",
+                "id": "02"
             }
         }
     },
@@ -2019,19 +2394,24 @@ const CHILDS_CODE_MAP = {
         "id": "c148",
         "variants": {
             "10": {
-                "title": "Purple Diamond"
+                "title": "Purple Diamond",
+                "id": "10"
             },
             "11": {
-                "title": "Red Diamond"
+                "title": "Red Diamond",
+                "id": "11"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Harlequin"
+                "title": "Harlequin",
+                "id": "01"
             },
             "02": {
-                "title": "Tyrannical"
+                "title": "Tyrannical",
+                "id": "02"
             }
         }
     },
@@ -2042,13 +2422,16 @@ const CHILDS_CODE_MAP = {
         "id": "c149",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Indecisive"
+                "title": "Indecisive",
+                "id": "01"
             },
             "02": {
-                "title": "Confessing"
+                "title": "Confessing",
+                "id": "02"
             }
         }
     },
@@ -2059,13 +2442,16 @@ const CHILDS_CODE_MAP = {
         "id": "c152",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Summer"
+                "title": "Summer",
+                "id": "01"
             },
             "02": {
-                "title": "Youthful"
+                "title": "Youthful",
+                "id": "02"
             }
         }
     },
@@ -2076,13 +2462,16 @@ const CHILDS_CODE_MAP = {
         "id": "c153",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Adventurer"
+                "title": "Adventurer",
+                "id": "01"
             },
             "02": {
-                "title": "Wandering"
+                "title": "Wandering",
+                "id": "02"
             }
         }
     },
@@ -2093,13 +2482,16 @@ const CHILDS_CODE_MAP = {
         "id": "c154",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Stern"
+                "title": "Stern",
+                "id": "01"
             },
             "02": {
-                "title": "Severe"
+                "title": "Severe",
+                "id": "02"
             }
         }
     },
@@ -2110,13 +2502,16 @@ const CHILDS_CODE_MAP = {
         "id": "c155",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Singing"
+                "title": "Singing",
+                "id": "01"
             },
             "02": {
-                "title": "Girl Group"
+                "title": "Girl Group",
+                "id": "02"
             }
         }
     },
@@ -2127,25 +2522,32 @@ const CHILDS_CODE_MAP = {
         "id": "c156",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Autocratic"
+                "title": "Autocratic",
+                "id": "01"
             },
             "02": {
-                "title": "Empress"
+                "title": "Empress",
+                "id": "02"
             }
         }
     },
@@ -2156,16 +2558,20 @@ const CHILDS_CODE_MAP = {
         "id": "c158",
         "variants": {
             "10": {
-                "title": "Marine Flower"
+                "title": "Marine Flower",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dreaming"
+                "title": "Dreaming",
+                "id": "01"
             },
             "02": {
-                "title": "Märchen"
+                "title": "Märchen",
+                "id": "02"
             }
         }
     },
@@ -2176,13 +2582,16 @@ const CHILDS_CODE_MAP = {
         "id": "c159",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Daybreak"
+                "title": "Daybreak",
+                "id": "01"
             },
             "02": {
-                "title": "Little Demon"
+                "title": "Little Demon",
+                "id": "02"
             }
         }
     },
@@ -2193,13 +2602,16 @@ const CHILDS_CODE_MAP = {
         "id": "c160",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Gentle"
+                "title": "Gentle",
+                "id": "01"
             },
             "02": {
-                "title": "Smiling"
+                "title": "Smiling",
+                "id": "02"
             }
         }
     },
@@ -2210,13 +2622,16 @@ const CHILDS_CODE_MAP = {
         "id": "c161",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Referee"
+                "title": "Referee",
+                "id": "01"
             },
             "02": {
-                "title": "Punishable"
+                "title": "Punishable",
+                "id": "02"
             }
         }
     },
@@ -2227,13 +2642,16 @@ const CHILDS_CODE_MAP = {
         "id": "c164",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         }
     },
@@ -2244,28 +2662,36 @@ const CHILDS_CODE_MAP = {
         "id": "c167",
         "variants": {
             "10": {
-                "title": "Midnight"
+                "title": "Midnight",
+                "id": "10"
             },
             "11": {
-                "title": "Beautiful"
+                "title": "Beautiful",
+                "id": "11"
             },
             "12": {
-                "title": "Ravishing"
+                "title": "Ravishing",
+                "id": "12"
             },
             "87": {
-                "title": "Ravishing"
+                "title": "Ravishing",
+                "id": "87"
             },
             "88": {
-                "title": "Incarnated"
+                "title": "Incarnated",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Sunny"
+                "title": "Sunny",
+                "id": "01"
             },
             "02": {
-                "title": "Incarnated"
+                "title": "Incarnated",
+                "id": "02"
             }
         }
     },
@@ -2276,13 +2702,16 @@ const CHILDS_CODE_MAP = {
         "id": "c168",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cheering"
+                "title": "Cheering",
+                "id": "01"
             },
             "02": {
-                "title": "Joyous"
+                "title": "Joyous",
+                "id": "02"
             }
         }
     },
@@ -2293,13 +2722,16 @@ const CHILDS_CODE_MAP = {
         "id": "c169",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Happy"
+                "title": "Happy",
+                "id": "01"
             },
             "02": {
-                "title": "Glorious"
+                "title": "Glorious",
+                "id": "02"
             }
         }
     },
@@ -2310,13 +2742,16 @@ const CHILDS_CODE_MAP = {
         "id": "c172",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Shining"
+                "title": "Shining",
+                "id": "01"
             },
             "02": {
-                "title": "Glittering"
+                "title": "Glittering",
+                "id": "02"
             }
         }
     },
@@ -2327,16 +2762,20 @@ const CHILDS_CODE_MAP = {
         "id": "c173",
         "variants": {
             "10": {
-                "title": "Dangerous"
+                "title": "Dangerous",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Kid Sister"
+                "title": "Kid Sister",
+                "id": "02"
             }
         }
     },
@@ -2347,22 +2786,28 @@ const CHILDS_CODE_MAP = {
         "id": "c174",
         "variants": {
             "10": {
-                "title": "Little Star"
+                "title": "Little Star",
+                "id": "10"
             },
             "11": {
-                "title": "Summer Vacation"
+                "title": "Summer Vacation",
+                "id": "11"
             },
             "12": {
-                "title": "Electro-Pop"
+                "title": "Electro-Pop",
+                "id": "12"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Limited"
+                "title": "Limited",
+                "id": "02"
             }
         }
     },
@@ -2373,13 +2818,16 @@ const CHILDS_CODE_MAP = {
         "id": "c175",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "01"
             },
             "02": {
-                "title": "Sentinel"
+                "title": "Sentinel",
+                "id": "02"
             }
         }
     },
@@ -2390,10 +2838,12 @@ const CHILDS_CODE_MAP = {
         "id": "c176",
         "variants": {
             "01": {
-                "title": "Eye Catching"
+                "title": "Eye Catching",
+                "id": "01"
             },
             "02": {
-                "title": "Dealer"
+                "title": "Dealer",
+                "id": "02"
             }
         }
     },
@@ -2404,13 +2854,16 @@ const CHILDS_CODE_MAP = {
         "id": "c178",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mirage"
+                "title": "Mirage",
+                "id": "01"
             },
             "02": {
-                "title": "Fantasy"
+                "title": "Fantasy",
+                "id": "02"
             }
         }
     },
@@ -2421,22 +2874,28 @@ const CHILDS_CODE_MAP = {
         "id": "c180",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Ambitious"
+                "title": "Ambitious",
+                "id": "01"
             },
             "02": {
-                "title": "Greedy"
+                "title": "Greedy",
+                "id": "02"
             }
         }
     },
@@ -2447,13 +2906,16 @@ const CHILDS_CODE_MAP = {
         "id": "c183",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Preacher"
+                "title": "Preacher",
+                "id": "01"
             },
             "02": {
-                "title": "Declarative"
+                "title": "Declarative",
+                "id": "02"
             }
         }
     },
@@ -2464,13 +2926,16 @@ const CHILDS_CODE_MAP = {
         "id": "c184",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Wandering"
+                "title": "Wandering",
+                "id": "01"
             },
             "02": {
-                "title": "Paradise"
+                "title": "Paradise",
+                "id": "02"
             }
         }
     },
@@ -2481,13 +2946,16 @@ const CHILDS_CODE_MAP = {
         "id": "c185",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Foolhardy"
+                "title": "Foolhardy",
+                "id": "01"
             },
             "02": {
-                "title": "Dictator"
+                "title": "Dictator",
+                "id": "02"
             }
         }
     },
@@ -2498,13 +2966,16 @@ const CHILDS_CODE_MAP = {
         "id": "c186",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Controller"
+                "title": "Controller",
+                "id": "01"
             },
             "02": {
-                "title": "Ruler"
+                "title": "Ruler",
+                "id": "02"
             }
         }
     },
@@ -2515,25 +2986,32 @@ const CHILDS_CODE_MAP = {
         "id": "c187",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "89": {
-                "title": "Sorrowful"
+                "title": "Sorrowful",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Greiving"
+                "title": "Greiving",
+                "id": "01"
             },
             "02": {
-                "title": "Sorrowful"
+                "title": "Sorrowful",
+                "id": "02"
             }
         }
     },
@@ -2544,13 +3022,16 @@ const CHILDS_CODE_MAP = {
         "id": "c188",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Charging"
+                "title": "Charging",
+                "id": "01"
             },
             "02": {
-                "title": "Renowned Assistant"
+                "title": "Renowned Assistant",
+                "id": "02"
             }
         }
     },
@@ -2561,13 +3042,16 @@ const CHILDS_CODE_MAP = {
         "id": "c189",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         }
     },
@@ -2578,13 +3062,16 @@ const CHILDS_CODE_MAP = {
         "id": "c190",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mimic"
+                "title": "Mimic",
+                "id": "01"
             },
             "02": {
-                "title": "Actress"
+                "title": "Actress",
+                "id": "02"
             }
         }
     },
@@ -2595,13 +3082,16 @@ const CHILDS_CODE_MAP = {
         "id": "c191",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Destructive"
+                "title": "Destructive",
+                "id": "01"
             },
             "02": {
-                "title": "Furious"
+                "title": "Furious",
+                "id": "02"
             }
         }
     },
@@ -2612,16 +3102,20 @@ const CHILDS_CODE_MAP = {
         "id": "c193",
         "variants": {
             "10": {
-                "title": "Tathagatagarbha"
+                "title": "Tathagatagarbha",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Virupaksa"
+                "title": "Virupaksa",
+                "id": "02"
             }
         }
     },
@@ -2632,22 +3126,28 @@ const CHILDS_CODE_MAP = {
         "id": "c194",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "White"
+                "title": "White",
+                "id": "01"
             },
             "02": {
-                "title": "Pure White"
+                "title": "Pure White",
+                "id": "02"
             }
         }
     },
@@ -2658,16 +3158,20 @@ const CHILDS_CODE_MAP = {
         "id": "c195",
         "variants": {
             "20": {
-                "title": "Human"
+                "title": "Human",
+                "id": "20"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Little Princess"
+                "title": "Little Princess",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Princess"
+                "title": "Dark Princess",
+                "id": "02"
             }
         }
     },
@@ -2678,13 +3182,16 @@ const CHILDS_CODE_MAP = {
         "id": "c196",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Floral"
+                "title": "Floral",
+                "id": "01"
             },
             "02": {
-                "title": "Alluring"
+                "title": "Alluring",
+                "id": "02"
             }
         }
     },
@@ -2695,16 +3202,20 @@ const CHILDS_CODE_MAP = {
         "id": "c198",
         "variants": {
             "10": {
-                "title": "Mirage"
+                "title": "Mirage",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Turncoat"
+                "title": "Turncoat",
+                "id": "02"
             }
         }
     },
@@ -2715,16 +3226,20 @@ const CHILDS_CODE_MAP = {
         "id": "c199",
         "variants": {
             "10": {
-                "title": "Nightmare"
+                "title": "Nightmare",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Western"
+                "title": "Western",
+                "id": "01"
             },
             "02": {
-                "title": "Benevolent"
+                "title": "Benevolent",
+                "id": "02"
             }
         }
     },
@@ -2735,13 +3250,16 @@ const CHILDS_CODE_MAP = {
         "id": "c200",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Running"
+                "title": "Running",
+                "id": "01"
             },
             "02": {
-                "title": "Fixer"
+                "title": "Fixer",
+                "id": "02"
             }
         }
     },
@@ -2752,13 +3270,16 @@ const CHILDS_CODE_MAP = {
         "id": "c202",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mirror"
+                "title": "Mirror",
+                "id": "01"
             },
             "02": {
-                "title": "Green"
+                "title": "Green",
+                "id": "02"
             }
         }
     },
@@ -2769,13 +3290,16 @@ const CHILDS_CODE_MAP = {
         "id": "c203",
         "variants": {
             "88": {
-                "title": "Peaceful"
+                "title": "Peaceful",
+                "id": "88"
             },
             "01": {
-                "title": "Human"
+                "title": "Human",
+                "id": "01"
             },
             "02": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "02"
             }
         }
     },
@@ -2786,13 +3310,16 @@ const CHILDS_CODE_MAP = {
         "id": "c205",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Otherworldly"
+                "title": "Otherworldly",
+                "id": "01"
             },
             "02": {
-                "title": "Visitor"
+                "title": "Visitor",
+                "id": "02"
             }
         }
     },
@@ -2803,16 +3330,20 @@ const CHILDS_CODE_MAP = {
         "id": "c206",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Otherworldly"
+                "title": "Otherworldly",
+                "id": "01"
             },
             "02": {
-                "title": "Talking"
+                "title": "Talking",
+                "id": "02"
             }
         }
     },
@@ -2823,13 +3354,16 @@ const CHILDS_CODE_MAP = {
         "id": "c208",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hot"
+                "title": "Hot",
+                "id": "01"
             },
             "02": {
-                "title": "Fiery"
+                "title": "Fiery",
+                "id": "02"
             }
         }
     },
@@ -2840,16 +3374,20 @@ const CHILDS_CODE_MAP = {
         "id": "c209",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dreaming"
+                "title": "Dreaming",
+                "id": "01"
             },
             "02": {
-                "title": "Delusional"
+                "title": "Delusional",
+                "id": "02"
             }
         }
     },
@@ -2860,13 +3398,16 @@ const CHILDS_CODE_MAP = {
         "id": "c210",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "01"
             },
             "02": {
-                "title": "Emperor"
+                "title": "Emperor",
+                "id": "02"
             }
         }
     },
@@ -2877,22 +3418,28 @@ const CHILDS_CODE_MAP = {
         "id": "c213",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -2903,30 +3450,35 @@ const CHILDS_CODE_MAP = {
         "id": "c214",
         "variants": {
             "10": {
-                "title": "Gambler"
+                "title": "Gambler",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Experimental"
+                "title": "Experimental",
+                "id": "01"
             },
             "02": {
-                "title": "Dominating"
+                "title": "Dominating",
+                "id": "02"
             }
         }
     },
-    "c215": {
-        "name": "Surtr",
-        "star": "",
-        "attribute": "",
-        "id": "c215",
-        "variants": {
-            "00": {
-                "title": "Human"
-            }
-        }
-    },
+    // "c215": {
+    //     "name": "Surtr",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c215",
+    //     "variants": {
+    //         "00": {
+    //             "title": "Human",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c216": {
         "name": "Werewolf",
         "star": "",
@@ -2934,22 +3486,28 @@ const CHILDS_CODE_MAP = {
         "id": "c216",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": "Moonlight"
+                "title": "Moonlight",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Moonlight"
+                "title": "Moonlight",
+                "id": "01"
             },
             "02": {
-                "title": "Samhain"
+                "title": "Samhain",
+                "id": "02"
             }
         }
     },
@@ -2960,13 +3518,16 @@ const CHILDS_CODE_MAP = {
         "id": "c218",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Full"
+                "title": "Full",
+                "id": "01"
             },
             "02": {
-                "title": "Happy"
+                "title": "Happy",
+                "id": "02"
             }
         }
     },
@@ -2977,13 +3538,16 @@ const CHILDS_CODE_MAP = {
         "id": "c219",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Ice Blade"
+                "title": "Ice Blade",
+                "id": "01"
             },
             "02": {
-                "title": "Psychopath"
+                "title": "Psychopath",
+                "id": "02"
             }
         }
     },
@@ -2994,13 +3558,16 @@ const CHILDS_CODE_MAP = {
         "id": "c220",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Zooming"
+                "title": "Zooming",
+                "id": "01"
             },
             "02": {
-                "title": "Charging"
+                "title": "Charging",
+                "id": "02"
             }
         }
     },
@@ -3011,13 +3578,16 @@ const CHILDS_CODE_MAP = {
         "id": "c221",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Full Moon"
+                "title": "Full Moon",
+                "id": "01"
             },
             "02": {
-                "title": "Full Bloom"
+                "title": "Full Bloom",
+                "id": "02"
             }
         }
     },
@@ -3028,13 +3598,16 @@ const CHILDS_CODE_MAP = {
         "id": "c222",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hypnotic"
+                "title": "Hypnotic",
+                "id": "01"
             },
             "02": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "02"
             }
         }
     },
@@ -3045,13 +3618,16 @@ const CHILDS_CODE_MAP = {
         "id": "c223",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "River's Flow"
+                "title": "River's Flow",
+                "id": "01"
             },
             "02": {
-                "title": "Roaming Waters"
+                "title": "Roaming Waters",
+                "id": "02"
             }
         }
     },
@@ -3062,10 +3638,12 @@ const CHILDS_CODE_MAP = {
         "id": "c224",
         "variants": {
             "01": {
-                "title": "Dark Prince"
+                "title": "Dark Prince",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Conspiracy"
+                "title": "Dark Conspiracy",
+                "id": "02"
             }
         }
     },
@@ -3076,13 +3654,16 @@ const CHILDS_CODE_MAP = {
         "id": "c225",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Uninvited"
+                "title": "Uninvited",
+                "id": "01"
             },
             "02": {
-                "title": "Night Theif"
+                "title": "Night Theif",
+                "id": "02"
             }
         }
     },
@@ -3093,7 +3674,8 @@ const CHILDS_CODE_MAP = {
         "id": "c226",
         "variants": {
             "01": {
-                "title": "Plundering"
+                "title": "Plundering",
+                "id": "01"
             }
         }
     },
@@ -3104,13 +3686,16 @@ const CHILDS_CODE_MAP = {
         "id": "c227",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Righteous"
+                "title": "Righteous",
+                "id": "01"
             },
             "02": {
-                "title": "Dogmatic"
+                "title": "Dogmatic",
+                "id": "02"
             }
         }
     },
@@ -3121,22 +3706,28 @@ const CHILDS_CODE_MAP = {
         "id": "c228",
         "variants": {
             "10": {
-                "title": "Mommy"
+                "title": "Mommy",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Involved"
+                "title": "Involved",
+                "id": "01"
             },
             "02": {
-                "title": "Concealing"
+                "title": "Concealing",
+                "id": "02"
             }
         }
     },
@@ -3147,16 +3738,20 @@ const CHILDS_CODE_MAP = {
         "id": "c229",
         "variants": {
             "10": {
-                "title": "Postie"
+                "title": "Postie",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Info Broker"
+                "title": "Info Broker",
+                "id": "01"
             },
             "02": {
-                "title": "Delivery Girl"
+                "title": "Delivery Girl",
+                "id": "02"
             }
         }
     },
@@ -3167,13 +3762,16 @@ const CHILDS_CODE_MAP = {
         "id": "c230",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cursed"
+                "title": "Cursed",
+                "id": "01"
             },
             "02": {
-                "title": "Extinct"
+                "title": "Extinct",
+                "id": "02"
             }
         }
     },
@@ -3184,16 +3782,20 @@ const CHILDS_CODE_MAP = {
         "id": "c231",
         "variants": {
             "10": {
-                "title": "The Great"
+                "title": "The Great",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Tempting"
+                "title": "Tempting",
+                "id": "01"
             },
             "02": {
-                "title": "Temptress"
+                "title": "Temptress",
+                "id": "02"
             }
         }
     },
@@ -3204,13 +3806,16 @@ const CHILDS_CODE_MAP = {
         "id": "c232",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Fantasy"
+                "title": "Fantasy",
+                "id": "01"
             },
             "02": {
-                "title": "Utopian"
+                "title": "Utopian",
+                "id": "02"
             }
         }
     },
@@ -3221,13 +3826,16 @@ const CHILDS_CODE_MAP = {
         "id": "c233",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lightning"
+                "title": "Lightning",
+                "id": "01"
             },
             "02": {
-                "title": "Corona"
+                "title": "Corona",
+                "id": "02"
             }
         }
     },
@@ -3238,16 +3846,20 @@ const CHILDS_CODE_MAP = {
         "id": "c234",
         "variants": {
             "10": {
-                "title": "Young Lion"
+                "title": "Young Lion",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Militant"
+                "title": "Militant",
+                "id": "01"
             },
             "02": {
-                "title": "Triumphant"
+                "title": "Triumphant",
+                "id": "02"
             }
         }
     },
@@ -3258,33 +3870,39 @@ const CHILDS_CODE_MAP = {
         "id": "c235",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Explosive"
+                "title": "Explosive",
+                "id": "01"
             },
             "02": {
-                "title": "Antihero"
+                "title": "Antihero",
+                "id": "02"
             }
         }
     },
-    "c236": {
-        "name": "Djinnia",
-        "star": "",
-        "attribute": "",
-        "id": "c236",
-        "variants": {
-            "00": {
-                "title": "Human"
-            },
-            "01": {
-                "title": ""
-            },
-            "02": {
-                "title": ""
-            }
-        }
-    },
+    // "c236": {
+    //     "name": "Djinnia",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c236",
+    //     "variants": {
+    //         "00": {
+    //             "title": "Human",
+    //             "id": "00"
+    //         },
+    //         "01": {
+    //             "title": "",
+    //             "id": "01"
+    //         },
+    //         "02": {
+    //             "title": "",
+    //             "id": "02"
+    //         }
+    //     }
+    // },
     "c237": {
         "name": "Typhon",
         "star": "",
@@ -3292,13 +3910,16 @@ const CHILDS_CODE_MAP = {
         "id": "c237",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Night Festival"
+                "title": "Night Festival",
+                "id": "01"
             },
             "02": {
-                "title": "Samhain"
+                "title": "Samhain",
+                "id": "02"
             }
         }
     },
@@ -3309,16 +3930,20 @@ const CHILDS_CODE_MAP = {
         "id": "c238",
         "variants": {
             "10": {
-                "title": "Samhain"
+                "title": "Samhain",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Harmony"
+                "title": "Harmony",
+                "id": "01"
             },
             "02": {
-                "title": "Prima"
+                "title": "Prima",
+                "id": "02"
             }
         }
     },
@@ -3329,30 +3954,35 @@ const CHILDS_CODE_MAP = {
         "id": "c239",
         "variants": {
             "10": {
-                "title": "Sugar"
+                "title": "Sugar",
+                "id": "10"
             },
             "01": {
-                "title": "Nocturnal"
+                "title": "Nocturnal",
+                "id": "01"
             },
             "02": {
-                "title": "Midnight Sun"
+                "title": "Midnight Sun",
+                "id": "02"
             }
         }
     },
-    "c240": {
-        "name": "???",
-        "star": "",
-        "attribute": "",
-        "id": "c240",
-        "variants": {
-            "01": {
-                "title": ""
-            },
-            "02": {
-                "title": ""
-            }
-        }
-    },
+    // "c240": {
+    //     "name": "???",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c240",
+    //     "variants": {
+    //         "01": {
+    //             "title": "",
+    //             "id": "01"
+    //         },
+    //         "02": {
+    //             "title": "",
+    //             "id": "02"
+    //         }
+    //     }
+    // },
     "c241": {
         "name": "Orcus",
         "star": "",
@@ -3360,7 +3990,8 @@ const CHILDS_CODE_MAP = {
         "id": "c241",
         "variants": {
             "01": {
-                "title": "Underworld"
+                "title": "Underworld",
+                "id": "01"
             }
         }
     },
@@ -3371,13 +4002,16 @@ const CHILDS_CODE_MAP = {
         "id": "c242",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Magician"
+                "title": "Magician",
+                "id": "01"
             },
             "02": {
-                "title": "Parade"
+                "title": "Parade",
+                "id": "02"
             }
         }
     },
@@ -3388,10 +4022,12 @@ const CHILDS_CODE_MAP = {
         "id": "c244",
         "variants": {
             "01": {
-                "title": "Tai-Chi"
+                "title": "Tai-Chi",
+                "id": "01"
             },
             "02": {
-                "title": "Dress"
+                "title": "Dress",
+                "id": "02"
             }
         }
     },
@@ -3402,10 +4038,12 @@ const CHILDS_CODE_MAP = {
         "id": "c245",
         "variants": {
             "01": {
-                "title": "Delta Red"
+                "title": "Delta Red",
+                "id": "01"
             },
             "02": {
-                "title": "Dolls"
+                "title": "Dolls",
+                "id": "02"
             }
         }
     },
@@ -3416,25 +4054,32 @@ const CHILDS_CODE_MAP = {
         "id": "c246",
         "variants": {
             "10": {
-                "title": "Nightmare"
+                "title": "Nightmare",
+                "id": "10"
             },
             "11": {
-                "title": "Naughty"
+                "title": "Naughty",
+                "id": "11"
             },
             "88": {
-                "title": "Nightmare"
+                "title": "Nightmare",
+                "id": "88"
             },
             "89": {
-                "title": "Naughty"
+                "title": "Naughty",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Deceptive"
+                "title": "Deceptive",
+                "id": "01"
             },
             "02": {
-                "title": "False"
+                "title": "False",
+                "id": "02"
             }
         }
     },
@@ -3445,13 +4090,16 @@ const CHILDS_CODE_MAP = {
         "id": "c247",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Glorious"
+                "title": "Glorious",
+                "id": "01"
             },
             "02": {
-                "title": "Autocratic"
+                "title": "Autocratic",
+                "id": "02"
             }
         }
     },
@@ -3462,13 +4110,16 @@ const CHILDS_CODE_MAP = {
         "id": "c250",
         "variants": {
             "88": {
-                "title": "Water Sprite"
+                "title": "Water Sprite",
+                "id": "88"
             },
             "01": {
-                "title": "Underwater"
+                "title": "Underwater",
+                "id": "01"
             },
             "02": {
-                "title": "Water Sprite"
+                "title": "Water Sprite",
+                "id": "02"
             }
         }
     },
@@ -3479,13 +4130,16 @@ const CHILDS_CODE_MAP = {
         "id": "c251",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hermit"
+                "title": "Hermit",
+                "id": "01"
             },
             "02": {
-                "title": "Tactician"
+                "title": "Tactician",
+                "id": "02"
             }
         }
     },
@@ -3496,31 +4150,40 @@ const CHILDS_CODE_MAP = {
         "id": "c252",
         "variants": {
             "10": {
-                "title": "(Suhana)"
+                "title": "(Suhana)",
+                "id": "10"
             },
             "11": {
-                "title": "(Kumari Suhana)"
+                "title": "(Kumari Suhana)",
+                "id": "11"
             },
             "12": {
-                "title": "Innocent"
+                "title": "Innocent",
+                "id": "12"
             },
             "13": {
-                "title": "Innocent"
+                "title": "Innocent",
+                "id": "13"
             },
             "88": {
-                "title": "Altruism"
+                "title": "Altruism",
+                "id": "88"
             },
             "89": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Altruism"
+                "title": "Altruism",
+                "id": "02"
             }
         }
     },
@@ -3531,19 +4194,24 @@ const CHILDS_CODE_MAP = {
         "id": "c253",
         "variants": {
             "10": {
-                "title": "Christmas Eve"
+                "title": "Christmas Eve",
+                "id": "10"
             },
             "89": {
-                "title": "Christmas Eve"
+                "title": "Christmas Eve",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Holy"
+                "title": "Holy",
+                "id": "01"
             },
             "02": {
-                "title": "Saint"
+                "title": "Saint",
+                "id": "02"
             }
         }
     },
@@ -3554,10 +4222,12 @@ const CHILDS_CODE_MAP = {
         "id": "c254",
         "variants": {
             "01": {
-                "title": "Child 5★ Animation"
+                "title": "Child 5★ Animation",
+                "id": "01"
             },
             "02": {
-                "title": "Summoning Animation"
+                "title": "Summoning Animation",
+                "id": "02"
             }
         }
     },
@@ -3568,7 +4238,8 @@ const CHILDS_CODE_MAP = {
         "id": "c255",
         "variants": {
             "01": {
-                "title": "Soul Carta 5★ Animation"
+                "title": "Soul Carta 5★ Animation",
+                "id": "01"
             }
         }
     },
@@ -3579,7 +4250,8 @@ const CHILDS_CODE_MAP = {
         "id": "c256",
         "variants": {
             "01": {
-                "title": "5★ Animation"
+                "title": "5★ Animation",
+                "id": "01"
             }
         }
     },
@@ -3590,10 +4262,12 @@ const CHILDS_CODE_MAP = {
         "id": "c257",
         "variants": {
             "01": {
-                "title": "Colony Leader"
+                "title": "Colony Leader",
+                "id": "01"
             },
             "02": {
-                "title": "Colony Leader"
+                "title": "Colony Leader",
+                "id": "02"
             }
         }
     },
@@ -3604,10 +4278,12 @@ const CHILDS_CODE_MAP = {
         "id": "c258",
         "variants": {
             "01": {
-                "title": "Imaginative"
+                "title": "Imaginative",
+                "id": "01"
             },
             "02": {
-                "title": "Ideal"
+                "title": "Ideal",
+                "id": "02"
             }
         }
     },
@@ -3618,10 +4294,12 @@ const CHILDS_CODE_MAP = {
         "id": "c261",
         "variants": {
             "01": {
-                "title": "Heaven"
+                "title": "Heaven",
+                "id": "01"
             },
             "02": {
-                "title": "Reality"
+                "title": "Reality",
+                "id": "02"
             }
         }
     },
@@ -3632,13 +4310,16 @@ const CHILDS_CODE_MAP = {
         "id": "c262",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Knight"
+                "title": "Knight",
+                "id": "01"
             },
             "02": {
-                "title": "Brave"
+                "title": "Brave",
+                "id": "02"
             }
         }
     },
@@ -3649,7 +4330,8 @@ const CHILDS_CODE_MAP = {
         "id": "c265",
         "variants": {
             "01": {
-                "title": "SD"
+                "title": "SD",
+                "id": "01"
             }
         }
     },
@@ -3660,13 +4342,16 @@ const CHILDS_CODE_MAP = {
         "id": "c266",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Desert"
+                "title": "Desert",
+                "id": "01"
             },
             "02": {
-                "title": "Ra"
+                "title": "Ra",
+                "id": "02"
             }
         }
     },
@@ -3677,25 +4362,32 @@ const CHILDS_CODE_MAP = {
         "id": "c267",
         "variants": {
             "10": {
-                "title": "Sun"
+                "title": "Sun",
+                "id": "10"
             },
             "11": {
-                "title": "Immortal"
+                "title": "Immortal",
+                "id": "11"
             },
             "88": {
-                "title": "Immortal"
+                "title": "Immortal",
+                "id": "88"
             },
             "89": {
-                "title": "Sun"
+                "title": "Sun",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Transmigration"
+                "title": "Transmigration",
+                "id": "01"
             },
             "02": {
-                "title": "Pharoah"
+                "title": "Pharoah",
+                "id": "02"
             }
         }
     },
@@ -3706,10 +4398,12 @@ const CHILDS_CODE_MAP = {
         "id": "c269",
         "variants": {
             "01": {
-                "title": "Chaotic"
+                "title": "Chaotic",
+                "id": "01"
             },
             "02": {
-                "title": "Cosmos"
+                "title": "Cosmos",
+                "id": "02"
             }
         }
     },
@@ -3720,10 +4414,12 @@ const CHILDS_CODE_MAP = {
         "id": "c270",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             },
             "02": {
-                "title": "Platinum"
+                "title": "Platinum",
+                "id": "02"
             }
         }
     },
@@ -3734,10 +4430,12 @@ const CHILDS_CODE_MAP = {
         "id": "c271",
         "variants": {
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Sapphire"
+                "title": "Sapphire",
+                "id": "02"
             }
         }
     },
@@ -3748,10 +4446,12 @@ const CHILDS_CODE_MAP = {
         "id": "c272",
         "variants": {
             "01": {
-                "title": "Sprout"
+                "title": "Sprout",
+                "id": "01"
             },
             "02": {
-                "title": "Verdure"
+                "title": "Verdure",
+                "id": "02"
             }
         }
     },
@@ -3762,13 +4462,16 @@ const CHILDS_CODE_MAP = {
         "id": "c274",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Singing"
+                "title": "Singing",
+                "id": "01"
             },
             "02": {
-                "title": "Howling"
+                "title": "Howling",
+                "id": "02"
             }
         }
     },
@@ -3779,13 +4482,16 @@ const CHILDS_CODE_MAP = {
         "id": "c275",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Fugitive"
+                "title": "Fugitive",
+                "id": "01"
             },
             "02": {
-                "title": "Escape"
+                "title": "Escape",
+                "id": "02"
             }
         }
     },
@@ -3796,13 +4502,16 @@ const CHILDS_CODE_MAP = {
         "id": "c277",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lowly Nymph"
+                "title": "Lowly Nymph",
+                "id": "01"
             },
             "02": {
-                "title": "Partner"
+                "title": "Partner",
+                "id": "02"
             }
         }
     },
@@ -3813,13 +4522,16 @@ const CHILDS_CODE_MAP = {
         "id": "c278",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bespoke"
+                "title": "Bespoke",
+                "id": "01"
             },
             "02": {
-                "title": "Prototype"
+                "title": "Prototype",
+                "id": "02"
             }
         }
     },
@@ -3830,19 +4542,24 @@ const CHILDS_CODE_MAP = {
         "id": "c279",
         "variants": {
             "88": {
-                "title": "Customized"
+                "title": "Customized",
+                "id": "88"
             },
             "89": {
-                "title": "Bespoke"
+                "title": "Bespoke",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bespoke"
+                "title": "Bespoke",
+                "id": "01"
             },
             "02": {
-                "title": "Customized"
+                "title": "Customized",
+                "id": "02"
             }
         }
     },
@@ -3853,10 +4570,12 @@ const CHILDS_CODE_MAP = {
         "id": "c280",
         "variants": {
             "01": {
-                "title": "Innocent"
+                "title": "Innocent",
+                "id": "01"
             },
             "02": {
-                "title": "Dreaming"
+                "title": "Dreaming",
+                "id": "02"
             }
         }
     },
@@ -3867,16 +4586,20 @@ const CHILDS_CODE_MAP = {
         "id": "c281",
         "variants": {
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Runaway"
+                "title": "Runaway",
+                "id": "01"
             },
             "02": {
-                "title": "Labyrinth"
+                "title": "Labyrinth",
+                "id": "02"
             }
         }
     },
@@ -3887,25 +4610,32 @@ const CHILDS_CODE_MAP = {
         "id": "c283",
         "variants": {
             "10": {
-                "title": "Loyal Keeper"
+                "title": "Loyal Keeper",
+                "id": "10"
             },
             "11": {
-                "title": "Anti-Rust"
+                "title": "Anti-Rust",
+                "id": "11"
             },
             "12": {
-                "title": "Classic Servant"
+                "title": "Classic Servant",
+                "id": "12"
             },
             "89": {
-                "title": "Loyal Keeper"
+                "title": "Loyal Keeper",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Maid"
+                "title": "Maid",
+                "id": "01"
             },
             "02": {
-                "title": "Servant"
+                "title": "Servant",
+                "id": "02"
             }
         }
     },
@@ -3916,25 +4646,32 @@ const CHILDS_CODE_MAP = {
         "id": "c285",
         "variants": {
             "10": {
-                "title": "En Garde"
+                "title": "En Garde",
+                "id": "10"
             },
             "11": {
-                "title": "Fortune of War"
+                "title": "Fortune of War",
+                "id": "11"
             },
             "87": {
-                "title": "En Garde"
+                "title": "En Garde",
+                "id": "87"
             },
             "88": {
-                "title": "Revelator"
+                "title": "Revelator",
+                "id": "88"
             },
             "89": {
-                "title": "Initiator"
+                "title": "Initiator",
+                "id": "89"
             },
             "01": {
-                "title": "Initiator"
+                "title": "Initiator",
+                "id": "01"
             },
             "02": {
-                "title": "Revelator"
+                "title": "Revelator",
+                "id": "02"
             }
         }
     },
@@ -3945,22 +4682,28 @@ const CHILDS_CODE_MAP = {
         "id": "c286",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Waiting"
+                "title": "Waiting",
+                "id": "01"
             },
             "02": {
-                "title": "Butler"
+                "title": "Butler",
+                "id": "02"
             }
         }
     },
@@ -3971,19 +4714,24 @@ const CHILDS_CODE_MAP = {
         "id": "c287",
         "variants": {
             "88": {
-                "title": "Leaping"
+                "title": "Leaping",
+                "id": "88"
             },
             "89": {
-                "title": "Dancer"
+                "title": "Dancer",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dancer"
+                "title": "Dancer",
+                "id": "01"
             },
             "02": {
-                "title": "Leaping"
+                "title": "Leaping",
+                "id": "02"
             }
         }
     },
@@ -3994,16 +4742,20 @@ const CHILDS_CODE_MAP = {
         "id": "c289",
         "variants": {
             "10": {
-                "title": "Mighty Blade"
+                "title": "Mighty Blade",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Illusory"
+                "title": "Illusory",
+                "id": "01"
             },
             "02": {
-                "title": "Nightmare"
+                "title": "Nightmare",
+                "id": "02"
             }
         }
     },
@@ -4014,13 +4766,16 @@ const CHILDS_CODE_MAP = {
         "id": "c290",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Glamorous"
+                "title": "Glamorous",
+                "id": "01"
             },
             "02": {
-                "title": "Scarlet"
+                "title": "Scarlet",
+                "id": "02"
             }
         }
     },
@@ -4031,13 +4786,16 @@ const CHILDS_CODE_MAP = {
         "id": "c292",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Blind"
+                "title": "Blind",
+                "id": "01"
             },
             "02": {
-                "title": "Spear of Vengeance"
+                "title": "Spear of Vengeance",
+                "id": "02"
             }
         }
     },
@@ -4048,16 +4806,20 @@ const CHILDS_CODE_MAP = {
         "id": "c294",
         "variants": {
             "10": {
-                "title": "Snake Pit"
+                "title": "Snake Pit",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lady"
+                "title": "Lady",
+                "id": "01"
             },
             "02": {
-                "title": "Bloody"
+                "title": "Bloody",
+                "id": "02"
             }
         }
     },
@@ -4068,16 +4830,20 @@ const CHILDS_CODE_MAP = {
         "id": "c295",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dreaming"
+                "title": "Dreaming",
+                "id": "01"
             },
             "02": {
-                "title": "Silence"
+                "title": "Silence",
+                "id": "02"
             }
         }
     },
@@ -4088,13 +4854,16 @@ const CHILDS_CODE_MAP = {
         "id": "c296",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Gunslinger"
+                "title": "Gunslinger",
+                "id": "01"
             },
             "02": {
-                "title": "Sniper"
+                "title": "Sniper",
+                "id": "02"
             }
         }
     },
@@ -4105,13 +4874,16 @@ const CHILDS_CODE_MAP = {
         "id": "c297",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Affectionate"
+                "title": "Affectionate",
+                "id": "01"
             },
             "02": {
-                "title": "Flawless"
+                "title": "Flawless",
+                "id": "02"
             }
         }
     },
@@ -4122,13 +4894,16 @@ const CHILDS_CODE_MAP = {
         "id": "c299",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Memorable"
+                "title": "Memorable",
+                "id": "01"
             },
             "02": {
-                "title": "Satan"
+                "title": "Satan",
+                "id": "02"
             }
         }
     },
@@ -4139,13 +4914,16 @@ const CHILDS_CODE_MAP = {
         "id": "c300",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Beloved"
+                "title": "Beloved",
+                "id": "01"
             },
             "02": {
-                "title": "Devoted"
+                "title": "Devoted",
+                "id": "02"
             }
         }
     },
@@ -4156,10 +4934,12 @@ const CHILDS_CODE_MAP = {
         "id": "c301",
         "variants": {
             "01": {
-                "title": "Indomitable"
+                "title": "Indomitable",
+                "id": "01"
             },
             "02": {
-                "title": "Revolutionary"
+                "title": "Revolutionary",
+                "id": "02"
             }
         }
     },
@@ -4170,10 +4950,12 @@ const CHILDS_CODE_MAP = {
         "id": "c302",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dark Night"
+                "title": "Dark Night",
+                "id": "01"
             }
         }
     },
@@ -4184,10 +4966,12 @@ const CHILDS_CODE_MAP = {
         "id": "c304",
         "variants": {
             "01": {
-                "title": "Drifting"
+                "title": "Drifting",
+                "id": "01"
             },
             "02": {
-                "title": "Cosmic"
+                "title": "Cosmic",
+                "id": "02"
             }
         }
     },
@@ -4198,16 +4982,20 @@ const CHILDS_CODE_MAP = {
         "id": "c305",
         "variants": {
             "10": {
-                "title": "Paradise Exiled"
+                "title": "Paradise Exiled",
+                "id": "10"
             },
             "89": {
-                "title": "Paradise Exiled"
+                "title": "Paradise Exiled",
+                "id": "89"
             },
             "01": {
-                "title": "Guiding"
+                "title": "Guiding",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Saint"
+                "title": "Dark Saint",
+                "id": "02"
             }
         }
     },
@@ -4218,16 +5006,20 @@ const CHILDS_CODE_MAP = {
         "id": "c308",
         "variants": {
             "10": {
-                "title": "High Speed"
+                "title": "High Speed",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Rider"
+                "title": "Rider",
+                "id": "01"
             },
             "02": {
-                "title": "Revenge"
+                "title": "Revenge",
+                "id": "02"
             }
         }
     },
@@ -4238,13 +5030,16 @@ const CHILDS_CODE_MAP = {
         "id": "c310",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Spring"
+                "title": "Spring",
+                "id": "01"
             },
             "02": {
-                "title": "Blossom"
+                "title": "Blossom",
+                "id": "02"
             }
         }
     },
@@ -4255,19 +5050,24 @@ const CHILDS_CODE_MAP = {
         "id": "c311",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "89": {
-                "title": "Vicious"
+                "title": "Vicious",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dark Luster"
+                "title": "Dark Luster",
+                "id": "01"
             },
             "02": {
-                "title": "Vicious"
+                "title": "Vicious",
+                "id": "02"
             }
         }
     },
@@ -4278,13 +5078,16 @@ const CHILDS_CODE_MAP = {
         "id": "c312",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cynical"
+                "title": "Cynical",
+                "id": "01"
             },
             "02": {
-                "title": "Cursed Sword"
+                "title": "Cursed Sword",
+                "id": "02"
             }
         }
     },
@@ -4295,7 +5098,8 @@ const CHILDS_CODE_MAP = {
         "id": "c314",
         "variants": {
             "01": {
-                "title": "Debut"
+                "title": "Debut",
+                "id": "01"
             }
         }
     },
@@ -4306,16 +5110,20 @@ const CHILDS_CODE_MAP = {
         "id": "c315",
         "variants": {
             "10": {
-                "title": "Formal"
+                "title": "Formal",
+                "id": "10"
             },
             "89": {
-                "title": "Formal"
+                "title": "Formal",
+                "id": "89"
             },
             "01": {
-                "title": "Alchemist"
+                "title": "Alchemist",
+                "id": "01"
             },
             "02": {
-                "title": "Seeker"
+                "title": "Seeker",
+                "id": "02"
             }
         }
     },
@@ -4326,13 +5134,16 @@ const CHILDS_CODE_MAP = {
         "id": "c316",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Alchemist"
+                "title": "Alchemist",
+                "id": "01"
             },
             "02": {
-                "title": "Seeker"
+                "title": "Seeker",
+                "id": "02"
             }
         }
     },
@@ -4343,13 +5154,16 @@ const CHILDS_CODE_MAP = {
         "id": "c317",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hypocrite"
+                "title": "Hypocrite",
+                "id": "01"
             },
             "02": {
-                "title": "False Prophet"
+                "title": "False Prophet",
+                "id": "02"
             }
         }
     },
@@ -4360,31 +5174,40 @@ const CHILDS_CODE_MAP = {
         "id": "c318",
         "variants": {
             "10": {
-                "title": "Equinoctial"
+                "title": "Equinoctial",
+                "id": "10"
             },
             "11": {
-                "title": "Banshee"
+                "title": "Banshee",
+                "id": "11"
             },
             "12": {
-                "title": "Spirit Guide"
+                "title": "Spirit Guide",
+                "id": "12"
             },
             "87": {
-                "title": "Spirit Guide"
+                "title": "Spirit Guide",
+                "id": "87"
             },
             "88": {
-                "title": "Banshee"
+                "title": "Banshee",
+                "id": "88"
             },
             "89": {
-                "title": "Equinoctial"
+                "title": "Equinoctial",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Praying"
+                "title": "Praying",
+                "id": "01"
             },
             "02": {
-                "title": "Prayer"
+                "title": "Prayer",
+                "id": "02"
             }
         }
     },
@@ -4395,13 +5218,16 @@ const CHILDS_CODE_MAP = {
         "id": "c319",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Reincarnated"
+                "title": "Reincarnated",
+                "id": "01"
             },
             "02": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "02"
             }
         }
     },
@@ -4412,13 +5238,16 @@ const CHILDS_CODE_MAP = {
         "id": "c320",
         "variants": {
             "00": {
-                "title": "Young"
+                "title": "Young",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Awakened"
+                "title": "Awakened",
+                "id": "02"
             }
         }
     },
@@ -4429,10 +5258,12 @@ const CHILDS_CODE_MAP = {
         "id": "c321",
         "variants": {
             "01": {
-                "title": "Crescent"
+                "title": "Crescent",
+                "id": "01"
             },
             "02": {
-                "title": "Full Moon"
+                "title": "Full Moon",
+                "id": "02"
             }
         }
     },
@@ -4443,16 +5274,20 @@ const CHILDS_CODE_MAP = {
         "id": "c322",
         "variants": {
             "10": {
-                "title": "Past"
+                "title": "Past",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Awakened"
+                "title": "Awakened",
+                "id": "02"
             }
         }
     },
@@ -4463,13 +5298,16 @@ const CHILDS_CODE_MAP = {
         "id": "c324",
         "variants": {
             "21": {
-                "title": "Hurt"
+                "title": "Hurt",
+                "id": "21"
             },
             "01": {
-                "title": "Newbie"
+                "title": "Newbie",
+                "id": "01"
             },
             "02": {
-                "title": "Rookie"
+                "title": "Rookie",
+                "id": "02"
             }
         }
     },
@@ -4480,10 +5318,12 @@ const CHILDS_CODE_MAP = {
         "id": "c325",
         "variants": {
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -4494,7 +5334,8 @@ const CHILDS_CODE_MAP = {
         "id": "c326",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -4505,7 +5346,8 @@ const CHILDS_CODE_MAP = {
         "id": "c327",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -4516,7 +5358,8 @@ const CHILDS_CODE_MAP = {
         "id": "c328",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -4527,10 +5370,12 @@ const CHILDS_CODE_MAP = {
         "id": "c329",
         "variants": {
             "01": {
-                "title": "Racer"
+                "title": "Racer",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Horse"
+                "title": "Dark Horse",
+                "id": "02"
             }
         }
     },
@@ -4541,7 +5386,8 @@ const CHILDS_CODE_MAP = {
         "id": "c330",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -4552,7 +5398,8 @@ const CHILDS_CODE_MAP = {
         "id": "c331",
         "variants": {
             "01": {
-                "title": "Altruistic"
+                "title": "Altruistic",
+                "id": "01"
             }
         }
     },
@@ -4563,10 +5410,12 @@ const CHILDS_CODE_MAP = {
         "id": "c332",
         "variants": {
             "01": {
-                "title": "Maverick"
+                "title": "Maverick",
+                "id": "01"
             },
             "02": {
-                "title": "Nandikesvara"
+                "title": "Nandikesvara",
+                "id": "02"
             }
         }
     },
@@ -4577,16 +5426,20 @@ const CHILDS_CODE_MAP = {
         "id": "c333",
         "variants": {
             "88": {
-                "title": "Capturing"
+                "title": "Capturing",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Capturing"
+                "title": "Capturing",
+                "id": "02"
             }
         }
     },
@@ -4597,10 +5450,12 @@ const CHILDS_CODE_MAP = {
         "id": "c334",
         "variants": {
             "01": {
-                "title": "Fantasy Dream"
+                "title": "Fantasy Dream",
+                "id": "01"
             },
             "02": {
-                "title": "Disillusioned"
+                "title": "Disillusioned",
+                "id": "02"
             }
         }
     },
@@ -4611,13 +5466,16 @@ const CHILDS_CODE_MAP = {
         "id": "c335",
         "variants": {
             "10": {
-                "title": "Assured Victory"
+                "title": "Assured Victory",
+                "id": "10"
             },
             "01": {
-                "title": "Peerless Power"
+                "title": "Peerless Power",
+                "id": "01"
             },
             "02": {
-                "title": "Extinction"
+                "title": "Extinction",
+                "id": "02"
             }
         }
     },
@@ -4628,30 +5486,36 @@ const CHILDS_CODE_MAP = {
         "id": "c336",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "89": {
-                "title": "Farm Sheep"
+                "title": "Farm Sheep",
+                "id": "89"
             },
             "01": {
-                "title": "Field"
+                "title": "Field",
+                "id": "01"
             },
             "02": {
-                "title": "Farm Sheep"
+                "title": "Farm Sheep",
+                "id": "02"
             }
         }
     },
     "c337": {
-        "name": "Freyja",
-        "star": "",
-        "attribute": "",
+        "name": "芙蕾雅",
+        "star": "5",
+        "attribute": "G",
         "id": "c337",
         "variants": {
             "01": {
-                "title": "Mascot"
+                "title": "Mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Sprinter"
+                "title": "Sprinter",
+                "id": "02"
             }
         }
     },
@@ -4662,10 +5526,12 @@ const CHILDS_CODE_MAP = {
         "id": "c338",
         "variants": {
             "01": {
-                "title": "Pure White"
+                "title": "Pure White",
+                "id": "01"
             },
             "02": {
-                "title": "Pure Bride"
+                "title": "Pure Bride",
+                "id": "02"
             }
         }
     },
@@ -4676,10 +5542,12 @@ const CHILDS_CODE_MAP = {
         "id": "c339",
         "variants": {
             "01": {
-                "title": "Love & Hate"
+                "title": "Love & Hate",
+                "id": "01"
             },
             "02": {
-                "title": "Ambivalence"
+                "title": "Ambivalence",
+                "id": "02"
             }
         }
     },
@@ -4690,16 +5558,20 @@ const CHILDS_CODE_MAP = {
         "id": "c342",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "11": {
-                "title": "Dark Scent"
+                "title": "Dark Scent",
+                "id": "11"
             },
             "01": {
-                "title": "Full Bloom"
+                "title": "Full Bloom",
+                "id": "01"
             },
             "02": {
-                "title": "Phantosmia"
+                "title": "Phantosmia",
+                "id": "02"
             }
         }
     },
@@ -4710,10 +5582,12 @@ const CHILDS_CODE_MAP = {
         "id": "c343",
         "variants": {
             "01": {
-                "title": "One Sword"
+                "title": "One Sword",
+                "id": "01"
             },
             "02": {
-                "title": "Slashing"
+                "title": "Slashing",
+                "id": "02"
             }
         }
     },
@@ -4724,25 +5598,32 @@ const CHILDS_CODE_MAP = {
         "id": "c344",
         "variants": {
             "10": {
-                "title": "Summer Spike"
+                "title": "Summer Spike",
+                "id": "10"
             },
             "11": {
-                "title": "Enchanting"
+                "title": "Enchanting",
+                "id": "11"
             },
             "87": {
-                "title": "Enchanting"
+                "title": "Enchanting",
+                "id": "87"
             },
             "88": {
-                "title": "Nova"
+                "title": "Nova",
+                "id": "88"
             },
             "89": {
-                "title": "Summer Spike"
+                "title": "Summer Spike",
+                "id": "89"
             },
             "01": {
-                "title": "White Handed"
+                "title": "White Handed",
+                "id": "01"
             },
             "02": {
-                "title": "Nova"
+                "title": "Nova",
+                "id": "02"
             }
         }
     },
@@ -4753,25 +5634,32 @@ const CHILDS_CODE_MAP = {
         "id": "c345",
         "variants": {
             "10": {
-                "title": "Sunrise"
+                "title": "Sunrise",
+                "id": "10"
             },
             "11": {
-                "title": "Burning Passion"
+                "title": "Burning Passion",
+                "id": "11"
             },
             "87": {
-                "title": "Burning Passion"
+                "title": "Burning Passion",
+                "id": "87"
             },
             "88": {
-                "title": "Gambler"
+                "title": "Gambler",
+                "id": "88"
             },
             "89": {
-                "title": "Sunrise"
+                "title": "Sunrise",
+                "id": "89"
             },
             "01": {
-                "title": "Midsummer"
+                "title": "Midsummer",
+                "id": "01"
             },
             "02": {
-                "title": "Gambler"
+                "title": "Gambler",
+                "id": "02"
             }
         }
     },
@@ -4782,10 +5670,12 @@ const CHILDS_CODE_MAP = {
         "id": "c346",
         "variants": {
             "01": {
-                "title": "Blocking"
+                "title": "Blocking",
+                "id": "01"
             },
             "02": {
-                "title": "Solitary"
+                "title": "Solitary",
+                "id": "02"
             }
         }
     },
@@ -4796,10 +5686,12 @@ const CHILDS_CODE_MAP = {
         "id": "c347",
         "variants": {
             "01": {
-                "title": "Prophet"
+                "title": "Prophet",
+                "id": "01"
             },
             "02": {
-                "title": "Second Advent"
+                "title": "Second Advent",
+                "id": "02"
             }
         }
     },
@@ -4810,16 +5702,20 @@ const CHILDS_CODE_MAP = {
         "id": "c348",
         "variants": {
             "10": {
-                "title": "Sweet Love"
+                "title": "Sweet Love",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Pretty"
+                "title": "Pretty",
+                "id": "01"
             },
             "02": {
-                "title": "Sweet Devi"
+                "title": "Sweet Devi",
+                "id": "02"
             }
         }
     },
@@ -4830,13 +5726,16 @@ const CHILDS_CODE_MAP = {
         "id": "c349",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mysterious"
+                "title": "Mysterious",
+                "id": "01"
             },
             "02": {
-                "title": "Starlight"
+                "title": "Starlight",
+                "id": "02"
             }
         }
     },
@@ -4847,13 +5746,16 @@ const CHILDS_CODE_MAP = {
         "id": "c350",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hard Worker"
+                "title": "Hard Worker",
+                "id": "01"
             },
             "02": {
-                "title": "Pure Smile"
+                "title": "Pure Smile",
+                "id": "02"
             }
         }
     },
@@ -4864,27 +5766,31 @@ const CHILDS_CODE_MAP = {
         "id": "c351",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Naive"
+                "title": "Naive",
+                "id": "01"
             },
             "02": {
-                "title": "Heavenly Flower"
+                "title": "Heavenly Flower",
+                "id": "02"
             }
         }
     },
-    "c352": {
-        "name": "Maestro",
-        "star": "",
-        "attribute": "",
-        "id": "c352",
-        "variants": {
-            "00": {
-                "title": "Producer"
-            }
-        }
-    },
+    // "c352": {
+    //     "name": "Maestro",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c352",
+    //     "variants": {
+    //         "00": {
+    //             "title": "Producer",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c353": {
         "name": "Charlotte",
         "star": "",
@@ -4892,13 +5798,16 @@ const CHILDS_CODE_MAP = {
         "id": "c353",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Glorious"
+                "title": "Glorious",
+                "id": "02"
             }
         }
     },
@@ -4909,16 +5818,20 @@ const CHILDS_CODE_MAP = {
         "id": "c354",
         "variants": {
             "10": {
-                "title": "Mad Nurse"
+                "title": "Mad Nurse",
+                "id": "10"
             },
             "89": {
-                "title": "Crimson"
+                "title": "Crimson",
+                "id": "89"
             },
             "01": {
-                "title": "Needfire"
+                "title": "Needfire",
+                "id": "01"
             },
             "02": {
-                "title": "Crimson"
+                "title": "Crimson",
+                "id": "02"
             }
         }
     },
@@ -4929,10 +5842,12 @@ const CHILDS_CODE_MAP = {
         "id": "c355",
         "variants": {
             "01": {
-                "title": "Guardian"
+                "title": "Guardian",
+                "id": "01"
             },
             "02": {
-                "title": "Inugami"
+                "title": "Inugami",
+                "id": "02"
             }
         }
     },
@@ -4943,10 +5858,12 @@ const CHILDS_CODE_MAP = {
         "id": "c357",
         "variants": {
             "01": {
-                "title": "Unjust"
+                "title": "Unjust",
+                "id": "01"
             },
             "02": {
-                "title": "Opportune"
+                "title": "Opportune",
+                "id": "02"
             }
         }
     },
@@ -4957,10 +5874,12 @@ const CHILDS_CODE_MAP = {
         "id": "c358",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Diva"
+                "title": "Diva",
+                "id": "02"
             }
         }
     },
@@ -4971,10 +5890,12 @@ const CHILDS_CODE_MAP = {
         "id": "c359",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Snow Priestess"
+                "title": "Snow Priestess",
+                "id": "02"
             }
         }
     },
@@ -4985,13 +5906,16 @@ const CHILDS_CODE_MAP = {
         "id": "c360",
         "variants": {
             "10": {
-                "title": "Chasm"
+                "title": "Chasm",
+                "id": "10"
             },
             "01": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "01"
             },
             "02": {
-                "title": "Descended"
+                "title": "Descended",
+                "id": "02"
             }
         }
     },
@@ -5002,22 +5926,28 @@ const CHILDS_CODE_MAP = {
         "id": "c361",
         "variants": {
             "10": {
-                "title": "Weaponized"
+                "title": "Weaponized",
+                "id": "10"
             },
             "87": {
-                "title": "Weaponized"
+                "title": "Weaponized",
+                "id": "87"
             },
             "88": {
-                "title": "Black Snake"
+                "title": "Black Snake",
+                "id": "88"
             },
             "89": {
-                "title": "Devouring"
+                "title": "Devouring",
+                "id": "89"
             },
             "01": {
-                "title": "Devouring"
+                "title": "Devouring",
+                "id": "01"
             },
             "02": {
-                "title": "Black Snake"
+                "title": "Black Snake",
+                "id": "02"
             }
         }
     },
@@ -5028,16 +5958,20 @@ const CHILDS_CODE_MAP = {
         "id": "c362",
         "variants": {
             "10": {
-                "title": "Maid"
+                "title": "Maid",
+                "id": "10"
             },
             "11": {
-                "title": "Butler"
+                "title": "Butler",
+                "id": "11"
             },
             "01": {
-                "title": "Kind"
+                "title": "Kind",
+                "id": "01"
             },
             "02": {
-                "title": "Incubus"
+                "title": "Incubus",
+                "id": "02"
             }
         }
     },
@@ -5048,10 +5982,12 @@ const CHILDS_CODE_MAP = {
         "id": "c363",
         "variants": {
             "01": {
-                "title": "Phantom Thief"
+                "title": "Phantom Thief",
+                "id": "01"
             },
             "02": {
-                "title": "Vanguard"
+                "title": "Vanguard",
+                "id": "02"
             }
         }
     },
@@ -5062,13 +5998,16 @@ const CHILDS_CODE_MAP = {
         "id": "c364",
         "variants": {
             "10": {
-                "title": "So Sicktry"
+                "title": "So Sicktry",
+                "id": "10"
             },
             "01": {
-                "title": "Sweet"
+                "title": "Sweet",
+                "id": "01"
             },
             "02": {
-                "title": "Lovey-Dovey"
+                "title": "Lovey-Dovey",
+                "id": "02"
             }
         }
     },
@@ -5079,10 +6018,12 @@ const CHILDS_CODE_MAP = {
         "id": "c365",
         "variants": {
             "01": {
-                "title": "Dark Buster"
+                "title": "Dark Buster",
+                "id": "01"
             },
             "02": {
-                "title": "Devil Buster"
+                "title": "Devil Buster",
+                "id": "02"
             }
         }
     },
@@ -5093,10 +6034,12 @@ const CHILDS_CODE_MAP = {
         "id": "c366",
         "variants": {
             "01": {
-                "title": "Hard Worker"
+                "title": "Hard Worker",
+                "id": "01"
             },
             "02": {
-                "title": "Hopeful"
+                "title": "Hopeful",
+                "id": "02"
             }
         }
     },
@@ -5107,30 +6050,35 @@ const CHILDS_CODE_MAP = {
         "id": "c367",
         "variants": {
             "88": {
-                "title": "True"
+                "title": "True",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "True"
+                "title": "True",
+                "id": "02"
             }
         }
     },
-    "c369": {
-        "name": "Old Lady",
-        "star": "",
-        "attribute": "",
-        "id": "c369",
-        "variants": {
-            "00": {
-                "title": ""
-            }
-        }
-    },
+    // "c369": {
+    //     "name": "Old Lady",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c369",
+    //     "variants": {
+    //         "00": {
+    //             "title": "",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c370": {
         "name": "Mona",
         "star": "",
@@ -5138,16 +6086,20 @@ const CHILDS_CODE_MAP = {
         "id": "c370",
         "variants": {
             "10": {
-                "title": "Hot Pink"
+                "title": "Hot Pink",
+                "id": "10"
             },
             "89": {
-                "title": "Sunbeach"
+                "title": "Sunbeach",
+                "id": "89"
             },
             "01": {
-                "title": "Sunbeach"
+                "title": "Sunbeach",
+                "id": "01"
             },
             "02": {
-                "title": "Diver"
+                "title": "Diver",
+                "id": "02"
             }
         }
     },
@@ -5158,13 +6110,16 @@ const CHILDS_CODE_MAP = {
         "id": "c371",
         "variants": {
             "10": {
-                "title": "Rashguard"
+                "title": "Rashguard",
+                "id": "10"
             },
             "01": {
-                "title": "Marine Suit"
+                "title": "Marine Suit",
+                "id": "01"
             },
             "02": {
-                "title": "Summer Blue"
+                "title": "Summer Blue",
+                "id": "02"
             }
         }
     },
@@ -5175,13 +6130,16 @@ const CHILDS_CODE_MAP = {
         "id": "c372",
         "variants": {
             "10": {
-                "title": "Sports Bikini"
+                "title": "Sports Bikini",
+                "id": "10"
             },
             "01": {
-                "title": "School Swimsuit"
+                "title": "School Swimsuit",
+                "id": "01"
             },
             "02": {
-                "title": "Summer"
+                "title": "Summer",
+                "id": "02"
             }
         }
     },
@@ -5192,10 +6150,12 @@ const CHILDS_CODE_MAP = {
         "id": "c373",
         "variants": {
             "01": {
-                "title": "Ruffian"
+                "title": "Ruffian",
+                "id": "01"
             },
             "02": {
-                "title": "Black-Winged Messenger"
+                "title": "Black-Winged Messenger",
+                "id": "02"
             }
         }
     },
@@ -5206,10 +6166,12 @@ const CHILDS_CODE_MAP = {
         "id": "c374",
         "variants": {
             "01": {
-                "title": "White Wedding"
+                "title": "White Wedding",
+                "id": "01"
             },
             "02": {
-                "title": "Wedding Gown"
+                "title": "Wedding Gown",
+                "id": "02"
             }
         }
     },
@@ -5220,7 +6182,8 @@ const CHILDS_CODE_MAP = {
         "id": "c375",
         "variants": {
             "01": {
-                "title": "Rebirth Synthesis Animation"
+                "title": "Rebirth Synthesis Animation",
+                "id": "01"
             }
         }
     },
@@ -5231,7 +6194,8 @@ const CHILDS_CODE_MAP = {
         "id": "c376",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -5242,22 +6206,28 @@ const CHILDS_CODE_MAP = {
         "id": "c377",
         "variants": {
             "10": {
-                "title": "Bridal"
+                "title": "Bridal",
+                "id": "10"
             },
             "11": {
-                "title": "Shadow"
+                "title": "Shadow",
+                "id": "11"
             },
             "89": {
-                "title": "Bridal"
+                "title": "Bridal",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Romantic"
+                "title": "Romantic",
+                "id": "01"
             },
             "02": {
-                "title": "Scarlet"
+                "title": "Scarlet",
+                "id": "02"
             }
         }
     },
@@ -5268,13 +6238,16 @@ const CHILDS_CODE_MAP = {
         "id": "c378",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Darkness Clad"
+                "title": "Darkness Clad",
+                "id": "02"
             }
         }
     },
@@ -5285,10 +6258,12 @@ const CHILDS_CODE_MAP = {
         "id": "c379",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Benign Devotion"
+                "title": "Benign Devotion",
+                "id": "02"
             }
         }
     },
@@ -5299,22 +6274,28 @@ const CHILDS_CODE_MAP = {
         "id": "c381",
         "variants": {
             "10": {
-                "title": "Enchanting"
+                "title": "Enchanting",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": "Fluttering"
+                "title": "Fluttering",
+                "id": "01"
             },
             "02": {
-                "title": "Summer Love"
+                "title": "Summer Love",
+                "id": "02"
             }
         }
     },
@@ -5325,33 +6306,40 @@ const CHILDS_CODE_MAP = {
         "id": "c382",
         "variants": {
             "10": {
-                "title": "Inca Rose"
+                "title": "Inca Rose",
+                "id": "10"
             },
             "01": {
-                "title": "Catgirl"
+                "title": "Catgirl",
+                "id": "01"
             },
             "02": {
-                "title": "Battle Kitty"
+                "title": "Battle Kitty",
+                "id": "02"
             }
         }
     },
     "c383": {
-        "name": "Frej",
-        "star": "",
-        "attribute": "",
+        "name": "弗雷",
+        "star": "5",
+        "attribute": "D",
         "id": "c383",
         "variants": {
             "10": {
-                "title": "Toxic"
+                "title": "Toxic",
+                "id": "10"
             },
             "11": {
-                "title": "Cursed Doll"
+                "title": "Cursed Doll",
+                "id": "11"
             },
             "01": {
-                "title": "Resurrected"
+                "title": "Resurrected",
+                "id": "01"
             },
             "02": {
-                "title": "Unleashed"
+                "title": "Unleashed",
+                "id": "02"
             }
         }
     },
@@ -5362,10 +6350,12 @@ const CHILDS_CODE_MAP = {
         "id": "c384",
         "variants": {
             "01": {
-                "title": "Prototype"
+                "title": "Prototype",
+                "id": "01"
             },
             "02": {
-                "title": "Devilized"
+                "title": "Devilized",
+                "id": "02"
             }
         }
     },
@@ -5376,19 +6366,24 @@ const CHILDS_CODE_MAP = {
         "id": "c385",
         "variants": {
             "10": {
-                "title": "Swimsuit"
+                "title": "Swimsuit",
+                "id": "10"
             },
             "11": {
-                "title": "Russian Blue"
+                "title": "Russian Blue",
+                "id": "11"
             },
             "12": {
-                "title": "Minuet"
+                "title": "Minuet",
+                "id": "12"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Battlesuit"
+                "title": "Battlesuit",
+                "id": "02"
             }
         }
     },
@@ -5399,25 +6394,32 @@ const CHILDS_CODE_MAP = {
         "id": "c386",
         "variants": {
             "10": {
-                "title": "Geranium"
+                "title": "Geranium",
+                "id": "10"
             },
             "11": {
-                "title": "Nemophila"
+                "title": "Nemophila",
+                "id": "11"
             },
             "12": {
-                "title": "Margarita"
+                "title": "Margarita",
+                "id": "12"
             },
             "13": {
-                "title": "Geranium"
+                "title": "Geranium",
+                "id": "13"
             },
             "88": {
-                "title": "World Boss"
+                "title": "World Boss",
+                "id": "88"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Immaculate"
+                "title": "Immaculate",
+                "id": "02"
             }
         }
     },
@@ -5428,16 +6430,20 @@ const CHILDS_CODE_MAP = {
         "id": "c387",
         "variants": {
             "10": {
-                "title": "Moo-Moo Denim"
+                "title": "Moo-Moo Denim",
+                "id": "10"
             },
             "11": {
-                "title": "Delphinium"
+                "title": "Delphinium",
+                "id": "11"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Casual"
+                "title": "Casual",
+                "id": "02"
             }
         }
     },
@@ -5448,10 +6454,12 @@ const CHILDS_CODE_MAP = {
         "id": "c388",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Mass Produced"
+                "title": "Mass Produced",
+                "id": "02"
             }
         }
     },
@@ -5462,13 +6470,16 @@ const CHILDS_CODE_MAP = {
         "id": "c389",
         "variants": {
             "89": {
-                "title": "Black Widow"
+                "title": "Black Widow",
+                "id": "89"
             },
             "01": {
-                "title": "Black Widow"
+                "title": "Black Widow",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -5479,16 +6490,20 @@ const CHILDS_CODE_MAP = {
         "id": "c390",
         "variants": {
             "88": {
-                "title": "Death March"
+                "title": "Death March",
+                "id": "88"
             },
             "89": {
-                "title": "Witch"
+                "title": "Witch",
+                "id": "89"
             },
             "01": {
-                "title": "Witch"
+                "title": "Witch",
+                "id": "01"
             },
             "02": {
-                "title": "Death March"
+                "title": "Death March",
+                "id": "02"
             }
         }
     },
@@ -5499,10 +6514,12 @@ const CHILDS_CODE_MAP = {
         "id": "c391",
         "variants": {
             "01": {
-                "title": "Party Star"
+                "title": "Party Star",
+                "id": "01"
             },
             "02": {
-                "title": "Party Night"
+                "title": "Party Night",
+                "id": "02"
             }
         }
     },
@@ -5513,16 +6530,20 @@ const CHILDS_CODE_MAP = {
         "id": "c392",
         "variants": {
             "10": {
-                "title": "Dark Tears"
+                "title": "Dark Tears",
+                "id": "10"
             },
             "89": {
-                "title": "Altered"
+                "title": "Altered",
+                "id": "89"
             },
             "01": {
-                "title": "Altered"
+                "title": "Altered",
+                "id": "01"
             },
             "02": {
-                "title": "Neo"
+                "title": "Neo",
+                "id": "02"
             }
         }
     },
@@ -5533,13 +6554,16 @@ const CHILDS_CODE_MAP = {
         "id": "c393",
         "variants": {
             "10": {
-                "title": "Radiant"
+                "title": "Radiant",
+                "id": "10"
             },
             "01": {
-                "title": "Lightbeam"
+                "title": "Lightbeam",
+                "id": "01"
             },
             "02": {
-                "title": "Heavenly Ray"
+                "title": "Heavenly Ray",
+                "id": "02"
             }
         }
     },
@@ -5550,10 +6574,12 @@ const CHILDS_CODE_MAP = {
         "id": "c394",
         "variants": {
             "01": {
-                "title": "Courtesan"
+                "title": "Courtesan",
+                "id": "01"
             },
             "02": {
-                "title": "Supreme Courtesan"
+                "title": "Supreme Courtesan",
+                "id": "02"
             }
         }
     },
@@ -5564,10 +6590,12 @@ const CHILDS_CODE_MAP = {
         "id": "c395",
         "variants": {
             "01": {
-                "title": "Mysterious Student"
+                "title": "Mysterious Student",
+                "id": "01"
             },
             "02": {
-                "title": "Pink Blazer"
+                "title": "Pink Blazer",
+                "id": "02"
             }
         }
     },
@@ -5578,10 +6606,12 @@ const CHILDS_CODE_MAP = {
         "id": "c396",
         "variants": {
             "01": {
-                "title": "Dancing Maiden"
+                "title": "Dancing Maiden",
+                "id": "01"
             },
             "02": {
-                "title": "Oracle"
+                "title": "Oracle",
+                "id": "02"
             }
         }
     },
@@ -5592,10 +6622,12 @@ const CHILDS_CODE_MAP = {
         "id": "c397",
         "variants": {
             "01": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "01"
             },
             "02": {
-                "title": "Sexy Santa"
+                "title": "Sexy Santa",
+                "id": "02"
             }
         }
     },
@@ -5606,10 +6638,12 @@ const CHILDS_CODE_MAP = {
         "id": "c398",
         "variants": {
             "01": {
-                "title": "String"
+                "title": "String",
+                "id": "01"
             },
             "02": {
-                "title": "Gayageum"
+                "title": "Gayageum",
+                "id": "02"
             }
         }
     },
@@ -5620,7 +6654,8 @@ const CHILDS_CODE_MAP = {
         "id": "c399",
         "variants": {
             "01": {
-                "title": "Heartbeat"
+                "title": "Heartbeat",
+                "id": "01"
             }
         }
     },
@@ -5631,10 +6666,12 @@ const CHILDS_CODE_MAP = {
         "id": "c400",
         "variants": {
             "01": {
-                "title": "Grieving"
+                "title": "Grieving",
+                "id": "01"
             },
             "02": {
-                "title": "Scattering"
+                "title": "Scattering",
+                "id": "02"
             }
         }
     },
@@ -5645,10 +6682,12 @@ const CHILDS_CODE_MAP = {
         "id": "c401",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "PRINCESS"
+                "title": "PRINCESS",
+                "id": "02"
             }
         }
     },
@@ -5659,13 +6698,16 @@ const CHILDS_CODE_MAP = {
         "id": "c402",
         "variants": {
             "10": {
-                "title": "μ-12"
+                "title": "μ-12",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Fourth Squadron"
+                "title": "Fourth Squadron",
+                "id": "02"
             }
         }
     },
@@ -5676,10 +6718,12 @@ const CHILDS_CODE_MAP = {
         "id": "c403",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "NOL Intel Dept"
+                "title": "NOL Intel Dept",
+                "id": "02"
             }
         }
     },
@@ -5690,10 +6734,12 @@ const CHILDS_CODE_MAP = {
         "id": "c404",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Six Heroes"
+                "title": "Six Heroes",
+                "id": "02"
             }
         }
     },
@@ -5704,16 +6750,20 @@ const CHILDS_CODE_MAP = {
         "id": "c405",
         "variants": {
             "88": {
-                "title": "King's Lancer"
+                "title": "King's Lancer",
+                "id": "88"
             },
             "89": {
-                "title": "Piercing"
+                "title": "Piercing",
+                "id": "89"
             },
             "01": {
-                "title": "Piercing"
+                "title": "Piercing",
+                "id": "01"
             },
             "02": {
-                "title": "King's Lancer"
+                "title": "King's Lancer",
+                "id": "02"
             }
         }
     },
@@ -5724,10 +6774,12 @@ const CHILDS_CODE_MAP = {
         "id": "c406",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Savanna"
+                "title": "Savanna",
+                "id": "02"
             }
         }
     },
@@ -5738,10 +6790,12 @@ const CHILDS_CODE_MAP = {
         "id": "c407",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Arboreal"
+                "title": "Arboreal",
+                "id": "02"
             }
         }
     },
@@ -5752,10 +6806,12 @@ const CHILDS_CODE_MAP = {
         "id": "c408",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Desert"
+                "title": "Desert",
+                "id": "02"
             }
         }
     },
@@ -5766,13 +6822,16 @@ const CHILDS_CODE_MAP = {
         "id": "c409",
         "variants": {
             "10": {
-                "title": "Satisfied"
+                "title": "Satisfied",
+                "id": "10"
             },
             "01": {
-                "title": "Hungry"
+                "title": "Hungry",
+                "id": "01"
             },
             "02": {
-                "title": "Full"
+                "title": "Full",
+                "id": "02"
             }
         }
     },
@@ -5783,13 +6842,16 @@ const CHILDS_CODE_MAP = {
         "id": "c410",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Proud"
+                "title": "Proud",
+                "id": "01"
             },
             "02": {
-                "title": "Demonic Deadeye"
+                "title": "Demonic Deadeye",
+                "id": "02"
             }
         }
     },
@@ -5800,7 +6862,8 @@ const CHILDS_CODE_MAP = {
         "id": "c411",
         "variants": {
             "01": {
-                "title": "Spa 5★ Animation"
+                "title": "Spa 5★ Animation",
+                "id": "01"
             }
         }
     },
@@ -5811,33 +6874,39 @@ const CHILDS_CODE_MAP = {
         "id": "c412",
         "variants": {
             "88": {
-                "title": "Heretic"
+                "title": "Heretic",
+                "id": "88"
             },
             "89": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "89"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Heretic"
+                "title": "Heretic",
+                "id": "02"
             }
         }
     },
-    "c413": {
-        "name": "Abel",
-        "star": "",
-        "attribute": "",
-        "id": "c413",
-        "variants": {
-            "21": {
-                "title": "Impassioned"
-            },
-            "00": {
-                "title": "Human"
-            }
-        }
-    },
+    // "c413": {
+    //     "name": "Abel",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c413",
+    //     "variants": {
+    //         "21": {
+    //             "title": "Impassioned",
+    //             "id": "21"
+    //         },
+    //         "00": {
+    //             "title": "Human",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c414": {
         "name": "Billy",
         "star": "",
@@ -5845,16 +6914,20 @@ const CHILDS_CODE_MAP = {
         "id": "c414",
         "variants": {
             "10": {
-                "title": "Splash"
+                "title": "Splash",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Gunner"
+                "title": "Gunner",
+                "id": "01"
             },
             "02": {
-                "title": "Deadshot"
+                "title": "Deadshot",
+                "id": "02"
             }
         }
     },
@@ -5865,13 +6938,16 @@ const CHILDS_CODE_MAP = {
         "id": "c415",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Risk Taker"
+                "title": "Risk Taker",
+                "id": "01"
             },
             "02": {
-                "title": "Wild Hunt"
+                "title": "Wild Hunt",
+                "id": "02"
             }
         }
     },
@@ -5882,19 +6958,24 @@ const CHILDS_CODE_MAP = {
         "id": "c416",
         "variants": {
             "10": {
-                "title": "Chancing"
+                "title": "Chancing",
+                "id": "10"
             },
             "87": {
-                "title": "Chancing"
+                "title": "Chancing",
+                "id": "87"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Demon Princess"
+                "title": "Demon Princess",
+                "id": "01"
             },
             "02": {
-                "title": "Phantom"
+                "title": "Phantom",
+                "id": "02"
             }
         }
     },
@@ -5905,19 +6986,24 @@ const CHILDS_CODE_MAP = {
         "id": "c417",
         "variants": {
             "10": {
-                "title": "Summer"
+                "title": "Summer",
+                "id": "10"
             },
             "89": {
-                "title": "Nine-Tailed Fox"
+                "title": "Nine-Tailed Fox",
+                "id": "89"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Nine-Tailed Fox"
+                "title": "Nine-Tailed Fox",
+                "id": "01"
             },
             "02": {
-                "title": "Bewitching"
+                "title": "Bewitching",
+                "id": "02"
             }
         }
     },
@@ -5928,10 +7014,12 @@ const CHILDS_CODE_MAP = {
         "id": "c418",
         "variants": {
             "01": {
-                "title": "Flower of Justice"
+                "title": "Flower of Justice",
+                "id": "01"
             },
             "02": {
-                "title": "Justice Incarnate"
+                "title": "Justice Incarnate",
+                "id": "02"
             }
         }
     },
@@ -5942,10 +7030,12 @@ const CHILDS_CODE_MAP = {
         "id": "c419",
         "variants": {
             "01": {
-                "title": "Cheating"
+                "title": "Cheating",
+                "id": "01"
             },
             "02": {
-                "title": "Inverted & Devilish"
+                "title": "Inverted & Devilish",
+                "id": "02"
             }
         }
     },
@@ -5956,16 +7046,20 @@ const CHILDS_CODE_MAP = {
         "id": "c420",
         "variants": {
             "10": {
-                "title": "Wild Crimson"
+                "title": "Wild Crimson",
+                "id": "10"
             },
             "89": {
-                "title": "Wild Crimson"
+                "title": "Wild Crimson",
+                "id": "89"
             },
             "01": {
-                "title": "Girlfriend"
+                "title": "Girlfriend",
+                "id": "01"
             },
             "02": {
-                "title": "Pure Bride"
+                "title": "Pure Bride",
+                "id": "02"
             }
         }
     },
@@ -5976,10 +7070,12 @@ const CHILDS_CODE_MAP = {
         "id": "c421",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Pure"
+                "title": "Pure",
+                "id": "02"
             }
         }
     },
@@ -5990,16 +7086,20 @@ const CHILDS_CODE_MAP = {
         "id": "c422",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "88": {
-                "title": "Mother"
+                "title": "Mother",
+                "id": "88"
             },
             "01": {
-                "title": "Temptress"
+                "title": "Temptress",
+                "id": "01"
             },
             "02": {
-                "title": "Mother"
+                "title": "Mother",
+                "id": "02"
             }
         }
     },
@@ -6010,22 +7110,28 @@ const CHILDS_CODE_MAP = {
         "id": "c423",
         "variants": {
             "10": {
-                "title": "Pure Love"
+                "title": "Pure Love",
+                "id": "10"
             },
             "87": {
-                "title": "Pure Love"
+                "title": "Pure Love",
+                "id": "87"
             },
             "88": {
-                "title": "Biased"
+                "title": "Biased",
+                "id": "88"
             },
             "89": {
-                "title": "Swift"
+                "title": "Swift",
+                "id": "89"
             },
             "01": {
-                "title": "Swift"
+                "title": "Swift",
+                "id": "01"
             },
             "02": {
-                "title": "Persistent"
+                "title": "Persistent",
+                "id": "02"
             }
         }
     },
@@ -6036,7 +7142,8 @@ const CHILDS_CODE_MAP = {
         "id": "c424",
         "variants": {
             "01": {
-                "title": "Blacksmith"
+                "title": "Blacksmith",
+                "id": "01"
             }
         }
     },
@@ -6047,22 +7154,28 @@ const CHILDS_CODE_MAP = {
         "id": "c425",
         "variants": {
             "10": {
-                "title": "Legion"
+                "title": "Legion",
+                "id": "10"
             },
             "87": {
-                "title": "Legion"
+                "title": "Legion",
+                "id": "87"
             },
             "88": {
-                "title": "Sacrificing"
+                "title": "Sacrificing",
+                "id": "88"
             },
             "89": {
-                "title": "Punishing"
+                "title": "Punishing",
+                "id": "89"
             },
             "01": {
-                "title": "Punishing"
+                "title": "Punishing",
+                "id": "01"
             },
             "02": {
-                "title": "Sacrificing"
+                "title": "Sacrificing",
+                "id": "02"
             }
         }
     },
@@ -6073,13 +7186,16 @@ const CHILDS_CODE_MAP = {
         "id": "c426",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Hasty"
+                "title": "Hasty",
+                "id": "01"
             },
             "02": {
-                "title": "Pioneer"
+                "title": "Pioneer",
+                "id": "02"
             }
         }
     },
@@ -6090,16 +7206,20 @@ const CHILDS_CODE_MAP = {
         "id": "c428",
         "variants": {
             "88": {
-                "title": "Avatar"
+                "title": "Avatar",
+                "id": "88"
             },
             "89": {
-                "title": "Substitute"
+                "title": "Substitute",
+                "id": "89"
             },
             "01": {
-                "title": "Substitute"
+                "title": "Substitute",
+                "id": "01"
             },
             "02": {
-                "title": "Avatar"
+                "title": "Avatar",
+                "id": "02"
             }
         }
     },
@@ -6110,19 +7230,24 @@ const CHILDS_CODE_MAP = {
         "id": "c429",
         "variants": {
             "10": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "10"
             },
             "88": {
-                "title": "Frozen Wasteland"
+                "title": "Frozen Wasteland",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Peaceful"
+                "title": "Peaceful",
+                "id": "01"
             },
             "02": {
-                "title": "Frozen Wasteland"
+                "title": "Frozen Wasteland",
+                "id": "02"
             }
         }
     },
@@ -6133,16 +7258,20 @@ const CHILDS_CODE_MAP = {
         "id": "c430",
         "variants": {
             "10": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Tundra"
+                "title": "Tundra",
+                "id": "01"
             },
             "02": {
-                "title": "Ice Field Hunter"
+                "title": "Ice Field Hunter",
+                "id": "02"
             }
         }
     },
@@ -6153,13 +7282,16 @@ const CHILDS_CODE_MAP = {
         "id": "c431",
         "variants": {
             "10": {
-                "title": "Christmas"
+                "title": "Christmas",
+                "id": "10"
             },
             "01": {
-                "title": "Skiing"
+                "title": "Skiing",
+                "id": "01"
             },
             "02": {
-                "title": "Snow"
+                "title": "Snow",
+                "id": "02"
             }
         }
     },
@@ -6170,13 +7302,16 @@ const CHILDS_CODE_MAP = {
         "id": "c432",
         "variants": {
             "10": {
-                "title": "Lunar Eclipse"
+                "title": "Lunar Eclipse",
+                "id": "10"
             },
             "01": {
-                "title": "Moonlight"
+                "title": "Moonlight",
+                "id": "01"
             },
             "02": {
-                "title": "Berserk"
+                "title": "Berserk",
+                "id": "02"
             }
         }
     },
@@ -6187,13 +7322,16 @@ const CHILDS_CODE_MAP = {
         "id": "c433",
         "variants": {
             "10": {
-                "title": "Lovely Summer"
+                "title": "Lovely Summer",
+                "id": "10"
             },
             "01": {
-                "title": "Peppy"
+                "title": "Peppy",
+                "id": "01"
             },
             "02": {
-                "title": "Cutesy"
+                "title": "Cutesy",
+                "id": "02"
             }
         }
     },
@@ -6204,13 +7342,16 @@ const CHILDS_CODE_MAP = {
         "id": "c434",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "01": {
-                "title": "Sweet"
+                "title": "Sweet",
+                "id": "01"
             },
             "02": {
-                "title": "Lovely"
+                "title": "Lovely",
+                "id": "02"
             }
         }
     },
@@ -6221,13 +7362,16 @@ const CHILDS_CODE_MAP = {
         "id": "c435",
         "variants": {
             "10": {
-                "title": "Heartfelt"
+                "title": "Heartfelt",
+                "id": "10"
             },
             "01": {
-                "title": "Fancy"
+                "title": "Fancy",
+                "id": "01"
             },
             "02": {
-                "title": "Maid"
+                "title": "Maid",
+                "id": "02"
             }
         }
     },
@@ -6238,16 +7382,20 @@ const CHILDS_CODE_MAP = {
         "id": "c436",
         "variants": {
             "10": {
-                "title": "Agape"
+                "title": "Agape",
+                "id": "10"
             },
             "89": {
-                "title": "Agape"
+                "title": "Agape",
+                "id": "89"
             },
             "01": {
-                "title": "Anxious"
+                "title": "Anxious",
+                "id": "01"
             },
             "02": {
-                "title": "Maid"
+                "title": "Maid",
+                "id": "02"
             }
         }
     },
@@ -6258,10 +7406,12 @@ const CHILDS_CODE_MAP = {
         "id": "c437",
         "variants": {
             "01": {
-                "title": "Cute"
+                "title": "Cute",
+                "id": "01"
             },
             "02": {
-                "title": "Joyful"
+                "title": "Joyful",
+                "id": "02"
             }
         }
     },
@@ -6272,19 +7422,24 @@ const CHILDS_CODE_MAP = {
         "id": "c438",
         "variants": {
             "10": {
-                "title": "Dress-up"
+                "title": "Dress-up",
+                "id": "10"
             },
             "11": {
-                "title": "Degenerated"
+                "title": "Degenerated",
+                "id": "11"
             },
             "12": {
-                "title": "Young"
+                "title": "Young",
+                "id": "12"
             },
             "01": {
-                "title": "Mate"
+                "title": "Mate",
+                "id": "01"
             },
             "02": {
-                "title": "Enchant"
+                "title": "Enchant",
+                "id": "02"
             }
         }
     },
@@ -6295,10 +7450,12 @@ const CHILDS_CODE_MAP = {
         "id": "c439",
         "variants": {
             "01": {
-                "title": "Dreamer"
+                "title": "Dreamer",
+                "id": "01"
             },
             "02": {
-                "title": "Actress"
+                "title": "Actress",
+                "id": "02"
             }
         }
     },
@@ -6309,13 +7466,16 @@ const CHILDS_CODE_MAP = {
         "id": "c440",
         "variants": {
             "10": {
-                "title": "Exquisite"
+                "title": "Exquisite",
+                "id": "10"
             },
             "01": {
-                "title": "Perfect"
+                "title": "Perfect",
+                "id": "01"
             },
             "02": {
-                "title": "Lovely"
+                "title": "Lovely",
+                "id": "02"
             }
         }
     },
@@ -6326,10 +7486,12 @@ const CHILDS_CODE_MAP = {
         "id": "c441",
         "variants": {
             "01": {
-                "title": "Ritual Sword"
+                "title": "Ritual Sword",
+                "id": "01"
             },
             "02": {
-                "title": "Hero"
+                "title": "Hero",
+                "id": "02"
             }
         }
     },
@@ -6340,22 +7502,28 @@ const CHILDS_CODE_MAP = {
         "id": "c442",
         "variants": {
             "10": {
-                "title": "Neighbor"
+                "title": "Neighbor",
+                "id": "10"
             },
             "11": {
-                "title": "Zen Master"
+                "title": "Zen Master",
+                "id": "11"
             },
             "12": {
-                "title": ""
+                "title": "",
+                "id": "12"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Nirodhasatya"
+                "title": "Nirodhasatya",
+                "id": "01"
             },
             "02": {
-                "title": "Tathata"
+                "title": "Tathata",
+                "id": "02"
             }
         }
     },
@@ -6366,10 +7534,12 @@ const CHILDS_CODE_MAP = {
         "id": "c443",
         "variants": {
             "01": {
-                "title": "Phantom Thief"
+                "title": "Phantom Thief",
+                "id": "01"
             },
             "02": {
-                "title": "Phantom"
+                "title": "Phantom",
+                "id": "02"
             }
         }
     },
@@ -6380,13 +7550,16 @@ const CHILDS_CODE_MAP = {
         "id": "c444",
         "variants": {
             "10": {
-                "title": "Uniform"
+                "title": "Uniform",
+                "id": "10"
             },
             "11": {
-                "title": ""
+                "title": "",
+                "id": "11"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -6397,28 +7570,36 @@ const CHILDS_CODE_MAP = {
         "id": "c445",
         "variants": {
             "10": {
-                "title": "Office Worker"
+                "title": "Office Worker",
+                "id": "10"
             },
             "11": {
-                "title": "Casual"
+                "title": "Casual",
+                "id": "11"
             },
             "12": {
-                "title": "Aurora"
+                "title": "Aurora",
+                "id": "12"
             },
             "87": {
-                "title": "Aurora"
+                "title": "Aurora",
+                "id": "87"
             },
             "88": {
-                "title": "Luminous"
+                "title": "Luminous",
+                "id": "88"
             },
             "89": {
-                "title": "Pitch-dark"
+                "title": "Pitch-dark",
+                "id": "89"
             },
             "01": {
-                "title": "Pitch-dark"
+                "title": "Pitch-dark",
+                "id": "01"
             },
             "02": {
-                "title": "First Dawn"
+                "title": "First Dawn",
+                "id": "02"
             }
         }
     },
@@ -6429,13 +7610,16 @@ const CHILDS_CODE_MAP = {
         "id": "c446",
         "variants": {
             "88": {
-                "title": "Bodyguard"
+                "title": "Bodyguard",
+                "id": "88"
             },
             "01": {
-                "title": "Fierce"
+                "title": "Fierce",
+                "id": "01"
             },
             "02": {
-                "title": "Bodyguard"
+                "title": "Bodyguard",
+                "id": "02"
             }
         }
     },
@@ -6446,19 +7630,24 @@ const CHILDS_CODE_MAP = {
         "id": "c447",
         "variants": {
             "10": {
-                "title": "Punishing"
+                "title": "Punishing",
+                "id": "10"
             },
             "11": {
-                "title": ""
+                "title": "",
+                "id": "11"
             },
             "89": {
-                "title": "Punishing"
+                "title": "Punishing",
+                "id": "89"
             },
             "01": {
-                "title": "Exorcist"
+                "title": "Exorcist",
+                "id": "01"
             },
             "02": {
-                "title": "Slanderous"
+                "title": "Slanderous",
+                "id": "02"
             }
         }
     },
@@ -6469,19 +7658,24 @@ const CHILDS_CODE_MAP = {
         "id": "c448",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "88": {
-                "title": "Seductive"
+                "title": "Seductive",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cunning"
+                "title": "Cunning",
+                "id": "01"
             },
             "02": {
-                "title": "Seductive"
+                "title": "Seductive",
+                "id": "02"
             }
         }
     },
@@ -6492,10 +7686,12 @@ const CHILDS_CODE_MAP = {
         "id": "c449",
         "variants": {
             "01": {
-                "title": "Determined"
+                "title": "Determined",
+                "id": "01"
             },
             "02": {
-                "title": "Chaser"
+                "title": "Chaser",
+                "id": "02"
             }
         }
     },
@@ -6506,10 +7702,12 @@ const CHILDS_CODE_MAP = {
         "id": "c450",
         "variants": {
             "01": {
-                "title": "Tragedy"
+                "title": "Tragedy",
+                "id": "01"
             },
             "02": {
-                "title": "Heroine"
+                "title": "Heroine",
+                "id": "02"
             }
         }
     },
@@ -6520,13 +7718,16 @@ const CHILDS_CODE_MAP = {
         "id": "c451",
         "variants": {
             "10": {
-                "title": "Fylgja"
+                "title": "Fylgja",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Peach Blossom"
+                "title": "Peach Blossom",
+                "id": "02"
             }
         }
     },
@@ -6537,13 +7738,16 @@ const CHILDS_CODE_MAP = {
         "id": "c452",
         "variants": {
             "10": {
-                "title": "Five-Colored Mirage"
+                "title": "Five-Colored Mirage",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Vermilion Bird"
+                "title": "Vermilion Bird",
+                "id": "02"
             }
         }
     },
@@ -6554,10 +7758,12 @@ const CHILDS_CODE_MAP = {
         "id": "c453",
         "variants": {
             "01": {
-                "title": "Warmhearted"
+                "title": "Warmhearted",
+                "id": "01"
             },
             "02": {
-                "title": "Embracing"
+                "title": "Embracing",
+                "id": "02"
             }
         }
     },
@@ -6568,16 +7774,20 @@ const CHILDS_CODE_MAP = {
         "id": "c454",
         "variants": {
             "88": {
-                "title": "Pleading"
+                "title": "Pleading",
+                "id": "88"
             },
             "89": {
-                "title": "Lord"
+                "title": "Lord",
+                "id": "89"
             },
             "01": {
-                "title": "Lord"
+                "title": "Lord",
+                "id": "01"
             },
             "02": {
-                "title": "Pleading"
+                "title": "Pleading",
+                "id": "02"
             }
         }
     },
@@ -6588,25 +7798,32 @@ const CHILDS_CODE_MAP = {
         "id": "c455",
         "variants": {
             "10": {
-                "title": "Fancy"
+                "title": "Fancy",
+                "id": "10"
             },
             "11": {
-                "title": "Queen"
+                "title": "Queen",
+                "id": "11"
             },
             "12": {
-                "title": "Bridal"
+                "title": "Bridal",
+                "id": "12"
             },
             "86": {
-                "title": "Bridal"
+                "title": "Bridal",
+                "id": "86"
             },
             "87": {
-                "title": "Fancy"
+                "title": "Fancy",
+                "id": "87"
             },
             "01": {
-                "title": "Lady"
+                "title": "Lady",
+                "id": "01"
             },
             "02": {
-                "title": "Passionate"
+                "title": "Passionate",
+                "id": "02"
             }
         }
     },
@@ -6617,10 +7834,12 @@ const CHILDS_CODE_MAP = {
         "id": "c456",
         "variants": {
             "01": {
-                "title": "Mascot"
+                "title": "Mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Destiny"
+                "title": "Destiny",
+                "id": "02"
             }
         }
     },
@@ -6631,10 +7850,12 @@ const CHILDS_CODE_MAP = {
         "id": "c457",
         "variants": {
             "01": {
-                "title": "Onlooker"
+                "title": "Onlooker",
+                "id": "01"
             },
             "02": {
-                "title": "Neutral"
+                "title": "Neutral",
+                "id": "02"
             }
         }
     },
@@ -6645,13 +7866,16 @@ const CHILDS_CODE_MAP = {
         "id": "c458",
         "variants": {
             "10": {
-                "title": "Fastest"
+                "title": "Fastest",
+                "id": "10"
             },
             "01": {
-                "title": "Racing"
+                "title": "Racing",
+                "id": "01"
             },
             "02": {
-                "title": "Gale"
+                "title": "Gale",
+                "id": "02"
             }
         }
     },
@@ -6662,10 +7886,12 @@ const CHILDS_CODE_MAP = {
         "id": "c459",
         "variants": {
             "01": {
-                "title": "Chaser"
+                "title": "Chaser",
+                "id": "01"
             },
             "02": {
-                "title": "Shadow"
+                "title": "Shadow",
+                "id": "02"
             }
         }
     },
@@ -6676,16 +7902,20 @@ const CHILDS_CODE_MAP = {
         "id": "c460",
         "variants": {
             "10": {
-                "title": "Boss Cow"
+                "title": "Boss Cow",
+                "id": "10"
             },
             "88": {
-                "title": "Freedom"
+                "title": "Freedom",
+                "id": "88"
             },
             "01": {
-                "title": "Marauder"
+                "title": "Marauder",
+                "id": "01"
             },
             "02": {
-                "title": "Freedom"
+                "title": "Freedom",
+                "id": "02"
             }
         }
     },
@@ -6696,13 +7926,16 @@ const CHILDS_CODE_MAP = {
         "id": "c461",
         "variants": {
             "10": {
-                "title": "Mate"
+                "title": "Mate",
+                "id": "10"
             },
             "01": {
-                "title": "Remembering"
+                "title": "Remembering",
+                "id": "01"
             },
             "02": {
-                "title": "Confessing"
+                "title": "Confessing",
+                "id": "02"
             }
         }
     },
@@ -6713,10 +7946,12 @@ const CHILDS_CODE_MAP = {
         "id": "c462",
         "variants": {
             "01": {
-                "title": "Sworn"
+                "title": "Sworn",
+                "id": "01"
             },
             "02": {
-                "title": "Rosary"
+                "title": "Rosary",
+                "id": "02"
             }
         }
     },
@@ -6727,13 +7962,16 @@ const CHILDS_CODE_MAP = {
         "id": "c463",
         "variants": {
             "10": {
-                "title": "Autumn"
+                "title": "Autumn",
+                "id": "10"
             },
             "01": {
-                "title": "Paradise Lost"
+                "title": "Paradise Lost",
+                "id": "01"
             },
             "02": {
-                "title": "Dejected"
+                "title": "Dejected",
+                "id": "02"
             }
         }
     },
@@ -6744,16 +7982,20 @@ const CHILDS_CODE_MAP = {
         "id": "c464",
         "variants": {
             "10": {
-                "title": "Bodhisattva"
+                "title": "Bodhisattva",
+                "id": "10"
             },
             "11": {
-                "title": "Naive"
+                "title": "Naive",
+                "id": "11"
             },
             "01": {
-                "title": "Magnificent"
+                "title": "Magnificent",
+                "id": "01"
             },
             "02": {
-                "title": "Immortal"
+                "title": "Immortal",
+                "id": "02"
             }
         }
     },
@@ -6764,13 +8006,16 @@ const CHILDS_CODE_MAP = {
         "id": "c465",
         "variants": {
             "88": {
-                "title": "Upright"
+                "title": "Upright",
+                "id": "88"
             },
             "01": {
-                "title": "Loyal"
+                "title": "Loyal",
+                "id": "01"
             },
             "02": {
-                "title": "Upright"
+                "title": "Upright",
+                "id": "02"
             }
         }
     },
@@ -6781,10 +8026,12 @@ const CHILDS_CODE_MAP = {
         "id": "c466",
         "variants": {
             "01": {
-                "title": "Carefree"
+                "title": "Carefree",
+                "id": "01"
             },
             "02": {
-                "title": "Yearning"
+                "title": "Yearning",
+                "id": "02"
             }
         }
     },
@@ -6795,10 +8042,12 @@ const CHILDS_CODE_MAP = {
         "id": "c467",
         "variants": {
             "01": {
-                "title": "Severe"
+                "title": "Severe",
+                "id": "01"
             },
             "02": {
-                "title": "Burning"
+                "title": "Burning",
+                "id": "02"
             }
         }
     },
@@ -6809,16 +8058,20 @@ const CHILDS_CODE_MAP = {
         "id": "c468",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Whispering"
+                "title": "Whispering",
+                "id": "01"
             },
             "02": {
-                "title": "Truth"
+                "title": "Truth",
+                "id": "02"
             }
         }
     },
@@ -6829,16 +8082,20 @@ const CHILDS_CODE_MAP = {
         "id": "c469",
         "variants": {
             "10": {
-                "title": "Tip Top"
+                "title": "Tip Top",
+                "id": "10"
             },
             "11": {
-                "title": "School Uniform"
+                "title": "School Uniform",
+                "id": "11"
             },
             "01": {
-                "title": "Brilliant"
+                "title": "Brilliant",
+                "id": "01"
             },
             "02": {
-                "title": "Frozen Gale"
+                "title": "Frozen Gale",
+                "id": "02"
             }
         }
     },
@@ -6849,10 +8106,12 @@ const CHILDS_CODE_MAP = {
         "id": "c470",
         "variants": {
             "01": {
-                "title": "Sparkling"
+                "title": "Sparkling",
+                "id": "01"
             },
             "02": {
-                "title": "Snowy"
+                "title": "Snowy",
+                "id": "02"
             }
         }
     },
@@ -6863,13 +8122,16 @@ const CHILDS_CODE_MAP = {
         "id": "c471",
         "variants": {
             "88": {
-                "title": "Snowfall"
+                "title": "Snowfall",
+                "id": "88"
             },
             "01": {
-                "title": "Shining"
+                "title": "Shining",
+                "id": "01"
             },
             "02": {
-                "title": "Snowfall"
+                "title": "Snowfall",
+                "id": "02"
             }
         }
     },
@@ -6880,10 +8142,12 @@ const CHILDS_CODE_MAP = {
         "id": "c472",
         "variants": {
             "01": {
-                "title": "Dazzling"
+                "title": "Dazzling",
+                "id": "01"
             },
             "02": {
-                "title": "Winter"
+                "title": "Winter",
+                "id": "02"
             }
         }
     },
@@ -6894,10 +8158,12 @@ const CHILDS_CODE_MAP = {
         "id": "c473",
         "variants": {
             "01": {
-                "title": "Overtaker"
+                "title": "Overtaker",
+                "id": "01"
             },
             "02": {
-                "title": "High Spirit"
+                "title": "High Spirit",
+                "id": "02"
             }
         }
     },
@@ -6908,19 +8174,24 @@ const CHILDS_CODE_MAP = {
         "id": "c474",
         "variants": {
             "10": {
-                "title": "Teacher"
+                "title": "Teacher",
+                "id": "10"
             },
             "88": {
-                "title": "Blazing"
+                "title": "Blazing",
+                "id": "88"
             },
             "89": {
-                "title": "Blacksmith"
+                "title": "Blacksmith",
+                "id": "89"
             },
             "01": {
-                "title": "Blacksmith"
+                "title": "Blacksmith",
+                "id": "01"
             },
             "02": {
-                "title": "Blazing"
+                "title": "Blazing",
+                "id": "02"
             }
         }
     },
@@ -6931,10 +8202,12 @@ const CHILDS_CODE_MAP = {
         "id": "c475",
         "variants": {
             "01": {
-                "title": "Dawn"
+                "title": "Dawn",
+                "id": "01"
             },
             "02": {
-                "title": "Frosty"
+                "title": "Frosty",
+                "id": "02"
             }
         }
     },
@@ -6945,16 +8218,20 @@ const CHILDS_CODE_MAP = {
         "id": "c476",
         "variants": {
             "88": {
-                "title": "Peaceful"
+                "title": "Peaceful",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Cheerful"
+                "title": "Cheerful",
+                "id": "01"
             },
             "02": {
-                "title": "Peaceful"
+                "title": "Peaceful",
+                "id": "02"
             }
         }
     },
@@ -6965,16 +8242,20 @@ const CHILDS_CODE_MAP = {
         "id": "c479",
         "variants": {
             "20": {
-                "title": "Undergraduate"
+                "title": "Undergraduate",
+                "id": "20"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Tenacious"
+                "title": "Tenacious",
+                "id": "01"
             },
             "02": {
-                "title": "Legendary"
+                "title": "Legendary",
+                "id": "02"
             }
         }
     },
@@ -6985,16 +8266,20 @@ const CHILDS_CODE_MAP = {
         "id": "c480",
         "variants": {
             "20": {
-                "title": "Undergraduatet"
+                "title": "Undergraduatet",
+                "id": "20"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lovely"
+                "title": "Lovely",
+                "id": "01"
             },
             "02": {
-                "title": "Carefree"
+                "title": "Carefree",
+                "id": "02"
             }
         }
     },
@@ -7005,16 +8290,20 @@ const CHILDS_CODE_MAP = {
         "id": "c481",
         "variants": {
             "88": {
-                "title": "Gunslinger"
+                "title": "Gunslinger",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Grenade"
+                "title": "Grenade",
+                "id": "01"
             },
             "02": {
-                "title": "Gunslinger"
+                "title": "Gunslinger",
+                "id": "02"
             }
         }
     },
@@ -7025,16 +8314,20 @@ const CHILDS_CODE_MAP = {
         "id": "c482",
         "variants": {
             "10": {
-                "title": "Rabbit"
+                "title": "Rabbit",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Innocent"
+                "title": "Innocent",
+                "id": "01"
             },
             "02": {
-                "title": "Quirky"
+                "title": "Quirky",
+                "id": "02"
             }
         }
     },
@@ -7045,13 +8338,16 @@ const CHILDS_CODE_MAP = {
         "id": "c483",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Commander"
+                "title": "Commander",
+                "id": "01"
             },
             "02": {
-                "title": "Claw Commander"
+                "title": "Claw Commander",
+                "id": "02"
             }
         }
     },
@@ -7062,7 +8358,8 @@ const CHILDS_CODE_MAP = {
         "id": "c484",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         }
     },
@@ -7073,13 +8370,16 @@ const CHILDS_CODE_MAP = {
         "id": "c485",
         "variants": {
             "10": {
-                "title": "Light of Hope"
+                "title": "Light of Hope",
+                "id": "10"
             },
             "01": {
-                "title": "Dark Shadow"
+                "title": "Dark Shadow",
+                "id": "01"
             },
             "02": {
-                "title": "Apathetic Shade"
+                "title": "Apathetic Shade",
+                "id": "02"
             }
         }
     },
@@ -7090,22 +8390,28 @@ const CHILDS_CODE_MAP = {
         "id": "c486",
         "variants": {
             "10": {
-                "title": "Shotgun"
+                "title": "Shotgun",
+                "id": "10"
             },
             "87": {
-                "title": "Shotgun"
+                "title": "Shotgun",
+                "id": "87"
             },
             "88": {
-                "title": "Top Speed"
+                "title": "Top Speed",
+                "id": "88"
             },
             "89": {
-                "title": "Chaser"
+                "title": "Chaser",
+                "id": "89"
             },
             "01": {
-                "title": "Chaser"
+                "title": "Chaser",
+                "id": "01"
             },
             "02": {
-                "title": "Top Speed"
+                "title": "Top Speed",
+                "id": "02"
             }
         }
     },
@@ -7116,16 +8422,20 @@ const CHILDS_CODE_MAP = {
         "id": "c488",
         "variants": {
             "20": {
-                "title": "Cosplaying"
+                "title": "Cosplaying",
+                "id": "20"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Carefree Fairy"
+                "title": "Carefree Fairy",
+                "id": "01"
             },
             "02": {
-                "title": "Tomboy Fairy"
+                "title": "Tomboy Fairy",
+                "id": "02"
             }
         }
     },
@@ -7136,25 +8446,32 @@ const CHILDS_CODE_MAP = {
         "id": "c489",
         "variants": {
             "10": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "10"
             },
             "11": {
-                "title": "Hermit"
+                "title": "Hermit",
+                "id": "11"
             },
             "87": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "87"
             },
             "88": {
-                "title": "Dark Conspiracy"
+                "title": "Dark Conspiracy",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Conspiracy"
+                "title": "Dark Conspiracy",
+                "id": "02"
             }
         }
     },
@@ -7165,19 +8482,24 @@ const CHILDS_CODE_MAP = {
         "id": "c490",
         "variants": {
             "10": {
-                "title": "Determined"
+                "title": "Determined",
+                "id": "10"
             },
             "88": {
-                "title": "Aspiring"
+                "title": "Aspiring",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Assistant"
+                "title": "Assistant",
+                "id": "01"
             },
             "02": {
-                "title": "Aspiring"
+                "title": "Aspiring",
+                "id": "02"
             }
         }
     },
@@ -7188,33 +8510,40 @@ const CHILDS_CODE_MAP = {
         "id": "c491",
         "variants": {
             "10": {
-                "title": "Resigned"
+                "title": "Resigned",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Mourning"
+                "title": "Mourning",
+                "id": "01"
             },
             "02": {
-                "title": "Nihilistic"
+                "title": "Nihilistic",
+                "id": "02"
             }
         }
     },
     "c492": {
-        "name": "He Xiangu",
-        "star": "",
-        "attribute": "",
+        "name": "何仙姑",
+        "star": "5",
+        "attribute": "H",
         "id": "c492",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7225,22 +8554,28 @@ const CHILDS_CODE_MAP = {
         "id": "c493",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": "Empress"
+                "title": "Empress",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Glorious"
+                "title": "Glorious",
+                "id": "01"
             },
             "02": {
-                "title": "Empress"
+                "title": "Empress",
+                "id": "02"
             }
         }
     },
@@ -7251,13 +8586,16 @@ const CHILDS_CODE_MAP = {
         "id": "c494",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Merciful"
+                "title": "Merciful",
+                "id": "01"
             },
             "02": {
-                "title": "Embracing"
+                "title": "Embracing",
+                "id": "02"
             }
         }
     },
@@ -7268,13 +8606,16 @@ const CHILDS_CODE_MAP = {
         "id": "c495",
         "variants": {
             "00": {
-                "title": "Pactmaker"
+                "title": "Pactmaker",
+                "id": "00"
             },
             "01": {
-                "title": "Problem Kitty"
+                "title": "Problem Kitty",
+                "id": "01"
             },
             "02": {
-                "title": "Freed Kitty"
+                "title": "Freed Kitty",
+                "id": "02"
             }
         }
     },
@@ -7285,13 +8626,16 @@ const CHILDS_CODE_MAP = {
         "id": "c496",
         "variants": {
             "00": {
-                "title": "Pactmaker"
+                "title": "Pactmaker",
+                "id": "00"
             },
             "01": {
-                "title": "Dreaming Poppy"
+                "title": "Dreaming Poppy",
+                "id": "01"
             },
             "02": {
-                "title": "Happy Poppy"
+                "title": "Happy Poppy",
+                "id": "02"
             }
         }
     },
@@ -7302,61 +8646,72 @@ const CHILDS_CODE_MAP = {
         "id": "c497",
         "variants": {
             "10": {
-                "title": "Dreamer"
+                "title": "Dreamer",
+                "id": "10"
             },
             "01": {
-                "title": "Returning"
+                "title": "Returning",
+                "id": "01"
             },
             "02": {
-                "title": "Perfect"
+                "title": "Perfect",
+                "id": "02"
             }
         }
     },
     "c498": {
-        "name": "Sol",
-        "star": "",
-        "attribute": "",
+        "name": "索尔",
+        "star": "5",
+        "attribute": "H",
         "id": "c498",
         "variants": {
             "10": {
-                "title": "Hellfire God"
+                "title": "Hellfire God",
+                "id": "10"
             },
             "87": {
-                "title": "Hellfire God"
+                "title": "Hellfire God",
+                "id": "87"
             },
             "01": {
-                "title": ""
+                "title": "初始",
+                "id": "01"
             },
             "02": {
-                "title": "Bounty Hunter"
+                "title": "满好感",
+                "id": "02"
             }
         }
     },
     "c499": {
-        "name": "Ramlethal",
-        "star": "",
-        "attribute": "",
+        "name": "拉姆",
+        "star": "5",
+        "attribute": "W",
         "id": "c499",
         "variants": {
             "01": {
-                "title": ""
+                "title": "初始",
+                "id": "01"
             },
             "02": {
-                "title": "Brigadier"
+                "title": "满好感",
+                "id": "02"
             }
         }
     },
     "c500": {
-        "name": "Millia",
-        "star": "",
-        "attribute": "",
+        "name": "米莉娅",
+        "star": "5",
+        "attribute": "L",
         "id": "c500",
         "variants": {
             "01": {
-                "title": ""
+                "title": "初始",
+                "id": "01"
             },
             "02": {
-                "title": "Iron Maiden"
+                "title": "铁娘子",
+                "id": "02"
             }
         }
     },
@@ -7367,28 +8722,36 @@ const CHILDS_CODE_MAP = {
         "id": "c501",
         "variants": {
             "10": {
-                "title": "The Wisdom"
+                "title": "The Wisdom",
+                "id": "10"
             },
             "11": {
-                "title": "Frustrated"
+                "title": "Frustrated",
+                "id": "11"
             },
             "86": {
-                "title": "Frustrated"
+                "title": "Frustrated",
+                "id": "86"
             },
             "87": {
-                "title": "The Wisdom"
+                "title": "The Wisdom",
+                "id": "87"
             },
             "88": {
-                "title": "Detached"
+                "title": "Detached",
+                "id": "88"
             },
             "89": {
-                "title": "Passionate"
+                "title": "Passionate",
+                "id": "89"
             },
             "01": {
-                "title": "Passionate"
+                "title": "Passionate",
+                "id": "01"
             },
             "02": {
-                "title": "Detached"
+                "title": "Detached",
+                "id": "02"
             }
         }
     },
@@ -7399,16 +8762,20 @@ const CHILDS_CODE_MAP = {
         "id": "c502",
         "variants": {
             "10": {
-                "title": "Ghost"
+                "title": "Ghost",
+                "id": "10"
             },
             "11": {
-                "title": "School Uniform"
+                "title": "School Uniform",
+                "id": "11"
             },
             "01": {
-                "title": "Psychic"
+                "title": "Psychic",
+                "id": "01"
             },
             "02": {
-                "title": "Ghost-Calling"
+                "title": "Ghost-Calling",
+                "id": "02"
             }
         }
     },
@@ -7419,16 +8786,20 @@ const CHILDS_CODE_MAP = {
         "id": "c503",
         "variants": {
             "10": {
-                "title": "Summer Solstice"
+                "title": "Summer Solstice",
+                "id": "10"
             },
             "88": {
-                "title": "Haughty"
+                "title": "Haughty",
+                "id": "88"
             },
             "01": {
-                "title": "Obedient"
+                "title": "Obedient",
+                "id": "01"
             },
             "02": {
-                "title": "Haughty"
+                "title": "Haughty",
+                "id": "02"
             }
         }
     },
@@ -7439,13 +8810,16 @@ const CHILDS_CODE_MAP = {
         "id": "c504",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Aspiring Goddess"
+                "title": "Aspiring Goddess",
+                "id": "01"
             },
             "02": {
-                "title": "Governing Goddess"
+                "title": "Governing Goddess",
+                "id": "02"
             }
         }
     },
@@ -7456,16 +8830,20 @@ const CHILDS_CODE_MAP = {
         "id": "c505",
         "variants": {
             "10": {
-                "title": "Resting"
+                "title": "Resting",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Sprinting"
+                "title": "Sprinting",
+                "id": "01"
             },
             "02": {
-                "title": "Sweeping"
+                "title": "Sweeping",
+                "id": "02"
             }
         }
     },
@@ -7476,13 +8854,16 @@ const CHILDS_CODE_MAP = {
         "id": "c506",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Leading"
+                "title": "Leading",
+                "id": "01"
             },
             "02": {
-                "title": "Stormy"
+                "title": "Stormy",
+                "id": "02"
             }
         }
     },
@@ -7493,19 +8874,24 @@ const CHILDS_CODE_MAP = {
         "id": "c507",
         "variants": {
             "10": {
-                "title": "Boozer"
+                "title": "Boozer",
+                "id": "10"
             },
             "88": {
-                "title": "Imbiber"
+                "title": "Imbiber",
+                "id": "88"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Stand-In Shrine Maiden"
+                "title": "Stand-In Shrine Maiden",
+                "id": "01"
             },
             "02": {
-                "title": "Imbiber"
+                "title": "Imbiber",
+                "id": "02"
             }
         }
     },
@@ -7516,10 +8902,12 @@ const CHILDS_CODE_MAP = {
         "id": "c508",
         "variants": {
             "01": {
-                "title": "Shaman"
+                "title": "Shaman",
+                "id": "01"
             },
             "02": {
-                "title": "Blade of Vengeance"
+                "title": "Blade of Vengeance",
+                "id": "02"
             }
         }
     },
@@ -7530,22 +8918,28 @@ const CHILDS_CODE_MAP = {
         "id": "c509",
         "variants": {
             "10": {
-                "title": "Bloody"
+                "title": "Bloody",
+                "id": "10"
             },
             "87": {
-                "title": "Bloody"
+                "title": "Bloody",
+                "id": "87"
             },
             "88": {
-                "title": "Immortal"
+                "title": "Immortal",
+                "id": "88"
             },
             "89": {
-                "title": "Scarlet Blood"
+                "title": "Scarlet Blood",
+                "id": "89"
             },
             "01": {
-                "title": "Scarlet Blood"
+                "title": "Scarlet Blood",
+                "id": "01"
             },
             "02": {
-                "title": "Immortal"
+                "title": "Immortal",
+                "id": "02"
             }
         }
     },
@@ -7556,13 +8950,16 @@ const CHILDS_CODE_MAP = {
         "id": "c510",
         "variants": {
             "10": {
-                "title": "Smoker"
+                "title": "Smoker",
+                "id": "10"
             },
             "01": {
-                "title": "Adversary"
+                "title": "Adversary",
+                "id": "01"
             },
             "02": {
-                "title": "Martyr"
+                "title": "Martyr",
+                "id": "02"
             }
         }
     },
@@ -7573,10 +8970,12 @@ const CHILDS_CODE_MAP = {
         "id": "c511",
         "variants": {
             "01": {
-                "title": "Indecisive"
+                "title": "Indecisive",
+                "id": "01"
             },
             "02": {
-                "title": "Befriending"
+                "title": "Befriending",
+                "id": "02"
             }
         }
     },
@@ -7587,10 +8986,12 @@ const CHILDS_CODE_MAP = {
         "id": "c512",
         "variants": {
             "01": {
-                "title": "Confident"
+                "title": "Confident",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         }
     },
@@ -7601,22 +9002,28 @@ const CHILDS_CODE_MAP = {
         "id": "c513",
         "variants": {
             "10": {
-                "title": "War Goddess"
+                "title": "War Goddess",
+                "id": "10"
             },
             "87": {
-                "title": "War Goddess"
+                "title": "War Goddess",
+                "id": "87"
             },
             "88": {
-                "title": "Almighty"
+                "title": "Almighty",
+                "id": "88"
             },
             "89": {
-                "title": "Worshipped"
+                "title": "Worshipped",
+                "id": "89"
             },
             "01": {
-                "title": "Worshipped"
+                "title": "Worshipped",
+                "id": "01"
             },
             "02": {
-                "title": "Almighty"
+                "title": "Almighty",
+                "id": "02"
             }
         }
     },
@@ -7627,10 +9034,12 @@ const CHILDS_CODE_MAP = {
         "id": "c514",
         "variants": {
             "01": {
-                "title": "Con Artist"
+                "title": "Con Artist",
+                "id": "01"
             },
             "02": {
-                "title": "Deceiver"
+                "title": "Deceiver",
+                "id": "02"
             }
         }
     },
@@ -7641,7 +9050,8 @@ const CHILDS_CODE_MAP = {
         "id": "c515",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             }
         }
     },
@@ -7652,10 +9062,12 @@ const CHILDS_CODE_MAP = {
         "id": "c516",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Luscious"
+                "title": "Luscious",
+                "id": "02"
             }
         }
     },
@@ -7666,10 +9078,12 @@ const CHILDS_CODE_MAP = {
         "id": "c517",
         "variants": {
             "01": {
-                "title": "Retaliator"
+                "title": "Retaliator",
+                "id": "01"
             },
             "02": {
-                "title": "Aggressor"
+                "title": "Aggressor",
+                "id": "02"
             }
         }
     },
@@ -7680,13 +9094,16 @@ const CHILDS_CODE_MAP = {
         "id": "c518",
         "variants": {
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "01": {
-                "title": "Unlucky"
+                "title": "Unlucky",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7697,10 +9114,12 @@ const CHILDS_CODE_MAP = {
         "id": "c519",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7711,22 +9130,28 @@ const CHILDS_CODE_MAP = {
         "id": "c520",
         "variants": {
             "10": {
-                "title": "Transforming"
+                "title": "Transforming",
+                "id": "10"
             },
             "87": {
-                "title": "Transforming"
+                "title": "Transforming",
+                "id": "87"
             },
             "88": {
-                "title": "False"
+                "title": "False",
+                "id": "88"
             },
             "89": {
-                "title": "Draconic"
+                "title": "Draconic",
+                "id": "89"
             },
             "01": {
-                "title": "Draconic"
+                "title": "Draconic",
+                "id": "01"
             },
             "02": {
-                "title": "False"
+                "title": "False",
+                "id": "02"
             }
         }
     },
@@ -7737,22 +9162,28 @@ const CHILDS_CODE_MAP = {
         "id": "c521",
         "variants": {
             "10": {
-                "title": "Torrent"
+                "title": "Torrent",
+                "id": "10"
             },
             "87": {
-                "title": "Torrent"
+                "title": "Torrent",
+                "id": "87"
             },
             "88": {
-                "title": "Free"
+                "title": "Free",
+                "id": "88"
             },
             "89": {
-                "title": "Resisting"
+                "title": "Resisting",
+                "id": "89"
             },
             "01": {
-                "title": "Resisting"
+                "title": "Resisting",
+                "id": "01"
             },
             "02": {
-                "title": "Free"
+                "title": "Free",
+                "id": "02"
             }
         }
     },
@@ -7763,10 +9194,12 @@ const CHILDS_CODE_MAP = {
         "id": "c522",
         "variants": {
             "01": {
-                "title": "Dashing"
+                "title": "Dashing",
+                "id": "01"
             },
             "02": {
-                "title": "Charging"
+                "title": "Charging",
+                "id": "02"
             }
         }
     },
@@ -7777,13 +9210,16 @@ const CHILDS_CODE_MAP = {
         "id": "c523",
         "variants": {
             "88": {
-                "title": "Reincarnation"
+                "title": "Reincarnation",
+                "id": "88"
             },
             "01": {
-                "title": "Epiphany"
+                "title": "Epiphany",
+                "id": "01"
             },
             "02": {
-                "title": "Reincarnation"
+                "title": "Reincarnation",
+                "id": "02"
             }
         }
     },
@@ -7794,10 +9230,12 @@ const CHILDS_CODE_MAP = {
         "id": "c524",
         "variants": {
             "01": {
-                "title": "Polar"
+                "title": "Polar",
+                "id": "01"
             },
             "02": {
-                "title": "White Rain"
+                "title": "White Rain",
+                "id": "02"
             }
         }
     },
@@ -7808,13 +9246,16 @@ const CHILDS_CODE_MAP = {
         "id": "c525",
         "variants": {
             "10": {
-                "title": "Summer Night Mistake"
+                "title": "Summer Night Mistake",
+                "id": "10"
             },
             "01": {
-                "title": "Predator"
+                "title": "Predator",
+                "id": "01"
             },
             "02": {
-                "title": "Snowfall"
+                "title": "Snowfall",
+                "id": "02"
             }
         }
     },
@@ -7825,22 +9266,28 @@ const CHILDS_CODE_MAP = {
         "id": "c526",
         "variants": {
             "10": {
-                "title": "Beloved Daughter"
+                "title": "Beloved Daughter",
+                "id": "10"
             },
             "87": {
-                "title": "Beloved Daughter"
+                "title": "Beloved Daughter",
+                "id": "87"
             },
             "88": {
-                "title": "Black Tiger"
+                "title": "Black Tiger",
+                "id": "88"
             },
             "89": {
-                "title": "Stern"
+                "title": "Stern",
+                "id": "89"
             },
             "01": {
-                "title": "Stern"
+                "title": "Stern",
+                "id": "01"
             },
             "02": {
-                "title": "Black Tiger"
+                "title": "Black Tiger",
+                "id": "02"
             }
         }
     },
@@ -7851,19 +9298,24 @@ const CHILDS_CODE_MAP = {
         "id": "c527",
         "variants": {
             "10": {
-                "title": "Sea Lord"
+                "title": "Sea Lord",
+                "id": "10"
             },
             "87": {
-                "title": "Sea Lord"
+                "title": "Sea Lord",
+                "id": "87"
             },
             "88": {
-                "title": "Selfish"
+                "title": "Selfish",
+                "id": "88"
             },
             "01": {
-                "title": "Crafty"
+                "title": "Crafty",
+                "id": "01"
             },
             "02": {
-                "title": "Selfish"
+                "title": "Selfish",
+                "id": "02"
             }
         }
     },
@@ -7874,19 +9326,24 @@ const CHILDS_CODE_MAP = {
         "id": "c528",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7897,10 +9354,12 @@ const CHILDS_CODE_MAP = {
         "id": "c529",
         "variants": {
             "01": {
-                "title": "Northern"
+                "title": "Northern",
+                "id": "01"
             },
             "02": {
-                "title": "Wise"
+                "title": "Wise",
+                "id": "02"
             }
         }
     },
@@ -7911,22 +9370,28 @@ const CHILDS_CODE_MAP = {
         "id": "c530",
         "variants": {
             "10": {
-                "title": "Bikini"
+                "title": "Bikini",
+                "id": "10"
             },
             "87": {
-                "title": "Bikini"
+                "title": "Bikini",
+                "id": "87"
             },
             "88": {
-                "title": "Wild"
+                "title": "Wild",
+                "id": "88"
             },
             "89": {
-                "title": "Lord"
+                "title": "Lord",
+                "id": "89"
             },
             "01": {
-                "title": "Lord"
+                "title": "Lord",
+                "id": "01"
             },
             "02": {
-                "title": "Wild"
+                "title": "Wild",
+                "id": "02"
             }
         }
     },
@@ -7937,13 +9402,16 @@ const CHILDS_CODE_MAP = {
         "id": "c532",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7954,10 +9422,12 @@ const CHILDS_CODE_MAP = {
         "id": "c533",
         "variants": {
             "01": {
-                "title": "Well-rounded"
+                "title": "Well-rounded",
+                "id": "01"
             },
             "02": {
-                "title": "Dreamy"
+                "title": "Dreamy",
+                "id": "02"
             }
         }
     },
@@ -7968,13 +9438,16 @@ const CHILDS_CODE_MAP = {
         "id": "c534",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -7985,13 +9458,16 @@ const CHILDS_CODE_MAP = {
         "id": "c537",
         "variants": {
             "10": {
-                "title": "Sorrowful"
+                "title": "Sorrowful",
+                "id": "10"
             },
             "01": {
-                "title": "Captain"
+                "title": "Captain",
+                "id": "01"
             },
             "02": {
-                "title": "Freed"
+                "title": "Freed",
+                "id": "02"
             }
         }
     },
@@ -8002,10 +9478,12 @@ const CHILDS_CODE_MAP = {
         "id": "c538",
         "variants": {
             "01": {
-                "title": "Sagacious"
+                "title": "Sagacious",
+                "id": "01"
             },
             "02": {
-                "title": "Salacious"
+                "title": "Salacious",
+                "id": "02"
             }
         }
     },
@@ -8016,22 +9494,28 @@ const CHILDS_CODE_MAP = {
         "id": "c539",
         "variants": {
             "10": {
-                "title": "Executioner"
+                "title": "Executioner",
+                "id": "10"
             },
             "87": {
-                "title": "Executioner"
+                "title": "Executioner",
+                "id": "87"
             },
             "88": {
-                "title": "Destructive"
+                "title": "Destructive",
+                "id": "88"
             },
             "89": {
-                "title": "Chaotic"
+                "title": "Chaotic",
+                "id": "89"
             },
             "01": {
-                "title": "Chaotic"
+                "title": "Chaotic",
+                "id": "01"
             },
             "02": {
-                "title": "Destructive"
+                "title": "Destructive",
+                "id": "02"
             }
         }
     },
@@ -8042,10 +9526,12 @@ const CHILDS_CODE_MAP = {
         "id": "c540",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8056,13 +9542,16 @@ const CHILDS_CODE_MAP = {
         "id": "c541",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8073,24 +9562,28 @@ const CHILDS_CODE_MAP = {
         "id": "c543",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c544": {
-        "name": "Virupa",
-        "star": "",
-        "attribute": "",
+        "name": "青钢刀",
+        "star": "5",
+        "attribute": "W",
         "id": "c544",
         "variants": {
             "01": {
-                "title": ""
+                "title": "初始",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "满好感",
+                "id": "02"
             }
         }
     },
@@ -8101,10 +9594,12 @@ const CHILDS_CODE_MAP = {
         "id": "c545",
         "variants": {
             "01": {
-                "title": "Watcher"
+                "title": "Watcher",
+                "id": "01"
             },
             "02": {
-                "title": "Messenger"
+                "title": "Messenger",
+                "id": "02"
             }
         }
     },
@@ -8115,10 +9610,12 @@ const CHILDS_CODE_MAP = {
         "id": "c547",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8129,10 +9626,12 @@ const CHILDS_CODE_MAP = {
         "id": "c548",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8143,27 +9642,32 @@ const CHILDS_CODE_MAP = {
         "id": "c549",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c550": {
-        "name": "Scrouge",
-        "star": "",
-        "attribute": "",
+        "name": "斯克鲁奇",
+        "star": "5",
+        "attribute": "G",
         "id": "c550",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Blessed"
+                "title": "Blessed",
+                "id": "01"
             },
             "02": {
-                "title": "Fiesta"
+                "title": "Fiesta",
+                "id": "02"
             }
         }
     },
@@ -8174,10 +9678,12 @@ const CHILDS_CODE_MAP = {
         "id": "c552",
         "variants": {
             "01": {
-                "title": "Black"
+                "title": "Black",
+                "id": "01"
             },
             "02": {
-                "title": "White"
+                "title": "White",
+                "id": "02"
             }
         }
     },
@@ -8188,22 +9694,28 @@ const CHILDS_CODE_MAP = {
         "id": "c557",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "87": {
-                "title": ""
+                "title": "",
+                "id": "87"
             },
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8214,13 +9726,16 @@ const CHILDS_CODE_MAP = {
         "id": "c558",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8231,24 +9746,28 @@ const CHILDS_CODE_MAP = {
         "id": "c560",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c561": {
-        "name": "Morgan",
-        "star": "",
-        "attribute": "",
+        "name": "摩根",
+        "star": "5",
+        "attribute": "L",
         "id": "c561",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8259,27 +9778,32 @@ const CHILDS_CODE_MAP = {
         "id": "c562",
         "variants": {
             "88": {
-                "title": ""
+                "title": "",
+                "id": "88"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c563": {
-        "name": "Mint",
-        "star": "",
-        "attribute": "",
+        "name": "薄荷",
+        "star": "5",
+        "attribute": "G",
         "id": "c563",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8290,30 +9814,36 @@ const CHILDS_CODE_MAP = {
         "id": "c564",
         "variants": {
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c565": {
-        "name": "Freyja",
-        "star": "",
-        "attribute": "",
+        "name": "芙蕾雅",
+        "star": "5",
+        "attribute": "W",
         "id": "c565",
         "variants": {
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             },
             "01": {
-                "title": ""
+                "title": "初始",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "满好感",
+                "id": "02"
             }
         }
     },
@@ -8324,24 +9854,28 @@ const CHILDS_CODE_MAP = {
         "id": "c566",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
     "c567": {
-        "name": "Io",
-        "star": "",
-        "attribute": "",
+        "name": "火蝴蝶",
+        "star": "5",
+        "attribute": "H",
         "id": "c567",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8352,10 +9886,12 @@ const CHILDS_CODE_MAP = {
         "id": "c568",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8366,13 +9902,16 @@ const CHILDS_CODE_MAP = {
         "id": "c569",
         "variants": {
             "10": {
-                "title": ""
+                "title": "",
+                "id": "10"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8383,7 +9922,8 @@ const CHILDS_CODE_MAP = {
         "id": "c570",
         "variants": {
             "00": {
-                "title": ""
+                "title": "",
+                "id": "00"
             }
         }
     },
@@ -8394,10 +9934,12 @@ const CHILDS_CODE_MAP = {
         "id": "c573",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8408,7 +9950,8 @@ const CHILDS_CODE_MAP = {
         "id": "c574",
         "variants": {
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8419,10 +9962,12 @@ const CHILDS_CODE_MAP = {
         "id": "c575",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": ""
+                "title": "",
+                "id": "02"
             }
         }
     },
@@ -8433,10 +9978,12 @@ const CHILDS_CODE_MAP = {
         "id": "c576",
         "variants": {
             "01": {
-                "title": "Ninja"
+                "title": "Ninja",
+                "id": "01"
             },
             "02": {
-                "title": "Great Leader"
+                "title": "Great Leader",
+                "id": "02"
             }
         }
     },
@@ -8447,11 +9994,15 @@ const CHILDS_CODE_MAP = {
         "id": "c577",
         "variants": {
             "01": {
-                "title": "Darkness"
+                "title": "Darkness",
+                "id": "01"
             },
             "02": {
-                "title": "Ghostly"
+                "title": "Ghostly",
+                "id": "02"
             }
         }
     }
 }
+
+// module.exports = CHILDS_CODE_MAP
