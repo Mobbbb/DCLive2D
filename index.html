@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 		<title>Live2D</title>
 		<link rel="stylesheet" href="./src/style/index.css">
 		<link rel="stylesheet" href="./src/libs/element-plus@2.2.12.css">
 
 		<script type="text/javascript" src='./src/data/childs.js'></script>
+		<script type="text/javascript" src='./src/data/hotSprings.js'></script>
 		<script type="text/javascript" src='./src/config/index.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
 		<script type="text/javascript" src="./src/libs/element-plus@2.2.12.js"></script>
 	</head>
 	<body>
 		<div id="app">
+			<el-tabs v-model="activeStar">
+				<el-tab-pane label="⭐⭐⭐⭐⭐" name="5"></el-tab-pane>
+				<el-tab-pane label="⭐⭐⭐⭐" name="4"></el-tab-pane>
+				<el-tab-pane label="⭐⭐⭐" name="3"></el-tab-pane>
+				<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
+			</el-tabs>
 			<el-tabs v-model="activeTab">
 				<el-tab-pane label="光属性" name="L"></el-tab-pane>
 				<el-tab-pane label="暗属性" name="D"></el-tab-pane>
-				<el-tab-pane label="火属性" name="H"></el-tab-pane>
+				<el-tab-pane label="火属性" name="F"></el-tab-pane>
 				<el-tab-pane label="水属性" name="W"></el-tab-pane>
 				<el-tab-pane label="木属性" name="G"></el-tab-pane>
 				<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
@@ -26,15 +36,30 @@
 					<span>{{item.name}}</span>
 				</div>
 			</div>
-			<el-drawer v-model="showDrawer" :with-header="false" size="90%">
-				<el-select v-model="selectedVariantId" @change="changeVariants" filterable style="width: 150px;">
+			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
+				<el-select v-model="selectedVariantId" @change="changeVariants" style="width: 200px; margin: 16px 0 0 24px;">
 					<el-option v-for="item in selectedChildConfig.variants"
 						:key="item.id"
 						:value="item.id"
 						:label="CODE_MAP[item.id] || item.title || 'No-Name'">
 					</el-option>
+					<el-option value="s" label="温泉" v-if="HOT_SPRING_MAP[`s${selectedChildId}`]"></el-option>
 				</el-select>
 				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no"></iframe>
+				<div v-if="IS_DEBUG">
+					名称：<el-input v-model="editInput.name"></el-input><br /><br />
+					星级：<br />
+					<el-button @click="editInput.star = '5'" :type="editInput.star === '5' ? 'success' : ''">⭐⭐⭐⭐⭐</el-button>
+					<el-button @click="editInput.star = '4'" :type="editInput.star === '4' ? 'success' : ''">⭐⭐⭐⭐</el-button>
+					<el-button @click="editInput.star = '3'" :type="editInput.star === '3' ? 'success' : ''">⭐⭐⭐</el-button><br /><br />
+					属性：<br />
+					<el-button @click="editInput.attribute = 'L'" :type="editInput.attribute === 'L' ? 'success' : ''">光</el-button>
+					<el-button @click="editInput.attribute = 'D'" :type="editInput.attribute === 'D' ? 'success' : ''">暗</el-button>
+					<el-button @click="editInput.attribute = 'F'" :type="editInput.attribute === 'F' ? 'success' : ''">火</el-button>
+					<el-button @click="editInput.attribute = 'W'" :type="editInput.attribute === 'W' ? 'success' : ''">水</el-button>
+					<el-button @click="editInput.attribute = 'G'" :type="editInput.attribute === 'G' ? 'success' : ''">木</el-button><br /><br />
+					<el-button @click="saveInputChange">保存</el-button>
+				</div>
 			</el-drawer>
 			<!-- <el-select v-model="selectedChildId" @change="changeChilds" filterable style="width: 120px;">
 				<el-option v-for="item in CHILDS_CODE_MAP"

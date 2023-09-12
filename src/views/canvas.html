@@ -14,7 +14,7 @@
 	</body>
 </html>
 <script>
-	var searchParams = (new URL(window.location.href)).searchParams
+	let searchParams = (new URL(window.location.href)).searchParams
 	let code = searchParams.get('code') || ''
 	let size = searchParams.get('size') || 1000
 	let scale = searchParams.get('scale') || 1

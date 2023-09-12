@@ -79,5 +79,5 @@ const CARTA_CODE_MAP = {
             }
         },
         "id": "ig013"
-    },
+    }
 }
