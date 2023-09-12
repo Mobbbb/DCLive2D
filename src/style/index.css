@@ -30,6 +30,13 @@ body {
 }
 .el-drawer__body {
     background-color: #f5f5f5!important;
+    padding: 0!important;
+}
+.el-tabs__nav-wrap .el-tabs__nav {
+    margin-left: 12px;
+}
+.el-tabs__nav-wrap.is-scrollable .el-tabs__nav {
+    margin-left: 0;
 }
 
 #app {
@@ -50,11 +57,14 @@ iframe {
 canvas {
     max-width: 100%;
     max-height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .avatar-wrap {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 12px;
 }
 .avatar-item-wrap {
     display: flex;

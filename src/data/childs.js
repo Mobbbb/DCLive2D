@@ -164,9 +164,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c004": {
-        "name": "Cheoyong",
-        "star": "",
-        "attribute": "",
+        "name": "处容",
+        "star": "3",
+        "attribute": "L",
         "id": "c004",
         "variants": {
             "00": {
@@ -184,9 +184,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c005": {
-        "name": "Mars",
-        "star": "",
-        "attribute": "",
+        "name": "马尔斯",
+        "star": "5",
+        "attribute": "W",
         "id": "c005",
         "variants": {
             "00": {
@@ -204,9 +204,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c007": {
-        "name": "Phoenix",
-        "star": "",
-        "attribute": "",
+        "name": "普伊尼斯",
+        "star": "3",
+        "attribute": "F",
         "id": "c007",
         "variants": {
             "00": {
@@ -224,9 +224,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c008": {
-        "name": "Frigga",
-        "star": "",
-        "attribute": "",
+        "name": "普利卡",
+        "star": "4",
+        "attribute": "L",
         "id": "c008",
         "variants": {
             "00": {
@@ -244,9 +244,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c009": {
-        "name": "Hector",
-        "star": "",
-        "attribute": "",
+        "name": "辛图勒",
+        "star": "4",
+        "attribute": "F",
         "id": "c009",
         "variants": {
             "00": {
@@ -265,7 +265,7 @@ const CHILDS_CODE_MAP = {
     },
     "c010": {
         "name": "Demeter",
-        "star": "",
+        "star": "3",
         "attribute": "",
         "id": "c010",
         "variants": {
@@ -285,7 +285,7 @@ const CHILDS_CODE_MAP = {
     },
     "c011": {
         "name": "Deino",
-        "star": "",
+        "star": "3",
         "attribute": "",
         "id": "c011",
         "variants": {
@@ -305,7 +305,7 @@ const CHILDS_CODE_MAP = {
     },
     "c012": {
         "name": "Agamemnon",
-        "star": "",
+        "star": "4",
         "attribute": "",
         "id": "c012",
         "variants": {
@@ -325,7 +325,7 @@ const CHILDS_CODE_MAP = {
     },
     "c013": {
         "name": "Artemis",
-        "star": "",
+        "star": "4",
         "attribute": "",
         "id": "c013",
         "variants": {
@@ -345,8 +345,8 @@ const CHILDS_CODE_MAP = {
     },
     "c014": {
         "name": "Astrea",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c014",
         "variants": {
             "00": {
@@ -377,7 +377,7 @@ const CHILDS_CODE_MAP = {
     },
     "c017": {
         "name": "Cu Sith",
-        "star": "",
+        "star": "3",
         "attribute": "",
         "id": "c017",
         "variants": {
@@ -397,7 +397,7 @@ const CHILDS_CODE_MAP = {
     },
     "c018": {
         "name": "Korra",
-        "star": "",
+        "star": "3",
         "attribute": "",
         "id": "c018",
         "variants": {
@@ -417,7 +417,7 @@ const CHILDS_CODE_MAP = {
     },
     "c019": {
         "name": "Eris",
-        "star": "",
+        "star": "3",
         "attribute": "",
         "id": "c019",
         "variants": {
@@ -437,7 +437,7 @@ const CHILDS_CODE_MAP = {
     },
     "c020": {
         "name": "Fortuna",
-        "star": "",
+        "star": "4",
         "attribute": "",
         "id": "c020",
         "variants": {
@@ -456,9 +456,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c022": {
-        "name": "Mayahuel",
-        "star": "",
-        "attribute": "",
+        "name": "玛雅维尔",
+        "star": "4",
+        "attribute": "W",
         "id": "c022",
         "variants": {
             "10": {
@@ -557,8 +557,8 @@ const CHILDS_CODE_MAP = {
     },
     "c028": {
         "name": "Leda",
-        "star": "",
-        "attribute": "",
+        "star": "4",
+        "attribute": "L",
         "id": "c028",
         "variants": {
             "10": {
@@ -792,9 +792,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c039": {
-        "name": "Morrigan",
-        "star": "",
-        "attribute": "",
+        "name": "莫里尤",
+        "star": "4",
+        "attribute": "D",
         "id": "c039",
         "variants": {
             "00": {
@@ -1256,9 +1256,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c062": {
-        "name": "Europa",
-        "star": "",
-        "attribute": "",
+        "name": "欧若巴",
+        "star": "4",
+        "attribute": "G",
         "id": "c062",
         "variants": {
             "00": {
@@ -1491,26 +1491,6 @@ const CHILDS_CODE_MAP = {
             },
             "02": {
                 "title": "Passionate",
-                "id": "02"
-            }
-        }
-    },
-    "c075": {
-        "name": "Tanha",
-        "star": "",
-        "attribute": "",
-        "id": "c075",
-        "variants": {
-            "00": {
-                "title": "Human",
-                "id": "00"
-            },
-            "01": {
-                "title": "Odorous",
-                "id": "01"
-            },
-            "02": {
-                "title": "Pleasured",
                 "id": "02"
             }
         }
@@ -1796,9 +1776,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c109": {
-        "name": "Arethusa",
-        "star": "",
-        "attribute": "",
+        "name": "阿瑞图萨",
+        "star": "3",
+        "attribute": "G",
         "id": "c109",
         "variants": {
             "01": {
@@ -1855,18 +1835,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c113": {
-    //     "name": "Kuma",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c113",
-    //     "variants": {
-    //         "00": {
-    //             "title": "Human",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c115": {
         "name": "Sonnet",
         "star": "",
@@ -3467,18 +3435,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c215": {
-    //     "name": "Surtr",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c215",
-    //     "variants": {
-    //         "00": {
-    //             "title": "Human",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c216": {
         "name": "Werewolf",
         "star": "",
@@ -3883,26 +3839,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c236": {
-    //     "name": "Djinnia",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c236",
-    //     "variants": {
-    //         "00": {
-    //             "title": "Human",
-    //             "id": "00"
-    //         },
-    //         "01": {
-    //             "title": "",
-    //             "id": "01"
-    //         },
-    //         "02": {
-    //             "title": "",
-    //             "id": "02"
-    //         }
-    //     }
-    // },
     "c237": {
         "name": "Typhon",
         "star": "",
@@ -3967,22 +3903,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c240": {
-    //     "name": "???",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c240",
-    //     "variants": {
-    //         "01": {
-    //             "title": "",
-    //             "id": "01"
-    //         },
-    //         "02": {
-    //             "title": "",
-    //             "id": "02"
-    //         }
-    //     }
-    // },
     "c241": {
         "name": "Orcus",
         "star": "",
@@ -4289,8 +4209,8 @@ const CHILDS_CODE_MAP = {
     },
     "c261": {
         "name": "Sarasu",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c261",
         "variants": {
             "01": {
@@ -4305,8 +4225,8 @@ const CHILDS_CODE_MAP = {
     },
     "c262": {
         "name": "Daphnis",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c262",
         "variants": {
             "00": {
@@ -4761,8 +4681,8 @@ const CHILDS_CODE_MAP = {
     },
     "c290": {
         "name": "Brigid",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c290",
         "variants": {
             "00": {
@@ -4781,8 +4701,8 @@ const CHILDS_CODE_MAP = {
     },
     "c292": {
         "name": "Luin",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c292",
         "variants": {
             "00": {
@@ -4869,8 +4789,8 @@ const CHILDS_CODE_MAP = {
     },
     "c297": {
         "name": "Red Queen",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c297",
         "variants": {
             "00": {
@@ -4929,8 +4849,8 @@ const CHILDS_CODE_MAP = {
     },
     "c301": {
         "name": "Jacheongbi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c301",
         "variants": {
             "01": {
@@ -4977,8 +4897,8 @@ const CHILDS_CODE_MAP = {
     },
     "c305": {
         "name": "Rita",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c305",
         "variants": {
             "10": {
@@ -5045,8 +4965,8 @@ const CHILDS_CODE_MAP = {
     },
     "c311": {
         "name": "Khepri",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c311",
         "variants": {
             "10": {
@@ -5169,8 +5089,8 @@ const CHILDS_CODE_MAP = {
     },
     "c318": {
         "name": "Bari",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c318",
         "variants": {
             "10": {
@@ -5293,8 +5213,8 @@ const CHILDS_CODE_MAP = {
     },
     "c324": {
         "name": "Mona",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c324",
         "variants": {
             "21": {
@@ -5405,8 +5325,8 @@ const CHILDS_CODE_MAP = {
     },
     "c332": {
         "name": "Ganesha",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c332",
         "variants": {
             "01": {
@@ -5521,8 +5441,8 @@ const CHILDS_CODE_MAP = {
     },
     "c338": {
         "name": "Pomona",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c338",
         "variants": {
             "01": {
@@ -5577,8 +5497,8 @@ const CHILDS_CODE_MAP = {
     },
     "c343": {
         "name": "Tiamat",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c343",
         "variants": {
             "01": {
@@ -5629,8 +5549,8 @@ const CHILDS_CODE_MAP = {
     },
     "c345": {
         "name": "Anemone",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c345",
         "variants": {
             "10": {
@@ -5779,18 +5699,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c352": {
-    //     "name": "Maestro",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c352",
-    //     "variants": {
-    //         "00": {
-    //             "title": "Producer",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c353": {
         "name": "Charlotte",
         "star": "",
@@ -5837,8 +5745,8 @@ const CHILDS_CODE_MAP = {
     },
     "c355": {
         "name": "Chang'e",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c355",
         "variants": {
             "01": {
@@ -6013,8 +5921,8 @@ const CHILDS_CODE_MAP = {
     },
     "c365": {
         "name": "Lisa",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c365",
         "variants": {
             "01": {
@@ -6067,22 +5975,10 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c369": {
-    //     "name": "Old Lady",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c369",
-    //     "variants": {
-    //         "00": {
-    //             "title": "",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c370": {
         "name": "Mona",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c370",
         "variants": {
             "10": {
@@ -6105,8 +6001,8 @@ const CHILDS_CODE_MAP = {
     },
     "c371": {
         "name": "Lisa",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c371",
         "variants": {
             "10": {
@@ -6125,8 +6021,8 @@ const CHILDS_CODE_MAP = {
     },
     "c372": {
         "name": "Davi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c372",
         "variants": {
             "10": {
@@ -6161,8 +6057,8 @@ const CHILDS_CODE_MAP = {
     },
     "c374": {
         "name": "Hildr",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c374",
         "variants": {
             "01": {
@@ -6189,8 +6085,8 @@ const CHILDS_CODE_MAP = {
     },
     "c376": {
         "name": "Ganesha",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c376",
         "variants": {
             "01": {
@@ -6269,8 +6165,8 @@ const CHILDS_CODE_MAP = {
     },
     "c381": {
         "name": "Sytry",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c381",
         "variants": {
             "10": {
@@ -6301,8 +6197,8 @@ const CHILDS_CODE_MAP = {
     },
     "c382": {
         "name": "Neamhain",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c382",
         "variants": {
             "10": {
@@ -6389,8 +6285,8 @@ const CHILDS_CODE_MAP = {
     },
     "c386": {
         "name": "Kasumi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c386",
         "variants": {
             "10": {
@@ -6525,8 +6421,8 @@ const CHILDS_CODE_MAP = {
     },
     "c392": {
         "name": "Davi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c392",
         "variants": {
             "10": {
@@ -6549,8 +6445,8 @@ const CHILDS_CODE_MAP = {
     },
     "c393": {
         "name": "Mona",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c393",
         "variants": {
             "10": {
@@ -6617,8 +6513,8 @@ const CHILDS_CODE_MAP = {
     },
     "c397": {
         "name": "Leda",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c397",
         "variants": {
             "01": {
@@ -6633,8 +6529,8 @@ const CHILDS_CODE_MAP = {
     },
     "c398": {
         "name": "Jacheongbi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c398",
         "variants": {
             "01": {
@@ -6785,8 +6681,8 @@ const CHILDS_CODE_MAP = {
     },
     "c407": {
         "name": "Raccoon",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c407",
         "variants": {
             "01": {
@@ -6891,22 +6787,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c413": {
-    //     "name": "Abel",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c413",
-    //     "variants": {
-    //         "21": {
-    //             "title": "Impassioned",
-    //             "id": "21"
-    //         },
-    //         "00": {
-    //             "title": "Human",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c414": {
         "name": "Billy",
         "star": "",
@@ -6933,8 +6813,8 @@ const CHILDS_CODE_MAP = {
     },
     "c415": {
         "name": "Annie",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c415",
         "variants": {
             "00": {
@@ -6953,8 +6833,8 @@ const CHILDS_CODE_MAP = {
     },
     "c416": {
         "name": "Keino",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c416",
         "variants": {
             "10": {
@@ -6981,8 +6861,8 @@ const CHILDS_CODE_MAP = {
     },
     "c417": {
         "name": "Tamamo",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c417",
         "variants": {
             "10": {
@@ -7009,8 +6889,8 @@ const CHILDS_CODE_MAP = {
     },
     "c418": {
         "name": "Mafdet",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c418",
         "variants": {
             "01": {
@@ -7297,8 +7177,8 @@ const CHILDS_CODE_MAP = {
     },
     "c432": {
         "name": "Artemis",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c432",
         "variants": {
             "10": {
@@ -7317,8 +7197,8 @@ const CHILDS_CODE_MAP = {
     },
     "c433": {
         "name": "Pakhet",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c433",
         "variants": {
             "10": {
@@ -7529,8 +7409,8 @@ const CHILDS_CODE_MAP = {
     },
     "c443": {
         "name": "Raffles",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c443",
         "variants": {
             "01": {
@@ -7713,8 +7593,8 @@ const CHILDS_CODE_MAP = {
     },
     "c451": {
         "name": "Ayane",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c451",
         "variants": {
             "10": {
@@ -7977,8 +7857,8 @@ const CHILDS_CODE_MAP = {
     },
     "c464": {
         "name": "Arhat",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c464",
         "variants": {
             "10": {
@@ -8001,8 +7881,8 @@ const CHILDS_CODE_MAP = {
     },
     "c465": {
         "name": "Sunah",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c465",
         "variants": {
             "88": {
@@ -8021,8 +7901,8 @@ const CHILDS_CODE_MAP = {
     },
     "c466": {
         "name": "Nezha",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c466",
         "variants": {
             "01": {
@@ -8037,8 +7917,8 @@ const CHILDS_CODE_MAP = {
     },
     "c467": {
         "name": "Ziva",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c467",
         "variants": {
             "01": {
@@ -8137,8 +8017,8 @@ const CHILDS_CODE_MAP = {
     },
     "c472": {
         "name": "Venus♥",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c472",
         "variants": {
             "01": {
@@ -8153,8 +8033,8 @@ const CHILDS_CODE_MAP = {
     },
     "c473": {
         "name": "Titania",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c473",
         "variants": {
             "01": {
@@ -8213,8 +8093,8 @@ const CHILDS_CODE_MAP = {
     },
     "c476": {
         "name": "Nephthys",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c476",
         "variants": {
             "88": {
@@ -8601,8 +8481,8 @@ const CHILDS_CODE_MAP = {
     },
     "c495": {
         "name": "Catsi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c495",
         "variants": {
             "00": {
@@ -8621,8 +8501,8 @@ const CHILDS_CODE_MAP = {
     },
     "c496": {
         "name": "Lassi",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c496",
         "variants": {
             "00": {
@@ -8781,8 +8661,8 @@ const CHILDS_CODE_MAP = {
     },
     "c503": {
         "name": "Bari",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "L",
         "id": "c503",
         "variants": {
             "10": {
@@ -8805,8 +8685,8 @@ const CHILDS_CODE_MAP = {
     },
     "c504": {
         "name": "Marduk",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c504",
         "variants": {
             "00": {
@@ -8849,8 +8729,8 @@ const CHILDS_CODE_MAP = {
     },
     "c506": {
         "name": "Notus",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c506",
         "variants": {
             "00": {
@@ -8965,8 +8845,8 @@ const CHILDS_CODE_MAP = {
     },
     "c511": {
         "name": "Philotes",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "D",
         "id": "c511",
         "variants": {
             "01": {
@@ -8981,8 +8861,8 @@ const CHILDS_CODE_MAP = {
     },
     "c512": {
         "name": "Turan",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c512",
         "variants": {
             "01": {
@@ -9043,18 +8923,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c515": {
-    //     "name": "Archimago",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c515",
-    //     "variants": {
-    //         "00": {
-    //             "title": "Human",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c516": {
         "name": "Erysichthon",
         "star": "",
@@ -9241,8 +9109,8 @@ const CHILDS_CODE_MAP = {
     },
     "c525": {
         "name": "Grilla",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c525",
         "variants": {
             "10": {
@@ -9293,8 +9161,8 @@ const CHILDS_CODE_MAP = {
     },
     "c527": {
         "name": "Reynard",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "F",
         "id": "c527",
         "variants": {
             "10": {
@@ -9365,8 +9233,8 @@ const CHILDS_CODE_MAP = {
     },
     "c530": {
         "name": "Kanaloa",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "W",
         "id": "c530",
         "variants": {
             "10": {
@@ -9915,18 +9783,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c570": {
-    //     "name": "???-2",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c570",
-    //     "variants": {
-    //         "00": {
-    //             "title": "",
-    //             "id": "00"
-    //         }
-    //     }
-    // },
     "c573": {
         "name": "雅娜",
         "star": "5",
@@ -9943,18 +9799,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    // "c574": {
-    //     "name": "Circe",
-    //     "star": "",
-    //     "attribute": "",
-    //     "id": "c574",
-    //     "variants": {
-    //         "02": {
-    //             "title": "",
-    //             "id": "02"
-    //         }
-    //     }
-    // },
     "c575": {
         "name": "苏内特",
         "star": "5",
@@ -10004,5 +9848,3 @@ const CHILDS_CODE_MAP = {
         }
     }
 }
-
-// module.exports = CHILDS_CODE_MAP

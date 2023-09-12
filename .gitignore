@@ -1,1 +1,3 @@
 log.txt
+src/script/node_modules
+src/script/package-lock.json
