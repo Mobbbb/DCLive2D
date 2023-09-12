@@ -6,13 +6,37 @@
 		<link rel="stylesheet" href="./src/libs/element-plus@2.2.12.css">
 
 		<script type="text/javascript" src='./src/data/childs.js'></script>
+		<script type="text/javascript" src='./src/config/index.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
 		<script type="text/javascript" src="./src/libs/element-plus@2.2.12.js"></script>
 	</head>
 	<body>
 		<div id="app">
-			<img v-for="item in CHILDS_CODE_MAP" :src="`./src/static/${item.id}_01/icon.png`">
-			<el-select v-model="selectedChildId" @change="changeChilds" filterable style="width: 120px;">
+			<el-tabs v-model="activeTab">
+				<el-tab-pane label="光属性" name="L"></el-tab-pane>
+				<el-tab-pane label="暗属性" name="D"></el-tab-pane>
+				<el-tab-pane label="火属性" name="H"></el-tab-pane>
+				<el-tab-pane label="水属性" name="W"></el-tab-pane>
+				<el-tab-pane label="木属性" name="G"></el-tab-pane>
+				<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
+			</el-tabs>
+			<div class="avatar-wrap">
+				<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectChilds(item)">
+					<img :src="`./src/static/${item.id}_01/icon.png`">
+					<span>{{item.name}}</span>
+				</div>
+			</div>
+			<el-drawer v-model="showDrawer" :with-header="false" size="90%">
+				<el-select v-model="selectedVariantId" @change="changeVariants" filterable style="width: 150px;">
+					<el-option v-for="item in selectedChildConfig.variants"
+						:key="item.id"
+						:value="item.id"
+						:label="CODE_MAP[item.id] || item.title || 'No-Name'">
+					</el-option>
+				</el-select>
+				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no"></iframe>
+			</el-drawer>
+			<!-- <el-select v-model="selectedChildId" @change="changeChilds" filterable style="width: 120px;">
 				<el-option v-for="item in CHILDS_CODE_MAP"
 					:value="item.id"
 					:label="item.name">
@@ -23,8 +47,7 @@
 					:value="item.id"
 					:label="item.title || 'No-Name'">
 				</el-option>
-			</el-select>
-			<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no"></iframe>
+			</el-select> -->
 		</div>
 	</body>
 </html>

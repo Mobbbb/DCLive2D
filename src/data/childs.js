@@ -9043,18 +9043,18 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c515": {
-        "name": "Archimago",
-        "star": "",
-        "attribute": "",
-        "id": "c515",
-        "variants": {
-            "00": {
-                "title": "Human",
-                "id": "00"
-            }
-        }
-    },
+    // "c515": {
+    //     "name": "Archimago",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c515",
+    //     "variants": {
+    //         "00": {
+    //             "title": "Human",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c516": {
         "name": "Erysichthon",
         "star": "",
@@ -9416,9 +9416,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c533": {
-        "name": "Oneiroi",
-        "star": "",
-        "attribute": "",
+        "name": "梦神",
+        "star": "5",
+        "attribute": "W",
         "id": "c533",
         "variants": {
             "01": {
@@ -9520,9 +9520,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c540": {
-        "name": "Verita",
-        "star": "",
-        "attribute": "",
+        "name": "维利塔",
+        "star": "5",
+        "attribute": "D",
         "id": "c540",
         "variants": {
             "01": {
@@ -9536,9 +9536,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c541": {
-        "name": "Arhat",
-        "star": "",
-        "attribute": "",
+        "name": "阿罗汉",
+        "star": "5",
+        "attribute": "D",
         "id": "c541",
         "variants": {
             "00": {
@@ -9556,9 +9556,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c543": {
-        "name": "Megaera",
-        "star": "",
-        "attribute": "",
+        "name": "梅加拉",
+        "star": "5",
+        "attribute": "G",
         "id": "c543",
         "variants": {
             "01": {
@@ -9588,9 +9588,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c545": {
-        "name": "Ariel",
-        "star": "",
-        "attribute": "",
+        "name": "爱丽儿",
+        "star": "5",
+        "attribute": "W",
         "id": "c545",
         "variants": {
             "01": {
@@ -9604,9 +9604,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c547": {
-        "name": "Demeter",
-        "star": "",
-        "attribute": "",
+        "name": "狄蜜特",
+        "star": "5",
+        "attribute": "D",
         "id": "c547",
         "variants": {
             "01": {
@@ -9620,9 +9620,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c548": {
-        "name": "Judas",
-        "star": "",
-        "attribute": "",
+        "name": "犹大",
+        "star": "5",
+        "attribute": "D",
         "id": "c548",
         "variants": {
             "01": {
@@ -9636,9 +9636,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c549": {
-        "name": "Danu",
-        "star": "",
-        "attribute": "",
+        "name": "妲努",
+        "star": "5",
+        "attribute": "G",
         "id": "c549",
         "variants": {
             "01": {
@@ -9672,9 +9672,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c552": {
-        "name": "Bunny Ophois",
-        "star": "",
-        "attribute": "",
+        "name": "乌波斯",
+        "star": "5",
+        "attribute": "L",
         "id": "c552",
         "variants": {
             "01": {
@@ -9688,9 +9688,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c557": {
-        "name": "Rufus",
-        "star": "",
-        "attribute": "",
+        "name": "鲁弗斯",
+        "star": "5",
+        "attribute": "F",
         "id": "c557",
         "variants": {
             "10": {
@@ -9720,9 +9720,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c558": {
-        "name": "Glinda",
-        "star": "",
-        "attribute": "",
+        "name": "格琳达",
+        "star": "5",
+        "attribute": "W",
         "id": "c558",
         "variants": {
             "10": {
@@ -9740,9 +9740,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c560": {
-        "name": "Neith",
-        "star": "",
-        "attribute": "",
+        "name": "奈德",
+        "star": "5",
+        "attribute": "F",
         "id": "c560",
         "variants": {
             "01": {
@@ -9772,9 +9772,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c562": {
-        "name": "Salmacis",
-        "star": "",
-        "attribute": "",
+        "name": "小圆",
+        "star": "5",
+        "attribute": "F",
         "id": "c562",
         "variants": {
             "88": {
@@ -9808,9 +9808,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c564": {
-        "name": "Dike",
-        "star": "",
-        "attribute": "",
+        "name": "奶光",
+        "star": "5",
+        "attribute": "L",
         "id": "c564",
         "variants": {
             "00": {
@@ -9848,9 +9848,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c566": {
-        "name": "Europa",
-        "star": "",
-        "attribute": "",
+        "name": "欧罗巴",
+        "star": "5",
+        "attribute": "G",
         "id": "c566",
         "variants": {
             "01": {
@@ -9880,9 +9880,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c568": {
-        "name": "Glinda",
-        "star": "",
-        "attribute": "",
+        "name": "黛安娜",
+        "star": "5",
+        "attribute": "F",
         "id": "c568",
         "variants": {
             "01": {
@@ -9896,9 +9896,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c569": {
-        "name": "Hecate",
-        "star": "",
-        "attribute": "",
+        "name": "黑卡蒂",
+        "star": "5",
+        "attribute": "G",
         "id": "c569",
         "variants": {
             "10": {
@@ -9915,22 +9915,22 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c570": {
-        "name": "???-2",
-        "star": "",
-        "attribute": "",
-        "id": "c570",
-        "variants": {
-            "00": {
-                "title": "",
-                "id": "00"
-            }
-        }
-    },
+    // "c570": {
+    //     "name": "???-2",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c570",
+    //     "variants": {
+    //         "00": {
+    //             "title": "",
+    //             "id": "00"
+    //         }
+    //     }
+    // },
     "c573": {
-        "name": "Jana",
-        "star": "",
-        "attribute": "",
+        "name": "雅娜",
+        "star": "5",
+        "attribute": "L",
         "id": "c573",
         "variants": {
             "01": {
@@ -9943,22 +9943,22 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c574": {
-        "name": "Circe",
-        "star": "",
-        "attribute": "",
-        "id": "c574",
-        "variants": {
-            "02": {
-                "title": "",
-                "id": "02"
-            }
-        }
-    },
+    // "c574": {
+    //     "name": "Circe",
+    //     "star": "",
+    //     "attribute": "",
+    //     "id": "c574",
+    //     "variants": {
+    //         "02": {
+    //             "title": "",
+    //             "id": "02"
+    //         }
+    //     }
+    // },
     "c575": {
-        "name": "Sonnet",
-        "star": "",
-        "attribute": "",
+        "name": "苏内特",
+        "star": "5",
+        "attribute": "D",
         "id": "c575",
         "variants": {
             "01": {
@@ -9972,9 +9972,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c576": {
-        "name": "Kelone",
-        "star": "",
-        "attribute": "",
+        "name": "凯龙",
+        "star": "5",
+        "attribute": "W",
         "id": "c576",
         "variants": {
             "01": {
@@ -9988,9 +9988,9 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c577": {
-        "name": "Selene",
-        "star": "",
-        "attribute": "",
+        "name": "瑟琳",
+        "star": "5",
+        "attribute": "G",
         "id": "c577",
         "variants": {
             "01": {
