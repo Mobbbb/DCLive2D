@@ -5,32 +5,26 @@
 		<link rel="stylesheet" href="./src/style/index.css">
 		<link rel="stylesheet" href="./src/libs/element-plus@2.2.12.css">
 
-		<script src='./src/data/childs.js'></script>
-
-		<script src='./src/libs/live2d.min.js'></script>
-		<script src='./src/js/Live2DFramework.js'></script>
-		<script src='./src/js/PlatformManager.js'></script>
-		<script src='./src/js/ModelSettingJson.js'></script>
-		<script src='./src/js/destinychild.2d.js'></script>
-	
+		<script type="text/javascript" src='./src/data/childs.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
 		<script type="text/javascript" src="./src/libs/element-plus@2.2.12.js"></script>
 	</head>
 	<body>
 		<div id="app">
+			<img v-for="item in CHILDS_CODE_MAP" :src="`./src/static/${item.id}_01/icon.png`">
 			<el-select v-model="selectedChildId" @change="changeChilds" filterable style="width: 120px;">
 				<el-option v-for="item in CHILDS_CODE_MAP"
 					:value="item.id"
 					:label="item.name">
 				</el-option>
 			</el-select>
-			<el-select v-model="selectedVariantId" @change="changeVariants" filterable style="width: 120px;">
-				<el-option v-for="(item, key) in selectedChildConfig.variants"
-					:value="key"
+			<el-select v-model="selectedVariantId" @change="changeVariants" filterable style="width: 150px;">
+				<el-option v-for="item in selectedChildConfig.variants"
+					:value="item.id"
 					:label="item.title || 'No-Name'">
 				</el-option>
 			</el-select>
-			<canvas id="canvas" class="maxwidth" width="500px" height="800px" onclick="animation()"></canvas>
+			<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no"></iframe>
 		</div>
 	</body>
 </html>

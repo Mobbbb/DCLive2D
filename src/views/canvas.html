@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Live2D</title>
+		<link rel="stylesheet" href="../style/index.css">
+		<script src='../libs/live2d.min.js'></script>
+		<script src='../js/Live2DFramework.js'></script>
+		<script src='../js/PlatformManager.js'></script>
+		<script src='../js/ModelSettingJson.js'></script>
+		<script src='../js/destinychild.2d.js'></script>
+	</head>
+	<body>
+		<canvas id="canvas" class="maxwidth" width="500px" height="800px" onclick="animation()"></canvas>
+	</body>
+</html>
+<script>
+	var searchParams = (new URL(window.location.href)).searchParams
+	let code = searchParams.get('code') || ''
+	let size = searchParams.get('size') || 1000
+	let scale = searchParams.get('scale') || 1
+
+	if (code) {
+		initModel(code, size, scale)
+	}
+</script>

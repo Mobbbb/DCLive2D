@@ -110,7 +110,6 @@ function init(dir, canvas) {
 			motionClick._$dP = 0
 		})
 	}
-
 	// ------------------------
 	// ?loop every frame
 	// ------------------------

@@ -2,13 +2,14 @@
   "name": "test",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.html",
+  "main": "index",
   "dependencies": {},
   "devDependencies": {
-    "http-server": "0.11.1"
+    "http-server": "14.1.1"
   },
   "scripts": {
-    "start": "http-server"
+    "start": "http-server -o -s",
+    "dev": "http-server -o -c-1"
   },
   "repository": {
     "type": "git",
