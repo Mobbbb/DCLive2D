@@ -7,7 +7,7 @@ const App = Vue.createApp({
                 attribute: '',
             },
             viewSize: 85,
-            iframeSize: 0,
+            iframeStyle: {},
             showDrawer: false,
             footerType: '0',
             activeTab: 'L',
@@ -58,7 +58,10 @@ const App = Vue.createApp({
         const clientHeight = document.body.getBoundingClientRect().height
         const clientWidth = document.body.getBoundingClientRect().width
 
-        this.iframeSize = clientHeight > (clientWidth * this.viewSize / 100) ? (clientWidth * this.viewSize / 100) : clientHeight
+        this.iframeStyle = {
+            width: `${clientWidth * this.viewSize / 100}px`,
+            height: `${clientHeight}px`,
+        }
     },
     methods: {
         selectChilds(item) {
@@ -88,8 +91,6 @@ const App = Vue.createApp({
         },
         updateViews(code) {
             const viewer = document.getElementsByTagName('iframe')[0]
-            viewer.style.width = `${this.iframeSize}px`
-            viewer.style.height = `${this.iframeSize}px`
             let size = 5000
             let scale = 1.2
             viewer.src = `./src/views/canvas.html?code=${code}&size=${size}&scale=${scale}&type=${this.footerType}`

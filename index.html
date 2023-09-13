@@ -30,8 +30,8 @@
 					<el-tab-pane label="光属性" name="L"></el-tab-pane><!--魔方、史莱姆王-->
 					<el-tab-pane label="暗属性" name="D"></el-tab-pane><!--小丑兔-->
 					<el-tab-pane label="火属性" name="F"></el-tab-pane><!--火蝴蝶、索尔、？-->
-					<el-tab-pane label="水属性" name="W"></el-tab-pane><!--基佬龙、？、？-->
 					<el-tab-pane label="木属性" name="G"></el-tab-pane>
+					<el-tab-pane label="水属性" name="W"></el-tab-pane><!--基佬龙、？、？-->
 					<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
 				</el-tabs>
 				<div class="avatar-wrap">
@@ -71,7 +71,7 @@
 					</el-option>
 					<el-option value="s" label="温泉" v-if="HOT_SPRING_MAP[`s${selectedChildId}`]"></el-option>
 				</el-select>
-				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no"></iframe>
+				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no" :style="iframeStyle"></iframe>
 				<div v-if="IS_DEBUG">
 					名称：<el-input v-model="editInput.name"></el-input><br /><br />
 					星级：<br />

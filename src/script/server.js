@@ -46,11 +46,7 @@ app.get('/edit', async function(req, res) {
     })
 
 
-    fs.unlink(`../data/${urlQuery.file}.js`, () => {})
-    
-    setTimeout(() => {
-        fs.appendFile(`../data/${urlQuery.file}.js`, `${replaceText} ${JSON.stringify(data)}`, () => {})
-    }, 100)
+    fs.writeFileSync(`../data/${urlQuery.file}.js`, `${replaceText} ${JSON.stringify(data)}`, () => {})
 
     res.json(1)
 })
