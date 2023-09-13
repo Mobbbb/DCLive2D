@@ -1,81 +1,10 @@
-const CHILDS_CODE_MAP = {
-    "m001": {
-        "name": "Fire Bat",
-        "variants": {
-            "01": {
-                "title": "Obese"
-            },
-            "02": {
-                "title": "Giant"
-            }
-        },
-        "id": "m001"
-    },
-    "m002": {
-        "name": "Ice Bat",
-        "variants": {
-            "01": {
-                "title": "Obese"
-            },
-            "02": {
-                "title": "Giant"
-            }
-        },
-        "id": "m002"
-    },
-    "m003": {
-        "name": "Fire Dragon",
-        "variants": {
-            "01": {
-                "title": "Furious"
-            },
-            "02": {
-                "title": "Enraged"
-            }
-        },
-        "id": "m003"
-    },
-    "m004": {
-        "name": "Ice Dragon",
-        "variants": {
-            "01": {
-                "title": "Cold-Blooded"
-            },
-            "02": {
-                "title": "Subzero"
-            }
-        },
-        "id": "m004"
-    },
-    "m005": {
-        "name": "Nyam",
-        "variants": {
-            "01": {
-                "title": "Yum"
-            },
-            "02": {
-                "title": "Ado"
-            }
-        },
-        "id": "m005"
-    },
-    "m006": {
-        "name": "Nose",
-        "variants": {
-            "01": {
-                "title": "Noisy Long-"
-            },
-            "02": {
-                "title": "Mad Big-"
-            }
-        },
-        "id": "m006"
-    },
+const OTHERS_CODE_MAP = {
     "m007": {
         "name": "Teddy",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Tattered"
@@ -87,10 +16,11 @@ const CHILDS_CODE_MAP = {
         "id": "m007"
     },
     "m008": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Strawberry Gelatin"
+                "title": "Strawberry Gelatin",
+                "id": "01"
             },
             "02": {
                 "title": "Strawberry Jelly"
@@ -99,10 +29,11 @@ const CHILDS_CODE_MAP = {
         "id": "m008"
     },
     "m009": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Soda Pop Gelatin"
+                "title": "Soda Pop Gelatin",
+                "id": "01"
             },
             "02": {
                 "title": "Soda Pop Jelly"
@@ -111,10 +42,11 @@ const CHILDS_CODE_MAP = {
         "id": "m009"
     },
     "m010": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Soda Pop Pudding"
+                "title": "Soda Pop Pudding",
+                "id": "01"
             },
             "02": {
                 "title": "Soda Pop Poison"
@@ -123,10 +55,11 @@ const CHILDS_CODE_MAP = {
         "id": "m010"
     },
     "m011": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Strawberry Pudding"
+                "title": "Strawberry Pudding",
+                "id": "01"
             },
             "02": {
                 "title": "Strawberry Poison"
@@ -141,55 +74,22 @@ const CHILDS_CODE_MAP = {
                 "title": "One-Year"
             },
             "02": {
-                "title": "Multi-Year"
+                "title": "Multi-Year",
+                "id": "02"
             }
         },
         "id": "m012"
-    },
-    "m013": {
-        "name": "Ragdoll",
-        "variants": {
-            "01": {
-                "title": "Carrot"
-            },
-            "02": {
-                "title": "Famished"
-            }
-        },
-        "id": "m013"
-    },
-    "m015": {
-        "name": "Sandfox",
-        "variants": {
-            "01": {
-                "title": "Solar"
-            },
-            "02": {
-                "title": "Fairy"
-            }
-        },
-        "id": "m015"
-    },
-    "m017": {
-        "name": "Root",
-        "variants": {
-            "01": {
-                "title": "Justice"
-            },
-            "02": {
-                "title": "Airtight"
-            }
-        },
-        "id": "m017"
     },
     "m018": {
         "name": "Pom",
         "variants": {
             "01": {
-                "title": "Fate"
+                "title": "Fate",
+                "id": "01"
             },
             "02": {
-                "title": "Destiny"
+                "title": "Destiny",
+                "id": "02"
             }
         },
         "id": "m018"
@@ -198,10 +98,12 @@ const CHILDS_CODE_MAP = {
         "name": "Donkey",
         "variants": {
             "01": {
-                "title": "Idle"
+                "title": "Idle",
+                "id": "01"
             },
             "02": {
-                "title": "Pleasure-Seeking"
+                "title": "Pleasure-Seeking",
+                "id": "02"
             }
         },
         "id": "m021"
@@ -210,73 +112,44 @@ const CHILDS_CODE_MAP = {
         "name": "Puppy",
         "variants": {
             "01": {
-                "title": "Free"
+                "title": "Free",
+                "id": "01"
             },
             "02": {
-                "title": "Obedient"
+                "title": "Obedient",
+                "id": "02"
             }
         },
         "id": "m022"
-    },
-    "m023": {
-        "name": "Lizard",
-        "variants": {
-            "01": {
-                "title": "Cresent"
-            },
-            "02": {
-                "title": "Stone Crescent"
-            }
-        },
-        "id": "m023"
-    },
-    "m025": {
-        "name": "Berry",
-        "variants": {
-            "01": {
-                "title": "Warrior"
-            },
-            "02": {
-                "title": "Berserker"
-            }
-        },
-        "id": "m025"
     },
     "m026": {
         "name": "Chick",
         "variants": {
             "10": {
-                "title": "Summer"
+                "title": "Summer",
+                "id": "10"
             },
             "01": {
-                "title": "Lazy"
+                "title": "Lazy",
+                "id": "01"
             },
             "02": {
-                "title": "Lazy Fused"
+                "title": "Lazy Fused",
+                "id": "02"
             }
         },
         "id": "m026"
     },
-    "m027": {
-        "name": " ",
-        "variants": {
-            "01": {
-                "title": "Mandrake Seeds"
-            },
-            "02": {
-                "title": "Mandrake Plants"
-            }
-        },
-        "id": "m027"
-    },
     "m028": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Ouro Squirrel"
+                "title": "Ouro Squirrel",
+                "id": "01"
             },
             "02": {
-                "title": "Ouro Tiger"
+                "title": "Ouro Tiger",
+                "id": "02"
             }
         },
         "id": "m028"
@@ -285,10 +158,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tooth",
         "variants": {
             "01": {
-                "title": "Glowing"
+                "title": "Glowing",
+                "id": "01"
             },
             "02": {
-                "title": "Flaming"
+                "title": "Flaming",
+                "id": "02"
             }
         },
         "id": "m029"
@@ -297,10 +172,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ball",
         "variants": {
             "01": {
-                "title": "Green"
+                "title": "Green",
+                "id": "01"
             },
             "02": {
-                "title": "E-Green"
+                "title": "E-Green",
+                "id": "02"
             }
         },
         "id": "m030"
@@ -309,88 +186,48 @@ const CHILDS_CODE_MAP = {
         "name": "Tree",
         "variants": {
             "01": {
-                "title": "Dreary"
+                "title": "Dreary",
+                "id": "01"
             },
             "02": {
-                "title": "Old"
+                "title": "Old",
+                "id": "02"
             }
         },
         "id": "m031"
-    },
-    "m035": {
-        "name": "Gremlin",
-        "variants": {
-            "01": {
-                "title": "Barbaric"
-            },
-            "02": {
-                "title": "Chief"
-            }
-        },
-        "id": "m035"
-    },
-    "m036": {
-        "name": "Messenger",
-        "variants": {
-            "01": {
-                "title": "Voice"
-            },
-            "02": {
-                "title": "Deadly Voice"
-            }
-        },
-        "id": "m036"
-    },
-    "m037": {
-        "name": "Chaser",
-        "variants": {
-            "01": {
-                "title": "Dark Night"
-            },
-            "02": {
-                "title": "Nightmare"
-            }
-        },
-        "id": "m037"
     },
     "m038": {
         "name": "Diablo",
         "variants": {
             "10": {
-                "title": "Evil Flower"
+                "title": "Evil Flower",
+                "id": "10"
             },
             "11": {
-                "title": "Pure Flower"
+                "title": "Pure Flower",
+                "id": "11"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "White Wing"
+                "title": "White Wing",
+                "id": "01"
             },
             "02": {
-                "title": "Black Wing"
+                "title": "Black Wing",
+                "id": "02"
             }
         },
         "id": "m038"
-    },
-    "m039": {
-        "name": "Kali Yuga",
-        "variants": {
-            "01": {
-                "title": "Destructive"
-            },
-            "02": {
-                "title": "Extinct"
-            }
-        },
-        "id": "m039"
     },
     "m040": {
         "name": "Chain Killer",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Standard"
@@ -405,13 +242,16 @@ const CHILDS_CODE_MAP = {
         "name": "Bouquet",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Lonely"
+                "title": "Lonely",
+                "id": "01"
             },
             "02": {
-                "title": "Obsessed"
+                "title": "Obsessed",
+                "id": "02"
             }
         },
         "id": "m045"
@@ -420,10 +260,12 @@ const CHILDS_CODE_MAP = {
         "name": "Egg",
         "variants": {
             "01": {
-                "title": "Mysterious"
+                "title": "Mysterious",
+                "id": "01"
             },
             "02": {
-                "title": "Columbus"
+                "title": "Columbus",
+                "id": "02"
             }
         },
         "id": "m047"
@@ -432,10 +274,12 @@ const CHILDS_CODE_MAP = {
         "name": "Bunny",
         "variants": {
             "01": {
-                "title": "Back"
+                "title": "Back",
+                "id": "01"
             },
             "02": {
-                "title": "Front"
+                "title": "Front",
+                "id": "02"
             }
         },
         "id": "m048"
@@ -444,7 +288,8 @@ const CHILDS_CODE_MAP = {
         "name": "Skull",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Old"
@@ -459,7 +304,8 @@ const CHILDS_CODE_MAP = {
         "name": "Guillotine",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Dawn"
@@ -474,10 +320,12 @@ const CHILDS_CODE_MAP = {
         "name": "Hades",
         "variants": {
             "10": {
-                "title": "Dead End"
+                "title": "Dead End",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Seething"
@@ -492,10 +340,12 @@ const CHILDS_CODE_MAP = {
         "name": "Basilisk",
         "variants": {
             "01": {
-                "title": "Desert"
+                "title": "Desert",
+                "id": "01"
             },
             "02": {
-                "title": "Plains"
+                "title": "Plains",
+                "id": "02"
             }
         },
         "id": "m052"
@@ -504,7 +354,8 @@ const CHILDS_CODE_MAP = {
         "name": "Hydra",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Chaotic"
@@ -519,13 +370,16 @@ const CHILDS_CODE_MAP = {
         "name": "Gomorrah",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Judge"
+                "title": "Judge",
+                "id": "01"
             },
             "02": {
-                "title": "Extinct"
+                "title": "Extinct",
+                "id": "02"
             }
         },
         "id": "m054"
@@ -534,13 +388,16 @@ const CHILDS_CODE_MAP = {
         "name": "Abaddon",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Villanious"
+                "title": "Villanious",
+                "id": "01"
             },
             "02": {
-                "title": "Heavy Fire"
+                "title": "Heavy Fire",
+                "id": "02"
             }
         },
         "id": "m056"
@@ -549,16 +406,20 @@ const CHILDS_CODE_MAP = {
         "name": "Olga",
         "variants": {
             "10": {
-                "title": "Azure Night"
+                "title": "Azure Night",
+                "id": "10"
             },
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Blue Shadow"
+                "title": "Blue Shadow",
+                "id": "01"
             },
             "02": {
-                "title": "Black Shadow"
+                "title": "Black Shadow",
+                "id": "02"
             }
         },
         "id": "m057"
@@ -567,13 +428,16 @@ const CHILDS_CODE_MAP = {
         "name": "Bazooka",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Green Helmet"
+                "title": "Green Helmet",
+                "id": "01"
             },
             "02": {
-                "title": "Red Helmet"
+                "title": "Red Helmet",
+                "id": "02"
             }
         },
         "id": "m059"
@@ -582,10 +446,12 @@ const CHILDS_CODE_MAP = {
         "name": "Syringe",
         "variants": {
             "01": {
-                "title": "Strawberry"
+                "title": "Strawberry",
+                "id": "01"
             },
             "02": {
-                "title": "Strawberry"
+                "title": "Strawberry",
+                "id": "02"
             }
         },
         "id": "m061"
@@ -594,10 +460,12 @@ const CHILDS_CODE_MAP = {
         "name": "Syringe",
         "variants": {
             "01": {
-                "title": "Grape"
+                "title": "Grape",
+                "id": "01"
             },
             "02": {
-                "title": "Grape"
+                "title": "Grape",
+                "id": "02"
             }
         },
         "id": "m062"
@@ -606,49 +474,58 @@ const CHILDS_CODE_MAP = {
         "name": "Ampoule",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Poison"
+                "title": "Poison",
+                "id": "01"
             },
             "02": {
-                "title": "New Poison"
+                "title": "New Poison",
+                "id": "02"
             }
         },
         "id": "m063"
     },
     "m064": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Piglet Pukli"
+                "title": "Piglet Pukli",
+                "id": "01"
             },
             "02": {
-                "title": "Piglet Pukli Jin"
+                "title": "Piglet Pukli Jin",
+                "id": "02"
             }
         },
         "id": "m064"
     },
     "m065": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Piglet Kokuri"
+                "title": "Piglet Kokuri",
+                "id": "01"
             },
             "02": {
-                "title": "Piglet Kokuri Jin"
+                "title": "Piglet Kokuri Jin",
+                "id": "02"
             }
         },
         "id": "m065"
     },
     "m066": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Piglet Kukuri"
+                "title": "Piglet Kukuri",
+                "id": "01"
             },
             "02": {
-                "title": "Piglet Kukuri Jin"
+                "title": "Piglet Kukuri Jin",
+                "id": "02"
             }
         },
         "id": "m066"
@@ -657,10 +534,12 @@ const CHILDS_CODE_MAP = {
         "name": "Food",
         "variants": {
             "01": {
-                "title": "Aqua"
+                "title": "Aqua",
+                "id": "01"
             },
             "02": {
-                "title": "B. Aqua"
+                "title": "B. Aqua",
+                "id": "02"
             }
         },
         "id": "m067"
@@ -669,10 +548,12 @@ const CHILDS_CODE_MAP = {
         "name": "Food",
         "variants": {
             "01": {
-                "title": "Dark"
+                "title": "Dark",
+                "id": "01"
             },
             "02": {
-                "title": "B. Dark"
+                "title": "B. Dark",
+                "id": "02"
             }
         },
         "id": "m068"
@@ -681,10 +562,12 @@ const CHILDS_CODE_MAP = {
         "name": "Food",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             },
             "02": {
-                "title": "B. Light"
+                "title": "B. Light",
+                "id": "02"
             }
         },
         "id": "m069"
@@ -693,10 +576,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Chain",
         "variants": {
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         },
         "id": "m070"
@@ -705,10 +590,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Chain",
         "variants": {
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         },
         "id": "m071"
@@ -717,10 +604,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Chain",
         "variants": {
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         },
         "id": "m072"
@@ -729,10 +618,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cube",
         "variants": {
             "01": {
-                "title": "Cure"
+                "title": "Cure",
+                "id": "01"
             },
             "02": {
-                "title": "Cure"
+                "title": "Cure",
+                "id": "02"
             }
         },
         "id": "m073"
@@ -741,10 +632,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cube",
         "variants": {
             "01": {
-                "title": "Poison"
+                "title": "Poison",
+                "id": "01"
             },
             "02": {
-                "title": "Poison"
+                "title": "Poison",
+                "id": "02"
             }
         },
         "id": "m074"
@@ -753,10 +646,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cube",
         "variants": {
             "01": {
-                "title": "Evil"
+                "title": "Evil",
+                "id": "01"
             },
             "02": {
-                "title": "Evil"
+                "title": "Evil",
+                "id": "02"
             }
         },
         "id": "m075"
@@ -765,43 +660,26 @@ const CHILDS_CODE_MAP = {
         "name": "Cube",
         "variants": {
             "01": {
-                "title": "Honey"
+                "title": "Honey",
+                "id": "01"
             },
             "02": {
-                "title": "Honey"
+                "title": "Honey",
+                "id": "02"
             }
         },
         "id": "m076"
-    },
-    "m077": {
-        "name": "Moa",
-        "variants": {
-            "10": {
-                "title": "Gloomy"
-            },
-            "11": {
-                "title": "Purple Gloomy"
-            },
-            "00": {
-                "title": "Human"
-            },
-            "01": {
-                "title": "Cube"
-            },
-            "02": {
-                "title": "Big Cube"
-            }
-        },
-        "id": "m077"
     },
     "m078": {
         "name": "Cocoon",
         "variants": {
             "01": {
-                "title": "Emerald"
+                "title": "Emerald",
+                "id": "01"
             },
             "02": {
-                "title": "Emerald"
+                "title": "Emerald",
+                "id": "02"
             }
         },
         "id": "m078"
@@ -810,10 +688,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cocoon",
         "variants": {
             "01": {
-                "title": "Ruby"
+                "title": "Ruby",
+                "id": "01"
             },
             "02": {
-                "title": "Ruby"
+                "title": "Ruby",
+                "id": "02"
             }
         },
         "id": "m080"
@@ -822,10 +702,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cocoon",
         "variants": {
             "01": {
-                "title": "Citrine"
+                "title": "Citrine",
+                "id": "01"
             },
             "02": {
-                "title": "Citrine"
+                "title": "Citrine",
+                "id": "02"
             }
         },
         "id": "m081"
@@ -834,10 +716,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cocoon",
         "variants": {
             "01": {
-                "title": "Sapphire"
+                "title": "Sapphire",
+                "id": "01"
             },
             "02": {
-                "title": "Sapphire"
+                "title": "Sapphire",
+                "id": "02"
             }
         },
         "id": "m082"
@@ -846,10 +730,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cocoon",
         "variants": {
             "01": {
-                "title": "Amethyst"
+                "title": "Amethyst",
+                "id": "01"
             },
             "02": {
-                "title": "Amethyst"
+                "title": "Amethyst",
+                "id": "02"
             }
         },
         "id": "m083"
@@ -858,10 +744,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cube",
         "variants": {
             "01": {
-                "title": "Pie"
+                "title": "Pie",
+                "id": "01"
             },
             "02": {
-                "title": "Pie"
+                "title": "Pie",
+                "id": "02"
             }
         },
         "id": "m084"
@@ -870,10 +758,12 @@ const CHILDS_CODE_MAP = {
         "name": "Light Chain",
         "variants": {
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         },
         "id": "m086"
@@ -882,34 +772,40 @@ const CHILDS_CODE_MAP = {
         "name": "Dark Chain",
         "variants": {
             "01": {
-                "title": "Bound"
+                "title": "Bound",
+                "id": "01"
             },
             "02": {
-                "title": "Liberated"
+                "title": "Liberated",
+                "id": "02"
             }
         },
         "id": "m087"
     },
     "m089": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Piglet Mukuri"
+                "title": "Piglet Mukuri",
+                "id": "01"
             },
             "02": {
-                "title": "Piglet Mukuri Jin"
+                "title": "Piglet Mukuri Jin",
+                "id": "02"
             }
         },
         "id": "m089"
     },
     "m090": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Piglet Fukli"
+                "title": "Piglet Fukli",
+                "id": "01"
             },
             "02": {
-                "title": "Piglet Fukli Jin"
+                "title": "Piglet Fukli Jin",
+                "id": "02"
             }
         },
         "id": "m090"
@@ -918,10 +814,12 @@ const CHILDS_CODE_MAP = {
         "name": "Syringe",
         "variants": {
             "01": {
-                "title": "Mint"
+                "title": "Mint",
+                "id": "01"
             },
             "02": {
-                "title": "Mint"
+                "title": "Mint",
+                "id": "02"
             }
         },
         "id": "m092"
@@ -930,10 +828,12 @@ const CHILDS_CODE_MAP = {
         "name": "Syringe",
         "variants": {
             "01": {
-                "title": "Apple"
+                "title": "Apple",
+                "id": "01"
             },
             "02": {
-                "title": "Apple"
+                "title": "Apple",
+                "id": "02"
             }
         },
         "id": "m093"
@@ -942,10 +842,12 @@ const CHILDS_CODE_MAP = {
         "name": "Syringe",
         "variants": {
             "01": {
-                "title": "Soda Pop"
+                "title": "Soda Pop",
+                "id": "01"
             },
             "02": {
-                "title": "Soda Pop"
+                "title": "Soda Pop",
+                "id": "02"
             }
         },
         "id": "m095"
@@ -954,10 +856,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ball",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             },
             "02": {
-                "title": "E. Light"
+                "title": "E. Light",
+                "id": "02"
             }
         },
         "id": "m096"
@@ -966,10 +870,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ball",
         "variants": {
             "01": {
-                "title": "Blue"
+                "title": "Blue",
+                "id": "01"
             },
             "02": {
-                "title": "E. Blue"
+                "title": "E. Blue",
+                "id": "02"
             }
         },
         "id": "m097"
@@ -978,10 +884,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ball",
         "variants": {
             "01": {
-                "title": "Purple"
+                "title": "Purple",
+                "id": "01"
             },
             "02": {
-                "title": "E. Dark"
+                "title": "E. Dark",
+                "id": "02"
             }
         },
         "id": "m098"
@@ -990,10 +898,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ball",
         "variants": {
             "01": {
-                "title": "Fire"
+                "title": "Fire",
+                "id": "01"
             },
             "02": {
-                "title": "E. Fire"
+                "title": "E. Fire",
+                "id": "02"
             }
         },
         "id": "m100"
@@ -1002,10 +912,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Bloop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m101"
@@ -1014,10 +926,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Bloop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m102"
@@ -1026,10 +940,12 @@ const CHILDS_CODE_MAP = {
         "name": "Yellow Bloop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m103"
@@ -1038,10 +954,12 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Bloop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m104"
@@ -1050,10 +968,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Bloop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m105"
@@ -1062,10 +982,12 @@ const CHILDS_CODE_MAP = {
         "name": "Food",
         "variants": {
             "01": {
-                "title": "Green"
+                "title": "Green",
+                "id": "01"
             },
             "02": {
-                "title": "B. Green"
+                "title": "B. Green",
+                "id": "02"
             }
         },
         "id": "m107"
@@ -1074,10 +996,12 @@ const CHILDS_CODE_MAP = {
         "name": "Food",
         "variants": {
             "01": {
-                "title": "Fire"
+                "title": "Fire",
+                "id": "01"
             },
             "02": {
-                "title": "B. Fire"
+                "title": "B. Fire",
+                "id": "02"
             }
         },
         "id": "m109"
@@ -1086,10 +1010,12 @@ const CHILDS_CODE_MAP = {
         "name": "Gron",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Gron"
+                "title": "Gron",
+                "id": "02"
             }
         },
         "id": "m110"
@@ -1098,10 +1024,12 @@ const CHILDS_CODE_MAP = {
         "name": "Firon",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Firon"
+                "title": "Firon",
+                "id": "02"
             }
         },
         "id": "m111"
@@ -1110,10 +1038,12 @@ const CHILDS_CODE_MAP = {
         "name": "Bluron",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Bluron"
+                "title": "Bluron",
+                "id": "02"
             }
         },
         "id": "m112"
@@ -1122,10 +1052,12 @@ const CHILDS_CODE_MAP = {
         "name": "Daron",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Daron"
+                "title": "Daron",
+                "id": "02"
             }
         },
         "id": "m113"
@@ -1134,106 +1066,40 @@ const CHILDS_CODE_MAP = {
         "name": "Liron",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             },
             "02": {
-                "title": "Liron"
+                "title": "Liron",
+                "id": "02"
             }
         },
         "id": "m114"
     },
-    "m116": {
-        "name": "Bow-Wow",
-        "variants": {
-            "01": {
-                "title": "Dispenser"
-            },
-            "02": {
-                "title": "Champion"
-            }
-        },
-        "id": "m116"
-    },
     "m117": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "G. Cat Dummy"
+                "title": "G. Cat Dummy",
+                "id": "01"
             },
             "02": {
-                "title": "G. Cat Devil"
+                "title": "G. Cat Devil",
+                "id": "02"
             }
         },
         "id": "m117"
-    },
-    "m118": {
-        "name": "Slasher",
-        "variants": {
-            "01": {
-                "title": "Katana"
-            },
-            "02": {
-                "title": "Stubborn"
-            }
-        },
-        "id": "m118"
-    },
-    "m119": {
-        "name": "Ninja",
-        "variants": {
-            "01": {
-                "title": "Katana"
-            },
-            "02": {
-                "title": "Stubborn"
-            }
-        },
-        "id": "m119"
-    },
-    "m120": {
-        "name": "Assassin",
-        "variants": {
-            "01": {
-                "title": "Katana"
-            },
-            "02": {
-                "title": "Stubborn"
-            }
-        },
-        "id": "m120"
-    },
-    "m121": {
-        "name": "Warrior",
-        "variants": {
-            "01": {
-                "title": "Katana"
-            },
-            "02": {
-                "title": "Stubborn"
-            }
-        },
-        "id": "m121"
-    },
-    "m123": {
-        "name": "Shadow",
-        "variants": {
-            "01": {
-                "title": "Katana"
-            },
-            "02": {
-                "title": "Stubborn"
-            }
-        },
-        "id": "m123"
     },
     "m124": {
         "name": "Watcher",
         "variants": {
             "01": {
-                "title": "Red"
+                "title": "Red",
+                "id": "01"
             },
             "02": {
-                "title": "Hellfire"
+                "title": "Hellfire",
+                "id": "02"
             }
         },
         "id": "m124"
@@ -1242,10 +1108,12 @@ const CHILDS_CODE_MAP = {
         "name": "Watcher",
         "variants": {
             "01": {
-                "title": "Blue"
+                "title": "Blue",
+                "id": "01"
             },
             "02": {
-                "title": "Freezing"
+                "title": "Freezing",
+                "id": "02"
             }
         },
         "id": "m125"
@@ -1254,10 +1122,12 @@ const CHILDS_CODE_MAP = {
         "name": "Watcher",
         "variants": {
             "01": {
-                "title": "Darkness"
+                "title": "Darkness",
+                "id": "01"
             },
             "02": {
-                "title": "Darkest"
+                "title": "Darkest",
+                "id": "02"
             }
         },
         "id": "m126"
@@ -1266,10 +1136,12 @@ const CHILDS_CODE_MAP = {
         "name": "Watcher",
         "variants": {
             "01": {
-                "title": "Green"
+                "title": "Green",
+                "id": "01"
             },
             "02": {
-                "title": "Dark Green"
+                "title": "Dark Green",
+                "id": "02"
             }
         },
         "id": "m127"
@@ -1278,79 +1150,22 @@ const CHILDS_CODE_MAP = {
         "name": "Watcher",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             },
             "02": {
-                "title": "Sun"
+                "title": "Sun",
+                "id": "02"
             }
         },
         "id": "m128"
-    },
-    "m130": {
-        "name": "Popper",
-        "variants": {
-            "01": {
-                "title": "Red"
-            },
-            "02": {
-                "title": "Fire"
-            }
-        },
-        "id": "m130"
-    },
-    "m131": {
-        "name": "Popper",
-        "variants": {
-            "01": {
-                "title": "Blue"
-            },
-            "02": {
-                "title": "Aqua"
-            }
-        },
-        "id": "m131"
-    },
-    "m132": {
-        "name": "Popper",
-        "variants": {
-            "01": {
-                "title": "Green"
-            },
-            "02": {
-                "title": "Grass"
-            }
-        },
-        "id": "m132"
-    },
-    "m133": {
-        "name": "Popper",
-        "variants": {
-            "01": {
-                "title": "Yellow"
-            },
-            "02": {
-                "title": "Light"
-            }
-        },
-        "id": "m133"
-    },
-    "m134": {
-        "name": "Popper",
-        "variants": {
-            "01": {
-                "title": "Black"
-            },
-            "02": {
-                "title": "Dark"
-            }
-        },
-        "id": "m134"
     },
     "m136": {
         "name": "Lady",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Bound"
@@ -1361,26 +1176,12 @@ const CHILDS_CODE_MAP = {
         },
         "id": "m136"
     },
-    "m137": {
-        "name": "Bellboy",
-        "variants": {
-            "10": {
-                "title": "Grave"
-            },
-            "01": {
-                "title": "Bowtie"
-            },
-            "02": {
-                "title": "Mad"
-            }
-        },
-        "id": "m137"
-    },
     "m139": {
         "name": "Aurora",
         "variants": {
             "01": {
-                "title": "Flashy"
+                "title": "Flashy",
+                "id": "01"
             }
         },
         "id": "m139"
@@ -1389,7 +1190,8 @@ const CHILDS_CODE_MAP = {
         "name": "Halloween",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
                 "title": "Dream"
@@ -1404,10 +1206,12 @@ const CHILDS_CODE_MAP = {
         "name": "Revenge Girl",
         "variants": {
             "01": {
-                "title": "Red"
+                "title": "Red",
+                "id": "01"
             },
             "02": {
-                "title": "Flame"
+                "title": "Flame",
+                "id": "02"
             }
         },
         "id": "m142"
@@ -1416,10 +1220,12 @@ const CHILDS_CODE_MAP = {
         "name": "Revenge Girl",
         "variants": {
             "01": {
-                "title": "Blue"
+                "title": "Blue",
+                "id": "01"
             },
             "02": {
-                "title": "Flood"
+                "title": "Flood",
+                "id": "02"
             }
         },
         "id": "m143"
@@ -1428,10 +1234,12 @@ const CHILDS_CODE_MAP = {
         "name": "Revenge Girl",
         "variants": {
             "01": {
-                "title": "Green"
+                "title": "Green",
+                "id": "01"
             },
             "02": {
-                "title": "Bloom"
+                "title": "Bloom",
+                "id": "02"
             }
         },
         "id": "m144"
@@ -1440,10 +1248,12 @@ const CHILDS_CODE_MAP = {
         "name": "Revenge Girl",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             },
             "02": {
-                "title": "Flash"
+                "title": "Flash",
+                "id": "02"
             }
         },
         "id": "m145"
@@ -1452,88 +1262,30 @@ const CHILDS_CODE_MAP = {
         "name": "Revenge Girl",
         "variants": {
             "01": {
-                "title": "Purple"
+                "title": "Purple",
+                "id": "01"
             },
             "02": {
-                "title": "Darkness"
+                "title": "Darkness",
+                "id": "02"
             }
         },
         "id": "m146"
-    },
-    "m149": {
-        "name": "Hertz",
-        "variants": {
-            "01": {
-                "title": "DJ"
-            },
-            "02": {
-                "title": "Revolution"
-            }
-        },
-        "id": "m149"
-    },
-    "m150": {
-        "name": "Hat-Trick",
-        "variants": {
-            "01": {
-                "title": "Fake"
-            },
-            "02": {
-                "title": "Checkmate"
-            }
-        },
-        "id": "m150"
-    },
-    "m151": {
-        "name": " ",
-        "variants": {
-            "01": {
-                "title": "Mad Bunny Arms"
-            },
-            "02": {
-                "title": "Mad Bunny Spirit"
-            }
-        },
-        "id": "m151"
-    },
-    "m152": {
-        "name": "Fighter",
-        "variants": {
-            "10": {
-                "title": "Midnight Fighter"
-            },
-            "01": {
-                "title": "Sneaker Fighter"
-            },
-            "02": {
-                "title": "Sneaker Champion"
-            }
-        },
-        "id": "m152"
-    },
-    "m153": {
-        "name": "Manti",
-        "variants": {
-            "01": {
-                "title": "Bad Dream"
-            },
-            "02": {
-                "title": "Nightmare"
-            }
-        },
-        "id": "m153"
     },
     "m154": {
         "name": "Gungnir",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Dark"
+                "title": "Dark",
+                "id": "01"
             },
             "02": {
-                "title": "Red"
+                "title": "Red",
+                "id": "02"
             }
         },
         "id": "m154"
@@ -1542,10 +1294,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m155"
@@ -1554,10 +1308,12 @@ const CHILDS_CODE_MAP = {
         "name": "Yellow Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m156"
@@ -1566,10 +1322,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m157"
@@ -1578,10 +1336,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m158"
@@ -1590,10 +1350,12 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m159"
@@ -1602,10 +1364,12 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora Drop",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m160"
@@ -1614,10 +1378,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m161"
@@ -1626,10 +1392,12 @@ const CHILDS_CODE_MAP = {
         "name": "Yellow Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m162"
@@ -1638,10 +1406,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m163"
@@ -1650,10 +1420,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m164"
@@ -1662,10 +1434,12 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m165"
@@ -1674,10 +1448,12 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora Blobbie",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m166"
@@ -1686,10 +1462,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m167"
@@ -1698,10 +1476,12 @@ const CHILDS_CODE_MAP = {
         "name": "Yellow Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m168"
@@ -1710,10 +1490,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m169"
@@ -1722,10 +1504,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m170"
@@ -1734,10 +1518,12 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m171"
@@ -1746,10 +1532,12 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora Heart",
         "variants": {
             "01": {
-                "title": "Small"
+                "title": "Small",
+                "id": "01"
             },
             "02": {
-                "title": "Small"
+                "title": "Small",
+                "id": "02"
             }
         },
         "id": "m172"
@@ -1758,10 +1546,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m173"
@@ -1770,10 +1560,12 @@ const CHILDS_CODE_MAP = {
         "name": "Yellow Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m174"
@@ -1782,10 +1574,12 @@ const CHILDS_CODE_MAP = {
         "name": "Green Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m175"
@@ -1794,10 +1588,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m176"
@@ -1806,10 +1602,12 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m177"
@@ -1818,10 +1616,12 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora Heart",
         "variants": {
             "01": {
-                "title": "Big"
+                "title": "Big",
+                "id": "01"
             },
             "02": {
-                "title": "Big"
+                "title": "Big",
+                "id": "02"
             }
         },
         "id": "m178"
@@ -1830,7 +1630,8 @@ const CHILDS_CODE_MAP = {
         "name": "Ooram",
         "variants": {
             "01": {
-                "title": "Kaiser"
+                "title": "Kaiser",
+                "id": "01"
             }
         },
         "id": "m184"
@@ -1839,13 +1640,16 @@ const CHILDS_CODE_MAP = {
         "name": "Actyon",
         "variants": {
             "10": {
-                "title": "Dark Knight"
+                "title": "Dark Knight",
+                "id": "10"
             },
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Reclusive"
+                "title": "Reclusive",
+                "id": "02"
             }
         },
         "id": "m185"
@@ -1854,10 +1658,12 @@ const CHILDS_CODE_MAP = {
         "name": "Saab",
         "variants": {
             "01": {
-                "title": "Pure"
+                "title": "Pure",
+                "id": "01"
             },
             "02": {
-                "title": "Cancer"
+                "title": "Cancer",
+                "id": "02"
             }
         },
         "id": "m186"
@@ -1866,10 +1672,12 @@ const CHILDS_CODE_MAP = {
         "name": "Dagon",
         "variants": {
             "01": {
-                "title": "Drifting"
+                "title": "Drifting",
+                "id": "01"
             },
             "02": {
-                "title": "Wandering"
+                "title": "Wandering",
+                "id": "02"
             }
         },
         "id": "m187"
@@ -1878,10 +1686,12 @@ const CHILDS_CODE_MAP = {
         "name": "Gold Coin",
         "variants": {
             "01": {
-                "title": "Ancient"
+                "title": "Ancient",
+                "id": "01"
             },
             "02": {
-                "title": "Greedy"
+                "title": "Greedy",
+                "id": "02"
             }
         },
         "id": "m188"
@@ -1890,10 +1700,12 @@ const CHILDS_CODE_MAP = {
         "name": "Mimic",
         "variants": {
             "01": {
-                "title": "Startling"
+                "title": "Startling",
+                "id": "01"
             },
             "02": {
-                "title": "Horror"
+                "title": "Horror",
+                "id": "02"
             }
         },
         "id": "m189"
@@ -1902,10 +1714,12 @@ const CHILDS_CODE_MAP = {
         "name": "Boxer",
         "variants": {
             "01": {
-                "title": "Hot-Blooded "
+                "title": "Hot-Blooded ",
+                "id": "01"
             },
             "02": {
-                "title": "Fiery"
+                "title": "Fiery",
+                "id": "02"
             }
         },
         "id": "m190"
@@ -1914,13 +1728,16 @@ const CHILDS_CODE_MAP = {
         "name": "Chimera",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Apocalyptic"
+                "title": "Apocalyptic",
+                "id": "02"
             }
         },
         "id": "m191"
@@ -1929,10 +1746,12 @@ const CHILDS_CODE_MAP = {
         "name": "Blood Dragon",
         "variants": {
             "01": {
-                "title": "Flame King"
+                "title": "Flame King",
+                "id": "01"
             },
             "02": {
-                "title": "Flame Emperor"
+                "title": "Flame Emperor",
+                "id": "02"
             }
         },
         "id": "m192"
@@ -1941,10 +1760,12 @@ const CHILDS_CODE_MAP = {
         "name": "Pompoms",
         "variants": {
             "01": {
-                "title": "Yackety"
+                "title": "Yackety",
+                "id": "01"
             },
             "02": {
-                "title": "Jabbering"
+                "title": "Jabbering",
+                "id": "02"
             }
         },
         "id": "m193"
@@ -1953,10 +1774,12 @@ const CHILDS_CODE_MAP = {
         "name": "Gron",
         "variants": {
             "01": {
-                "title": "Green-Feathered"
+                "title": "Green-Feathered",
+                "id": "01"
             },
             "02": {
-                "title": "Green Winged"
+                "title": "Green Winged",
+                "id": "02"
             }
         },
         "id": "m194"
@@ -1965,10 +1788,12 @@ const CHILDS_CODE_MAP = {
         "name": "Liron",
         "variants": {
             "01": {
-                "title": "Light-Feather"
+                "title": "Light-Feather",
+                "id": "01"
             },
             "02": {
-                "title": "Light-Winged"
+                "title": "Light-Winged",
+                "id": "02"
             }
         },
         "id": "m195"
@@ -1977,10 +1802,12 @@ const CHILDS_CODE_MAP = {
         "name": "Firon",
         "variants": {
             "01": {
-                "title": "Fire-Feather"
+                "title": "Fire-Feather",
+                "id": "01"
             },
             "02": {
-                "title": "Fire-Winged"
+                "title": "Fire-Winged",
+                "id": "02"
             }
         },
         "id": "m196"
@@ -1989,10 +1816,12 @@ const CHILDS_CODE_MAP = {
         "name": "Charonn",
         "variants": {
             "01": {
-                "title": "Water-Feather"
+                "title": "Water-Feather",
+                "id": "01"
             },
             "02": {
-                "title": "Water-Winged"
+                "title": "Water-Winged",
+                "id": "02"
             }
         },
         "id": "m197"
@@ -2001,10 +1830,12 @@ const CHILDS_CODE_MAP = {
         "name": "Daron",
         "variants": {
             "01": {
-                "title": "Dark-Feather"
+                "title": "Dark-Feather",
+                "id": "01"
             },
             "02": {
-                "title": "Dark-Winged"
+                "title": "Dark-Winged",
+                "id": "02"
             }
         },
         "id": "m198"
@@ -2013,10 +1844,12 @@ const CHILDS_CODE_MAP = {
         "name": "Azure Dragon",
         "variants": {
             "01": {
-                "title": "Ice King"
+                "title": "Ice King",
+                "id": "01"
             },
             "02": {
-                "title": "Ice Emperor"
+                "title": "Ice Emperor",
+                "id": "02"
             }
         },
         "id": "m199"
@@ -2025,13 +1858,16 @@ const CHILDS_CODE_MAP = {
         "name": "Ankh",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Guard"
+                "title": "Guard",
+                "id": "01"
             },
             "02": {
-                "title": "Enforcer"
+                "title": "Enforcer",
+                "id": "02"
             }
         },
         "id": "m200"
@@ -2040,13 +1876,16 @@ const CHILDS_CODE_MAP = {
         "name": "Mech Commander",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Bombing"
+                "title": "Bombing",
+                "id": "01"
             },
             "02": {
-                "title": "Blasting"
+                "title": "Blasting",
+                "id": "02"
             }
         },
         "id": "m201"
@@ -2055,13 +1894,16 @@ const CHILDS_CODE_MAP = {
         "name": "Mech Soldier",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Armed"
+                "title": "Armed",
+                "id": "01"
             },
             "02": {
-                "title": "Teeth"
+                "title": "Teeth",
+                "id": "02"
             }
         },
         "id": "m202"
@@ -2070,13 +1912,16 @@ const CHILDS_CODE_MAP = {
         "name": "Bremen",
         "variants": {
             "00": {
-                "title": "Human"
+                "title": "Human",
+                "id": "00"
             },
             "01": {
-                "title": "Twirling"
+                "title": "Twirling",
+                "id": "01"
             },
             "02": {
-                "title": "Spinning"
+                "title": "Spinning",
+                "id": "02"
             }
         },
         "id": "m203"
@@ -2085,10 +1930,12 @@ const CHILDS_CODE_MAP = {
         "name": "Barf",
         "variants": {
             "01": {
-                "title": "Chaste"
+                "title": "Chaste",
+                "id": "01"
             },
             "02": {
-                "title": "Witch"
+                "title": "Witch",
+                "id": "02"
             }
         },
         "id": "m205"
@@ -2097,10 +1944,12 @@ const CHILDS_CODE_MAP = {
         "name": "Boss Pig",
         "variants": {
             "01": {
-                "title": "Relentless"
+                "title": "Relentless",
+                "id": "01"
             },
             "02": {
-                "title": "Murderous"
+                "title": "Murderous",
+                "id": "02"
             }
         },
         "id": "m206"
@@ -2109,10 +1958,12 @@ const CHILDS_CODE_MAP = {
         "name": "Angel Lot",
         "variants": {
             "01": {
-                "title": "Archer"
+                "title": "Archer",
+                "id": "01"
             },
             "02": {
-                "title": "Sharpshooter"
+                "title": "Sharpshooter",
+                "id": "02"
             }
         },
         "id": "m211"
@@ -2121,10 +1972,12 @@ const CHILDS_CODE_MAP = {
         "name": "Rune",
         "variants": {
             "01": {
-                "title": "Emerald"
+                "title": "Emerald",
+                "id": "01"
             },
             "02": {
-                "title": "Pharaoh"
+                "title": "Pharaoh",
+                "id": "02"
             }
         },
         "id": "m212"
@@ -2133,10 +1986,12 @@ const CHILDS_CODE_MAP = {
         "name": "Pumpkin",
         "variants": {
             "01": {
-                "title": "Unexpected"
+                "title": "Unexpected",
+                "id": "01"
             },
             "02": {
-                "title": "Unexpected"
+                "title": "Unexpected",
+                "id": "02"
             }
         },
         "id": "m214"
@@ -2145,16 +2000,20 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "88": {
-                "title": "Passionate Ruler "
+                "title": "Passionate Ruler ",
+                "id": "88"
             },
             "89": {
-                "title": "Fervent Ruler"
+                "title": "Fervent Ruler",
+                "id": "89"
             },
             "01": {
-                "title": "Passionate Ruler"
+                "title": "Passionate Ruler",
+                "id": "01"
             },
             "02": {
-                "title": "Fervent Ruler"
+                "title": "Fervent Ruler",
+                "id": "02"
             }
         },
         "id": "m215"
@@ -2163,10 +2022,12 @@ const CHILDS_CODE_MAP = {
         "name": "Fairy",
         "variants": {
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Holiday"
+                "title": "Holiday",
+                "id": "02"
             }
         },
         "id": "m216"
@@ -2175,10 +2036,12 @@ const CHILDS_CODE_MAP = {
         "name": "Red Nose",
         "variants": {
             "01": {
-                "title": "Silent"
+                "title": "Silent",
+                "id": "01"
             },
             "02": {
-                "title": "Holiday"
+                "title": "Holiday",
+                "id": "02"
             }
         },
         "id": "m217"
@@ -2187,7 +2050,8 @@ const CHILDS_CODE_MAP = {
         "name": "Core",
         "variants": {
             "01": {
-                "title": "Easy"
+                "title": "Easy",
+                "id": "01"
             }
         },
         "id": "m218"
@@ -2196,7 +2060,8 @@ const CHILDS_CODE_MAP = {
         "name": "Core",
         "variants": {
             "01": {
-                "title": "Normal"
+                "title": "Normal",
+                "id": "01"
             }
         },
         "id": "m219"
@@ -2205,7 +2070,8 @@ const CHILDS_CODE_MAP = {
         "name": "Core",
         "variants": {
             "01": {
-                "title": "Hard"
+                "title": "Hard",
+                "id": "01"
             }
         },
         "id": "m220"
@@ -2214,7 +2080,8 @@ const CHILDS_CODE_MAP = {
         "name": "Core",
         "variants": {
             "01": {
-                "title": "Grand"
+                "title": "Grand",
+                "id": "01"
             }
         },
         "id": "m221"
@@ -2223,7 +2090,8 @@ const CHILDS_CODE_MAP = {
         "name": "Core",
         "variants": {
             "01": {
-                "title": "Master"
+                "title": "Master",
+                "id": "01"
             }
         },
         "id": "m222"
@@ -2232,10 +2100,12 @@ const CHILDS_CODE_MAP = {
         "name": "Gift Bag",
         "variants": {
             "01": {
-                "title": "Good Kid's"
+                "title": "Good Kid's",
+                "id": "01"
             },
             "02": {
-                "title": "Bad Kid's"
+                "title": "Bad Kid's",
+                "id": "02"
             }
         },
         "id": "m223"
@@ -2244,13 +2114,16 @@ const CHILDS_CODE_MAP = {
         "name": "Apep",
         "variants": {
             "89": {
-                "title": "Immovable"
+                "title": "Immovable",
+                "id": "89"
             },
             "01": {
-                "title": "Gatekeeper"
+                "title": "Gatekeeper",
+                "id": "01"
             },
             "02": {
-                "title": "Immovable"
+                "title": "Immovable",
+                "id": "02"
             }
         },
         "id": "m224"
@@ -2259,10 +2132,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cosmim",
         "variants": {
             "01": {
-                "title": "Hyper"
+                "title": "Hyper",
+                "id": "01"
             },
             "02": {
-                "title": "Hyper"
+                "title": "Hyper",
+                "id": "02"
             }
         },
         "id": "m225"
@@ -2271,10 +2146,12 @@ const CHILDS_CODE_MAP = {
         "name": "Crocell",
         "variants": {
             "89": {
-                "title": "Fire"
+                "title": "Fire",
+                "id": "89"
             },
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         },
         "id": "m227"
@@ -2283,7 +2160,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charinn",
         "variants": {
             "89": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "89"
             }
         },
         "id": "m228"
@@ -2292,10 +2170,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cosmim",
         "variants": {
             "01": {
-                "title": "Super"
+                "title": "Super",
+                "id": "01"
             },
             "02": {
-                "title": "Super"
+                "title": "Super",
+                "id": "02"
             }
         },
         "id": "m229"
@@ -2304,10 +2184,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cosmim",
         "variants": {
             "01": {
-                "title": "Giga"
+                "title": "Giga",
+                "id": "01"
             },
             "02": {
-                "title": "Giga"
+                "title": "Giga",
+                "id": "02"
             }
         },
         "id": "m230"
@@ -2316,10 +2198,12 @@ const CHILDS_CODE_MAP = {
         "name": "Cross",
         "variants": {
             "01": {
-                "title": "Grave"
+                "title": "Grave",
+                "id": "01"
             },
             "02": {
-                "title": "Deadman's"
+                "title": "Deadman's",
+                "id": "02"
             }
         },
         "id": "m231"
@@ -2328,7 +2212,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charinn",
         "variants": {
             "89": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "89"
             }
         },
         "id": "m232"
@@ -2337,7 +2222,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charinn",
         "variants": {
             "89": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "89"
             }
         },
         "id": "m233"
@@ -2346,7 +2232,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charinn",
         "variants": {
             "89": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "89"
             }
         },
         "id": "m234"
@@ -2355,7 +2242,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charinn",
         "variants": {
             "89": {
-                "title": "Golden"
+                "title": "Golden",
+                "id": "89"
             }
         },
         "id": "m235"
@@ -2364,7 +2252,8 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "89": {
-                "title": "Giant"
+                "title": "Giant",
+                "id": "89"
             }
         },
         "id": "m236"
@@ -2373,7 +2262,8 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "89": {
-                "title": "Giant"
+                "title": "Giant",
+                "id": "89"
             }
         },
         "id": "m237"
@@ -2382,7 +2272,8 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "89": {
-                "title": "Giant"
+                "title": "Giant",
+                "id": "89"
             }
         },
         "id": "m238"
@@ -2391,7 +2282,8 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "89": {
-                "title": "Giant"
+                "title": "Giant",
+                "id": "89"
             }
         },
         "id": "m239"
@@ -2400,7 +2292,8 @@ const CHILDS_CODE_MAP = {
         "name": "Spa Lantern",
         "variants": {
             "01": {
-                "title": "Water"
+                "title": "Water",
+                "id": "01"
             }
         },
         "id": "m240"
@@ -2409,7 +2302,8 @@ const CHILDS_CODE_MAP = {
         "name": "Spa Lantern",
         "variants": {
             "01": {
-                "title": "Fire"
+                "title": "Fire",
+                "id": "01"
             }
         },
         "id": "m241"
@@ -2418,7 +2312,8 @@ const CHILDS_CODE_MAP = {
         "name": "Spa Lantern",
         "variants": {
             "01": {
-                "title": "Wood"
+                "title": "Wood",
+                "id": "01"
             }
         },
         "id": "m242"
@@ -2427,7 +2322,8 @@ const CHILDS_CODE_MAP = {
         "name": "Spa Lantern",
         "variants": {
             "01": {
-                "title": "Light"
+                "title": "Light",
+                "id": "01"
             }
         },
         "id": "m243"
@@ -2436,7 +2332,8 @@ const CHILDS_CODE_MAP = {
         "name": "Spa Lantern",
         "variants": {
             "01": {
-                "title": "Dark"
+                "title": "Dark",
+                "id": "01"
             }
         },
         "id": "m244"
@@ -2445,10 +2342,12 @@ const CHILDS_CODE_MAP = {
         "name": "Creature",
         "variants": {
             "01": {
-                "title": "Abandoned"
+                "title": "Abandoned",
+                "id": "01"
             },
             "02": {
-                "title": "The Creator's"
+                "title": "The Creator's",
+                "id": "02"
             }
         },
         "id": "m245"
@@ -2457,10 +2356,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m246"
@@ -2469,10 +2370,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori(Yellow)",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m247"
@@ -2481,10 +2384,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori(Red)",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m248"
@@ -2493,10 +2398,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori(Purple)",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m249"
@@ -2505,10 +2412,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori(Blue)",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m250"
@@ -2517,10 +2426,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori(Green)",
         "variants": {
             "01": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "01"
             },
             "02": {
-                "title": "Atré Akihabara's mascot"
+                "title": "Atré Akihabara's mascot",
+                "id": "02"
             }
         },
         "id": "m251"
@@ -2529,10 +2440,12 @@ const CHILDS_CODE_MAP = {
         "name": "Tori",
         "variants": {
             "01": {
-                "title": "Train-type"
+                "title": "Train-type",
+                "id": "01"
             },
             "02": {
-                "title": "Train-type"
+                "title": "Train-type",
+                "id": "02"
             }
         },
         "id": "m252"
@@ -2541,10 +2454,12 @@ const CHILDS_CODE_MAP = {
         "name": "YUKINE",
         "variants": {
             "01": {
-                "title": "Rabbit"
+                "title": "Rabbit",
+                "id": "01"
             },
             "02": {
-                "title": "Rabbit"
+                "title": "Rabbit",
+                "id": "02"
             }
         },
         "id": "m253"
@@ -2553,10 +2468,12 @@ const CHILDS_CODE_MAP = {
         "name": "Davi",
         "variants": {
             "01": {
-                "title": "Mini"
+                "title": "Mini",
+                "id": "01"
             },
             "02": {
-                "title": "Mascot"
+                "title": "Mascot",
+                "id": "02"
             }
         },
         "id": "m254"
@@ -2565,10 +2482,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ampoule",
         "variants": {
             "01": {
-                "title": "Toy"
+                "title": "Toy",
+                "id": "01"
             },
             "02": {
-                "title": "Venom"
+                "title": "Venom",
+                "id": "02"
             }
         },
         "id": "m255"
@@ -2577,7 +2496,8 @@ const CHILDS_CODE_MAP = {
         "name": "Aurora King",
         "variants": {
             "89": {
-                "title": "Dark"
+                "title": "Dark",
+                "id": "89"
             }
         },
         "id": "m256"
@@ -2586,7 +2506,8 @@ const CHILDS_CODE_MAP = {
         "name": "Crocell",
         "variants": {
             "89": {
-                "title": "Wood"
+                "title": "Wood",
+                "id": "89"
             }
         },
         "id": "m257"
@@ -2595,7 +2516,8 @@ const CHILDS_CODE_MAP = {
         "name": "Crocell",
         "variants": {
             "89": {
-                "title": "Giant"
+                "title": "Giant",
+                "id": "89"
             }
         },
         "id": "m258"
@@ -2604,7 +2526,8 @@ const CHILDS_CODE_MAP = {
         "name": "Crocell",
         "variants": {
             "89": {
-                "title": "Water"
+                "title": "Water",
+                "id": "89"
             }
         },
         "id": "m259"
@@ -2613,7 +2536,8 @@ const CHILDS_CODE_MAP = {
         "name": "Crocell",
         "variants": {
             "89": {
-                "title": "Light"
+                "title": "Light",
+                "id": "89"
             }
         },
         "id": "m260"
@@ -2622,13 +2546,16 @@ const CHILDS_CODE_MAP = {
         "name": "Moa",
         "variants": {
             "88": {
-                "title": "Monochrome"
+                "title": "Monochrome",
+                "id": "88"
             },
             "01": {
-                "title": "Two-Sided"
+                "title": "Two-Sided",
+                "id": "01"
             },
             "02": {
-                "title": "Monochrome"
+                "title": "Monochrome",
+                "id": "02"
             }
         },
         "id": "m261"
@@ -2637,7 +2564,8 @@ const CHILDS_CODE_MAP = {
         "name": "Cocoon",
         "variants": {
             "89": {
-                "title": "Created"
+                "title": "Created",
+                "id": "89"
             }
         },
         "id": "m262"
@@ -2655,16 +2583,20 @@ const CHILDS_CODE_MAP = {
         "name": "Procel",
         "variants": {
             "88": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "88"
             },
             "89": {
-                "title": ""
+                "title": "",
+                "id": "89"
             },
             "01": {
-                "title": "Devouring"
+                "title": "Devouring",
+                "id": "01"
             },
             "02": {
-                "title": "Abyssal"
+                "title": "Abyssal",
+                "id": "02"
             }
         },
         "id": "m264"
@@ -2673,7 +2605,8 @@ const CHILDS_CODE_MAP = {
         "name": "Mimic",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m265"
@@ -2682,7 +2615,8 @@ const CHILDS_CODE_MAP = {
         "name": "Kali Yuga",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m266"
@@ -2691,7 +2625,8 @@ const CHILDS_CODE_MAP = {
         "name": "Basilisk",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m267"
@@ -2700,7 +2635,8 @@ const CHILDS_CODE_MAP = {
         "name": "Sneaker Fighter",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m268"
@@ -2709,7 +2645,8 @@ const CHILDS_CODE_MAP = {
         "name": "Cure Cube",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m269"
@@ -2718,7 +2655,8 @@ const CHILDS_CODE_MAP = {
         "name": "Poison Cube",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m270"
@@ -2727,7 +2665,8 @@ const CHILDS_CODE_MAP = {
         "name": "Evil Cube",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m271"
@@ -2736,7 +2675,8 @@ const CHILDS_CODE_MAP = {
         "name": "Honey Cube",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m272"
@@ -2745,7 +2685,8 @@ const CHILDS_CODE_MAP = {
         "name": "Pie Cube",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m273"
@@ -2754,7 +2695,8 @@ const CHILDS_CODE_MAP = {
         "name": "Cube Moa",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m274"
@@ -2763,7 +2705,8 @@ const CHILDS_CODE_MAP = {
         "name": "Poison Ampoule",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m275"
@@ -2772,7 +2715,8 @@ const CHILDS_CODE_MAP = {
         "name": "Toy Ampoule",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m276"
@@ -2781,7 +2725,8 @@ const CHILDS_CODE_MAP = {
         "name": "Gillotine",
         "variants": {
             "01": {
-                "title": "Chibi"
+                "title": "Chibi",
+                "id": "01"
             }
         },
         "id": "m277"
@@ -2790,10 +2735,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ox",
         "variants": {
             "01": {
-                "title": "Water Drop"
+                "title": "Water Drop",
+                "id": "01"
             },
             "02": {
-                "title": "Water Cloud"
+                "title": "Water Cloud",
+                "id": "02"
             }
         },
         "id": "m278"
@@ -2802,10 +2749,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ox",
         "variants": {
             "01": {
-                "title": "Ember"
+                "title": "Ember",
+                "id": "01"
             },
             "02": {
-                "title": "Flame"
+                "title": "Flame",
+                "id": "02"
             }
         },
         "id": "m279"
@@ -2814,10 +2763,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ox",
         "variants": {
             "01": {
-                "title": "Sprout"
+                "title": "Sprout",
+                "id": "01"
             },
             "02": {
-                "title": "Leaf"
+                "title": "Leaf",
+                "id": "02"
             }
         },
         "id": "m280"
@@ -2826,10 +2777,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ox",
         "variants": {
             "01": {
-                "title": "Sparkle"
+                "title": "Sparkle",
+                "id": "01"
             },
             "02": {
-                "title": "Sunlight"
+                "title": "Sunlight",
+                "id": "02"
             }
         },
         "id": "m281"
@@ -2838,10 +2791,12 @@ const CHILDS_CODE_MAP = {
         "name": "Ox",
         "variants": {
             "01": {
-                "title": "Star Shade"
+                "title": "Star Shade",
+                "id": "01"
             },
             "02": {
-                "title": "Moon Shade"
+                "title": "Moon Shade",
+                "id": "02"
             }
         },
         "id": "m282"
@@ -2850,25 +2805,18 @@ const CHILDS_CODE_MAP = {
         "name": "Fire Dragon",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm003"
-    },
-    "sm004": {
-        "name": "Ice Dragon",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm004"
     },
     "sm007": {
         "name": "Teddy",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm007"
@@ -2877,7 +2825,8 @@ const CHILDS_CODE_MAP = {
         "name": "Messenger",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm036"
@@ -2886,7 +2835,8 @@ const CHILDS_CODE_MAP = {
         "name": "Chaser",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm037"
@@ -2895,7 +2845,8 @@ const CHILDS_CODE_MAP = {
         "name": "Diablo",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm038"
@@ -2904,7 +2855,8 @@ const CHILDS_CODE_MAP = {
         "name": "Kali Yuga",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm039"
@@ -2913,7 +2865,8 @@ const CHILDS_CODE_MAP = {
         "name": "Chain Killer",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm040"
@@ -2922,7 +2875,8 @@ const CHILDS_CODE_MAP = {
         "name": "Bouquet",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm045"
@@ -2931,7 +2885,8 @@ const CHILDS_CODE_MAP = {
         "name": "Skull",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm049"
@@ -2940,7 +2895,8 @@ const CHILDS_CODE_MAP = {
         "name": "Guillotine",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm050"
@@ -2949,7 +2905,8 @@ const CHILDS_CODE_MAP = {
         "name": "Hades",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm051"
@@ -2958,7 +2915,8 @@ const CHILDS_CODE_MAP = {
         "name": "Basilisk",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm052"
@@ -2967,25 +2925,18 @@ const CHILDS_CODE_MAP = {
         "name": "Hydra",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm053"
-    },
-    "sm054": {
-        "name": "Gomorrah",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm054"
     },
     "sm056": {
         "name": "Abaddon",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm056"
@@ -2994,7 +2945,8 @@ const CHILDS_CODE_MAP = {
         "name": "Olga",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm057"
@@ -3003,7 +2955,8 @@ const CHILDS_CODE_MAP = {
         "name": "Bazooka",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm059"
@@ -3012,7 +2965,8 @@ const CHILDS_CODE_MAP = {
         "name": "Ampoule",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm063"
@@ -3021,61 +2975,18 @@ const CHILDS_CODE_MAP = {
         "name": "Moa",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm077"
-    },
-    "sm124": {
-        "name": "Watcher",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm124"
-    },
-    "sm125": {
-        "name": "주시자",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm125"
-    },
-    "sm126": {
-        "name": "주시자",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm126"
-    },
-    "sm127": {
-        "name": "주시자",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm127"
-    },
-    "sm128": {
-        "name": "주시자",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm128"
     },
     "sm136": {
         "name": "Lady",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm136"
@@ -3084,7 +2995,8 @@ const CHILDS_CODE_MAP = {
         "name": "Bellboy",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm137"
@@ -3093,7 +3005,8 @@ const CHILDS_CODE_MAP = {
         "name": "Halloween",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm141"
@@ -3102,7 +3015,8 @@ const CHILDS_CODE_MAP = {
         "name": "Red Revenge Girl",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm142"
@@ -3111,7 +3025,8 @@ const CHILDS_CODE_MAP = {
         "name": "Blue Revenge Girl",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm143"
@@ -3120,7 +3035,8 @@ const CHILDS_CODE_MAP = {
         "name": "Green Revenge Girl",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm144"
@@ -3129,7 +3045,8 @@ const CHILDS_CODE_MAP = {
         "name": "Light Revenge Girl",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm145"
@@ -3138,7 +3055,8 @@ const CHILDS_CODE_MAP = {
         "name": "Purple Revenge Girl",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm146"
@@ -3147,7 +3065,8 @@ const CHILDS_CODE_MAP = {
         "name": "Noise",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm148"
@@ -3156,7 +3075,8 @@ const CHILDS_CODE_MAP = {
         "name": "Hertz",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm149"
@@ -3165,7 +3085,8 @@ const CHILDS_CODE_MAP = {
         "name": "Hat-Trick",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm150"
@@ -3174,7 +3095,8 @@ const CHILDS_CODE_MAP = {
         "name": "Arms",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm151"
@@ -3183,7 +3105,8 @@ const CHILDS_CODE_MAP = {
         "name": "Fighter",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm152"
@@ -3192,7 +3115,8 @@ const CHILDS_CODE_MAP = {
         "name": "Manti",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm153"
@@ -3201,7 +3125,8 @@ const CHILDS_CODE_MAP = {
         "name": "Gungnir",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm154"
@@ -3210,7 +3135,8 @@ const CHILDS_CODE_MAP = {
         "name": "Mimic",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm189"
@@ -3219,7 +3145,8 @@ const CHILDS_CODE_MAP = {
         "name": "Boxer",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm190"
@@ -3228,7 +3155,8 @@ const CHILDS_CODE_MAP = {
         "name": "Chimera",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm191"
@@ -3237,7 +3165,8 @@ const CHILDS_CODE_MAP = {
         "name": "Blood Dragon",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm192"
@@ -3246,7 +3175,8 @@ const CHILDS_CODE_MAP = {
         "name": "Pompoms",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm193"
@@ -3255,7 +3185,8 @@ const CHILDS_CODE_MAP = {
         "name": "Gron",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm194"
@@ -3264,7 +3195,8 @@ const CHILDS_CODE_MAP = {
         "name": "Liron",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm195"
@@ -3273,7 +3205,8 @@ const CHILDS_CODE_MAP = {
         "name": "Firon",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm196"
@@ -3282,7 +3215,8 @@ const CHILDS_CODE_MAP = {
         "name": "Charonn",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm197"
@@ -3291,7 +3225,8 @@ const CHILDS_CODE_MAP = {
         "name": "Daron",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm198"
@@ -3300,7 +3235,8 @@ const CHILDS_CODE_MAP = {
         "name": "Azure Dragon",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm199"
@@ -3309,79 +3245,18 @@ const CHILDS_CODE_MAP = {
         "name": "Ankh",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm200"
-    },
-    "sm201": {
-        "name": "Mech Commander",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm201"
-    },
-    "sm202": {
-        "name": "Mech Soldier",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm202"
-    },
-    "sm203": {
-        "name": "Bremen",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm203"
-    },
-    "sm205": {
-        "name": "Barf",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm205"
-    },
-    "sm206": {
-        "name": "Boss Pig",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm206"
-    },
-    "sm211": {
-        "name": "Rune",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm211"
-    },
-    "sm212": {
-        "name": "Rune",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm212"
     },
     "sm215": {
         "name": "Aurora King",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm215"
@@ -3390,7 +3265,8 @@ const CHILDS_CODE_MAP = {
         "name": "Fairy",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm216"
@@ -3399,7 +3275,8 @@ const CHILDS_CODE_MAP = {
         "name": "Red Nose",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm217"
@@ -3408,7 +3285,8 @@ const CHILDS_CODE_MAP = {
         "name": "Gift Bag",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm223"
@@ -3417,7 +3295,8 @@ const CHILDS_CODE_MAP = {
         "name": "Apep",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm224"
@@ -3426,25 +3305,18 @@ const CHILDS_CODE_MAP = {
         "name": "Creature",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm245"
-    },
-    "sm255": {
-        "name": "Ampoule",
-        "variants": {
-            "01": {
-                "title": "Hot Spring"
-            }
-        },
-        "id": "sm255"
     },
     "sm261": {
         "name": "Two-Sided Moa",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm261"
@@ -3453,7 +3325,8 @@ const CHILDS_CODE_MAP = {
         "name": "Procel",
         "variants": {
             "01": {
-                "title": "Hot Spring"
+                "title": "Hot Spring",
+                "id": "01"
             }
         },
         "id": "sm264"
@@ -3462,7 +3335,8 @@ const CHILDS_CODE_MAP = {
         "name": "Virupa",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v002"
@@ -3471,10 +3345,12 @@ const CHILDS_CODE_MAP = {
         "name": " Artemis",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             },
             "02": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "02"
             }
         },
         "id": "v003"
@@ -3483,10 +3359,12 @@ const CHILDS_CODE_MAP = {
         "name": "Eve",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             },
             "02": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "02"
             }
         },
         "id": "v004"
@@ -3495,7 +3373,8 @@ const CHILDS_CODE_MAP = {
         "name": "Black silhouette",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         },
         "id": "v005"
@@ -3504,49 +3383,59 @@ const CHILDS_CODE_MAP = {
         "name": "Black silhouette",
         "variants": {
             "01": {
-                "title": ""
+                "title": "",
+                "id": "01"
             }
         },
         "id": "v006"
     },
     "v007": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Fancy Sytry"
+                "title": "Fancy Sytry",
+                "id": "01"
             },
             "02": {
-                "title": "Serket"
+                "title": "Serket",
+                "id": "02"
             },
             "03": {
-                "title": "Sytry & Serket"
+                "title": "Sytry & Serket",
+                "id": "03"
             },
             "04": {
-                "title": "Morgan & Serket"
+                "title": "Morgan & Serket",
+                "id": "04"
             },
             "05": {
-                "title": "Morgan & Serket"
+                "title": "Morgan & Serket",
+                "id": "05"
             }
         },
         "id": "v007"
     },
     "v008": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Arhat"
+                "title": "Arhat",
+                "id": "01"
             },
             "02": {
-                "title": "Bathory and Unknown"
+                "title": "Bathory and Unknown",
+                "id": "02"
             },
             "03": {
                 "title": "Semele"
             },
             "04": {
-                "title": "Arhat"
+                "title": "Arhat",
+                "id": "04"
             },
             "05": {
-                "title": "Semele"
+                "title": "Semele",
+                "id": "05"
             }
         },
         "id": "v008"
@@ -3555,37 +3444,46 @@ const CHILDS_CODE_MAP = {
         "name": "Attis & Rusalka",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             },
             "02": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "02"
             },
             "03": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "03"
             }
         },
         "id": "v009"
     },
     "v010": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Frej & Mitra"
+                "title": "Frej & Mitra",
+                "id": "01"
             },
             "02": {
-                "title": "Frej & Mitra"
+                "title": "Frej & Mitra",
+                "id": "02"
             },
             "03": {
-                "title": "landscape"
+                "title": "landscape",
+                "id": "03"
             },
             "04": {
-                "title": "Arhat"
+                "title": "Arhat",
+                "id": "04"
             },
             "05": {
-                "title": "Nirrti"
+                "title": "Nirrti",
+                "id": "05"
             },
             "06": {
-                "title": "Arhat"
+                "title": "Arhat",
+                "id": "06"
             }
         },
         "id": "v010"
@@ -3594,31 +3492,36 @@ const CHILDS_CODE_MAP = {
         "name": "Tiwaz",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v011"
     },
     "v012": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Mitra"
+                "title": "Mitra",
+                "id": "01"
             },
             "02": {
-                "title": "Aurora"
+                "title": "Aurora",
+                "id": "02"
             },
             "03": {
-                "title": "Mitra crying"
+                "title": "Mitra crying",
+                "id": "03"
             }
         },
         "id": "v012"
     },
     "v013": {
-        "name": " ",
+        "name": "???",
         "variants": {
             "01": {
-                "title": "Mitra, Kalaratri & Titania"
+                "title": "Mitra, Kalaratri & Titania",
+                "id": "01"
             }
         },
         "id": "v013"
@@ -3627,7 +3530,8 @@ const CHILDS_CODE_MAP = {
         "name": "Arhat & Mitra",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v014"
@@ -3636,19 +3540,24 @@ const CHILDS_CODE_MAP = {
         "name": "Idols",
         "variants": {
             "01": {
-                "title": "Aria"
+                "title": "Aria",
+                "id": "01"
             },
             "02": {
-                "title": "Neptune"
+                "title": "Neptune",
+                "id": "02"
             },
             "03": {
-                "title": "Mars"
+                "title": "Mars",
+                "id": "03"
             },
             "04": {
-                "title": "Venus"
+                "title": "Venus",
+                "id": "04"
             },
             "05": {
-                "title": "Saturn"
+                "title": "Saturn",
+                "id": "05"
             }
         },
         "id": "v015"
@@ -3657,16 +3566,20 @@ const CHILDS_CODE_MAP = {
         "name": "Mitra & Loki",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             },
             "02": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "02"
             },
             "03": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "03"
             },
             "04": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "04"
             }
         },
         "id": "v016"
@@ -3675,7 +3588,8 @@ const CHILDS_CODE_MAP = {
         "name": "Dogyehwa",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v018"
@@ -3684,7 +3598,8 @@ const CHILDS_CODE_MAP = {
         "name": "Strigoi",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v019"
@@ -3693,9 +3608,10 @@ const CHILDS_CODE_MAP = {
         "name": "Ishimi",
         "variants": {
             "01": {
-                "title": "Cutscene"
+                "title": "Cutscene",
+                "id": "01"
             }
         },
         "id": "v020"
-    },
+    }
 }

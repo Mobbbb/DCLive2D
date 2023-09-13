@@ -11,6 +11,7 @@
 		<script type="text/javascript" src='./src/data/childs.js'></script>
 		<script type="text/javascript" src='./src/data/cartas.js'></script>
 		<script type="text/javascript" src='./src/data/dolls.js'></script>
+		<script type="text/javascript" src='./src/data/others.js'></script>
 		<script type="text/javascript" src='./src/data/hotSprings.js'></script>
 		<script type="text/javascript" src='./src/config/index.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
@@ -28,7 +29,7 @@
 				</el-tabs>
 				<el-tabs v-model="activeTab">
 					<el-tab-pane label="光属性" name="L"></el-tab-pane><!--魔方、史莱姆王-->
-					<el-tab-pane label="暗属性" name="D"></el-tab-pane><!--小丑兔-->
+					<el-tab-pane label="暗属性" name="D"></el-tab-pane><!--小丑兔、母女-->
 					<el-tab-pane label="火属性" name="F"></el-tab-pane><!--火蝴蝶、索尔、？-->
 					<el-tab-pane label="木属性" name="G"></el-tab-pane>
 					<el-tab-pane label="水属性" name="W"></el-tab-pane><!--基佬龙、？、？-->
@@ -44,7 +45,7 @@
 			<div v-if="footerType === '1'" class="content-wrap">
 				<div class="avatar-wrap" style="padding-top: 12px;">
 					<div class="avatar-item-wrap" v-for="(item, key) in DOLLS_CODE_MAP" @click="selectCarts(item, key)">
-						<img :src="`./src/static/${key}_01/icon.png`">
+						<img :src="`./src/static/${key}_10/icon.png`">
 						<span>{{item.name}}</span>
 					</div>
 				</div>
@@ -57,10 +58,19 @@
 					</div>
 				</div>
 			</div>
+			<div v-if="footerType === '3'" class="content-wrap">
+				<div class="avatar-wrap" style="padding-top: 12px;">
+					<div class="avatar-item-wrap" v-for="(item, key) in OTHERS_CODE_MAP" @click="selectOthers(item)">
+						<img :src="`./src/static/${item.id}_01/icon.png`">
+						<span>{{item.name}}</span>
+					</div>
+				</div>
+			</div>
 			<div class="footer-tab">
 				<div class="footer-tab-item" @click="footerType = '0'" :class="footerType === '0' ? 'selected' : ''"><img src="./src/images/icon/icon_child.webp"><span>角色</span></div>
 				<div class="footer-tab-item" @click="footerType = '1'" :class="footerType === '1' ? 'selected' : ''"><img src=""><span>人偶</span></div>
 				<div class="footer-tab-item" @click="footerType = '2'" :class="footerType === '2' ? 'selected' : ''"><img src=""><span>魂卡</span></div>
+				<div class="footer-tab-item" @click="footerType = '3'" :class="footerType === '3' ? 'selected' : ''"><img src=""><span>其他</span></div>
 			</div>
 			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
 				<el-select v-if="Object.keys(selectedChildConfig.variants).length > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">
