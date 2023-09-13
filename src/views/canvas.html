@@ -11,6 +11,7 @@
 	</head>
 	<body>
 		<canvas id="canvas" class="maxwidth" width="500px" height="800px" onclick="animation()"></canvas>
+		<div class="canvas-wrap"></div>
 	</body>
 </html>
 <script>
@@ -18,7 +19,11 @@
 	let code = searchParams.get('code') || ''
 	let size = searchParams.get('size') || 1000
 	let scale = searchParams.get('scale') || 1
+	let type = searchParams.get('type') || '0'
 
+	if (type === '2') {
+		document.getElementsByClassName('canvas-wrap')[0].style.display = 'none'
+	}
 	if (code) {
 		initModel(code, size, scale)
 	}
