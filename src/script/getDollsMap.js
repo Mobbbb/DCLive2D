@@ -15,5 +15,4 @@ async function start(innerPath) {
 
 start('..\\static')
 
-fs.unlink('./log.txt', () => {})
-fs.appendFile('./log.txt', JSON.stringify(obj), () => {}) 
+fs.writeFileSync('./log.txt', JSON.stringify(obj), () => {}) 
