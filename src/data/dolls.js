@@ -1,21 +1,14 @@
 const DOLLS_CODE_MAP = {
     "xc005": {
-        "name": "Mars",
+        "name": "马斯",
         "variants": {
             "10": {
                 "title": "Puppet"
             }
         },
-        "id": "xc005"
-    },
-    "xc014": {
-        "name": "Astrea",
-        "variants": {
-            "10": {
-                "title": "Puppet"
-            }
-        },
-        "id": "xc014"
+        "id": "xc005",
+        "star": "4",
+        "attribute": "W"
     },
     "xc036": {
         "name": "Hermes",
@@ -389,15 +382,6 @@ const DOLLS_CODE_MAP = {
         },
         "id": "xc252"
     },
-    "xc262": {
-        "name": "Daphnis",
-        "variants": {
-            "10": {
-                "title": "Puppet"
-            }
-        },
-        "id": "xc262"
-    },
     "xc253": {
         "name": "Nicole",
         "variants": {
@@ -406,6 +390,15 @@ const DOLLS_CODE_MAP = {
             }
         },
         "id": "xc253"
+    },
+    "xc262": {
+        "name": "Daphnis",
+        "variants": {
+            "10": {
+                "title": "Puppet"
+            }
+        },
+        "id": "xc262"
     },
     "xc266": {
         "name": "Horus",
@@ -523,15 +516,6 @@ const DOLLS_CODE_MAP = {
             }
         },
         "id": "xc308"
-    },
-    "xc310": {
-        "name": "Bes",
-        "variants": {
-            "10": {
-                "title": "Puppet"
-            }
-        },
-        "id": "xc310"
     },
     "xc311": {
         "name": "Khepri",
@@ -785,15 +769,6 @@ const DOLLS_CODE_MAP = {
         },
         "id": "xc393"
     },
-    "xc395": {
-        "name": "Dark Buster Lisa",
-        "variants": {
-            "10": {
-                "title": "Puppet"
-            }
-        },
-        "id": "xc395"
-    },
     "xc397": {
         "name": "Christmas Leda",
         "variants": {
@@ -865,15 +840,6 @@ const DOLLS_CODE_MAP = {
             }
         },
         "id": "xc426"
-    },
-    "xc461": {
-        "name": "Aurora",
-        "variants": {
-            "10": {
-                "title": "Puppet"
-            }
-        },
-        "id": "xc461"
     },
     "xm003": {
         "name": "火恶魔-人偶",

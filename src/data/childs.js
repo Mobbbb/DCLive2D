@@ -8245,8 +8245,8 @@ const CHILDS_CODE_MAP = {
     },
     "c485": {
         "name": "Yuna",
-        "star": "",
-        "attribute": "",
+        "star": "5",
+        "attribute": "G",
         "id": "c485",
         "variants": {
             "10": {

@@ -19,10 +19,17 @@ app.all('*', function (req, res, next) {
 app.get('/edit', async function(req, res) {
     var urlQuery = req.query
 
-    let data = fs.readFileSync('../data/childs.js', 'utf-8')
-    data = data.replace('const CHILDS_CODE_MAP =', '')
+    let data = fs.readFileSync(`../data/${urlQuery.file}.js`, 'utf-8')
+    let replaceText = 'const CHILDS_CODE_MAP ='
+    if (urlQuery.file === 'dolls') {
+        replaceText = 'const DOLLS_CODE_MAP ='
+    }
+    if (urlQuery.file === 'cartas') {
+        replaceText = 'const CARTAS_CODE_MAP ='
+    }
+    
+    data = data.replace(replaceText, '')
     data = JSON.parse(data)
-
 
     Object.keys(data).forEach(key => {
         if (key === urlQuery.id) {
@@ -39,13 +46,16 @@ app.get('/edit', async function(req, res) {
     })
 
 
-    fs.unlink('../data/childs.js', () => {})
-    fs.appendFile('../data/childs.js', `const CHILDS_CODE_MAP = ${JSON.stringify(data)}`, () => {})
+    fs.unlink(`../data/${urlQuery.file}.js`, () => {})
+    
+    setTimeout(() => {
+        fs.appendFile(`../data/${urlQuery.file}.js`, `${replaceText} ${JSON.stringify(data)}`, () => {})
+    }, 100)
 
     res.json(1)
 })
 
-app.listen(3000, function () {
+app.listen(3000, function() {
     console.log('   ');console.log('   ');
     console.log('   App listening at:');
 	console.log('   - Network: http://127.0.0.1:3000');

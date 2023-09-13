@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="./src/libs/element-plus@2.2.12.css">
 
 		<script type="text/javascript" src='./src/data/childs.js'></script>
+		<script type="text/javascript" src='./src/data/cartas.js'></script>
+		<script type="text/javascript" src='./src/data/dolls.js'></script>
 		<script type="text/javascript" src='./src/data/hotSprings.js'></script>
 		<script type="text/javascript" src='./src/config/index.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
@@ -16,28 +18,52 @@
 	</head>
 	<body>
 		<div id="app">
-			<el-tabs v-model="activeStar">
-				<el-tab-pane label="⭐⭐⭐⭐⭐" name="5"></el-tab-pane>
-				<el-tab-pane label="⭐⭐⭐⭐" name="4"></el-tab-pane>
-				<el-tab-pane label="⭐⭐⭐" name="3"></el-tab-pane>
-				<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
-			</el-tabs>
-			<el-tabs v-model="activeTab">
-				<el-tab-pane label="光属性" name="L"></el-tab-pane>
-				<el-tab-pane label="暗属性" name="D"></el-tab-pane>
-				<el-tab-pane label="火属性" name="F"></el-tab-pane>
-				<el-tab-pane label="水属性" name="W"></el-tab-pane>
-				<el-tab-pane label="木属性" name="G"></el-tab-pane>
-				<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
-			</el-tabs>
-			<div class="avatar-wrap">
-				<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectChilds(item)">
-					<img :src="`./src/static/${item.id}_01/icon.png`">
-					<span>{{item.name}}</span>
+			<div v-if="footerType === '0'" class="content-wrap">
+				<el-tabs class="star-wrap" v-model="activeStar">
+					<el-tab-pane label="⭐⭐⭐⭐⭐" name="5"></el-tab-pane>
+					<el-tab-pane label="⭐⭐⭐⭐" name="4"></el-tab-pane>
+					<el-tab-pane label="⭐⭐⭐" name="3"></el-tab-pane>
+					<el-tab-pane label="⭐⭐" name="2"></el-tab-pane>
+					<el-tab-pane label="⭐" name="1"></el-tab-pane>
+				</el-tabs>
+				<el-tabs v-model="activeTab">
+					<el-tab-pane label="光属性" name="L"></el-tab-pane><!--魔方、史莱姆王-->
+					<el-tab-pane label="暗属性" name="D"></el-tab-pane><!--小丑兔-->
+					<el-tab-pane label="火属性" name="F"></el-tab-pane><!--火蝴蝶、索尔、？-->
+					<el-tab-pane label="水属性" name="W"></el-tab-pane><!--基佬龙、？、？-->
+					<el-tab-pane label="木属性" name="G"></el-tab-pane>
+					<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
+				</el-tabs>
+				<div class="avatar-wrap">
+					<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectChilds(item)">
+						<img :src="`./src/static/${item.id}_01/icon.png`">
+						<span>{{item.name}}</span>
+					</div>
 				</div>
 			</div>
+			<div v-if="footerType === '1'" class="content-wrap">
+				<div class="avatar-wrap" style="padding-top: 12px;">
+					<div class="avatar-item-wrap" v-for="(item, key) in DOLLS_CODE_MAP" @click="selectCarts(item, key)">
+						<img :src="`./src/static/${key}_01/icon.png`">
+						<span>{{item.name}}</span>
+					</div>
+				</div>
+			</div>
+			<div v-if="footerType === '2'" class="content-wrap">
+				<div class="avatar-wrap" style="padding-top: 12px;">
+					<div class="avatar-item-wrap" v-for="(item, key) in CARTAS_CODE_MAP" @click="selectCarts(item, key)">
+						<img :src="`./src/static/${key}_01/icon.png`">
+						<span>{{item.variants['01'].title}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="footer-tab">
+				<div class="footer-tab-item" @click="footerType = '0'" :class="footerType === '0' ? 'selected' : ''"><img src="./src/images/icon/icon_child.webp"><span>角色</span></div>
+				<div class="footer-tab-item" @click="footerType = '1'" :class="footerType === '1' ? 'selected' : ''"><img src=""><span>人偶</span></div>
+				<div class="footer-tab-item" @click="footerType = '2'" :class="footerType === '2' ? 'selected' : ''"><img src=""><span>魂卡</span></div>
+			</div>
 			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
-				<el-select v-model="selectedVariantId" @change="changeVariants" style="width: 200px; margin: 16px 0 0 24px;">
+				<el-select v-if="Object.keys(selectedChildConfig.variants).length > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">
 					<el-option v-for="item in selectedChildConfig.variants"
 						:key="item.id"
 						:value="item.id"
@@ -51,7 +77,9 @@
 					星级：<br />
 					<el-button @click="editInput.star = '5'" :type="editInput.star === '5' ? 'success' : ''">⭐⭐⭐⭐⭐</el-button>
 					<el-button @click="editInput.star = '4'" :type="editInput.star === '4' ? 'success' : ''">⭐⭐⭐⭐</el-button>
-					<el-button @click="editInput.star = '3'" :type="editInput.star === '3' ? 'success' : ''">⭐⭐⭐</el-button><br /><br />
+					<el-button @click="editInput.star = '3'" :type="editInput.star === '3' ? 'success' : ''">⭐⭐⭐</el-button>
+					<el-button @click="editInput.star = '2'" :type="editInput.star === '2' ? 'success' : ''">⭐⭐</el-button>
+					<el-button @click="editInput.star = '1'" :type="editInput.star === '1' ? 'success' : ''">⭐</el-button><br /><br />
 					属性：<br />
 					<el-button @click="editInput.attribute = 'L'" :type="editInput.attribute === 'L' ? 'success' : ''">光</el-button>
 					<el-button @click="editInput.attribute = 'D'" :type="editInput.attribute === 'D' ? 'success' : ''">暗</el-button>
@@ -61,18 +89,6 @@
 					<el-button @click="saveInputChange">保存</el-button>
 				</div>
 			</el-drawer>
-			<!-- <el-select v-model="selectedChildId" @change="changeChilds" filterable style="width: 120px;">
-				<el-option v-for="item in CHILDS_CODE_MAP"
-					:value="item.id"
-					:label="item.name">
-				</el-option>
-			</el-select>
-			<el-select v-model="selectedVariantId" @change="changeVariants" filterable style="width: 150px;">
-				<el-option v-for="item in selectedChildConfig.variants"
-					:value="item.id"
-					:label="item.title || 'No-Name'">
-				</el-option>
-			</el-select> -->
 		</div>
 	</body>
 </html>
