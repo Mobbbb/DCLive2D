@@ -20,6 +20,7 @@ const App = Vue.createApp({
             CHILDS_ATTR_GROUP: [],
             CARTAS_CODE_MAP,
             DOLLS_CODE_MAP,
+            OTHERS_CODE_MAP,
             
             ATTR_MAP,
             CODE_MAP,
@@ -64,22 +65,30 @@ const App = Vue.createApp({
         }
     },
     methods: {
-        selectChilds(item) {
+        select(item) {
             if (this.IS_DEBUG) this.editInput.name = ''
             this.showDrawer = true
             this.selectedChildConfig = item
             this.selectedChildId = this.selectedChildConfig.id
+        },
+        selectChilds(item) {
+            this.select(item)
             this.selectedVariantId = '01'
             this.$nextTick(() => {
                 this.updateViews(`${this.selectedChildId}_${this.selectedVariantId}`)
             })
         },
         selectCarts(item, key) {
-            this.showDrawer = true
-            this.selectedChildConfig = item
-            this.selectedChildId = this.selectedChildConfig.id
+            this.select(item)
             this.$nextTick(() => {
                 this.updateViews(`${key}_${Object.keys(item.variants)[0]}`)
+            })
+        },
+        selectOthers(item) {
+            this.select(item)
+            this.selectedVariantId = Object.keys(this.selectedChildConfig.variants)[0]
+            this.$nextTick(() => {
+                this.updateViews(`${this.selectedChildId}_${this.selectedVariantId}`)
             })
         },
         changeVariants() {

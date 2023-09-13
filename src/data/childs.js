@@ -9822,5 +9822,34 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         }
-    }
+    },
+    "m077": {
+        "name": "魔方",
+        "star": "5",
+        "attribute": "L",
+        "id": "c577",
+        "variants": {
+            "10": {
+                "title": "Gloomy",
+                "id": "10"
+            },
+            "11": {
+                "title": "Purple Gloomy",
+                "id": "11"
+            },
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Cube",
+                "id": "01"
+            },
+            "02": {
+                "title": "Big Cube",
+                "id": "02"
+            }
+        },
+        "id": "m077"
+    },
 }
