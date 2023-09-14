@@ -495,26 +495,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c024": {
-        "name": "Rufus",
-        "star": "5",
-        "attribute": "F",
-        "id": "c024",
-        "variants": {
-            "00": {
-                "title": "Neighbor",
-                "id": "00"
-            },
-            "01": {
-                "title": "",
-                "id": "01"
-            },
-            "02": {
-                "title": "Arch Duke",
-                "id": "02"
-            }
-        }
-    },
     "c026": {
         "name": "Eos",
         "star": "4",
@@ -569,14 +549,6 @@ const CHILDS_CODE_MAP = {
                 "title": "Human",
                 "id": "00"
             },
-            "01": {
-                "title": "Successful",
-                "id": "01"
-            },
-            "02": {
-                "title": "Shining",
-                "id": "02"
-            }
         }
     },
     "c029": {
@@ -1040,6 +1012,22 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Bad Boy",
                 "id": "02"
+            },
+            "c383_10": {
+                "title": "Toxic",
+                "id": "c383_10"
+            },
+            "c383_01": {
+                "title": "Resurrected",
+                "id": "c383_01"
+            },
+            "c383_02": {
+                "title": "Unleashed",
+                "id": "c383_02"
+            },
+            "sc383_01": {
+                "title": "温泉2",
+                "id": "sc383_01"
             }
         }
     },
@@ -1049,10 +1037,6 @@ const CHILDS_CODE_MAP = {
         "attribute": "L",
         "id": "c052",
         "variants": {
-            "00": {
-                "title": "Human",
-                "id": "00"
-            },
             "01": {
                 "title": "Dramatic",
                 "id": "01"
@@ -2160,7 +2144,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c132": {
-        "name": "Midas",
+        "name": "木基佬",
         "star": "5",
         "attribute": "G",
         "id": "c132",
@@ -2176,6 +2160,14 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Aesthetic",
                 "id": "02"
+            },
+            "c373_01": {
+                "title": "Ruffian",
+                "id": "c373_01"
+            },
+            "c373_02": {
+                "title": "Black-Winged Messenger",
+                "id": "c373_02"
             }
         }
     },
@@ -3587,22 +3579,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c224": {
-        "name": "Loki",
-        "star": "5",
-        "attribute": "L",
-        "id": "c224",
-        "variants": {
-            "01": {
-                "title": "Dark Prince",
-                "id": "01"
-            },
-            "02": {
-                "title": "Dark Conspiracy",
-                "id": "02"
-            }
-        }
-    },
     "c225": {
         "name": "Rudolph",
         "star": "4",
@@ -3777,7 +3753,7 @@ const CHILDS_CODE_MAP = {
     },
     "c233": {
         "name": "Arges",
-        "star": "4",
+        "star": "5",
         "attribute": "W",
         "id": "c233",
         "variants": {
@@ -3839,6 +3815,26 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
+    "c236": {
+        "name": "小丑兔",
+        "star": "5",
+        "attribute": "D",
+        "id": "c236",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Explosive",
+                "id": "01"
+            },
+            "02": {
+                "title": "Antihero",
+                "id": "02"
+            }
+        }
+    },
     "c237": {
         "name": "Typhon",
         "star": "4",
@@ -3860,7 +3856,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c238": {
-        "name": "Medb",
+        "name": "火南瓜",
         "star": "5",
         "attribute": "F",
         "id": "c238",
@@ -5616,7 +5612,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c348": {
-        "name": "Mars♥",
+        "name": "Mars",
         "star": "5",
         "attribute": "D",
         "id": "c348",
@@ -5640,7 +5636,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c349": {
-        "name": "Saturn♥",
+        "name": "Saturn",
         "star": "5",
         "attribute": "W",
         "id": "c349",
@@ -5660,7 +5656,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c350": {
-        "name": "Neptune♥",
+        "name": "Neptune",
         "star": "5",
         "attribute": "L",
         "id": "c350",
@@ -5680,7 +5676,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c351": {
-        "name": "Venus♥",
+        "name": "Venus",
         "star": "5",
         "attribute": "L",
         "id": "c351",
@@ -6039,22 +6035,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c373": {
-        "name": "Midas",
-        "star": "5",
-        "attribute": "G",
-        "id": "c373",
-        "variants": {
-            "01": {
-                "title": "Ruffian",
-                "id": "01"
-            },
-            "02": {
-                "title": "Black-Winged Messenger",
-                "id": "02"
-            }
-        }
-    },
     "c374": {
         "name": "Hildr",
         "star": "5",
@@ -6203,30 +6183,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c383": {
-        "name": "弗雷",
-        "star": "5",
-        "attribute": "D",
-        "id": "c383",
-        "variants": {
-            "10": {
-                "title": "Toxic",
-                "id": "10"
-            },
-            "11": {
-                "title": "Cursed Doll",
-                "id": "11"
-            },
-            "01": {
-                "title": "Resurrected",
-                "id": "01"
-            },
-            "02": {
-                "title": "Unleashed",
-                "id": "02"
-            }
-        }
-    },
     "c384": {
         "name": "Narvi",
         "star": "",
@@ -6347,26 +6303,6 @@ const CHILDS_CODE_MAP = {
             }
         }
     },
-    "c389": {
-        "name": "Iphis",
-        "star": "5",
-        "attribute": "L",
-        "id": "c389",
-        "variants": {
-            "89": {
-                "title": "Black Widow",
-                "id": "89"
-            },
-            "01": {
-                "title": "Black Widow",
-                "id": "01"
-            },
-            "02": {
-                "title": "",
-                "id": "02"
-            }
-        }
-    },
     "c390": {
         "name": "Eochaid",
         "star": "5",
@@ -6392,7 +6328,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c391": {
-        "name": "Medb",
+        "name": "南瓜妹",
         "star": "5",
         "attribute": "F",
         "id": "c391",
@@ -7972,7 +7908,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c471": {
-        "name": "Mars♥",
+        "name": "Mars",
         "star": "5",
         "attribute": "D",
         "id": "c471",
@@ -7992,7 +7928,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c472": {
-        "name": "Venus♥",
+        "name": "Venus",
         "star": "5",
         "attribute": "G",
         "id": "c472",
@@ -8386,7 +8322,7 @@ const CHILDS_CODE_MAP = {
     "c492": {
         "name": "何仙姑",
         "star": "5",
-        "attribute": "H",
+        "attribute": "F",
         "id": "c492",
         "variants": {
             "00": {
@@ -8518,7 +8454,7 @@ const CHILDS_CODE_MAP = {
     "c498": {
         "name": "索尔",
         "star": "5",
-        "attribute": "H",
+        "attribute": "F",
         "id": "c498",
         "variants": {
             "10": {
@@ -9560,6 +9496,10 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "",
                 "id": "02"
+            },
+            "c024_00": {
+                "title": "Neighbor",
+                "id": "c024_00"
             }
         }
     },
@@ -9710,7 +9650,7 @@ const CHILDS_CODE_MAP = {
     "c567": {
         "name": "火蝴蝶",
         "star": "5",
-        "attribute": "H",
+        "attribute": "F",
         "id": "c567",
         "variants": {
             "01": {
@@ -9852,4 +9792,240 @@ const CHILDS_CODE_MAP = {
         },
         "id": "m077"
     },
+    "m038": {
+        "name": "白斩鸡",
+        "id": "m038",
+        "star": "5",
+        "attribute": "L",
+        "variants": {
+            "10": {
+                "title": "Evil Flower",
+                "id": "10"
+            },
+            "11": {
+                "title": "Pure Flower",
+                "id": "11"
+            },
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "White Wing",
+                "id": "01"
+            },
+            "02": {
+                "title": "Black Wing",
+                "id": "02"
+            }
+        }
+    },
+    "m057": {
+        "name": "基佬龙",
+        "id": "m057",
+        "star": "5",
+        "attribute": "W",
+        "variants": {
+            "10": {
+                "title": "Azure Night",
+                "id": "10"
+            },
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Blue Shadow",
+                "id": "01"
+            },
+            "02": {
+                "title": "Black Shadow",
+                "id": "02"
+            }
+        }
+    },
+    "m261": {
+        "name": "摩亚",
+        "id": "m261",
+        "star": "5",
+        "attribute": "D",
+        "variants": {
+            "88": {
+                "title": "Monochrome",
+                "id": "88"
+            },
+            "01": {
+                "title": "Two-Sided",
+                "id": "01"
+            },
+            "02": {
+                "title": "Monochrome",
+                "id": "02"
+            }
+        }
+    },
+    "m054": {
+        "name": "Gomorrah",
+        "id": "m054",
+        "star": "4",
+        "attribute": "L",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Judge",
+                "id": "01"
+            },
+            "02": {
+                "title": "Extinct",
+                "id": "02"
+            }
+        }
+    },
+    "m045": {
+        "name": "孤独的精灵",
+        "id": "m045",
+        "star": "3",
+        "attribute": "L",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Lonely",
+                "id": "01"
+            },
+            "02": {
+                "title": "Obsessed",
+                "id": "02"
+            }
+        }
+    },
+    "m056": {
+        "name": "高达",
+        "id": "m056",
+        "star": "5",
+        "attribute": "G",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Villanious",
+                "id": "01"
+            },
+            "02": {
+                "title": "Heavy Fire",
+                "id": "02"
+            }
+        }
+    },
+    "m154": {
+        "name": "Gungnir",
+        "id": "m154",
+        "star": "4",
+        "attribute": "D",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Dark",
+                "id": "01"
+            },
+            "02": {
+                "title": "Red",
+                "id": "02"
+            }
+        }
+    },
+    "m215": {
+        "name": "史莱姆王",
+        "id": "m215",
+        "star": "5",
+        "attribute": "L",
+        "variants": {
+            "88": {
+                "title": "Passionate Ruler ",
+                "id": "88"
+            },
+            "89": {
+                "title": "Fervent Ruler",
+                "id": "89"
+            },
+            "01": {
+                "title": "Passionate Ruler",
+                "id": "01"
+            },
+            "02": {
+                "title": "Fervent Ruler",
+                "id": "02"
+            }
+        }
+    },
+    "m224": {
+        "name": "法老",
+        "id": "m224",
+        "star": "5",
+        "attribute": "L",
+        "variants": {
+            "89": {
+                "title": "Immovable",
+                "id": "89"
+            },
+            "01": {
+                "title": "Gatekeeper",
+                "id": "01"
+            },
+            "02": {
+                "title": "Immovable",
+                "id": "02"
+            }
+        }
+    },
+    "m264": {
+        "name": "白斩鸡",
+        "id": "m264",
+        "star": "5",
+        "attribute": "W",
+        "variants": {
+            "88": {
+                "title": "Abyssal",
+                "id": "88"
+            },
+            "89": {
+                "title": "",
+                "id": "89"
+            },
+            "01": {
+                "title": "Devouring",
+                "id": "01"
+            },
+            "02": {
+                "title": "Abyssal",
+                "id": "02"
+            }
+        }
+    },
+    "m051": {
+        "name": "哈迪斯",
+        "id": "m051",
+        "star": "5",
+        "attribute": "F",
+        "variants": {
+            "10": {
+                "title": "Dead End",
+                "id": "10"
+            },
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        }
+    }
 }

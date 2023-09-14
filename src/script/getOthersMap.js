@@ -8,7 +8,11 @@ async function start(innerPath) {
         let code2 = item.split('_')[1]
 
         if (CHILDS_CODE_MAP[code1]) {
-            obj[code1] = CHILDS_CODE_MAP[code1]
+            if (!obj[code1]) {
+                obj[code1] = {}
+            }
+            obj[code1].name = CHILDS_CODE_MAP[code1].name || '???'
+            obj[code1].id = code1
             if (!obj[code1].variants) {
                 obj[code1].variants = {}
             }

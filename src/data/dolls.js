@@ -608,7 +608,7 @@ const DOLLS_CODE_MAP = {
         "id": "xc347"
     },
     "xc348": {
-        "name": "Mars♥",
+        "name": "Mars",
         "variants": {
             "10": {
                 "title": "Puppet"
@@ -617,7 +617,7 @@ const DOLLS_CODE_MAP = {
         "id": "xc348"
     },
     "xc349": {
-        "name": "Saturn♥",
+        "name": "Saturn",
         "variants": {
             "10": {
                 "title": "Puppet"
@@ -626,7 +626,7 @@ const DOLLS_CODE_MAP = {
         "id": "xc349"
     },
     "xc350": {
-        "name": "Neptune♥",
+        "name": "Neptune",
         "variants": {
             "10": {
                 "title": "Puppet"
@@ -635,7 +635,7 @@ const DOLLS_CODE_MAP = {
         "id": "xc350"
     },
     "xc351": {
-        "name": "Venus♥",
+        "name": "Venus",
         "variants": {
             "10": {
                 "title": "Puppet"

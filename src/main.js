@@ -20,11 +20,13 @@ const App = Vue.createApp({
             CHILDS_ATTR_GROUP: [],
             CARTAS_CODE_MAP,
             DOLLS_CODE_MAP,
+            SLIMS_CODE_MAP,
             OTHERS_CODE_MAP,
             
             ATTR_MAP,
             CODE_MAP,
             HOT_SPRING_MAP,
+            OTHERS_ICON_SRC,
             IS_DEBUG: false,
         }
     },
@@ -73,9 +75,9 @@ const App = Vue.createApp({
         },
         selectChilds(item) {
             this.select(item)
-            this.selectedVariantId = '01'
+            this.selectedVariantId = this.selectedChildConfig.variants['01'] ? '01' : Object.keys(this.selectedChildConfig.variants)[0]
             this.$nextTick(() => {
-                this.updateViews(`${this.selectedChildId}_${this.selectedVariantId}`)
+                this.updateViewsHandle()
             })
         },
         selectCarts(item, key) {
@@ -88,12 +90,19 @@ const App = Vue.createApp({
             this.select(item)
             this.selectedVariantId = Object.keys(this.selectedChildConfig.variants)[0]
             this.$nextTick(() => {
-                this.updateViews(`${this.selectedChildId}_${this.selectedVariantId}`)
+                this.updateViewsHandle()
             })
         },
         changeVariants() {
             if (this.selectedVariantId === 's') {
                 this.updateViews(`s${this.selectedChildId}_01`)
+            } else {
+                this.updateViewsHandle()
+            }
+        },
+        updateViewsHandle() {
+            if (this.selectedVariantId.indexOf('_') > -1) {
+                this.updateViews(this.selectedVariantId)
             } else {
                 this.updateViews(`${this.selectedChildId}_${this.selectedVariantId}`)
             }
@@ -113,6 +122,9 @@ const App = Vue.createApp({
             const file = fileMap[this.footerType]
             const res = await fetch(`http://127.0.0.1:3000/edit?name=${this.editInput.name}&star=${this.editInput.star}&attribute=${this.editInput.attribute}&id=${this.selectedChildId}&file=${file}`, { method: 'GET' })
             if (res) this.showDrawer = false
+        },
+        setDefaultImage(e) {
+            e.target.src = './src/images/icon/default.png'
         },
     },   
 })
