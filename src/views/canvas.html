@@ -8,10 +8,13 @@
 		<script src='../js/PlatformManager.js'></script>
 		<script src='../js/ModelSettingJson.js'></script>
 		<script src='../js/destinychild.2d.js'></script>
+		<script src='../libs/panzoom.min.v9.4.0.js'></script>
 	</head>
 	<body>
-		<canvas id="canvas" class="maxwidth" width="500px" height="800px" onclick="animation()"></canvas>
-		<div class="canvas-wrap"></div>
+		<div class="canvas-wrap" id="canvasWrap">
+			<canvas id="canvas" class="maxwidth" onclick="animation()"></canvas>
+		</div>
+		<div class="canvas-bg"></div>
 	</body>
 </html>
 <script>
@@ -19,12 +22,17 @@
 	let code = searchParams.get('code') || ''
 	let size = searchParams.get('size') || 1000
 	let scale = searchParams.get('scale') || 1
-	let type = searchParams.get('type') || '0'
 
-	if (type === '2') {
-		document.getElementsByClassName('canvas-wrap')[0].style.display = 'none'
-	}
 	if (code) {
 		initModel(code, size, scale)
 	}
+
+	const canvasWrap = document.querySelector('#canvasWrap')
+	let a = panzoom(canvasWrap, {
+		maxZoom: 4,
+		minZoom: 0.5,
+		bounds: true,
+		boundsPadding: 0.4,
+		zoom: 4,
+	})
 </script>

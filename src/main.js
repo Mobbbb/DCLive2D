@@ -6,8 +6,9 @@ const App = Vue.createApp({
 				star: '',
                 attribute: '',
             },
+            clientHeight: 0,
+            clientWidth: 0,
             viewSize: 85,
-            iframeStyle: {},
             showDrawer: false,
             footerType: '0',
             activeTab: 'L',
@@ -37,6 +38,12 @@ const App = Vue.createApp({
             }
             return this.CHILDS_ATTR_GROUP[`${this.activeTab}-${this.activeStar}`]
         },
+        iframeStyle() {
+            return {
+                width: `${this.clientWidth}px`,
+                height: `${this.clientHeight}px`,
+            }
+        },
     },
     mounted() {
         let searchParams = (new URL(window.location.href)).searchParams
@@ -58,13 +65,8 @@ const App = Vue.createApp({
             }
         })
 
-        const clientHeight = document.body.getBoundingClientRect().height
-        const clientWidth = document.body.getBoundingClientRect().width
-
-        this.iframeStyle = {
-            width: `${clientWidth * this.viewSize / 100}px`,
-            height: `${clientHeight}px`,
-        }
+        this.clientHeight = document.body.getBoundingClientRect().height
+        this.clientWidth = document.body.getBoundingClientRect().width * this.viewSize / 100
     },
     methods: {
         select(item) {
@@ -109,9 +111,9 @@ const App = Vue.createApp({
         },
         updateViews(code) {
             const viewer = document.getElementsByTagName('iframe')[0]
-            let size = 5000
-            let scale = 1.2
-            viewer.src = `./src/views/canvas.html?code=${code}&size=${size}&scale=${scale}&type=${this.footerType}`
+            let size = this.clientHeight > this.clientWidth ? this.clientWidth : this.clientHeight
+            let scale = 1.18
+            viewer.src = `./src/views/canvas.html?code=${code}&size=${size}&scale=${scale}`
         },
         async saveInputChange () {
             const fileMap = {
