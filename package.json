@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "dclive2d",
   "version": "1.0.0",
-  "description": "test",
+  "description": "destiny child live 2d",
   "main": "index",
   "dependencies": {},
   "devDependencies": {

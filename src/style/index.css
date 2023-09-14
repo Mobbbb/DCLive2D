@@ -74,14 +74,13 @@ canvas {
 .canvas-wrap {
     width: 100%;
     height: 100%;
-    /* width: calc(100% + 256px);
-    height: calc(100% + 256px); */
+    width: calc(100% + 256px);
+    height: calc(100% + 256px);
     position: absolute;
     top: 0;
     left: 0;
-    /* animation: animation linear 20s infinite;
-    background-image: url('../images/background/bg_256_02.webp'); */
-    background: #444c56;
+    animation: animation linear 20s infinite;
+    background-image: url('../images/background/bg_256_02.webp');
     z-index: -1;
 }
 
