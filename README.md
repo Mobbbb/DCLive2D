@@ -12,3 +12,9 @@
  在当前文件目录下打开 cmd 或者 powershell，输入 ```npm start```
 <br /><br />
  #### ！！！！！如果可以成功使用，点击右上角的 ```star``` 按钮，收藏一下，感谢！！！！！
+
+<img src="https://github.com/Mobbbb/Mobbbb/blob/main/images/line.gif" width="100%"  height="3">  
+
+文 件 大 小 ：2.4g<br />
+文 件 资 源 ：韩服<br />
+资源文件地址：/src/static/(/src/static/c000_01)
