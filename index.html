@@ -22,14 +22,14 @@
 	<body>
 		<div id="app">
 			<div v-if="footerType === '0'" class="content-wrap">
-				<el-tabs class="star-wrap" v-model="activeStar">
-					<el-tab-pane label="⭐⭐⭐⭐⭐" name="5"></el-tab-pane>
-					<el-tab-pane label="⭐⭐⭐⭐" name="4"></el-tab-pane>
-					<el-tab-pane label="⭐⭐⭐" name="3"></el-tab-pane>
-					<el-tab-pane label="⭐⭐" name="2"></el-tab-pane>
-					<el-tab-pane label="⭐" name="1"></el-tab-pane>
+				<el-tabs v-model="activeStar" class="star-tab">
+					<el-tab-pane label="⭐⭐⭐⭐⭐⭐1." name="5"></el-tab-pane>
+					<el-tab-pane label="⭐⭐⭐⭐⭐1" name="4"></el-tab-pane>
+					<el-tab-pane label="⭐⭐⭐⭐" name="3"></el-tab-pane>
+					<el-tab-pane label="⭐⭐1." name="2"></el-tab-pane>
+					<el-tab-pane label="⭐1" name="1"></el-tab-pane>
 				</el-tabs>
-				<el-tabs v-model="activeTab">
+				<el-tabs v-model="activeTab" class="attr-tab">
 					<el-tab-pane label="光属性" name="L"></el-tab-pane>
 					<el-tab-pane label="暗属性" name="D"></el-tab-pane>
 					<el-tab-pane label="火属性" name="F"></el-tab-pane>
@@ -46,6 +46,7 @@
 				<div class="content-block"></div>
 			</div>
 			<div v-if="footerType === '1'" class="content-wrap">
+				<div>！！！！开发中</div>
 				<div class="avatar-wrap" style="padding-top: 12px;">
 					<div class="avatar-item-wrap" v-for="(item, key) in DOLLS_CODE_MAP" @click="selectCarts(item, key)">
 						<img :src="`./src/static/${key}_10/icon.png`" @error="setDefaultImage">
@@ -73,10 +74,11 @@
 				<div class="content-block"></div>
 			</div>
 			<div v-if="footerType === '4'" class="content-wrap">
+				<div>！！！！开发中</div>
 				<div class="avatar-wrap" style="padding-top: 12px;">
 					<div class="avatar-item-wrap" v-for="(item, key) in OTHERS_CODE_MAP" @click="selectOthers(item)">
-						<img v-if="OTHERS_ICON_SRC[item.id]"  @error="setDefaultImage" class="others-img" :src="`./src/static/${item.id}_${OTHERS_ICON_SRC[item.id]}/icon.png`">
-						<img v-else class="others-img default-img" src="./src/images/icon/default.png">
+						<img v-if="OTHERS_ICON_SRC[item.id]" class="others-img" :src="`./src/static/${item.id}_${OTHERS_ICON_SRC[item.id]}/icon.png`">
+						<img v-else :src="`./src/static/${item.id}_01/icon.png`" @error="setDefaultImage">
 						<span>{{item.name}}</span>
 					</div>
 				</div>
@@ -87,7 +89,7 @@
 				<div class="footer-tab-item" @click="footerType = '1'" :class="footerType === '1' ? 'selected' : ''"><img src="./src/images/icon/default.png"><span>人偶</span></div>
 				<div class="footer-tab-item" @click="footerType = '2'" :class="footerType === '2' ? 'selected' : ''"><img src="./src/images/icon/default.png"><span>魂卡</span></div>
 				<div class="footer-tab-item" @click="footerType = '3'" :class="footerType === '3' ? 'selected' : ''"><img src="./src/images/icon/default.png"><span>史莱姆</span></div>
-				<div class="footer-tab-item" @click="footerType = '4'" :class="footerType === '4' ? 'selected' : ''"><img src="./src/images/icon/default.png"><span>未分类</span></div>
+				<div class="footer-tab-item" @click="footerType = '4'" :class="footerType === '4' ? 'selected' : ''"><img src="./src/images/icon/bg-icon.png"><span>未分类</span></div>
 			</div>
 			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
 				<el-select v-if="Object.keys(selectedChildConfig.variants).length > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">

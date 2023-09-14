@@ -1689,78 +1689,8 @@ const OTHERS_CODE_MAP = {
             }
         }
     },
-    "m278": {
-        "name": "Ox",
-        "id": "m278",
-        "variants": {
-            "01": {
-                "title": "Water Drop",
-                "id": "01"
-            },
-            "02": {
-                "title": "Water Cloud",
-                "id": "02"
-            }
-        }
-    },
-    "m279": {
-        "name": "Ox",
-        "id": "m279",
-        "variants": {
-            "01": {
-                "title": "Ember",
-                "id": "01"
-            },
-            "02": {
-                "title": "Flame",
-                "id": "02"
-            }
-        }
-    },
-    "m280": {
-        "name": "Ox",
-        "id": "m280",
-        "variants": {
-            "01": {
-                "title": "Sprout",
-                "id": "01"
-            },
-            "02": {
-                "title": "Leaf",
-                "id": "02"
-            }
-        }
-    },
-    "m281": {
-        "name": "Ox",
-        "id": "m281",
-        "variants": {
-            "01": {
-                "title": "Sparkle",
-                "id": "01"
-            },
-            "02": {
-                "title": "Sunlight",
-                "id": "02"
-            }
-        }
-    },
-    "m282": {
-        "name": "Ox",
-        "id": "m282",
-        "variants": {
-            "01": {
-                "title": "Star Shade",
-                "id": "01"
-            },
-            "02": {
-                "title": "Moon Shade",
-                "id": "02"
-            }
-        }
-    },
     "v002": {
-        "name": "Virupa",
+        "name": "病毒性肺炎",
         "id": "v002",
         "variants": {
             "01": {
@@ -1770,7 +1700,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v003": {
-        "name": " Artemis",
+        "name": "Artemis",
         "id": "v003",
         "variants": {
             "01": {
@@ -1784,7 +1714,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v004": {
-        "name": "Eve",
+        "name": "伊芙-动画",
         "id": "v004",
         "variants": {
             "01": {
@@ -1798,7 +1728,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v007": {
-        "name": "???",
+        "name": "白猫-动画",
         "id": "v007",
         "variants": {
             "01": {
@@ -1824,7 +1754,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v008": {
-        "name": "???",
+        "name": "阿罗汉-动画",
         "id": "v008",
         "variants": {
             "01": {
@@ -1864,7 +1794,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v010": {
-        "name": "???",
+        "name": "弗雷-动画",
         "id": "v010",
         "variants": {
             "01": {
@@ -1894,7 +1824,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v011": {
-        "name": "Tiwaz",
+        "name": "蒂瓦兹",
         "id": "v011",
         "variants": {
             "01": {
@@ -1904,7 +1834,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v012": {
-        "name": "???",
+        "name": "男主",
         "id": "v012",
         "variants": {
             "01": {
@@ -1922,21 +1852,11 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v013": {
-        "name": "???",
+        "name": "男主",
         "id": "v013",
         "variants": {
             "01": {
                 "title": "Mitra, Kalaratri & Titania",
-                "id": "01"
-            }
-        }
-    },
-    "v014": {
-        "name": "Arhat & Mitra",
-        "id": "v014",
-        "variants": {
-            "01": {
-                "title": "Cutscene",
                 "id": "01"
             }
         }

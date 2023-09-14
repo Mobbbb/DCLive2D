@@ -10027,5 +10027,85 @@ const CHILDS_CODE_MAP = {
                 "id": "00"
             }
         }
+    },
+    "m278": {
+        "name": "Ox",
+        "id": "m278",
+        "star": "1",
+        "attribute": "W",
+        "variants": {
+            "01": {
+                "title": "Water Drop",
+                "id": "01"
+            },
+            "02": {
+                "title": "Water Cloud",
+                "id": "02"
+            }
+        }
+    },
+    "m279": {
+        "name": "Ox",
+        "id": "m279",
+        "star": "1",
+        "attribute": "F",
+        "variants": {
+            "01": {
+                "title": "Ember",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flame",
+                "id": "02"
+            }
+        }
+    },
+    "m280": {
+        "name": "Ox",
+        "id": "m280",
+        "star": "1",
+        "attribute": "G",
+        "variants": {
+            "01": {
+                "title": "Sprout",
+                "id": "01"
+            },
+            "02": {
+                "title": "Leaf",
+                "id": "02"
+            }
+        }
+    },
+    "m281": {
+        "name": "Ox",
+        "id": "m281",
+        "star": "1",
+        "attribute": "L",
+        "variants": {
+            "01": {
+                "title": "Sparkle",
+                "id": "01"
+            },
+            "02": {
+                "title": "Sunlight",
+                "id": "02"
+            }
+        }
+    },
+    "m282": {
+        "name": "Ox",
+        "id": "m282",
+        "star": "1",
+        "attribute": "D",
+        "variants": {
+            "01": {
+                "title": "Star Shade",
+                "id": "01"
+            },
+            "02": {
+                "title": "Moon Shade",
+                "id": "02"
+            }
+        }
     }
 }
