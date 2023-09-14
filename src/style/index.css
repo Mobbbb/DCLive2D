@@ -74,11 +74,14 @@ canvas {
 .canvas-wrap {
     width: 100%;
     height: 100%;
-    width: calc(100% + 256px);
-    height: calc(100% + 256px);
+    /* width: calc(100% + 256px);
+    height: calc(100% + 256px); */
     position: absolute;
-    animation: animation linear 20s infinite;
-    background-image: url('../images/background/bg_256_02.webp');
+    top: 0;
+    left: 0;
+    /* animation: animation linear 20s infinite;
+    background-image: url('../images/background/bg_256_02.webp'); */
+    background: #444c56;
     z-index: -1;
 }
 
@@ -99,18 +102,35 @@ canvas {
     display: block;
     width: 68px;
 }
+.avatar-item-wrap .others-img {
+    width: 58px;
+    border: 2px solid white;
+    border-radius: 16px;
+    box-shadow: 1px 2px 3px rgba(0, 0 , 0, 0.85);
+    margin-bottom: 4px;
+    margin-top: 3px;
+}
+.avatar-item-wrap .default-img {
+    background: #444c56;
+}
 .avatar-item-wrap span {
     display: block;
     width: 68px;
 }
 
 .content-wrap {
-    height: calc(100% - 64px);
+    height: 100%;
     overflow: scroll;
 }
+.content-block { 
+    height: 64px;
+}
 .footer-tab {
+    position: fixed;
+    bottom: 0;
     display: flex;
     height: 64px;
+    width: 100%;
     justify-content: center;
 }
 .footer-tab-item {
