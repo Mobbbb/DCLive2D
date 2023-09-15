@@ -193,13 +193,15 @@ iframe {
     position: relative;
     padding-left: 25px!important;
     transition: all ease .2s;
-    color: white;
+    color: #f3b219;
+    font-weight: bold;
 }
 .attr-tab .el-tabs__item.is-active {
-    color: #f3b219;
+    color: white;
+    background: linear-gradient(0deg, rgba(255,205,0,1) 0%, rgba(255,205,0,0.3) 40%, rgba(255,205,0,0) 95%);
 }
 .attr-tab .el-tabs__item:hover {
-    color: #f3b219;
+    color: white;
 }
 .el-tabs__active-bar {
     background-color: transparent!important;
@@ -210,16 +212,20 @@ iframe {
     left: 8px!important;
     right: 8px!important;
     width: unset!important;
+    z-index: 5!important;
+}
+.attr-tab .el-tabs__item {
+    padding-left: 35px!important;
 }
 .attr-tab .el-tabs__item:last-of-type {
-    padding-left: 0!important;
+    padding: 0 20px 0 20px!important;
 }
 .attr-tab .el-tabs__item:before {
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 0;
+    left: 10px;
     top: 8px;
     background: url('../images/icon/attributes.webp');
 }
