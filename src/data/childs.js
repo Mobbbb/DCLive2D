@@ -53,6 +53,14 @@ const CHILDS_CODE_MAP = {
         "attribute": "D",
         "id": "c001",
         "variants": {
+            "10": {
+                "title": "未知",
+                "id": "10"
+            },
+            "11": {
+                "title": "未知",
+                "id": "11"
+            },
             "12": {
                 "title": "Seaside",
                 "id": "12"
@@ -124,6 +132,10 @@ const CHILDS_CODE_MAP = {
             "11": {
                 "title": "Student",
                 "id": "11"
+            },
+            "12": {
+                "title": "封面",
+                "id": "12"
             },
             "13": {
                 "title": "Summer Dream",
@@ -984,6 +996,10 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Tyrannical",
                 "id": "02"
+            },
+            "01": {
+                "title": "Tyrannical",
+                "id": "01"
             }
         }
     },
@@ -1920,7 +1936,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c122": {
-        "name": "Samael",
+        "name": "萨马尔",
         "star": "5",
         "attribute": "F",
         "id": "c122",
@@ -1936,6 +1952,10 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Covetous",
                 "id": "02"
+            },
+            "10": {
+                "title": "小兔子萨马尔",
+                "id": "10"
             }
         }
     },
@@ -4240,7 +4260,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c265": {
-        "name": "Mona ?",
+        "name": "Mona",
         "star": "",
         "attribute": "",
         "id": "c265",
@@ -6701,6 +6721,10 @@ const CHILDS_CODE_MAP = {
                 "title": "Exorcist",
                 "id": "89"
             },
+            "00": {
+                "title": "人间体",
+                "id": "00"
+            },
             "01": {
                 "title": "Exorcist",
                 "id": "01"
@@ -8264,6 +8288,10 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Dark Conspiracy",
                 "id": "02"
+            },
+            "c224_00": {
+                "title": "人间体",
+                "id": "c224_00"
             }
         }
     },
@@ -10248,7 +10276,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "L"
     },
     "m008": {
-        "name": "???",
+        "name": "果冻",
         "id": "m008",
         "variants": {
             "01": {
@@ -10260,7 +10288,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "F"
     },
     "m009": {
-        "name": "???",
+        "name": "果冻",
         "id": "m009",
         "variants": {
             "01": {
@@ -10272,7 +10300,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "W"
     },
     "m010": {
-        "name": "???",
+        "name": "布灵",
         "id": "m010",
         "variants": {
             "01": {
@@ -10284,7 +10312,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "W"
     },
     "m011": {
-        "name": "???",
+        "name": "布灵",
         "id": "m011",
         "variants": {
             "01": {
@@ -10376,7 +10404,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "W"
     },
     "m028": {
-        "name": "???",
+        "name": "松鼠",
         "id": "m028",
         "variants": {
             "01": {
@@ -10562,7 +10590,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "D"
     },
     "m064": {
-        "name": "???",
+        "name": "普可利",
         "id": "m064",
         "variants": {
             "01": {
@@ -10578,7 +10606,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "G"
     },
     "m065": {
-        "name": "???",
+        "name": "可可利",
         "id": "m065",
         "variants": {
             "01": {
@@ -10594,7 +10622,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "L"
     },
     "m066": {
-        "name": "???",
+        "name": "古可利",
         "id": "m066",
         "variants": {
             "01": {
@@ -10898,7 +10926,7 @@ const CHILDS_CODE_MAP = {
         "attribute": "D"
     },
     "m089": {
-        "name": "???",
+        "name": "姆可利",
         "id": "m089",
         "variants": {
             "01": {
@@ -11828,5 +11856,253 @@ const CHILDS_CODE_MAP = {
                 "id": "89"
             }
         }
-    }
+    },
+    "c075": {
+        "name": "No-Name",
+        "id": "c075",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            },
+            "01": {
+                "title": "???",
+                "id": "01"
+            },
+            "02": {
+                "title": "???",
+                "id": "02"
+            }
+        }
+    },
+    "c113": {
+        "name": "???",
+        "id": "c113",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c215": {
+        "name": "???",
+        "id": "c215",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c240": {
+        "name": "???",
+        "id": "c240",
+        "variants": {
+            "01": {
+                "title": "???",
+                "id": "01"
+            },
+            "02": {
+                "title": "???",
+                "id": "02"
+            }
+        }
+    },
+    "c352": {
+        "name": "???",
+        "id": "c352",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c369": {
+        "name": "???",
+        "id": "c369",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c413": {
+        "name": "???",
+        "id": "c413",
+        "variants": {
+            "21": {
+                "title": "???",
+                "id": "21"
+            },
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c515": {
+        "name": "???",
+        "id": "c515",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c570": {
+        "name": "???",
+        "id": "c570",
+        "variants": {
+            "00": {
+                "title": "???",
+                "id": "00"
+            }
+        }
+    },
+    "c574": {
+        "name": "???",
+        "id": "c574",
+        "variants": {
+            "02": {
+                "title": "???",
+                "id": "02"
+            }
+        }
+    },
+    "m003": {
+        "name": "炎龙",
+        "star": "3",
+        "attribute": "D",
+        "id": "m003",
+        "variants": {
+            "sm003_01": {
+                "title": "温泉皮",
+                "id": "sm003_01"
+            }
+        }
+    },
+    "m036": {
+        "name": "传达者",
+        "star": "3",
+        "attribute": "F",
+        "id": "m036",
+        "variants": {
+            "sm036_01": {
+                "title": "温泉皮",
+                "id": "sm036_01"
+            }
+        }
+    },
+    "m037": {
+        "name": "追逐者",
+        "star": "3",
+        "attribute": "D",
+        "id": "m037",
+        "variants": {
+            "sm037_01": {
+                "title": "温泉皮",
+                "id": "sm037_01"
+            }
+        }
+    },
+    "m039": {
+        "name": "利嘉",
+        "star": "3",
+        "attribute": "L",
+        "id": "m039",
+        "variants": {
+            "sm039_01": {
+                "title": "温泉皮",
+                "id": "sm039_01"
+            }
+        }
+    },
+    "m137": {
+        "name": "铃铛男孩",
+        "star": "3",
+        "attribute": "G",
+        "id": "m137",
+        "variants": {
+            "sm137_01": {
+                "title": "温泉皮",
+                "id": "sm137_01"
+            }
+        }
+    },
+    "m148": {
+        "name": "噪音圆",
+        "star": "3",
+        "attribute": "L",
+        "id": "m148",
+        "variants": {
+            "sm148_01": {
+                "title": "温泉皮",
+                "id": "sm148_01"
+            }
+        }
+    },
+    "m149": {
+        "name": "赫兹",
+        "star": "3",
+        "attribute": "W",
+        "id": "m149",
+        "variants": {
+            "sm149_01": {
+                "title": "温泉皮",
+                "id": "sm149_01"
+            }
+        }
+    },
+    "m150": {
+        "name": "帽子戏法",
+        "star": "4",
+        "attribute": "G",
+        "id": "m150",
+        "variants": {
+            "sm150_01": {
+                "title": "温泉皮",
+                "id": "sm150_01"
+            }
+        }
+    },
+    "m151": {
+        "name": "疯狂兔子",
+        "star": "3",
+        "attribute": "L",
+        "id": "m151",
+        "variants": {
+            "sm151_01": {
+                "title": "温泉皮",
+                "id": "sm151_01"
+            }
+        }
+    },
+    "m152": {
+        "name": "格斗家",
+        "star": "3",
+        "attribute": "F",
+        "id": "m152",
+        "variants": {
+            "sm152_01": {
+                "title": "温泉皮",
+                "id": "sm152_01"
+            }
+        }
+    },
+    "m153": {
+        "name": "螳螂",
+        "star": "3",
+        "attribute": "G",
+        "id": "m153",
+        "variants": {
+            "sm153_01": {
+                "title": "温泉皮",
+                "id": "sm153_01"
+            }
+        }
+    },
 }

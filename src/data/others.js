@@ -64,7 +64,7 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v008": {
-        "name": "阿罗汉-动画",
+        "name": "动画",
         "id": "v008",
         "variants": {
             "01": {
@@ -82,6 +82,10 @@ const OTHERS_CODE_MAP = {
             "05": {
                 "title": "Semele",
                 "id": "05"
+            },
+            "06": {
+                "title": "光鸟",
+                "id": "06"
             }
         }
     },
@@ -222,5 +226,16 @@ const OTHERS_CODE_MAP = {
                 "id": "01"
             }
         }
-    }
+    },
+    "v017": {
+        "name": "No-Name",
+        "id": "v017",
+        "variants": {
+            "02": {
+                "title": "???",
+                "id": "02"
+            }
+        }
+    },
+    
 }
