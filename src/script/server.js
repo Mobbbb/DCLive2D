@@ -19,13 +19,28 @@ app.all('*', function (req, res, next) {
 app.get('/edit', async function(req, res) {
     var urlQuery = req.query
 
-    let data = fs.readFileSync(`../data/${urlQuery.file}.js`, 'utf-8')
+    let data = ''
+    try {
+        data = fs.readFileSync(`../data/${urlQuery.file}.js`, 'utf-8')
+    } catch(e) {}
+
+    if (!data) {
+        res.json(0)
+        return 
+    }
+
     let replaceText = 'const CHILDS_CODE_MAP ='
     if (urlQuery.file === 'dolls') {
         replaceText = 'const DOLLS_CODE_MAP ='
     }
     if (urlQuery.file === 'cartas') {
         replaceText = 'const CARTAS_CODE_MAP ='
+    }
+    if (urlQuery.file === 'others') {
+        replaceText = 'const OTHERS_CODE_MAP ='
+    }
+    if (urlQuery.file === 'slims') {
+        replaceText = 'const SLIMS_CODE_MAP ='
     }
     
     data = data.replace(replaceText, '')

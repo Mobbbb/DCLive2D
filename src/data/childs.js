@@ -548,7 +548,7 @@ const CHILDS_CODE_MAP = {
             "00": {
                 "title": "Human",
                 "id": "00"
-            },
+            }
         }
     },
     "c029": {
@@ -868,7 +868,7 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c045": {
-        "name": "Aria",
+        "name": "亚里亚",
         "star": "5",
         "attribute": "L",
         "id": "c045",
@@ -3561,7 +3561,7 @@ const CHILDS_CODE_MAP = {
     },
     "c223": {
         "name": "Air",
-        "star": "4",
+        "star": "5",
         "attribute": "W",
         "id": "c223",
         "variants": {
@@ -3753,7 +3753,7 @@ const CHILDS_CODE_MAP = {
     },
     "c233": {
         "name": "Arges",
-        "star": "5",
+        "star": "4",
         "attribute": "W",
         "id": "c233",
         "variants": {
@@ -9767,7 +9767,7 @@ const CHILDS_CODE_MAP = {
         "name": "魔方",
         "star": "5",
         "attribute": "L",
-        "id": "c577",
+        "id": "m077",
         "variants": {
             "10": {
                 "title": "Gloomy",
@@ -9789,8 +9789,7 @@ const CHILDS_CODE_MAP = {
                 "title": "Big Cube",
                 "id": "02"
             }
-        },
-        "id": "m077"
+        }
     },
     "m038": {
         "name": "白斩鸡",
@@ -10105,6 +10104,1728 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Moon Shade",
                 "id": "02"
+            }
+        }
+    },
+    "m059": {
+        "name": "Bazooka",
+        "id": "m059",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Green Helmet",
+                "id": "01"
+            },
+            "02": {
+                "title": "Red Helmet",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m063": {
+        "name": "Ampoule",
+        "id": "m063",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Poison",
+                "id": "01"
+            },
+            "02": {
+                "title": "New Poison",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m191": {
+        "name": "Chimera",
+        "id": "m191",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Silent",
+                "id": "01"
+            },
+            "02": {
+                "title": "Apocalyptic",
+                "id": "02"
+            }
+        },
+        "star": "4",
+        "attribute": "F"
+    },
+    "m200": {
+        "name": "Ankh",
+        "id": "m200",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Guard",
+                "id": "01"
+            },
+            "02": {
+                "title": "Enforcer",
+                "id": "02"
+            }
+        },
+        "star": "4",
+        "attribute": "G"
+    },
+    "m201": {
+        "name": "Mech Commander",
+        "id": "m201",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Bombing",
+                "id": "01"
+            },
+            "02": {
+                "title": "Blasting",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m202": {
+        "name": "Mech Soldier",
+        "id": "m202",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Armed",
+                "id": "01"
+            },
+            "02": {
+                "title": "Teeth",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m203": {
+        "name": "Bremen",
+        "id": "m203",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            },
+            "01": {
+                "title": "Twirling",
+                "id": "01"
+            },
+            "02": {
+                "title": "Spinning",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m008": {
+        "name": "???",
+        "id": "m008",
+        "variants": {
+            "01": {
+                "title": "Strawberry Gelatin",
+                "id": "01"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m009": {
+        "name": "???",
+        "id": "m009",
+        "variants": {
+            "01": {
+                "title": "Soda Pop Gelatin",
+                "id": "01"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m010": {
+        "name": "???",
+        "id": "m010",
+        "variants": {
+            "01": {
+                "title": "Soda Pop Pudding",
+                "id": "01"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m011": {
+        "name": "???",
+        "id": "m011",
+        "variants": {
+            "01": {
+                "title": "Strawberry Pudding",
+                "id": "01"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m012": {
+        "name": "Dondon",
+        "id": "m012",
+        "variants": {
+            "02": {
+                "title": "Multi-Year",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m018": {
+        "name": "Pom",
+        "id": "m018",
+        "variants": {
+            "01": {
+                "title": "Fate",
+                "id": "01"
+            },
+            "02": {
+                "title": "Destiny",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m021": {
+        "name": "Donkey",
+        "id": "m021",
+        "variants": {
+            "01": {
+                "title": "Idle",
+                "id": "01"
+            },
+            "02": {
+                "title": "Pleasure-Seeking",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m022": {
+        "name": "Puppy",
+        "id": "m022",
+        "variants": {
+            "01": {
+                "title": "Free",
+                "id": "01"
+            },
+            "02": {
+                "title": "Obedient",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m026": {
+        "name": "Chick",
+        "id": "m026",
+        "variants": {
+            "10": {
+                "title": "Summer",
+                "id": "10"
+            },
+            "01": {
+                "title": "Lazy",
+                "id": "01"
+            },
+            "02": {
+                "title": "Lazy Fused",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m028": {
+        "name": "???",
+        "id": "m028",
+        "variants": {
+            "01": {
+                "title": "Ouro Squirrel",
+                "id": "01"
+            },
+            "02": {
+                "title": "Ouro Tiger",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "L"
+    },
+    "m029": {
+        "name": "Tooth",
+        "id": "m029",
+        "variants": {
+            "01": {
+                "title": "Glowing",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flaming",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m030": {
+        "name": "Ball",
+        "id": "m030",
+        "variants": {
+            "01": {
+                "title": "Green",
+                "id": "01"
+            },
+            "02": {
+                "title": "E-Green",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m031": {
+        "name": "Tree",
+        "id": "m031",
+        "variants": {
+            "01": {
+                "title": "Dreary",
+                "id": "01"
+            },
+            "02": {
+                "title": "Old",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m040": {
+        "name": "链锯杀手",
+        "id": "m040",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m047": {
+        "name": "Egg",
+        "id": "m047",
+        "variants": {
+            "01": {
+                "title": "Mysterious",
+                "id": "01"
+            },
+            "02": {
+                "title": "Columbus",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m048": {
+        "name": "Bunny",
+        "id": "m048",
+        "variants": {
+            "01": {
+                "title": "Back",
+                "id": "01"
+            },
+            "02": {
+                "title": "Front",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m049": {
+        "name": "Skull",
+        "id": "m049",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        }
+    },
+    "m050": {
+        "name": "Guillotine",
+        "id": "m050",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        }
+    },
+    "m052": {
+        "name": "Basilisk",
+        "id": "m052",
+        "variants": {
+            "01": {
+                "title": "Desert",
+                "id": "01"
+            },
+            "02": {
+                "title": "Plains",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m053": {
+        "name": "Hydra",
+        "id": "m053",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        }
+    },
+    "m061": {
+        "name": "Syringe",
+        "id": "m061",
+        "variants": {
+            "01": {
+                "title": "Strawberry",
+                "id": "01"
+            },
+            "02": {
+                "title": "Strawberry",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m062": {
+        "name": "Syringe",
+        "id": "m062",
+        "variants": {
+            "01": {
+                "title": "Grape",
+                "id": "01"
+            },
+            "02": {
+                "title": "Grape",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "D"
+    },
+    "m064": {
+        "name": "???",
+        "id": "m064",
+        "variants": {
+            "01": {
+                "title": "Piglet Pukli",
+                "id": "01"
+            },
+            "02": {
+                "title": "Piglet Pukli Jin",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m065": {
+        "name": "???",
+        "id": "m065",
+        "variants": {
+            "01": {
+                "title": "Piglet Kokuri",
+                "id": "01"
+            },
+            "02": {
+                "title": "Piglet Kokuri Jin",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "L"
+    },
+    "m066": {
+        "name": "???",
+        "id": "m066",
+        "variants": {
+            "01": {
+                "title": "Piglet Kukuri",
+                "id": "01"
+            },
+            "02": {
+                "title": "Piglet Kukuri Jin",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m067": {
+        "name": "Food",
+        "id": "m067",
+        "variants": {
+            "01": {
+                "title": "Aqua",
+                "id": "01"
+            },
+            "02": {
+                "title": "B. Aqua",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m068": {
+        "name": "Food",
+        "id": "m068",
+        "variants": {
+            "01": {
+                "title": "Dark",
+                "id": "01"
+            },
+            "02": {
+                "title": "B. Dark",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "D"
+    },
+    "m069": {
+        "name": "Food",
+        "id": "m069",
+        "variants": {
+            "01": {
+                "title": "Light",
+                "id": "01"
+            },
+            "02": {
+                "title": "B. Light",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "L"
+    },
+    "m070": {
+        "name": "Red Chain",
+        "id": "m070",
+        "variants": {
+            "01": {
+                "title": "Bound",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liberated",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m071": {
+        "name": "Green Chain",
+        "id": "m071",
+        "variants": {
+            "01": {
+                "title": "Bound",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liberated",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m072": {
+        "name": "Blue Chain",
+        "id": "m072",
+        "variants": {
+            "01": {
+                "title": "Bound",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liberated",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m073": {
+        "name": "Cube",
+        "id": "m073",
+        "variants": {
+            "01": {
+                "title": "Cure",
+                "id": "01"
+            },
+            "02": {
+                "title": "Cure",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m074": {
+        "name": "Cube",
+        "id": "m074",
+        "variants": {
+            "01": {
+                "title": "Poison",
+                "id": "01"
+            },
+            "02": {
+                "title": "Poison",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m075": {
+        "name": "Cube",
+        "id": "m075",
+        "variants": {
+            "01": {
+                "title": "Evil",
+                "id": "01"
+            },
+            "02": {
+                "title": "Evil",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m076": {
+        "name": "Cube",
+        "id": "m076",
+        "variants": {
+            "01": {
+                "title": "Honey",
+                "id": "01"
+            },
+            "02": {
+                "title": "Honey",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m078": {
+        "name": "Cocoon",
+        "id": "m078",
+        "variants": {
+            "01": {
+                "title": "Emerald",
+                "id": "01"
+            },
+            "02": {
+                "title": "Emerald",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m080": {
+        "name": "Cocoon",
+        "id": "m080",
+        "variants": {
+            "01": {
+                "title": "Ruby",
+                "id": "01"
+            },
+            "02": {
+                "title": "Ruby",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m081": {
+        "name": "Cocoon",
+        "id": "m081",
+        "variants": {
+            "01": {
+                "title": "Citrine",
+                "id": "01"
+            },
+            "02": {
+                "title": "Citrine",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "L"
+    },
+    "m082": {
+        "name": "Cocoon",
+        "id": "m082",
+        "variants": {
+            "01": {
+                "title": "Sapphire",
+                "id": "01"
+            },
+            "02": {
+                "title": "Sapphire",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m083": {
+        "name": "Cocoon",
+        "id": "m083",
+        "variants": {
+            "01": {
+                "title": "Amethyst",
+                "id": "01"
+            },
+            "02": {
+                "title": "Amethyst",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "D"
+    },
+    "m084": {
+        "name": "Cube",
+        "id": "m084",
+        "variants": {
+            "01": {
+                "title": "Pie",
+                "id": "01"
+            },
+            "02": {
+                "title": "Pie",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m086": {
+        "name": "Light Chain",
+        "id": "m086",
+        "variants": {
+            "01": {
+                "title": "Bound",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liberated",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m087": {
+        "name": "Dark Chain",
+        "id": "m087",
+        "variants": {
+            "01": {
+                "title": "Bound",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liberated",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m089": {
+        "name": "???",
+        "id": "m089",
+        "variants": {
+            "01": {
+                "title": "Piglet Mukuri",
+                "id": "01"
+            },
+            "02": {
+                "title": "Piglet Mukuri Jin",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m090": {
+        "name": "荷可利",
+        "id": "m090",
+        "variants": {
+            "01": {
+                "title": "Piglet Fukli",
+                "id": "01"
+            },
+            "02": {
+                "title": "Piglet Fukli Jin",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "D"
+    },
+    "m092": {
+        "name": "Syringe",
+        "id": "m092",
+        "variants": {
+            "01": {
+                "title": "Mint",
+                "id": "01"
+            },
+            "02": {
+                "title": "Mint",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m093": {
+        "name": "Syringe",
+        "id": "m093",
+        "variants": {
+            "01": {
+                "title": "Apple",
+                "id": "01"
+            },
+            "02": {
+                "title": "Apple",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "L"
+    },
+    "m095": {
+        "name": "Syringe",
+        "id": "m095",
+        "variants": {
+            "01": {
+                "title": "Soda Pop",
+                "id": "01"
+            },
+            "02": {
+                "title": "Soda Pop",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "W"
+    },
+    "m096": {
+        "name": "Ball",
+        "id": "m096",
+        "variants": {
+            "01": {
+                "title": "Light",
+                "id": "01"
+            },
+            "02": {
+                "title": "E. Light",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m097": {
+        "name": "Ball",
+        "id": "m097",
+        "variants": {
+            "01": {
+                "title": "Blue",
+                "id": "01"
+            },
+            "02": {
+                "title": "E. Blue",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m098": {
+        "name": "Ball",
+        "id": "m098",
+        "variants": {
+            "01": {
+                "title": "Purple",
+                "id": "01"
+            },
+            "02": {
+                "title": "E. Dark",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m100": {
+        "name": "Ball",
+        "id": "m100",
+        "variants": {
+            "01": {
+                "title": "Fire",
+                "id": "01"
+            },
+            "02": {
+                "title": "E. Fire",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m107": {
+        "name": "Food",
+        "id": "m107",
+        "variants": {
+            "01": {
+                "title": "Green",
+                "id": "01"
+            },
+            "02": {
+                "title": "B. Green",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "G"
+    },
+    "m109": {
+        "name": "Food",
+        "id": "m109",
+        "variants": {
+            "01": {
+                "title": "Fire",
+                "id": "01"
+            },
+            "02": {
+                "title": "B. Fire",
+                "id": "02"
+            }
+        },
+        "star": "1",
+        "attribute": "F"
+    },
+    "m110": {
+        "name": "Gron",
+        "id": "m110",
+        "variants": {
+            "01": {
+                "title": "",
+                "id": "01"
+            },
+            "02": {
+                "title": "Gron",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m111": {
+        "name": "Firon",
+        "id": "m111",
+        "variants": {
+            "01": {
+                "title": "",
+                "id": "01"
+            },
+            "02": {
+                "title": "Firon",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m112": {
+        "name": "Bluron",
+        "id": "m112",
+        "variants": {
+            "01": {
+                "title": "",
+                "id": "01"
+            },
+            "02": {
+                "title": "Bluron",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "W"
+    },
+    "m113": {
+        "name": "Daron",
+        "id": "m113",
+        "variants": {
+            "01": {
+                "title": "",
+                "id": "01"
+            },
+            "02": {
+                "title": "Daron",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m114": {
+        "name": "Liron",
+        "id": "m114",
+        "variants": {
+            "01": {
+                "title": "",
+                "id": "01"
+            },
+            "02": {
+                "title": "Liron",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m117": {
+        "name": "多米",
+        "id": "m117",
+        "variants": {
+            "01": {
+                "title": "G. Cat Dummy",
+                "id": "01"
+            },
+            "02": {
+                "title": "G. Cat Devil",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m124": {
+        "name": "Watcher",
+        "id": "m124",
+        "variants": {
+            "01": {
+                "title": "Red",
+                "id": "01"
+            },
+            "02": {
+                "title": "Hellfire",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m125": {
+        "name": "Watcher",
+        "id": "m125",
+        "variants": {
+            "01": {
+                "title": "Blue",
+                "id": "01"
+            },
+            "02": {
+                "title": "Freezing",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "W"
+    },
+    "m126": {
+        "name": "Watcher",
+        "id": "m126",
+        "variants": {
+            "01": {
+                "title": "Darkness",
+                "id": "01"
+            },
+            "02": {
+                "title": "Darkest",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m127": {
+        "name": "Watcher",
+        "id": "m127",
+        "variants": {
+            "01": {
+                "title": "Green",
+                "id": "01"
+            },
+            "02": {
+                "title": "Dark Green",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m128": {
+        "name": "Watcher",
+        "id": "m128",
+        "variants": {
+            "01": {
+                "title": "Light",
+                "id": "01"
+            },
+            "02": {
+                "title": "Sun",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m136": {
+        "name": "女士",
+        "id": "m136",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        },
+        "star": "4",
+        "attribute": "F"
+    },
+    "m141": {
+        "name": "Halloween",
+        "id": "m141",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        }
+    },
+    "m142": {
+        "name": "Revenge Girl",
+        "id": "m142",
+        "variants": {
+            "01": {
+                "title": "Red",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flame",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m143": {
+        "name": "Revenge Girl",
+        "id": "m143",
+        "variants": {
+            "01": {
+                "title": "Blue",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flood",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "W"
+    },
+    "m144": {
+        "name": "Revenge Girl",
+        "id": "m144",
+        "variants": {
+            "01": {
+                "title": "Green",
+                "id": "01"
+            },
+            "02": {
+                "title": "Bloom",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m145": {
+        "name": "Revenge Girl",
+        "id": "m145",
+        "variants": {
+            "01": {
+                "title": "Light",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flash",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m146": {
+        "name": "Revenge Girl",
+        "id": "m146",
+        "variants": {
+            "01": {
+                "title": "Purple",
+                "id": "01"
+            },
+            "02": {
+                "title": "Darkness",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m185": {
+        "name": "Actyon",
+        "id": "m185",
+        "variants": {
+            "10": {
+                "title": "Dark Knight",
+                "id": "10"
+            },
+            "01": {
+                "title": "Silent",
+                "id": "01"
+            },
+            "02": {
+                "title": "Reclusive",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "G"
+    },
+    "m186": {
+        "name": "Saab",
+        "id": "m186",
+        "variants": {
+            "01": {
+                "title": "Pure",
+                "id": "01"
+            },
+            "02": {
+                "title": "Cancer",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "L"
+    },
+    "m187": {
+        "name": "Dagon",
+        "id": "m187",
+        "variants": {
+            "01": {
+                "title": "Drifting",
+                "id": "01"
+            },
+            "02": {
+                "title": "Wandering",
+                "id": "02"
+            }
+        }
+    },
+    "m188": {
+        "name": "Gold Coin",
+        "id": "m188",
+        "variants": {
+            "01": {
+                "title": "Ancient",
+                "id": "01"
+            },
+            "02": {
+                "title": "Greedy",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m189": {
+        "name": "Mimic",
+        "id": "m189",
+        "variants": {
+            "01": {
+                "title": "Startling",
+                "id": "01"
+            },
+            "02": {
+                "title": "Horror",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m190": {
+        "name": "Boxer",
+        "id": "m190",
+        "variants": {
+            "01": {
+                "title": "Hot-Blooded ",
+                "id": "01"
+            },
+            "02": {
+                "title": "Fiery",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m192": {
+        "name": "Blood Dragon",
+        "id": "m192",
+        "variants": {
+            "01": {
+                "title": "Flame King",
+                "id": "01"
+            },
+            "02": {
+                "title": "Flame Emperor",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m193": {
+        "name": "Pompoms",
+        "id": "m193",
+        "variants": {
+            "01": {
+                "title": "Yackety",
+                "id": "01"
+            },
+            "02": {
+                "title": "Jabbering",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m194": {
+        "name": "Gron",
+        "id": "m194",
+        "variants": {
+            "01": {
+                "title": "Green-Feathered",
+                "id": "01"
+            },
+            "02": {
+                "title": "Green Winged",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "G"
+    },
+    "m195": {
+        "name": "Liron",
+        "id": "m195",
+        "variants": {
+            "01": {
+                "title": "Light-Feather",
+                "id": "01"
+            },
+            "02": {
+                "title": "Light-Winged",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m196": {
+        "name": "Firon",
+        "id": "m196",
+        "variants": {
+            "01": {
+                "title": "Fire-Feather",
+                "id": "01"
+            },
+            "02": {
+                "title": "Fire-Winged",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m197": {
+        "name": "Charonn",
+        "id": "m197",
+        "variants": {
+            "01": {
+                "title": "Water-Feather",
+                "id": "01"
+            },
+            "02": {
+                "title": "Water-Winged",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "W"
+    },
+    "m198": {
+        "name": "Daron",
+        "id": "m198",
+        "variants": {
+            "01": {
+                "title": "Dark-Feather",
+                "id": "01"
+            },
+            "02": {
+                "title": "Dark-Winged",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m199": {
+        "name": "Azure Dragon",
+        "id": "m199",
+        "variants": {
+            "01": {
+                "title": "Ice King",
+                "id": "01"
+            },
+            "02": {
+                "title": "Ice Emperor",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "W"
+    },
+    "m205": {
+        "name": "Barf",
+        "id": "m205",
+        "variants": {
+            "01": {
+                "title": "Chaste",
+                "id": "01"
+            },
+            "02": {
+                "title": "Witch",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m206": {
+        "name": "Boss Pig",
+        "id": "m206",
+        "variants": {
+            "01": {
+                "title": "Relentless",
+                "id": "01"
+            },
+            "02": {
+                "title": "Murderous",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m211": {
+        "name": "Angel Lot",
+        "id": "m211",
+        "variants": {
+            "01": {
+                "title": "Archer",
+                "id": "01"
+            },
+            "02": {
+                "title": "Sharpshooter",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m212": {
+        "name": "Rune",
+        "id": "m212",
+        "variants": {
+            "01": {
+                "title": "Emerald",
+                "id": "01"
+            },
+            "02": {
+                "title": "Pharaoh",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m214": {
+        "name": "Pumpkin",
+        "id": "m214",
+        "variants": {
+            "01": {
+                "title": "Unexpected",
+                "id": "01"
+            },
+            "02": {
+                "title": "Unexpected",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "F"
+    },
+    "m216": {
+        "name": "Fairy",
+        "id": "m216",
+        "variants": {
+            "01": {
+                "title": "Silent",
+                "id": "01"
+            },
+            "02": {
+                "title": "Holiday",
+                "id": "02"
+            }
+        },
+        "star": "4",
+        "attribute": "F"
+    },
+    "m217": {
+        "name": "Red Nose",
+        "id": "m217",
+        "variants": {
+            "01": {
+                "title": "Silent",
+                "id": "01"
+            },
+            "02": {
+                "title": "Holiday",
+                "id": "02"
+            }
+        },
+        "star": "4",
+        "attribute": "G"
+    },
+    "m223": {
+        "name": "Gift Bag",
+        "id": "m223",
+        "variants": {
+            "01": {
+                "title": "Good Kid's",
+                "id": "01"
+            },
+            "02": {
+                "title": "Bad Kid's",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "D"
+    },
+    "m231": {
+        "name": "Cross",
+        "id": "m231",
+        "variants": {
+            "01": {
+                "title": "Grave",
+                "id": "01"
+            },
+            "02": {
+                "title": "Deadman's",
+                "id": "02"
+            }
+        },
+        "star": "2",
+        "attribute": "D"
+    },
+    "m245": {
+        "name": "Creature",
+        "id": "m245",
+        "variants": {
+            "01": {
+                "title": "Abandoned",
+                "id": "01"
+            },
+            "02": {
+                "title": "The Creator's",
+                "id": "02"
+            }
+        },
+        "star": "4",
+        "attribute": "F"
+    },
+    "m255": {
+        "name": "Ampoule",
+        "id": "m255",
+        "variants": {
+            "01": {
+                "title": "Toy",
+                "id": "01"
+            },
+            "02": {
+                "title": "Venom",
+                "id": "02"
+            }
+        },
+        "star": "3",
+        "attribute": "F"
+    },
+    "m007": {
+        "name": "泰迪",
+        "id": "m007",
+        "variants": {
+            "00": {
+                "title": "Human",
+                "id": "00"
+            }
+        },
+        "star": "3",
+        "attribute": "L"
+    },
+    "m227": {
+        "name": "Crocell",
+        "id": "m227",
+        "variants": {
+            "89": {
+                "title": "Fire",
+                "id": "89"
+            },
+            "01": {
+                "title": "",
+                "id": "01"
+            }
+        }
+    },
+    "m257": {
+        "name": "Crocell",
+        "id": "m257",
+        "variants": {
+            "89": {
+                "title": "Wood",
+                "id": "89"
+            }
+        }
+    },
+    "m258": {
+        "name": "Crocell",
+        "id": "m258",
+        "variants": {
+            "89": {
+                "title": "Giant",
+                "id": "89"
+            }
+        }
+    },
+    "m259": {
+        "name": "Crocell",
+        "id": "m259",
+        "variants": {
+            "89": {
+                "title": "Water",
+                "id": "89"
+            }
+        }
+    },
+    "m260": {
+        "name": "Crocell",
+        "id": "m260",
+        "variants": {
+            "89": {
+                "title": "Light",
+                "id": "89"
+            }
+        }
+    },
+    "m262": {
+        "name": "Cocoon",
+        "id": "m262",
+        "variants": {
+            "89": {
+                "title": "Created",
+                "id": "89"
             }
         }
     }

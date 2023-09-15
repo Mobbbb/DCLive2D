@@ -26,6 +26,7 @@ const App = Vue.createApp({
             
             ATTR_MAP,
             CODE_MAP,
+            FOOTER_CONFIG,
             HOT_SPRING_MAP,
             OTHERS_ICON_SRC,
             IS_DEBUG: false,
@@ -116,12 +117,12 @@ const App = Vue.createApp({
             viewer.src = `./src/views/canvas.html?code=${code}&size=${size}&scale=${scale}`
         },
         async saveInputChange () {
-            const fileMap = {
-                '0': 'childs',
-                '1': 'dolls',
-                '2': 'cartas',
-            }
-            const file = fileMap[this.footerType]
+            let file = ''
+            this.FOOTER_CONFIG.forEach(item => {
+                if (this.footerType === item.id) {
+                    file = item.dataFileName
+                }
+            })
             const res = await fetch(`http://127.0.0.1:3000/edit?name=${this.editInput.name}&star=${this.editInput.star}&attribute=${this.editInput.attribute}&id=${this.selectedChildId}&file=${file}`, { method: 'GET' })
             if (res) this.showDrawer = false
         },
