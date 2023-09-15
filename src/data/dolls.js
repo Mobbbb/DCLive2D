@@ -20,13 +20,15 @@ const DOLLS_CODE_MAP = {
         "id": "xc036"
     },
     "xc043": {
-        "name": "Hera",
+        "name": "美国妹",
         "variants": {
             "10": {
                 "title": "Puppet"
             }
         },
-        "id": "xc043"
+        "id": "xc043",
+        "star": "5",
+        "attribute": "G"
     },
     "xc044": {
         "name": "Pantheon",
@@ -1153,7 +1155,7 @@ const DOLLS_CODE_MAP = {
     "xm224": {
         "name": "Apep",
         "variants": {
-            "01": {
+            "10": {
                 "title": "Dungeon-crawling"
             }
         },
@@ -1167,5 +1169,95 @@ const DOLLS_CODE_MAP = {
             }
         },
         "id": "xm227"
+    },
+    "m268": {
+        "name": "Sneaker Fighter",
+        "id": "m268",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m277": {
+        "name": "Gillotine",
+        "id": "m277",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m269": {
+        "name": "Cure Cube",
+        "id": "m269",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m270": {
+        "name": "Poison Cube",
+        "id": "m270",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m271": {
+        "name": "Evil Cube",
+        "id": "m271",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m272": {
+        "name": "Honey Cube",
+        "id": "m272",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m273": {
+        "name": "Pie Cube",
+        "id": "m273",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m275": {
+        "name": "Poison Ampoule",
+        "id": "m275",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
+    },
+    "m276": {
+        "name": "Toy Ampoule",
+        "id": "m276",
+        "variants": {
+            "01": {
+                "title": "Chibi",
+                "id": "01"
+            }
+        }
     }
 }

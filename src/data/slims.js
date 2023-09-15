@@ -357,7 +357,9 @@ const SLIMS_CODE_MAP = {
                 "title": "Big",
                 "id": "02"
             }
-        }
+        },
+        "star": "5",
+        "attribute": "F"
     },
     "m174": {
         "name": "经验史莱姆",
