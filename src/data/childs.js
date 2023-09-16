@@ -2188,6 +2188,10 @@ const CHILDS_CODE_MAP = {
             "c373_02": {
                 "title": "Black-Winged Messenger",
                 "id": "c373_02"
+            },
+            "sc373_01": {
+                "title": "温泉2",
+                "id": "sc373_01"
             }
         }
     },
@@ -10512,24 +10516,28 @@ const CHILDS_CODE_MAP = {
         "attribute": "L"
     },
     "m049": {
-        "name": "Skull",
+        "name": "剥制",
         "id": "m049",
         "variants": {
             "00": {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "star": "4",
+        "attribute": "D"
     },
     "m050": {
-        "name": "Guillotine",
+        "name": "断头台",
         "id": "m050",
         "variants": {
             "00": {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "star": "4",
+        "attribute": "D"
     },
     "m052": {
         "name": "Basilisk",
@@ -10548,14 +10556,16 @@ const CHILDS_CODE_MAP = {
         "attribute": "G"
     },
     "m053": {
-        "name": "Hydra",
+        "name": "锡德拉",
         "id": "m053",
         "variants": {
             "00": {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "star": "4",
+        "attribute": "D"
     },
     "m061": {
         "name": "Syringe",
@@ -11290,14 +11300,16 @@ const CHILDS_CODE_MAP = {
         "attribute": "F"
     },
     "m141": {
-        "name": "Halloween",
+        "name": "万圣节",
         "id": "m141",
         "variants": {
             "00": {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "star": "4",
+        "attribute": "W"
     },
     "m142": {
         "name": "Revenge Girl",
@@ -11862,113 +11874,113 @@ const CHILDS_CODE_MAP = {
         "id": "c075",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             },
             "01": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "01"
             },
             "02": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "02"
             }
         }
     },
     "c113": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c113",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c215": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c215",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c240": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c240",
         "variants": {
             "01": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "01"
             },
             "02": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "02"
             }
         }
     },
     "c352": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c352",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c369": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c369",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c413": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c413",
         "variants": {
             "21": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "21"
             },
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c515": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c515",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c570": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c570",
         "variants": {
             "00": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "00"
             }
         }
     },
     "c574": {
-        "name": "???",
+        "name": "No-Name",
         "id": "c574",
         "variants": {
             "02": {
-                "title": "???",
+                "title": "No-Name",
                 "id": "02"
             }
         }
@@ -12106,3 +12118,4 @@ const CHILDS_CODE_MAP = {
         }
     },
 }
+module.exports = CHILDS_CODE_MAP

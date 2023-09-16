@@ -6,6 +6,7 @@ var canvasSize = 1000, // 画布尺寸
 	modelY = 0.1, // y坐标
 	motionIdle = null,
 	motionClick = null
+var motionMgr = null
 
 function animation() {
 	if (motionMgr !== null && motionClick !== null) {
@@ -13,17 +14,19 @@ function animation() {
 	}
 }
 
-function initModel(code = 'c000_01', size = 1000, scale = 1) {
-	// get variables from GET
-	canvas.width = size
-	canvas.height = size
-	modelScale = scale
-	modelName = code
+function initModel(code = '', size = 1000, scale = 1, x = 0, y = 0.1) {
+	if (code) {
+		canvas.width = size
+		canvas.height = size
+		modelScale = scale
+		modelName = code
+		modelX = x
+		modelY = y
 
-	loadBytes(getPath('/src/static/', 'MOC.' + modelName + '.json'), 'text', function(buf) {
-		let modelJson = JSON.parse(buf)
-		initLive2d('/src/static/', modelJson)
-	})
+		loadBytes(getPath('/src/static/', 'MOC.' + code + '.json'), 'text', function(buf) {
+			initLive2d('/src/static/', JSON.parse(buf))
+		})
+	}
 }
 
 
@@ -35,8 +38,6 @@ function initLive2d(dir, model) {
 	this.loadLive2DCompleted = false
 	this.initLive2DCompleted = false
 	this.loadedImages = []
-
-	var motionMgr = null
 
 	this.modelJson = model
 
@@ -113,7 +114,7 @@ function init(dir, canvas) {
 	// ------------------------
 	// ?loop every frame
 	// ------------------------
-	(function tick() {
+	;(function tick() {
 		draw(gl)
 
 		var requestAnimationFrame =
@@ -194,7 +195,11 @@ function getPath(pathDir, file) {
 function getWebGLContext(canvas) {
 	// try different WebGl kits
 	var kits = ['webgl', 'experimental-webgl', 'webkit-3d', 'moz-webgl']
-	var param = { alpha: true, premultipliedAlpha: true }
+	var param = {
+		alpha: true,
+		premultipliedAlpha: true,
+		// preserveDrawingBuffer: true,
+	}
 
 	for (var i = 0; i < kits.length; i++) {
 		try {

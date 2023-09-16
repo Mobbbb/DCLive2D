@@ -23,16 +23,19 @@
 	let size = searchParams.get('size') || 1000
 	let scale = searchParams.get('scale') || 1
 
-	if (code) {
-		initModel(code, size, scale)
-	}
+	initModel(code, size, scale)
 
-	const canvasWrap = document.querySelector('#canvasWrap')
-	let a = panzoom(canvasWrap, {
+	panzoom(document.querySelector('#canvasWrap'), {
 		maxZoom: 4,
 		minZoom: 0.5,
 		bounds: true,
 		boundsPadding: 0.4,
 		zoom: 4,
+	})
+
+	document.addEventListener('keydown', function(e) {
+		if (e.keyCode == 27) {
+			parent.App.config.globalProperties.$closeIframe()
+		}
 	})
 </script>

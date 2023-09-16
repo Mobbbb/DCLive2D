@@ -16,10 +16,10 @@ const objExpand = {}
 Object.keys(obj).forEach(key1 => {
     Object.keys(obj[key1].variants).forEach(key2 => {
         if (key1.slice(0, 1) === 'c') {
-            objExpand[`s${key1}_${key2}`] = 1
+            objExpand[`s${key1}_01`] = 1
         }
         if (key1.slice(0, 1) === 'm') {
-            objExpand[`s${key1}_${key2}`] = 1
+            objExpand[`s${key1}_01`] = 1
         }
         if (key2.indexOf('_') > -1) {
             objExpand[key2] = 1

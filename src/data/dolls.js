@@ -1261,3 +1261,4 @@ const DOLLS_CODE_MAP = {
         }
     }
 }
+module.exports = DOLLS_CODE_MAP
