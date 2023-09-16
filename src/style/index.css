@@ -189,18 +189,18 @@ iframe {
     margin-bottom: 4px;
 }
 
-.attr-tab .el-tabs__item {
+.attr-tab .el-tabs__item, .dolls-star-tab .el-tabs__item {
     position: relative;
     padding-left: 25px!important;
     transition: all ease .2s;
     color: #f3b219;
     font-weight: bold;
 }
-.attr-tab .el-tabs__item.is-active {
+.attr-tab .el-tabs__item.is-active, .dolls-star-tab .el-tabs__item.is-active {
     color: white;
     background: linear-gradient(0deg, rgba(255,205,0,1) 0%, rgba(255,205,0,0.3) 40%, rgba(255,205,0,0) 95%);
 }
-.attr-tab .el-tabs__item:hover {
+.attr-tab .el-tabs__item:hover, .dolls-star-tab .el-tabs__item:hover {
     color: white;
 }
 .el-tabs__active-bar {
@@ -217,7 +217,7 @@ iframe {
 .attr-tab .el-tabs__item {
     padding-left: 35px!important;
 }
-.attr-tab .el-tabs__item:last-of-type {
+.attr-tab .el-tabs__item:last-of-type, .dolls-star-tab .el-tabs__item:last-of-type {
     padding: 0 20px 0 20px!important;
 }
 .attr-tab .el-tabs__item:before {

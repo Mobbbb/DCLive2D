@@ -46,9 +46,24 @@
 				<div class="content-block"></div>
 			</div>
 			<div v-if="footerType === '1'" class="content-wrap">
+				<el-tabs v-model="activeDollsStar" class="dolls-star-tab">
+					<el-tab-pane label="橙色传说" name="5"></el-tab-pane>
+					<el-tab-pane label="紫色史诗" name="4"></el-tab-pane>
+					<el-tab-pane label="蓝色稀有" name="3"></el-tab-pane>
+					<el-tab-pane label="绿色罕见" name="2"></el-tab-pane>
+					<el-tab-pane label="白色普通" name="1"></el-tab-pane>
+				</el-tabs>
+				<el-tabs v-model="activeDollsTab" class="attr-tab">
+					<el-tab-pane label="光属性" name="L"></el-tab-pane>
+					<el-tab-pane label="暗属性" name="D"></el-tab-pane>
+					<el-tab-pane label="火属性" name="F"></el-tab-pane>
+					<el-tab-pane label="木属性" name="G"></el-tab-pane>
+					<el-tab-pane label="水属性" name="W"></el-tab-pane>
+					<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
+				</el-tabs>
 				<div class="avatar-wrap" style="padding-top: 12px;">
-					<div class="avatar-item-wrap" v-for="(item, key) in DOLLS_CODE_MAP" @click="selectOthers(item, key)">
-						<img class="others-img" :src="`./src/images/dolls/${key}_${Object.keys(item.variants)[0]}.png`">
+					<div class="avatar-item-wrap" v-for="item in ACTIVE_DOLLS_CODE_LIST" @click="selectOthers(item)">
+						<img class="others-img" :src="`./src/images/dolls/${item.id}_${Object.keys(item.variants)[0]}.png`">
 						<span>{{item.name}}</span>
 					</div>
 				</div>
