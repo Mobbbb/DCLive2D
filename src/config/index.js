@@ -1,3 +1,4 @@
+const module = {}
 const ATTR_MAP = {
     'L': '光',
     'D': '暗',

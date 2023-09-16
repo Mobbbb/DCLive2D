@@ -620,3 +620,4 @@ const SLIMS_CODE_MAP = {
         }
     }
 }
+module.exports = SLIMS_CODE_MAP

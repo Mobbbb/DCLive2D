@@ -1,4 +1,4 @@
-const App = Vue.createApp({
+window.App = Vue.createApp({
     data() {
         return {
             editInput: {
@@ -9,7 +9,6 @@ const App = Vue.createApp({
             clientHeight: 0,
             clientWidth: 0,
             viewSize: 85,
-            showDrawer: false,
             footerType: '0',
             activeTab: 'L',
             activeStar: '5',
@@ -29,6 +28,7 @@ const App = Vue.createApp({
             FOOTER_CONFIG,
             HOT_SPRING_MAP,
             OTHERS_ICON_SRC,
+            showDrawer: false,
             IS_DEBUG: false,
         }
     },
@@ -44,6 +44,19 @@ const App = Vue.createApp({
                 width: `${this.clientWidth}px`,
                 height: `${this.clientHeight}px`,
             }
+        },
+        selectionNum() {
+            const variantsKeys = Object.keys(this.selectedChildConfig.variants)
+            let num = variantsKeys.length
+            if (this.HOT_SPRING_MAP[`s${this.selectedChildId}`]) {
+                num ++
+                variantsKeys.forEach(key => {
+                    if (key.slice(0, 1) === 's') {
+                        num --
+                    }
+                })
+            }
+            return num
         },
     },
     mounted() {
@@ -68,6 +81,10 @@ const App = Vue.createApp({
 
         this.clientHeight = document.body.getBoundingClientRect().height
         this.clientWidth = document.body.getBoundingClientRect().width * this.viewSize / 100
+
+        App.config.globalProperties.$closeIframe = () => {
+            this.showDrawer = false
+        }
     },
     methods: {
         select(item) {

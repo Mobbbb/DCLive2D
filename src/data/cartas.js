@@ -81,3 +81,4 @@ const CARTAS_CODE_MAP = {
         "id": "ig013"
     }
 }
+module.exports = CARTAS_CODE_MAP

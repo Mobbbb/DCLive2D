@@ -228,14 +228,14 @@ const OTHERS_CODE_MAP = {
         }
     },
     "v017": {
-        "name": "No-Name",
+        "name": "苏醒的赛特",
         "id": "v017",
         "variants": {
             "02": {
-                "title": "???",
+                "title": "Cutscene",
                 "id": "02"
             }
         }
-    },
-    
+    }
 }
+module.exports = OTHERS_CODE_MAP

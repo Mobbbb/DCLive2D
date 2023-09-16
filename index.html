@@ -8,14 +8,14 @@
 		<link rel="stylesheet" href="./src/style/index.css">
 		<link rel="stylesheet" href="./src/libs/element-plus@2.2.12.css">
 
-		<script type="text/javascript" src='./src/data/childs.js'></script>
-		<script type="text/javascript" src='./src/data/cartas.js'></script>
-		<script type="text/javascript" src='./src/data/dolls.js'></script>
-		<script type="text/javascript" src='./src/data/others.js'></script>
-		<script type="text/javascript" src='./src/data/slims.js'></script>
 		<script type="text/javascript" src='./src/config/hotSprings.js'></script>
 		<script type="text/javascript" src='./src/config/othersIcon.js'></script>
 		<script type="text/javascript" src='./src/config/index.js'></script>
+		<script type="text/javascript" src='./src/data/childs.js'></script>
+		<script type="text/javascript" src='./src/data/cartas.js'></script>
+		<script type="text/javascript" src='./src/data/dolls.js'></script>
+		<script type="text/javascript" src='./src/data/slims.js'></script>
+		<script type="text/javascript" src='./src/data/others.js'></script>
 		<script type="text/javascript" src="./src/libs/vue.global.prod.v3.2.31.js"></script>
 		<script type="text/javascript" src="./src/libs/element-plus@2.2.12.js"></script>
 	</head>
@@ -46,10 +46,9 @@
 				<div class="content-block"></div>
 			</div>
 			<div v-if="footerType === '1'" class="content-wrap">
-				<div>！！！！开发中</div>
 				<div class="avatar-wrap" style="padding-top: 12px;">
 					<div class="avatar-item-wrap" v-for="(item, key) in DOLLS_CODE_MAP" @click="selectOthers(item, key)">
-						<img :src="`./src/static/${key}_10/icon.png`" @error="setDefaultImage">
+						<img class="others-img" :src="`./src/images/dolls/${key}_${Object.keys(item.variants)[0]}.png`">
 						<span>{{item.name}}</span>
 					</div>
 				</div>
@@ -92,7 +91,7 @@
 				</div>
 			</div>
 			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
-				<el-select v-if="Object.keys(selectedChildConfig.variants).length > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">
+				<el-select v-if="selectionNum > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">
 					<el-option v-for="item in selectedChildConfig.variants"
 						:key="item.id"
 						:value="item.id"

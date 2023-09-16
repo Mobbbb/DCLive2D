@@ -100,11 +100,11 @@ iframe {
     position: absolute;
     top: 0;
     left: 0;
-    /* background: #444c56; */
-    animation: animation linear 20s infinite;
+    background: #444c56;
+    /* animation: animation linear 20s infinite;
     background-image: url('../images/background/bg_256_02.webp');
     width: calc(100% + 256px);
-    height: calc(100% + 256px);
+    height: calc(100% + 256px); */
     z-index: -1;
 }
 
