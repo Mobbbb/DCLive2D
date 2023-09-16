@@ -10,6 +10,8 @@ window.App = Vue.createApp({
             clientWidth: 0,
             viewSize: 85,
             footerType: '0',
+            activeDollsTab: 'L',
+            activeDollsStar: '5',
             activeTab: 'L',
             activeStar: '5',
             selectedChildId: '', // c000
@@ -17,7 +19,8 @@ window.App = Vue.createApp({
             selectedChildConfig: {
                 variants: {},
             },
-            CHILDS_ATTR_GROUP: [],
+            CHILDS_ATTR_GROUP: {},
+            DOLLS_ATTR_GROUP: {},
             CARTAS_CODE_MAP,
             DOLLS_CODE_MAP,
             SLIMS_CODE_MAP,
@@ -38,6 +41,12 @@ window.App = Vue.createApp({
                 return this.CHILDS_ATTR_GROUP.UNKNOWN || []
             }
             return this.CHILDS_ATTR_GROUP[`${this.activeTab}-${this.activeStar}`]
+        },
+        ACTIVE_DOLLS_CODE_LIST() {
+            if (this.activeDollsTab === 'UNKNOWN') {
+                return this.DOLLS_ATTR_GROUP.UNKNOWN || []
+            }
+            return this.DOLLS_ATTR_GROUP[`${this.activeDollsTab}-${this.activeDollsStar}`]
         },
         iframeStyle() {
             return {
@@ -76,6 +85,21 @@ window.App = Vue.createApp({
                 this.CHILDS_ATTR_GROUP[key] = [CHILDS_CODE_MAP[item]]
             } else {
                 this.CHILDS_ATTR_GROUP[key].push(CHILDS_CODE_MAP[item])
+            }
+        })
+
+        this.DOLLS_ATTR_GROUP = {}
+        Object.keys(DOLLS_CODE_MAP).forEach(item => {
+            const attr = DOLLS_CODE_MAP[item].attribute || 'UNKNOWN'
+            const star = DOLLS_CODE_MAP[item].star || 'UNKNOWN'
+
+            let key = `${attr}-${star}`
+            if (attr === 'UNKNOWN' || star === 'UNKNOWN' ) key = 'UNKNOWN'
+            
+            if (!this.DOLLS_ATTR_GROUP[key]) {
+                this.DOLLS_ATTR_GROUP[key] = [DOLLS_CODE_MAP[item]]
+            } else {
+                this.DOLLS_ATTR_GROUP[key].push(DOLLS_CODE_MAP[item])
             }
         })
 

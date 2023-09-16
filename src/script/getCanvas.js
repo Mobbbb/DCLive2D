@@ -3,11 +3,19 @@ let lists = [
     "m276_01",
 ]
 
-// initModel('xc370_10', 128, 2.5, 0, 0.4)
+let code = 'xm201_01'
+initModel(code, 128, 2, 0.1, 0.5)
 
-// setTimeout(() => {
-//     getImg('xc370_10')
-// }, 100)
+var _btn = document.createElement('button')
+_btn.style.position = 'absolute'
+_btn.style.left = 0
+_btn.style.top = 0
+_btn.style.zIndex = 111111111
+_btn.innerHTML = '导出'
+_btn.onclick = () => {
+    getImg(code)
+}
+document.getElementsByTagName('body')[0].append(_btn)
 
 
 function getImg(name = 'image') {

@@ -17,7 +17,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc036"
+        "id": "xc036",
+        "star": "4",
+        "attribute": "F"
     },
     "xc043": {
         "name": "美国妹",
@@ -27,7 +29,7 @@ const DOLLS_CODE_MAP = {
             }
         },
         "id": "xc043",
-        "star": "5",
+        "star": "4",
         "attribute": "G"
     },
     "xc044": {
@@ -37,7 +39,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc044"
+        "id": "xc044",
+        "star": "4",
+        "attribute": "D"
     },
     "xc045": {
         "name": "Aria",
@@ -46,7 +50,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc045"
+        "id": "xc045",
+        "star": "4",
+        "attribute": "L"
     },
     "xc047": {
         "name": "Hestia",
@@ -55,7 +61,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc047"
+        "id": "xc047",
+        "star": "4",
+        "attribute": "F"
     },
     "xc049": {
         "name": "Lost Maat",
@@ -64,7 +72,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc049"
+        "id": "xc049",
+        "star": "5",
+        "attribute": "L"
     },
     "xc051": {
         "name": "Bad Boy Frej",
@@ -73,7 +83,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc051"
+        "id": "xc051",
+        "star": "5",
+        "attribute": "D"
     },
     "xc053": {
         "name": "Hesitant Metis",
@@ -82,7 +94,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc053"
+        "id": "xc053",
+        "star": "4",
+        "attribute": "D"
     },
     "xc057": {
         "name": "Lan Fei",
@@ -91,7 +105,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc057"
+        "id": "xc057",
+        "star": "4",
+        "attribute": "D"
     },
     "xc058": {
         "name": "Exorcist Nirrti",
@@ -100,7 +116,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc058"
+        "id": "xc058",
+        "star": "4",
+        "attribute": "L"
     },
     "xc061": {
         "name": "Siren",
@@ -109,7 +127,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc061"
+        "id": "xc061",
+        "star": "4",
+        "attribute": "G"
     },
     "xc064": {
         "name": "Medusa",
@@ -118,7 +138,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc064"
+        "id": "xc064",
+        "star": "5",
+        "attribute": "D"
     },
     "xc067": {
         "name": "Thanatos",
@@ -127,7 +149,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc067"
+        "id": "xc067",
+        "star": "4",
+        "attribute": "W"
     },
     "xc091": {
         "name": "Myra",
@@ -136,7 +160,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc091"
+        "id": "xc091",
+        "star": "4",
+        "attribute": "F"
     },
     "xc101": {
         "name": "Syrinx",
@@ -145,7 +171,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc101"
+        "id": "xc101",
+        "star": "4",
+        "attribute": "G"
     },
     "xc124": {
         "name": "Eve",
@@ -157,7 +185,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xc124"
+        "id": "xc124",
+        "star": "5",
+        "attribute": "W"
     },
     "xc127": {
         "name": "Bastet",
@@ -166,7 +196,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc127"
+        "id": "xc127",
+        "star": "4",
+        "attribute": "L"
     },
     "xc132": {
         "name": "Midas",
@@ -175,7 +207,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc132"
+        "id": "xc132",
+        "star": "4",
+        "attribute": "G"
     },
     "xc149": {
         "name": "Indicisive Rusalka",
@@ -184,7 +218,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc149"
+        "id": "xc149",
+        "star": "4",
+        "attribute": "W"
     },
     "xc153": {
         "name": "Epona",
@@ -193,7 +229,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc153"
+        "id": "xc153",
+        "star": "4",
+        "attribute": "G"
     },
     "xc156": {
         "name": "Elizabeth",
@@ -202,7 +240,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc156"
+        "id": "xc156",
+        "star": "4",
+        "attribute": "D"
     },
     "xc158": {
         "name": "Naias",
@@ -211,7 +251,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc158"
+        "id": "xc158",
+        "star": "4",
+        "attribute": "W"
     },
     "xc159": {
         "name": "Semele",
@@ -220,7 +262,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc159"
+        "id": "xc159",
+        "star": "4",
+        "attribute": "D"
     },
     "xc167": {
         "name": "Chang'e",
@@ -229,7 +273,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc167"
+        "id": "xc167",
+        "star": "5",
+        "attribute": "W"
     },
     "xc173": {
         "name": "Daoine Sithe",
@@ -238,7 +284,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc173"
+        "id": "xc173",
+        "star": "4",
+        "attribute": "F"
     },
     "xc174": {
         "name": "A.I",
@@ -247,7 +295,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc174"
+        "id": "xc174",
+        "star": "4",
+        "attribute": "D"
     },
     "xc175": {
         "name": "Red Cross",
@@ -256,7 +306,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc175"
+        "id": "xc175",
+        "star": "4",
+        "attribute": "D"
     },
     "xc176": {
         "name": "Eshu",
@@ -265,7 +317,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc176"
+        "id": "xc176",
+        "star": "4",
+        "attribute": "W"
     },
     "xc180": {
         "name": "Mammon",
@@ -274,7 +328,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc180"
+        "id": "xc180",
+        "star": "5",
+        "attribute": "G"
     },
     "xc183": {
         "name": "Preacher Dana",
@@ -283,7 +339,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc183"
+        "id": "xc183",
+        "star": "4",
+        "attribute": "L"
     },
     "xc199": {
         "name": "Western Aurora",
@@ -292,7 +350,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc199"
+        "id": "xc199",
+        "star": "4",
+        "attribute": "F"
     },
     "xc214": {
         "name": "Jupiter",
@@ -301,7 +361,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc214"
+        "id": "xc214",
+        "star": "5",
+        "attribute": "F"
     },
     "xc216": {
         "name": "Moonlight Werewolf",
@@ -310,7 +372,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc216"
+        "id": "xc216",
+        "star": "4",
+        "attribute": "D"
     },
     "xc219": {
         "name": "Ymir",
@@ -319,7 +383,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc219"
+        "id": "xc219",
+        "star": "4",
+        "attribute": "W"
     },
     "xc227": {
         "name": "Righteous Mafdet",
@@ -328,7 +394,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc227"
+        "id": "xc227",
+        "star": "4",
+        "attribute": "L"
     },
     "xc229": {
         "name": "Brownie",
@@ -337,7 +405,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc229"
+        "id": "xc229",
+        "star": "4",
+        "attribute": "G"
     },
     "xc238": {
         "name": "Harmony Medb",
@@ -346,7 +416,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc238"
+        "id": "xc238",
+        "star": "4",
+        "attribute": "F"
     },
     "xc242": {
         "name": "Ailill",
@@ -355,7 +427,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc242"
+        "id": "xc242",
+        "star": "4",
+        "attribute": "F"
     },
     "xc246": {
         "name": "Krampus",
@@ -364,7 +438,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc246"
+        "id": "xc246",
+        "star": "4",
+        "attribute": "G"
     },
     "xc247": {
         "name": "Myrina",
@@ -373,7 +449,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc247"
+        "id": "xc247",
+        "star": "4",
+        "attribute": "W"
     },
     "xc252": {
         "name": "Arhat",
@@ -382,7 +460,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc252"
+        "id": "xc252",
+        "star": "4",
+        "attribute": "D"
     },
     "xc253": {
         "name": "Nicole",
@@ -391,7 +471,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc253"
+        "id": "xc253",
+        "star": "4",
+        "attribute": "G"
     },
     "xc262": {
         "name": "Daphnis",
@@ -400,7 +482,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc262"
+        "id": "xc262",
+        "star": "4",
+        "attribute": "G"
     },
     "xc266": {
         "name": "Horus",
@@ -409,7 +493,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc266"
+        "id": "xc266",
+        "star": "4",
+        "attribute": "L"
     },
     "xc267": {
         "name": "Cleopatra",
@@ -418,7 +504,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc267"
+        "id": "xc267",
+        "star": "5",
+        "attribute": "L"
     },
     "xc283": {
         "name": "Morgan",
@@ -427,7 +515,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc283"
+        "id": "xc283",
+        "star": "5",
+        "attribute": "F"
     },
     "xc286": {
         "name": "Verdelet",
@@ -436,7 +526,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc286"
+        "id": "xc286",
+        "star": "4",
+        "attribute": "F"
     },
     "xc287": {
         "name": "Salome",
@@ -445,7 +537,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc287"
+        "id": "xc287",
+        "star": "4",
+        "attribute": "W"
     },
     "xc289": {
         "name": "Durandal",
@@ -454,7 +548,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc289"
+        "id": "xc289",
+        "star": "4",
+        "attribute": "D"
     },
     "xc292": {
         "name": "Luin",
@@ -463,7 +559,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc292"
+        "id": "xc292",
+        "star": "4",
+        "attribute": "G"
     },
     "xc294": {
         "name": "Bathory",
@@ -472,7 +570,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc294"
+        "id": "xc294",
+        "star": "5",
+        "attribute": "G"
     },
     "xc296": {
         "name": "Hildr",
@@ -481,7 +581,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc296"
+        "id": "xc296",
+        "star": "4",
+        "attribute": "L"
     },
     "xc297": {
         "name": "Red Queen",
@@ -490,7 +592,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc297"
+        "id": "xc297",
+        "star": "4",
+        "attribute": "F"
     },
     "xc301": {
         "name": "Indomitable Jacheongbi",
@@ -499,7 +603,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc301"
+        "id": "xc301",
+        "star": "5",
+        "attribute": "G"
     },
     "xc305": {
         "name": "Rita",
@@ -508,7 +614,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc305"
+        "id": "xc305",
+        "star": "4",
+        "attribute": "D"
     },
     "xc308": {
         "name": "Kubaba",
@@ -517,7 +625,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc308"
+        "id": "xc308",
+        "star": "4",
+        "attribute": "D"
     },
     "xc311": {
         "name": "Khepri",
@@ -526,7 +636,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc311"
+        "id": "xc311",
+        "star": "4",
+        "attribute": "D"
     },
     "xc312": {
         "name": "Tyrving",
@@ -535,7 +647,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc312"
+        "id": "xc312",
+        "star": "4",
+        "attribute": "F"
     },
     "xc316": {
         "name": "Wodan",
@@ -544,7 +658,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc316"
+        "id": "xc316",
+        "star": "4",
+        "attribute": "G"
     },
     "xc317": {
         "name": "Babel",
@@ -553,7 +669,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc317"
+        "id": "xc317",
+        "star": "5",
+        "attribute": "W"
     },
     "xc318": {
         "name": "Praying Bari",
@@ -562,7 +680,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc318"
+        "id": "xc318",
+        "star": "4",
+        "attribute": "W"
     },
     "xc319": {
         "name": "Willow Doryeong",
@@ -571,7 +691,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc319"
+        "id": "xc319",
+        "star": "4",
+        "attribute": "W"
     },
     "xc336": {
         "name": "Pan",
@@ -580,7 +702,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc336"
+        "id": "xc336",
+        "star": "4",
+        "attribute": "G"
     },
     "xc344": {
         "name": "Isolde",
@@ -589,7 +713,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc344"
+        "id": "xc344",
+        "star": "4",
+        "attribute": "W"
     },
     "xc345": {
         "name": "Anemone",
@@ -598,7 +724,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc345"
+        "id": "xc345",
+        "star": "4",
+        "attribute": "W"
     },
     "xc347": {
         "name": "Prophet Dana",
@@ -607,7 +735,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc347"
+        "id": "xc347",
+        "star": "4",
+        "attribute": "F"
     },
     "xc348": {
         "name": "Mars",
@@ -616,7 +746,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc348"
+        "id": "xc348",
+        "star": "4",
+        "attribute": "D"
     },
     "xc349": {
         "name": "Saturn",
@@ -625,7 +757,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc349"
+        "id": "xc349",
+        "star": "4",
+        "attribute": "F"
     },
     "xc350": {
         "name": "Neptune",
@@ -634,7 +768,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc350"
+        "id": "xc350",
+        "star": "4",
+        "attribute": "L"
     },
     "xc351": {
         "name": "Venus",
@@ -643,7 +779,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc351"
+        "id": "xc351",
+        "star": "4",
+        "attribute": "L"
     },
     "xc354": {
         "name": "Needfire Demeter",
@@ -652,7 +790,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc354"
+        "id": "xc354",
+        "star": "4",
+        "attribute": "F"
     },
     "xc355": {
         "name": "Guardian Chang'e",
@@ -661,7 +801,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc355"
+        "id": "xc355",
+        "star": "4",
+        "attribute": "G"
     },
     "xc360": {
         "name": "Maat",
@@ -670,7 +812,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc360"
+        "id": "xc360",
+        "star": "4",
+        "attribute": "D"
     },
     "xc364": {
         "name": "Sweet Sytry",
@@ -679,7 +823,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc364"
+        "id": "xc364",
+        "star": "4",
+        "attribute": "L"
     },
     "xc365": {
         "name": "Dark Buster Lisa",
@@ -688,7 +834,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc365"
+        "id": "xc365",
+        "star": "4",
+        "attribute": "W"
     },
     "xc366": {
         "name": "Hard Worker Deino",
@@ -697,7 +845,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc366"
+        "id": "xc366",
+        "star": "4",
+        "attribute": "W"
     },
     "xc370": {
         "name": "Sunbeach Mona",
@@ -706,7 +856,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc370"
+        "id": "xc370",
+        "star": "4",
+        "attribute": "F"
     },
     "xc371": {
         "name": "Lisa",
@@ -715,7 +867,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc371"
+        "id": "xc371",
+        "star": "4",
+        "attribute": "G"
     },
     "xc372": {
         "name": "School Swimsuit Davi",
@@ -724,7 +878,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc372"
+        "id": "xc372",
+        "star": "4",
+        "attribute": "W"
     },
     "xc377": {
         "name": "Iphis",
@@ -733,7 +889,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc377"
+        "id": "xc377",
+        "star": "5",
+        "attribute": "L"
     },
     "xc382": {
         "name": "Catgirl Neamhain",
@@ -742,7 +900,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc382"
+        "id": "xc382",
+        "star": "4",
+        "attribute": "L"
     },
     "xc390": {
         "name": "Eochaid",
@@ -751,7 +911,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc390"
+        "id": "xc390",
+        "star": "4",
+        "attribute": "G"
     },
     "xc391": {
         "name": "Party Star Medb",
@@ -760,7 +922,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc391"
+        "id": "xc391",
+        "star": "5",
+        "attribute": "F"
     },
     "xc393": {
         "name": "Lightbeam Mona",
@@ -769,7 +933,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc393"
+        "id": "xc393",
+        "star": "4",
+        "attribute": "L"
     },
     "xc397": {
         "name": "Christmas Leda",
@@ -778,7 +944,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc397"
+        "id": "xc397",
+        "star": "4",
+        "attribute": "F"
     },
     "xc398": {
         "name": "Jacheongbi",
@@ -787,7 +955,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc398"
+        "id": "xc398",
+        "star": "4",
+        "attribute": "L"
     },
     "xc400": {
         "name": "Banshee",
@@ -796,7 +966,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc400"
+        "id": "xc400",
+        "star": "5",
+        "attribute": "D"
     },
     "xc410": {
         "name": "Failnaught",
@@ -805,7 +977,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc410"
+        "id": "xc410",
+        "star": "4",
+        "attribute": "F"
     },
     "xc414": {
         "name": "Billy",
@@ -814,7 +988,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc414"
+        "id": "xc414",
+        "star": "4",
+        "attribute": "W"
     },
     "xc415": {
         "name": "Annie",
@@ -823,7 +999,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc415"
+        "id": "xc415",
+        "star": "4",
+        "attribute": "G"
     },
     "xc422": {
         "name": "Heket",
@@ -832,7 +1010,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc422"
+        "id": "xc422",
+        "star": "4",
+        "attribute": "G"
     },
     "xc426": {
         "name": "Ophois",
@@ -841,7 +1021,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xc426"
+        "id": "xc426",
+        "star": "4",
+        "attribute": "D"
     },
     "xm003": {
         "name": "火恶魔-人偶",
@@ -850,7 +1032,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm003"
+        "id": "xm003",
+        "star": "1",
+        "attribute": "F"
     },
     "xm004": {
         "name": "水恶魔-人偶",
@@ -859,7 +1043,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm004"
+        "id": "xm004",
+        "star": "1",
+        "attribute": "W"
     },
     "xm038": {
         "name": "Diablo",
@@ -877,7 +1063,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm039"
+        "id": "xm039",
+        "star": "1",
+        "attribute": "L"
     },
     "xm051": {
         "name": "Hades",
@@ -886,7 +1074,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xm051"
+        "id": "xm051",
+        "star": "4",
+        "attribute": "F"
     },
     "xm052": {
         "name": "Basilisk",
@@ -916,7 +1106,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm056"
+        "id": "xm056",
+        "star": "4",
+        "attribute": "G"
     },
     "xm057": {
         "name": "Olga",
@@ -925,7 +1117,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xm057"
+        "id": "xm057",
+        "star": "4",
+        "attribute": "W"
     },
     "xm077": {
         "name": "Cube Moa",
@@ -934,7 +1128,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Puppet"
             }
         },
-        "id": "xm077"
+        "id": "xm077",
+        "star": "4",
+        "attribute": "L"
     },
     "xm124": {
         "name": "Red Watcher",
@@ -943,7 +1139,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm124"
+        "id": "xm124",
+        "star": "1",
+        "attribute": "F"
     },
     "xm125": {
         "name": "Blue Watcher",
@@ -952,7 +1150,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm125"
+        "id": "xm125",
+        "star": "1",
+        "attribute": "W"
     },
     "xm126": {
         "name": "Darkness Watcher",
@@ -961,7 +1161,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm126"
+        "id": "xm126",
+        "star": "1",
+        "attribute": "D"
     },
     "xm127": {
         "name": "Green Watcher",
@@ -970,7 +1172,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm127"
+        "id": "xm127",
+        "star": "1",
+        "attribute": "G"
     },
     "xm128": {
         "name": "Light Watcher",
@@ -979,7 +1183,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm128"
+        "id": "xm128",
+        "star": "1",
+        "attribute": "L"
     },
     "xm141": {
         "name": "Halloween",
@@ -988,7 +1194,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm141"
+        "id": "xm141",
+        "star": "3",
+        "attribute": "W"
     },
     "xm142": {
         "name": "Red Revenge Girl",
@@ -997,7 +1205,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm142"
+        "id": "xm142",
+        "star": "1",
+        "attribute": "F"
     },
     "xm143": {
         "name": "Blue Revenge Girl",
@@ -1006,7 +1216,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm143"
+        "id": "xm143",
+        "star": "1",
+        "attribute": "W"
     },
     "xm144": {
         "name": "Green Revenge Girl",
@@ -1015,7 +1227,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm144"
+        "id": "xm144",
+        "star": "1",
+        "attribute": "G"
     },
     "xm145": {
         "name": "Light Revenge Girl",
@@ -1024,7 +1238,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm145"
+        "id": "xm145",
+        "star": "1",
+        "attribute": "L"
     },
     "xm146": {
         "name": "Purple Revenge Girl",
@@ -1033,7 +1249,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm146"
+        "id": "xm146",
+        "star": "1",
+        "attribute": "D"
     },
     "xm155": {
         "name": "Red Drop",
@@ -1087,7 +1305,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm189"
+        "id": "xm189",
+        "star": "1",
+        "attribute": "F"
     },
     "xm190": {
         "name": "Boxer",
@@ -1096,7 +1316,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm190"
+        "id": "xm190",
+        "star": "1",
+        "attribute": "L"
     },
     "xm194": {
         "name": "Gron",
@@ -1105,7 +1327,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm194"
+        "id": "xm194",
+        "star": "1",
+        "attribute": "G"
     },
     "xm195": {
         "name": "Liron",
@@ -1114,7 +1338,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm195"
+        "id": "xm195",
+        "star": "1",
+        "attribute": "L"
     },
     "xm196": {
         "name": "Firon",
@@ -1123,7 +1349,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm196"
+        "id": "xm196",
+        "star": "1",
+        "attribute": "F"
     },
     "xm197": {
         "name": "Charon",
@@ -1132,7 +1360,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm197"
+        "id": "xm197",
+        "star": "1",
+        "attribute": "W"
     },
     "xm198": {
         "name": "Daron",
@@ -1141,7 +1371,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm198"
+        "id": "xm198",
+        "star": "1",
+        "attribute": "D"
     },
     "xm201": {
         "name": "Mech Commander",
@@ -1159,7 +1391,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Dungeon-crawling"
             }
         },
-        "id": "xm224"
+        "id": "xm224",
+        "star": "4",
+        "attribute": "L"
     },
     "xm227": {
         "name": "Crocell",
@@ -1178,7 +1412,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Chibi",
                 "id": "01"
             }
-        }
+        },
+        "star": "1",
+        "attribute": "F"
     },
     "m277": {
         "name": "Gillotine",
@@ -1188,7 +1424,9 @@ const DOLLS_CODE_MAP = {
                 "title": "Chibi",
                 "id": "01"
             }
-        }
+        },
+        "star": "3",
+        "attribute": "D"
     },
     "m269": {
         "name": "Cure Cube",

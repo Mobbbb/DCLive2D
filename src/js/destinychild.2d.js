@@ -114,7 +114,9 @@ function init(dir, canvas) {
 	// ------------------------
 	// ?loop every frame
 	// ------------------------
+	let _index_ = 1
 	;(function tick() {
+		// _index_ ++; if (_index_ > 15) return
 		draw(gl)
 
 		var requestAnimationFrame =
