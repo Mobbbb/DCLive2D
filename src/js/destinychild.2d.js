@@ -4,6 +4,8 @@ var canvasSize = 1000, // 画布尺寸
 	modelScale = 1, // 缩放
 	modelX = 0, // x坐标
 	modelY = 0.1, // y坐标
+	oldModelX = 0, // x坐标
+	oldModelY = 0, // y坐标
 	motionIdle = null,
 	motionClick = null
 var motionMgr = null
@@ -14,20 +16,19 @@ function animation() {
 	}
 }
 
-function initModel(code = '', scale = 1, x = 0, y = 0, panzoomScale = 0.3) {
+function initModel(code = '', scale = 1, x = 0, y = 0) {
 	if (code) {
 		const bodySize = document.body.clientHeight > document.body.clientWidth ? document.body.clientWidth : document.body.clientHeight
-		const canvasWrapSize = bodySize * 3 * panzoomScale
-		canvas.width = bodySize * 3
-		canvas.height = bodySize * 3
-		canvasWrap.style.width = `${bodySize * 3}px`
-		canvasWrap.style.height = `${bodySize * 3}px`
-		canvasWrap.style.left = (document.body.clientWidth - canvasWrapSize) / 2 + 'px'
-		canvasWrap.style.top = (document.body.clientHeight - canvasWrapSize) / 2 + 'px'
+		canvas.width = bodySize * 2
+		canvas.height = bodySize * 2
+		canvas.style.left = - canvas.width / 4 + 'px'
+		canvas.style.top = - canvas.height / 4 + 'px'
 		modelScale = scale
 		modelName = code
 		modelX = x
 		modelY = y
+		oldModelX = x
+		oldModelY = y
 
 		loadBytes(getPath('/src/static/', 'MOC.' + code + '.json'), 'text', function(buf) {
 			initLive2d('/src/static/', JSON.parse(buf))
@@ -48,7 +49,6 @@ function initLive2d(dir, model) {
 	this.modelJson = model
 
 	var canvas = document.getElementById('canvas')
-	var canvasWrap = document.getElementById('canvasWrap')
 
 	// the fun begins
 	Live2D.init()
@@ -58,6 +58,43 @@ function initLive2d(dir, model) {
 
 
 function init(dir, canvas) {
+	document.onwheel = function(e) {
+        if (e.target != canvas) return
+        if (e.wheelDelta > 0) {
+			if (modelScale < 3) {
+				modelScale += 0.05
+				setInitParamsDebounce()
+			}
+		} else {
+			if (modelScale > 0.2) {
+				modelScale -= 0.05
+				setInitParamsDebounce()
+			}
+		}
+    }
+	document.addEventListener('mousedown', function(e) {
+		var startX = e.clientX
+		var startY = e.clientY
+
+		const mousemove = (e) => {
+			offsetX = e.clientX - startX
+			offsetY = e.clientY - startY
+			modelX = oldModelX + offsetX / 1300
+			modelY = oldModelY - offsetY / 1300
+		}
+
+		const mouseup = () => {
+			document.removeEventListener('mousemove', mousemove)
+			document.removeEventListener('mouseup', mouseup)
+			oldModelX = modelX
+			oldModelY = modelY
+			setInitParams()
+		}
+
+		document.addEventListener('mousemove', mousemove)
+		document.addEventListener('mouseup', mouseup)
+	})
+
 	// try getting WebGl context
 	var gl = getWebGLContext(canvas)
 	if (!gl) {
@@ -72,7 +109,6 @@ function init(dir, canvas) {
 	// ------------------------
 	loadBytes(getPath(dir, modelJson.model), 'arraybuffer', function (buf) {
 		live2DModel = Live2DModelWebGL.loadModel(buf)
-		//document.getElementById('loading').remove()
 	})
 
 	// ------------------------
@@ -240,3 +276,38 @@ function getWebGLTexture(gl, img) {
 	return texture
 }
 
+const setInitParamsDebounce = debounce(() => {
+	setInitParams()
+}, 300, false)
+
+const setInitParams = () => {
+	localStorage.setItem(`${modelName}_panzoom`, JSON.stringify({
+		x: modelX,
+		y: modelY,
+		scale: modelScale,
+	}))
+}
+
+function debounce(e, t, n) {
+	void 0 === n && (n = !0);
+	var r, o, a, i, c, u = Number(t) || 0, f = "object" == typeof performance ? performance : Date, l = function() {
+		var t = f.now() - i;
+		t < u && t >= 0 ? r = setTimeout(l, u - t) : (r = null,
+		n || (c = e.apply(a, o),
+		r || (a = null,
+		o = null)))
+	};
+	return function() {
+		for (var t = [], s = 0; s < arguments.length; s++)
+			t[s] = arguments[s];
+		a = this,
+		o = t,
+		i = f.now();
+		var d = n && !r;
+		return r || (r = setTimeout(l, u)),
+		d && (c = e.apply(a, o),
+		a = null,
+		o = null),
+		c
+	}
+}

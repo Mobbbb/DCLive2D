@@ -8,12 +8,9 @@
 		<script src='../js/PlatformManager.js'></script>
 		<script src='../js/ModelSettingJson.js'></script>
 		<script src='../js/destinychild.2d.js'></script>
-		<script src='../libs/panzoom.min.v9.4.0.js'></script>
 	</head>
 	<body>
-		<div class="canvas-wrap" id="canvasWrap">
-			<canvas id="canvas" class="maxwidth" onclick="animation()"></canvas>
-		</div>
+		<canvas id="canvas" onclick="animation()"></canvas>
 		<div class="canvas-bg"></div>
 	</body>
 </html>
@@ -21,8 +18,6 @@
 <script>
 	const searchParams = (new URL(window.location.href)).searchParams
 	const code = searchParams.get('code') || ''
-	const scale = searchParams.get('scale') || 1
-	const initScale = 0.355
 
 	let initPanzoom = localStorage.getItem(`${code}_panzoom`)
 
@@ -32,55 +27,13 @@
 		initPanzoom = {}
 	}
 
-	const { x = 0, y = 0, scale: panzoomScale = initScale } = initPanzoom
+	const { x = 0, y = 0, scale = 0.5 } = initPanzoom
 
-	initModel(code, scale, 0, 0.1, initScale)
-
-	const instance = panzoom(document.querySelector('#canvasWrap'), {
-		maxZoom: 4,
-		minZoom: 0.1,
-		initialX: x / (1 - panzoomScale),
-		initialY: y / (1 - panzoomScale),
-		initialZoom: panzoomScale,
-	})
-
-	instance.on('panend', function(e, a) {
-		localStorage.setItem(`${code}_panzoom`, JSON.stringify(e.getTransform()))
-	})
-
-	const zoomend = debounce((e) => {
-		localStorage.setItem(`${code}_panzoom`, JSON.stringify(e.getTransform()))
-	}, 300, false)
-
-	instance.on('zoom', zoomend)
+	initModel(code, scale, x, y)
 
 	document.addEventListener('keydown', function(e) {
 		if (e.keyCode == 27) {
 			parent.App.config.globalProperties.$closeIframe()
 		}
 	})
-
-	function debounce(e, t, n) {
-        void 0 === n && (n = !0);
-        var r, o, a, i, c, u = Number(t) || 0, f = "object" == typeof performance ? performance : Date, l = function() {
-            var t = f.now() - i;
-            t < u && t >= 0 ? r = setTimeout(l, u - t) : (r = null,
-            n || (c = e.apply(a, o),
-            r || (a = null,
-            o = null)))
-        };
-        return function() {
-            for (var t = [], s = 0; s < arguments.length; s++)
-                t[s] = arguments[s];
-            a = this,
-            o = t,
-            i = f.now();
-            var d = n && !r;
-            return r || (r = setTimeout(l, u)),
-            d && (c = e.apply(a, o),
-            a = null,
-            o = null),
-            c
-        }
-    } 
 </script>

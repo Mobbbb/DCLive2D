@@ -153,8 +153,7 @@ window.App = Vue.createApp({
         },
         updateViews(code) {
             const viewer = document.getElementsByTagName('iframe')[0]
-            const scale = 1
-            viewer.src = `./src/views/canvas.html?code=${code}&scale=${scale}`
+            viewer.src = `./src/views/canvas.html?code=${code}`
         },
         async saveInputChange () {
             let file = ''
