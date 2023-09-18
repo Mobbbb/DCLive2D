@@ -22,7 +22,7 @@ function L2DBaseModel() {
     this.alpha           = 1;
     this.accAlpha        = 0;
     this.lipSync         = false; // リップシンクが有効かどうか
-    this.lipSyncValue    = 0;     // 基本は0～1  
+    this.lipSyncValue    = 0;     // 基本は0～1
     this.accelX          = 0;
     this.accelY          = 0;
     this.accelZ          = 0;
@@ -222,7 +222,7 @@ L2DBaseModel.prototype.loadMotion = function(name/*String*/, path /*String*/, ca
     var motion = null; //Live2DMotion
     
     var thisRef = this;
-    pm.loadBytes(path, function(buf) {
+    pm.loadBytes(path, "arraybuffer", function(buf) {
         motion = Live2DMotion.loadMotion(buf);
         if( name != null ) {
             thisRef.motions[name] = motion;
@@ -271,16 +271,17 @@ L2DBaseModel.prototype.loadPose = function( path /*String*/, callback )
 //============================================================
 //    L2DBaseModel # loadPhysics()
 //============================================================
-L2DBaseModel.prototype.loadPhysics = function(path/*String*/) {
+L2DBaseModel.prototype.loadPhysics = function(path/*String*/, callback) {
     var pm = Live2DFramework.getPlatformManager(); //IPlatformManager
     if(this.debugMode) pm.log("Load Physics : " + path);
     var thisRef = this;
     try {
-        pm.loadBytes(path, function(buf) {
+        pm.loadBytes(path, "arraybuffer", function(buf) {
             thisRef.physics = L2DPhysics.load(buf);
+            callback(thisRef.physics);
         });
-    }
-    catch(e){
+    }catch(e) {
+        console.warn(e);
     }
 }
 

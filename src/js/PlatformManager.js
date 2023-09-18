@@ -14,26 +14,21 @@
 function PlatformManager(gl) {
     this.webgl = gl;
 }
-
 //============================================================
 //    PlatformManager # loadBytes()
 //============================================================
-PlatformManager.prototype.loadBytes = function(path/*String*/, callback) {
+PlatformManager.prototype.loadBytes = function(path, mime, callback) {
     var request = new XMLHttpRequest();
-    request.open("GET", path, true);
-    request.responseType = "arraybuffer";
+    request.open("GET", path , true);
+    request.responseType = mime;
     request.onload = function(){
-        switch(request.status){
-        case 200:
+		if(request.status == 200) {
             callback(request.response);
-            break;
-        default:
-            console.error("Failed to load (" + request.status + ") : " + path);
-            break;
-        }
-    }
+		}else {
+			 console.error("Failed to load ("+request.status+") : "+path);
+		}
+    };
     request.send(null);
-    //return request;
 }
 
 //============================================================
@@ -41,7 +36,7 @@ PlatformManager.prototype.loadBytes = function(path/*String*/, callback) {
 //============================================================
 PlatformManager.prototype.loadString = function(path/*String*/) {
     
-    this.loadBytes(path, function(buf) {        
+    this.loadBytes(path, 'text', function(buf) {
         return buf;
     });
     
@@ -54,7 +49,7 @@ PlatformManager.prototype.loadLive2DModel = function(path/*String*/, callback) {
     var model = null;
     
     // load moc
-    this.loadBytes(path, function(buf){
+    this.loadBytes(path, "arraybuffer", function(buf){
         model = Live2DModelWebGL.loadModel(buf);
         callback(model);
     });
@@ -73,16 +68,15 @@ PlatformManager.prototype.loadTexture = function(model/*ALive2DModel*/, no/*int*
     loadedImage.onload = function() {
                 
         // create texture
-        var canvas = document.getElementById("glcanvas");
-        var gl = getWebGLContext(canvas, {premultipliedAlpha : true});
-        var texture = gl.createTexture();     // テクスチャオブジェクトを作成する
+        var gl = thisRef.webgl;
+        var texture = gl.createTexture();	 // テクスチャオブジェクトを作成する
         if (!texture){ console.error("Failed to generate gl texture name."); return -1; }
 
         if(model.isPremultipliedAlpha() == false){
             // 乗算済アルファテクスチャ以外の場合
             gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, 1);
         }
-        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, 1);    // imageを上下反転
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, 1);	// imageを上下反転
         gl.activeTexture(gl.TEXTURE0);
         gl.bindTexture(gl.TEXTURE_2D, texture);
         gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, 
