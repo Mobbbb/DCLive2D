@@ -5604,8 +5604,8 @@ const CHILDS_CODE_MAP = {
         }
     },
     "c346": {
-        "name": "Tristan",
-        "star": "3",
+        "name": "特里斯丹",
+        "star": "4",
         "attribute": "G",
         "id": "c346",
         "variants": {
