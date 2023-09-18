@@ -8,8 +8,8 @@
     "http-server": "14.1.1"
   },
   "scripts": {
-    "start": "http-server -o -s",
-    "dev": "http-server -o -c-1"
+    "start": "http-server -o -s --port 8088",
+    "dev": "http-server -o --port 8088 -c-1"
   },
   "repository": {
     "type": "git",

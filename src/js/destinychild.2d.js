@@ -14,10 +14,16 @@ function animation() {
 	}
 }
 
-function initModel(code = '', size = 1000, scale = 1, x = 0, y = 0.1) {
+function initModel(code = '', scale = 1, x = 0, y = 0, panzoomScale = 0.3) {
 	if (code) {
-		canvas.width = size
-		canvas.height = size
+		const bodySize = document.body.clientHeight > document.body.clientWidth ? document.body.clientWidth : document.body.clientHeight
+		const canvasWrapSize = bodySize * 3 * panzoomScale
+		canvas.width = bodySize * 3
+		canvas.height = bodySize * 3
+		canvasWrap.style.width = `${bodySize * 3}px`
+		canvasWrap.style.height = `${bodySize * 3}px`
+		canvasWrap.style.left = (document.body.clientWidth - canvasWrapSize) / 2 + 'px'
+		canvasWrap.style.top = (document.body.clientHeight - canvasWrapSize) / 2 + 'px'
 		modelScale = scale
 		modelName = code
 		modelX = x
@@ -42,6 +48,7 @@ function initLive2d(dir, model) {
 	this.modelJson = model
 
 	var canvas = document.getElementById('canvas')
+	var canvasWrap = document.getElementById('canvasWrap')
 
 	// the fun begins
 	Live2D.init()
