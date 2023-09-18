@@ -63,12 +63,17 @@ iframe {
     position: relative;
 }
 
-/* canvas {
-    max-width: 100%;
+canvas {
+    /* max-width: 100%;
     max-height: 100%;
     display: block;
-    margin: 0 auto;
-} */
+    margin: 0 auto; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 
 @keyframes animation {
     0% {
