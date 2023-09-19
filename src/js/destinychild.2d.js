@@ -1,5 +1,5 @@
 // default parameters
-var canvasSize = 1000, // 画布尺寸
+var canvasScale = 2, // 画布尺寸
 	modelName = '', // 模型编号
 	modelScale = 1, // 缩放
 	modelX = 0, // x坐标
@@ -9,6 +9,7 @@ var canvasSize = 1000, // 画布尺寸
 	motionIdle = null,
 	motionClick = null
 var motionMgr = null
+var moveSpeed = 700
 
 function animation() {
 	if (motionMgr !== null && motionClick !== null) {
@@ -19,10 +20,10 @@ function animation() {
 function initModel(code = '', scale = 1, x = 0, y = 0) {
 	if (code) {
 		const bodySize = document.body.clientHeight > document.body.clientWidth ? document.body.clientWidth : document.body.clientHeight
-		canvas.width = bodySize * 2
-		canvas.height = bodySize * 2
-		canvas.style.left = - canvas.width / 4 + 'px'
-		canvas.style.top = - canvas.height / 4 + 'px'
+		canvas.width = bodySize * canvasScale
+		canvas.height = bodySize * canvasScale
+		canvas.style.left = - (canvas.width - document.body.clientWidth) / 2 + 'px'
+		canvas.style.top = - (canvas.height - document.body.clientHeight) / 2 + 'px'
 		modelScale = scale
 		modelName = code
 		modelX = x
@@ -79,8 +80,8 @@ function init(dir, canvas) {
 		const mousemove = (e) => {
 			offsetX = e.clientX - startX
 			offsetY = e.clientY - startY
-			modelX = oldModelX + offsetX / 1300
-			modelY = oldModelY - offsetY / 1300
+			modelX = oldModelX + offsetX / moveSpeed
+			modelY = oldModelY - offsetY / moveSpeed
 		}
 
 		const mouseup = () => {
@@ -161,13 +162,13 @@ function init(dir, canvas) {
 	;(function tick() {
 		// _index_ ++; if (_index_ > 15) return
 		draw(gl)
-
 		var requestAnimationFrame =
 			window.requestAnimationFrame ||
 			window.mozRequestAnimationFrame ||
 			window.webkitRequestAnimationFrame ||
 			window.msRequestAnimationFrame
 		requestID = requestAnimationFrame(tick, canvas)
+		console.log()
 	})()
 }
 
@@ -278,6 +279,10 @@ function getWebGLTexture(gl, img) {
 
 const setInitParamsDebounce = debounce(() => {
 	setInitParams()
+}, 300, false)
+
+const consoleaa = debounce((a) => {
+	console.log(a)
 }, 300, false)
 
 const setInitParams = () => {
