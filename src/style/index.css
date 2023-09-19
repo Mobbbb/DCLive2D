@@ -58,7 +58,6 @@ iframe {
     margin-left: 0!important;
 }
 
-
 canvas {
     position: absolute;
 }
@@ -86,6 +85,27 @@ canvas {
     width: calc(100% + 256px);
     height: calc(100% + 256px);
     z-index: -1;
+}
+.close-btn {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon/close-icon.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    cursor: pointer;
+}
+.full-screen-btn {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon/full-screen-icon.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 54px;
+    right: 24px;
+    cursor: pointer;
+    transition: all linear .1s;
 }
 
 .avatar-wrap {

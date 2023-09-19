@@ -106,7 +106,10 @@
 				</div>
 			</div>
 			<el-drawer v-model="showDrawer" :with-header="false" :size="`${viewSize}%`">
-				<el-select v-if="selectionNum > 1" v-model="selectedVariantId" @change="changeVariants" style="position: absolute; width: 200px; left: 24px; top: 16px;">
+				<el-select v-if="selectionNum > 1" 
+					style="position: absolute; width: 200px; left: 24px; top: 16px; transition: all linear .1s;"
+					:style="isFullScreen ? { left: '-240px' } : {}"
+					v-model="selectedVariantId" @change="changeVariants">
 					<el-option v-for="item in selectedChildConfig.variants"
 						:key="item.id"
 						:value="item.id"
@@ -114,6 +117,8 @@
 					</el-option>
 					<el-option value="s" label="温泉" v-if="HOT_SPRING_MAP[`s${selectedChildId}`]"></el-option>
 				</el-select>
+				<div class="close-btn" @click="closeDrawer"></div>
+				<div class="full-screen-btn" :style="isFullScreen ? { right: '-50px' } : {}" @click="isFullScreen = true"></div>
 				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no" :style="iframeStyle"></iframe>
 				<div v-if="IS_DEBUG">
 					名称：<el-input v-model="editInput.name"></el-input><br /><br />

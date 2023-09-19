@@ -8,7 +8,7 @@ window.App = Vue.createApp({
             },
             clientHeight: 0,
             clientWidth: 0,
-            viewSize: 85,
+            viewSize: 100,
             footerType: '0',
             activeDollsTab: 'L',
             activeDollsStar: '5',
@@ -32,6 +32,7 @@ window.App = Vue.createApp({
             HOT_SPRING_MAP,
             OTHERS_ICON_SRC,
             showDrawer: false,
+            isFullScreen: false,
             IS_DEBUG: false,
         }
     },
@@ -154,6 +155,13 @@ window.App = Vue.createApp({
         updateViews(code) {
             const viewer = document.getElementsByTagName('iframe')[0]
             viewer.src = `./src/views/canvas.html?code=${code}`
+        },
+        closeDrawer() {
+            if (this.isFullScreen) {
+                this.isFullScreen = false
+            } else {
+                this.showDrawer = false
+            }
         },
         async saveInputChange () {
             let file = ''
