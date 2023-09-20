@@ -10,6 +10,7 @@ var canvasScale = 2, // 画布尺寸
 	motionClick = null
 var motionMgr = null
 var moveSpeed = 700
+var loadingDom = document.getElementById('loading')
 
 function animation() {
 	if (motionMgr !== null && motionClick !== null) {
@@ -31,13 +32,20 @@ function initModel(code = '', scale = 1, x = 0, y = 0) {
 		oldModelX = x
 		oldModelY = y
 
+		showLoading()
 		loadBytes(getPath('/src/static/', 'MOC.' + code + '.json'), 'text', function(buf) {
 			initLive2d('/src/static/', JSON.parse(buf))
 		})
 	}
 }
 
+function showLoading() {
+	loadingDom.style.display = 'flex'
+}
 
+function hideLoading() {
+	loadingDom.style.display = 'none'
+}
 
 function initLive2d(dir, model) {
 	// declare global variables
@@ -123,7 +131,10 @@ function init(dir, canvas) {
 		loadedImages[i].onload = function () {
 			// check if all textures are loaded
 			loadedCount++
-			if (loadedCount == modelJson.textures.length) { loadLive2DCompleted = true }
+			if (loadedCount == modelJson.textures.length) {
+				loadLive2DCompleted = true
+				hideLoading()
+			}
 		}
 		loadedImages[i].onerror = function () {
 			console.error('Failed to load texture: ' + modelJson.textures[i])
@@ -168,7 +179,6 @@ function init(dir, canvas) {
 			window.webkitRequestAnimationFrame ||
 			window.msRequestAnimationFrame
 		requestID = requestAnimationFrame(tick, canvas)
-		console.log()
 	})()
 }
 
@@ -279,10 +289,6 @@ function getWebGLTexture(gl, img) {
 
 const setInitParamsDebounce = debounce(() => {
 	setInitParams()
-}, 300, false)
-
-const consoleaa = debounce((a) => {
-	console.log(a)
 }, 300, false)
 
 const setInitParams = () => {
