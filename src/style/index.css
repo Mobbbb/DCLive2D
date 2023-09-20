@@ -281,3 +281,92 @@ canvas {
     left: 11px;
     background-position: 0 125px;
 }
+
+.loading {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0 , 0, 0.45);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+ 
+.loading img {
+    width: 52px;
+    height: 52px;
+    animation: loading linear 1s infinite;
+}
+ 
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+ 
+    12.4% {
+      transform: rotate(0deg);
+    }
+ 
+    12.5% {
+      transform: rotate(45deg);
+    }
+ 
+    24.9% {
+      transform: rotate(45deg);
+    }
+ 
+    25% {
+      transform: rotate(90deg);
+    }
+ 
+    37.4% {
+      transform: rotate(90deg);
+    }
+ 
+    37.5% {
+      transform: rotate(135deg);
+    }
+ 
+    49.9% {
+      transform: rotate(135deg);
+    }
+ 
+    50% {
+      transform: rotate(180deg);
+    }
+ 
+    62.4% {
+      transform: rotate(180deg);
+    }
+ 
+    62.5% {
+      transform: rotate(225deg);
+    }
+ 
+    74.9% {
+      transform: rotate(225deg);
+    }
+ 
+    75% {
+      transform: rotate(270deg);
+    }
+ 
+    87.4% {
+      transform: rotate(270deg);
+    }
+ 
+    87.5% {
+      transform: rotate(315deg);
+    }
+ 
+    99.9% {
+      transform: rotate(315deg);
+    }
+ 
+    100% {
+      transform: rotate(360deg);
+    }
+}
