@@ -8,10 +8,14 @@
 		<canvas id="canvas" onclick="animation()"></canvas>
 		<div class="canvas-bg"></div>
 		<div class="loading" id="loading">
-			<img src="//mobbbb.top/resource/destiny-child/images/icon/loading.webp">
+			<img src="../images/icon/loading.webp">
 		</div>
 	</body>
 </html>
+<script>
+	const deviceMatch = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i) || [] // eslint-disable-line
+	var isMobile = !!deviceMatch[0]
+</script>
 <script src='../libs/live2d.min.js'></script>
 <script src='../js/Live2DFramework.js'></script>
 <script src='../js/PlatformManager.js'></script>
