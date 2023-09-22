@@ -79,8 +79,8 @@ function addEvent() {
 		var scaleLock = false
 		var moveLock = false
 		canvas.addEventListener('touchstart', function(event) {
-			event.preventDefault()
 			if (event.touches.length === 2) {
+				event.preventDefault()
 				preDistance = getDistance(event)
 				scaleLock = true
 				moveLock = false
@@ -96,8 +96,8 @@ function addEvent() {
 		})
 
 		canvas.addEventListener('touchmove', function(event) {
-			event.preventDefault()
 			if (event.touches.length === 2 && !moveLock && scaleLock) {
+				event.preventDefault()
 				var currentDistance = getDistance(event)
 				if (currentDistance > preDistance) {
 					if (modelScale < 3) {
@@ -121,7 +121,6 @@ function addEvent() {
 		})
 
 		canvas.addEventListener('touchend', function(event) {
-			event.preventDefault()
 			oldModelX = modelX
 			oldModelY = modelY
 			saveInitParams()
