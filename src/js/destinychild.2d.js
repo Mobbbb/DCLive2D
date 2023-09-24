@@ -10,7 +10,6 @@ var canvasScale = 2, // 画布尺寸
 	motionClick = null
 var motionMgr = null
 var moveSpeedP = 700
-var moveSpeedM = 400
 var loadingDom = document.getElementById('loading')
 
 function animation() {
@@ -72,97 +71,42 @@ function getDistance(event) {
 }
 
 function addEvent() {
-	if (isMobile) {
-		var startX = 0
-		var startY = 0
-		var preDistance = 0
-		var scaleLock = false
-		var moveLock = false
-		canvas.addEventListener('touchstart', function(event) {
-			if (event.touches.length === 2) {
-				event.preventDefault()
-				preDistance = getDistance(event)
-				scaleLock = true
-				moveLock = false
-			} else if (event.touches.length === 1) {
-			 	startX = event.touches[0].clientX
-			 	startY = event.touches[0].clientY
-				scaleLock = false
-				moveLock = true
-			} else {
-				scaleLock = false
-				moveLock = false
+	document.onwheel = function(e) {
+		if (e.target != canvas) return
+		if (e.wheelDelta > 0) {
+			if (modelScale < 3) {
+				modelScale += 0.05
+				setInitParamsDebounce()
 			}
-		})
+		} else {
+			if (modelScale > 0.2) {
+				modelScale -= 0.05
+				setInitParamsDebounce()
+			}
+		}
+	}
+	document.addEventListener('mousedown', function(e) {
+		var startX = e.clientX
+		var startY = e.clientY
 
-		canvas.addEventListener('touchmove', function(event) {
-			if (event.touches.length === 2 && !moveLock && scaleLock) {
-				event.preventDefault()
-				var currentDistance = getDistance(event)
-				if (currentDistance > preDistance) {
-					if (modelScale < 3) {
-						modelScale += 0.03
-					}
-				} else {
-					if (modelScale > 0.2) {
-						modelScale -= 0.03
-					}
-				}
-				preDistance = currentDistance
-			}
-			if (event.touches.length === 1 && moveLock && !scaleLock) {
-				var currentX = event.touches[0].clientX
-				var currentY = event.touches[0].clientY
-				var offsetX = currentX - startX
-				var offsetY = currentY - startY
-				modelX = oldModelX + offsetX / moveSpeedM
-				modelY = oldModelY - offsetY / moveSpeedM
-			}
-		})
+		const mousemove = (e) => {
+			var offsetX = e.clientX - startX
+			var offsetY = e.clientY - startY
+			modelX = oldModelX + offsetX / moveSpeedP
+			modelY = oldModelY - offsetY / moveSpeedP
+		}
 
-		canvas.addEventListener('touchend', function(event) {
+		const mouseup = () => {
+			document.removeEventListener('mousemove', mousemove)
+			document.removeEventListener('mouseup', mouseup)
 			oldModelX = modelX
 			oldModelY = modelY
 			saveInitParams()
-		})
-	} else {
-		document.onwheel = function(e) {
-			if (e.target != canvas) return
-			if (e.wheelDelta > 0) {
-				if (modelScale < 3) {
-					modelScale += 0.05
-					setInitParamsDebounce()
-				}
-			} else {
-				if (modelScale > 0.2) {
-					modelScale -= 0.05
-					setInitParamsDebounce()
-				}
-			}
 		}
-		document.addEventListener('mousedown', function(e) {
-			var startX = e.clientX
-			var startY = e.clientY
-	
-			const mousemove = (e) => {
-				var offsetX = e.clientX - startX
-				var offsetY = e.clientY - startY
-				modelX = oldModelX + offsetX / moveSpeedP
-				modelY = oldModelY - offsetY / moveSpeedP
-			}
-	
-			const mouseup = () => {
-				document.removeEventListener('mousemove', mousemove)
-				document.removeEventListener('mouseup', mouseup)
-				oldModelX = modelX
-				oldModelY = modelY
-				saveInitParams()
-			}
-	
-			document.addEventListener('mousemove', mousemove)
-			document.addEventListener('mouseup', mouseup)
-		})
-	}
+
+		document.addEventListener('mousemove', mousemove)
+		document.addEventListener('mouseup', mouseup)
+	})
 }
 
 function init(dir, canvas) {
@@ -361,7 +305,7 @@ const setInitParamsDebounce = debounce(() => {
 }, 300, false)
 
 const saveInitParams = () => {
-	localStorage.setItem(`${modelName}_panzoom`, JSON.stringify({
+	localStorage.setItem(`${modelName.split('_')[0]}_panzoom`, JSON.stringify({
 		x: modelX,
 		y: modelY,
 		scale: modelScale,
