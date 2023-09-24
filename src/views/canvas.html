@@ -26,7 +26,7 @@
 	const searchParams = (new URL(window.location.href)).searchParams
 	const code = searchParams.get('code') || ''
 
-	let initPanzoom = localStorage.getItem(`${code}_panzoom`)
+	let initPanzoom = localStorage.getItem(`${code.split('_')[0]}_panzoom`)
 
 	if (initPanzoom) {
 		initPanzoom = JSON.parse(initPanzoom)
