@@ -38,7 +38,7 @@
 					<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
 				</el-tabs>
 				<div class="avatar-wrap">
-					<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectChilds(item)">
+					<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectItem(item)">
 						<img :src="`./src/static/${item.id}_01/icon.png`" :class="OTHERS_ICON_SRC[item.id] ? 'others-img' : ''">
 						<span>{{item.name}}</span>
 					</div>
@@ -62,7 +62,7 @@
 					<el-tab-pane label="未知" name="UNKNOWN"></el-tab-pane>
 				</el-tabs>
 				<div class="avatar-wrap" style="padding-top: 12px;">
-					<div class="avatar-item-wrap" v-for="item in ACTIVE_DOLLS_CODE_LIST" @click="selectOthers(item)">
+					<div class="avatar-item-wrap" v-for="item in ACTIVE_DOLLS_CODE_LIST" @click="selectItem(item)">
 						<img class="others-img" :src="`./src/images/dolls/${item.id}_${Object.keys(item.variants)[0]}.png`">
 						<span>{{item.name}}</span>
 					</div>
@@ -71,7 +71,7 @@
 			</div>
 			<div v-if="footerType === '2'" class="content-wrap">
 				<div class="avatar-wrap" style="padding-top: 12px;">
-					<div class="avatar-item-wrap" v-for="(item, key) in CARTAS_CODE_MAP" @click="selectCarts(item, key)">
+					<div class="avatar-item-wrap" v-for="(item, key) in CARTAS_CODE_MAP" @click="selectItem(item, key)">
 						<img :src="`./src/static/${key}_01/icon.png`">
 						<span>{{item.variants['01'].title}}</span>
 					</div>
@@ -80,7 +80,7 @@
 			</div>
 			<div v-if="footerType === '3'" class="content-wrap">
 				<div class="avatar-wrap" style="padding-top: 12px;">
-					<div class="avatar-item-wrap" v-for="(item, key) in SLIMS_CODE_MAP" @click="selectOthers(item)">
+					<div class="avatar-item-wrap" v-for="(item, key) in SLIMS_CODE_MAP" @click="selectItem(item)">
 						<img class="others-img" :src="`./src/static/${item.id}_01/icon.png`">
 						<span>{{item.name}}</span>
 					</div>
@@ -89,7 +89,7 @@
 			</div>
 			<div v-if="footerType === '4'" class="content-wrap">
 				<div class="avatar-wrap" style="padding-top: 12px;">
-					<div class="avatar-item-wrap" v-for="(item, key) in OTHERS_CODE_MAP" @click="selectOthers(item)">
+					<div class="avatar-item-wrap" v-for="(item, key) in OTHERS_CODE_MAP" @click="selectItem(item)">
 						<img :src="`./src/static/${item.id}_01/icon.png`" :class="OTHERS_ICON_SRC[item.id] ? 'others-img' : ''">
 						<span>{{item.name}}</span>
 					</div>
@@ -119,6 +119,9 @@
 				</el-select>
 				<div class="close-btn" @click="closeDrawer"></div>
 				<div class="full-screen-btn" :style="isFullScreen ? { right: '-50px' } : {}" @click="isFullScreen = true"></div>
+				<div class="url-link" :style="isFullScreen ? { left: '-100px' } : {}">
+					Author: <a target="_blank" href="https://github.com/Mobbbb/DCLive2D">Mob</a><br>
+				</div>
 				<iframe src="./src/views/canvas.html" frameborder="0" scrolling="no" :style="iframeStyle"></iframe>
 				<div v-if="IS_DEBUG">
 					名称：<el-input v-model="editInput.name"></el-input><br /><br />

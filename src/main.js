@@ -112,33 +112,27 @@ window.App = Vue.createApp({
         }
     },
     methods: {
-        select(item) {
+        selectItem(item) {
             if (this.IS_DEBUG) this.editInput.name = ''
             this.showDrawer = true
             this.selectedChildConfig = item
             this.selectedChildId = this.selectedChildConfig.id
-        },
-        selectChilds(item) {
-            this.select(item)
-            this.selectedVariantId = this.selectedChildConfig.variants['01'] ? '01' : Object.keys(this.selectedChildConfig.variants)[0]
-            this.$nextTick(() => {
-                this.updateViewsHandle()
-            })
-        },
-        selectCarts(item, key) {
-            this.select(item)
-            this.$nextTick(() => {
-                this.updateViews(`${key}_${Object.keys(item.variants)[0]}`)
-            })
-        },
-        selectOthers(item) {
-            this.select(item)
-            this.selectedVariantId = Object.keys(this.selectedChildConfig.variants)[0]
+
+            const recentSelectedVariantId = localStorage.getItem(`DC_${this.selectedChildId}_VID`)
+
+            if (recentSelectedVariantId) {
+                this.selectedVariantId = recentSelectedVariantId
+            } else {
+                this.selectedVariantId = this.selectedChildConfig.variants['01']
+                    ? '01'
+                    : Object.keys(this.selectedChildConfig.variants)[0]
+            }
             this.$nextTick(() => {
                 this.updateViewsHandle()
             })
         },
         changeVariants() {
+            localStorage.setItem(`DC_${this.selectedChildId}_VID`, this.selectedVariantId)
             if (this.selectedVariantId === 's') {
                 this.updateViews(`s${this.selectedChildId}_01`)
             } else {
