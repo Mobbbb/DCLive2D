@@ -9,21 +9,16 @@
  安装Node.JS - https://nodejs.org/en/
 
 #### ·步骤三
- 双击 ```start.bat``` 文件启动<br />
- 或者<br />
+ 双击 ```start.bat``` 文件启动
+ 或者
  在当前文件目录下打开 cmd 或者 powershell，输入 ```npm start```
- 
+
 #### ·关于更新
  替换除static文件夹之外的其他文件即可(static内的为角色模型文件)
 
-<br /><br />
- #### ！！！！！如果可以成功使用，点击右上角的 ```star``` 按钮，收藏一下，感谢！！！！！
 
-##
-有任何问题可以联系邮箱 zaobiaokuxr795824@163.com。或者新建 Issues
 
-##
-
-文 件 大 小 ：1.9g<br />
-文 件 资 源 ：韩服<br />
+文 件 大 小 ：1.9g
+文 件 资 源 ：韩服
 资源文件地址：/src/static/ (如：/src/static/c000_01)
+源          码 ：https://github.com/Mobbbb/DCLive2D (有梯子的麻烦点个star收藏一下)

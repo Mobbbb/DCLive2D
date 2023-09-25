@@ -107,6 +107,22 @@ canvas {
     cursor: pointer;
     transition: all linear .1s;
 }
+.url-link {
+    position: absolute;
+    left: 14px;
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+    transition: all linear .1s;
+    z-index: 10;
+}
+.url-link a {
+    color: white;
+    font-weight: bold;
+    padding: 0 3px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
 
 .avatar-wrap {
     display: flex;
