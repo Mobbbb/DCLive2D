@@ -3,14 +3,16 @@
 使用说明:
 
 #### ·步骤一
- 点击 ```code``` 按钮下的 Download ZIP 选项下载并解压
+ 点击 ```code``` 按钮下的 Download ZIP 选项下载并解压<br />
+ or<br />
+ [度盘地址](https://pan.baidu.com/s/1DPawE6L0-TxGjc0Gxv2r1Q?pwd=dc23)(初始版本v1.1.0)<br />
 
 #### ·步骤二
  [安装Node.JS](https://nodejs.org/en/)
 
 #### ·步骤三
  双击 ```start.bat``` 文件启动<br />
- 或者<br />
+ or<br />
  在当前文件目录下打开 cmd 或者 powershell，输入 ```npm start```
  
 #### ·关于更新
