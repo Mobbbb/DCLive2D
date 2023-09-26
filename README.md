@@ -6,7 +6,7 @@
  点击 ```code``` 按钮下的 Download ZIP 选项下载并解压
 
 #### ·步骤二
- 安装Node.JS - https://nodejs.org/en/
+ [安装Node.JS](https://nodejs.org/en/)
 
 #### ·步骤三
  双击 ```start.bat``` 文件启动<br />
@@ -14,8 +14,8 @@
  在当前文件目录下打开 cmd 或者 powershell，输入 ```npm start```
  
 #### ·关于更新
- 替换除static文件夹之外的其他文件即可(static内的为角色模型文件)
-
+ [更新地址](https://github.com/Mobbbb/DCLive2D/tree/without-static)<br />
+ 该地址下载内容仅包含更新部分（6MB），替换之前的下载文件即可
 <br /><br />
  #### ！！！！！如果可以成功使用，点击右上角的 ```star``` 按钮，收藏一下，感谢！！！！！
 
