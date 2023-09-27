@@ -30,3 +30,9 @@
 文 件 大 小 ：1.9g<br />
 文 件 资 源 ：韩服<br />
 资源文件地址：/src/static/ (如：/src/static/c000_01)
+
+##
+#### ·部分图片或模型来源
+[1] DCVUIP - https://github.com/raulheat2023/DCVUIP<br />
+[2] DestinyChildLive2D - https://github.com/Pelom777/DestinyChildLive2D<br />
+[3] WIKI - https://destinychild.gamekee.com/
