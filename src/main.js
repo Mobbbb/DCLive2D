@@ -14,13 +14,12 @@ window.App = Vue.createApp({
             activeDollsStar: '5',
             activeTab: 'L',
             activeStar: '5',
+            activeType: '',
             selectedChildId: '', // c000
             selectedVariantId: '', // 01
             selectedChildConfig: {
                 variants: {},
             },
-            CHILDS_ATTR_GROUP: {},
-            DOLLS_ATTR_GROUP: {},
             CARTAS_CODE_MAP,
             DOLLS_CODE_MAP,
             SLIMS_CODE_MAP,
@@ -38,16 +37,43 @@ window.App = Vue.createApp({
     },
     computed: {
         ACTIVE_CHILDS_CODE_LIST() {
-            if (this.activeTab === 'UNKNOWN') {
-                return this.CHILDS_ATTR_GROUP.UNKNOWN || []
-            }
-            return this.CHILDS_ATTR_GROUP[`${this.activeTab}-${this.activeStar}`]
+            let arr = []
+            Object.keys(CHILDS_CODE_MAP).forEach(item => {
+                const attr = CHILDS_CODE_MAP[item].attribute || 'UNKNOWN'
+                const star = CHILDS_CODE_MAP[item].star || 'UNKNOWN'
+                const type = CHILDS_CODE_MAP[item].type || 'UNKNOWN'
+    
+                if (this.activeStar === 'UNKNOWN') {
+                    if (attr === 'UNKNOWN' || star === 'UNKNOWN') {
+                        arr.push(CHILDS_CODE_MAP[item])
+                    }
+                } else if (!this.activeTab && !this.activeStar && !this.activeType) {
+                    arr = null
+                    return
+                } else if ((!this.activeTab || (this.activeTab && this.activeTab === attr)) &&
+                    (!this.activeStar || (this.activeStar && this.activeStar === star)) &&
+                    (!this.activeType || (this.activeType && this.activeType === type))) {
+                    arr.push(CHILDS_CODE_MAP[item])
+                }
+            })
+            return arr
         },
         ACTIVE_DOLLS_CODE_LIST() {
-            if (this.activeDollsTab === 'UNKNOWN') {
-                return this.DOLLS_ATTR_GROUP.UNKNOWN || []
-            }
-            return this.DOLLS_ATTR_GROUP[`${this.activeDollsTab}-${this.activeDollsStar}`]
+            let arr = []
+            Object.keys(DOLLS_CODE_MAP).forEach(item => {
+                const attr = DOLLS_CODE_MAP[item].attribute || 'UNKNOWN'
+                const star = DOLLS_CODE_MAP[item].star || 'UNKNOWN'
+    
+                if (this.activeDollsStar === 'UNKNOWN') {
+                    if (attr === 'UNKNOWN' || star === 'UNKNOWN') {
+                        arr.push(DOLLS_CODE_MAP[item])
+                    }
+                } else if ((!this.activeDollsTab || (this.activeDollsTab && this.activeDollsTab === attr)) &&
+                    (!this.activeDollsStar || (this.activeDollsStar && this.activeDollsStar === star))) {
+                    arr.push(DOLLS_CODE_MAP[item])
+                }
+            })
+            return arr
         },
         iframeStyle() {
             return {
@@ -74,36 +100,6 @@ window.App = Vue.createApp({
         let debug = searchParams.get('d') || ''
         if (debug) this.IS_DEBUG = true
 
-        this.CHILDS_ATTR_GROUP = {}
-        Object.keys(CHILDS_CODE_MAP).forEach(item => {
-            const attr = CHILDS_CODE_MAP[item].attribute || 'UNKNOWN'
-            const star = CHILDS_CODE_MAP[item].star || 'UNKNOWN'
-
-            let key = `${attr}-${star}`
-            if (attr === 'UNKNOWN' || star === 'UNKNOWN' ) key = 'UNKNOWN'
-            
-            if (!this.CHILDS_ATTR_GROUP[key]) {
-                this.CHILDS_ATTR_GROUP[key] = [CHILDS_CODE_MAP[item]]
-            } else {
-                this.CHILDS_ATTR_GROUP[key].push(CHILDS_CODE_MAP[item])
-            }
-        })
-
-        this.DOLLS_ATTR_GROUP = {}
-        Object.keys(DOLLS_CODE_MAP).forEach(item => {
-            const attr = DOLLS_CODE_MAP[item].attribute || 'UNKNOWN'
-            const star = DOLLS_CODE_MAP[item].star || 'UNKNOWN'
-
-            let key = `${attr}-${star}`
-            if (attr === 'UNKNOWN' || star === 'UNKNOWN' ) key = 'UNKNOWN'
-            
-            if (!this.DOLLS_ATTR_GROUP[key]) {
-                this.DOLLS_ATTR_GROUP[key] = [DOLLS_CODE_MAP[item]]
-            } else {
-                this.DOLLS_ATTR_GROUP[key].push(DOLLS_CODE_MAP[item])
-            }
-        })
-
         this.clientHeight = document.body.getBoundingClientRect().height
         this.clientWidth = document.body.getBoundingClientRect().width * this.viewSize / 100
 
@@ -112,13 +108,19 @@ window.App = Vue.createApp({
         }
     },
     methods: {
+        tabClick(pane, key) {
+            if (pane.paneName === this[key]) {
+                this[key] = ''
+            }
+        },
         selectItem(item) {
             if (this.IS_DEBUG) this.editInput.name = ''
             this.showDrawer = true
             this.selectedChildConfig = item
             this.selectedChildId = this.selectedChildConfig.id
 
-            const recentSelectedVariantId = localStorage.getItem(`DC_${this.selectedChildId}_VID`)
+            let recentSelectedVariantId = localStorage.getItem(`DC_${this.selectedChildId}_VID`)
+            recentSelectedVariantId = recentSelectedVariantId === 's' ? '' : recentSelectedVariantId
 
             if (recentSelectedVariantId) {
                 this.selectedVariantId = recentSelectedVariantId
@@ -132,10 +134,10 @@ window.App = Vue.createApp({
             })
         },
         changeVariants() {
-            localStorage.setItem(`DC_${this.selectedChildId}_VID`, this.selectedVariantId)
             if (this.selectedVariantId === 's') {
                 this.updateViews(`s${this.selectedChildId}_01`)
             } else {
+                localStorage.setItem(`DC_${this.selectedChildId}_VID`, this.selectedVariantId)
                 this.updateViewsHandle()
             }
         },
@@ -164,7 +166,7 @@ window.App = Vue.createApp({
                     file = item.dataFileName
                 }
             })
-            const res = await fetch(`http://127.0.0.1:3000/edit?name=${this.editInput.name}&star=${this.editInput.star}&attribute=${this.editInput.attribute}&id=${this.selectedChildId}&file=${file}`, { method: 'GET' })
+            const res = await fetch(`http://127.0.0.1:3000/edit?name=${this.editInput.name}&type=${this.editInput.type}&star=${this.editInput.star}&attribute=${this.editInput.attribute}&id=${this.selectedChildId}&file=${file}`, { method: 'GET' })
             if (res) this.showDrawer = false
         },
         setDefaultImage(e) {
