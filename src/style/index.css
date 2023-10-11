@@ -234,16 +234,19 @@ canvas {
     padding-left: 35px!important;
 }
 .attr-tab .el-tabs__item:last-of-type, .dolls-star-tab .el-tabs__item:last-of-type {
-    padding: 0 20px 0 20px!important;
+    padding-right: 20px!important;
 }
 .attr-tab .el-tabs__item:before {
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 10px;
+    left: 8px;
     top: 8px;
     background: url('../images/icon/attributes.webp');
+}
+.types-tab .el-tabs__item:before {
+    background: url('../images/icon/types.webp');
 }
 .attr-tab .el-tabs__item:nth-of-type(2):before {
     background-position: 0 25px;
@@ -259,9 +262,6 @@ canvas {
 }
 .attr-tab .el-tabs__item:nth-of-type(6):before {
     background-position: 0 50px;
-}
-.attr-tab .el-tabs__item:last-of-type:before {
-    background: none;
 }
 
 .star-tab .el-tabs__item {
@@ -294,8 +294,22 @@ canvas {
     background-position: 0 100px;
 }
 .star-tab .el-tabs__item:nth-of-type(6):before {
-    left: 11px;
     background-position: 0 125px;
+}
+.star-tab .el-tabs__item:last-of-type {
+    color: #f3b219!important;
+    font-weight: bold;
+    padding: 0 20px!important;
+}
+.star-tab .el-tabs__item:last-of-type:before {
+    background: none;
+}
+
+.no-data-text {
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 24px;
 }
 
 .loading {

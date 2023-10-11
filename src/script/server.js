@@ -57,6 +57,9 @@ app.get('/edit', async function(req, res) {
             if (urlQuery.attribute) {
                 data[key].attribute = urlQuery.attribute
             }
+            if (urlQuery.type) {
+                data[key].type = urlQuery.type
+            }
         }
     })
 

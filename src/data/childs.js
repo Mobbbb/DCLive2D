@@ -85,7 +85,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Battlesuit",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c002": {
         "name": "丽萨",
@@ -117,7 +118,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Battlesuit",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c003": {
         "name": "达比",
@@ -173,7 +175,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Battlesuit",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c004": {
         "name": "处容",
@@ -193,7 +196,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Warmharted",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c005": {
         "name": "马尔斯",
@@ -213,7 +217,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Rampaging",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c007": {
         "name": "普伊尼斯",
@@ -233,7 +238,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fiery",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c008": {
         "name": "普利卡",
@@ -253,7 +259,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Militant",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c009": {
         "name": "辛图勒",
@@ -273,7 +280,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fixer",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c010": {
         "name": "Demeter",
@@ -293,7 +301,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Vain",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c011": {
         "name": "Deino",
@@ -313,7 +322,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Devoted",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c012": {
         "name": "Agamemnon",
@@ -333,7 +343,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Final",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c013": {
         "name": "Artemis",
@@ -353,7 +364,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Lunar",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c014": {
         "name": "Astrea",
@@ -373,7 +385,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Galaxy",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c015": {
         "name": "Helena",
@@ -405,7 +418,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Defenser",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c018": {
         "name": "Korra",
@@ -425,7 +439,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Immature",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c019": {
         "name": "Eris",
@@ -445,7 +460,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Raging",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c020": {
         "name": "Fortuna",
@@ -465,7 +481,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gambling",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c022": {
         "name": "玛雅维尔",
@@ -489,7 +506,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Woeful",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c023": {
         "name": "Camineu",
@@ -525,7 +543,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Delirious",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c027": {
         "name": "Cynthia",
@@ -545,7 +564,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Genuine",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c028": {
         "name": "Leda",
@@ -561,7 +581,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "type": "S"
     },
     "c029": {
         "name": "Selene",
@@ -581,7 +602,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Lunar",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c030": {
         "name": "Maiden Detective",
@@ -601,7 +623,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tom-Boy",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c031": {
         "name": "Freyja",
@@ -621,7 +644,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c032": {
         "name": "Alecto",
@@ -641,7 +665,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Non-Stop",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c033": {
         "name": "Diana",
@@ -661,7 +686,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Reclusive",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c034": {
         "name": "Mnemosyne",
@@ -681,7 +707,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Haughty",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c035": {
         "name": "Persephone",
@@ -701,7 +728,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Bound",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c036": {
         "name": "Hermes",
@@ -725,7 +753,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Buyer",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c037": {
         "name": "Judas",
@@ -745,7 +774,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dark Lord",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c038": {
         "name": "Calypso",
@@ -773,7 +803,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Charming",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c039": {
         "name": "莫里尤",
@@ -793,7 +824,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Devout",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c040": {
         "name": "Shamash",
@@ -813,7 +845,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Law-Abiding",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c041": {
         "name": "Tiamat",
@@ -833,7 +866,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Abyssal",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c043": {
         "name": "Hera",
@@ -857,7 +891,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Egotistical",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c044": {
         "name": "Pantheon",
@@ -877,7 +912,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Vagabond",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c045": {
         "name": "亚里亚",
@@ -917,7 +953,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Delightful",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c047": {
         "name": "Hestia",
@@ -937,7 +974,8 @@ const CHILDS_CODE_MAP = {
                 "title": "White Flame",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c048": {
         "name": "Neamhain",
@@ -961,7 +999,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Love-Hate",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c049": {
         "name": "Maat",
@@ -985,7 +1024,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Blind Faith",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c050": {
         "name": "Od",
@@ -1045,7 +1085,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉2",
                 "id": "sc383_01"
             }
-        }
+        },
+        "type": "G"
     },
     "c052": {
         "name": "Berit",
@@ -1061,7 +1102,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Deceptive",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c053": {
         "name": "Metis",
@@ -1089,7 +1131,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Clairvoyant",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c054": {
         "name": "Legend",
@@ -1109,7 +1152,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heroic",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c055": {
         "name": "Minerva",
@@ -1129,7 +1173,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c056": {
         "name": "Jeanne d'Arc",
@@ -1149,7 +1194,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sacrificial",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c057": {
         "name": "Lan Fei",
@@ -1185,7 +1231,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Blackstar",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c058": {
         "name": "Nirrti",
@@ -1205,7 +1252,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Rakshasa",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c060": {
         "name": "Tisiphone",
@@ -1225,7 +1273,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Avenger",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c061": {
         "name": "Siren",
@@ -1253,7 +1302,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Midnight",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c062": {
         "name": "欧若巴",
@@ -1273,7 +1323,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Alluring",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c063": {
         "name": "Freesia",
@@ -1293,7 +1344,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Speculative",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c064": {
         "name": "Medusa",
@@ -1313,7 +1365,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Conquering",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c065": {
         "name": "Erato",
@@ -1333,7 +1386,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Profuse",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c066": {
         "name": "Aten",
@@ -1353,7 +1407,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Machiavellian",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c067": {
         "name": "Thanatos",
@@ -1373,7 +1428,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Trancendent",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c068": {
         "name": "Ambrosia",
@@ -1393,7 +1449,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gourmet",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c069": {
         "name": "Ptah",
@@ -1413,7 +1470,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tuning",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c070": {
         "name": "Yui",
@@ -1433,7 +1491,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Universal",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c072": {
         "name": "Fenrir",
@@ -1453,7 +1512,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Shadow",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c073": {
         "name": "Navi",
@@ -1473,7 +1533,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Hollow",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c074": {
         "name": "Quirinus",
@@ -1493,7 +1554,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Passionate",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c081": {
         "name": "Themis",
@@ -1513,7 +1575,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Drifting",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c082": {
         "name": "Calchas",
@@ -1533,7 +1596,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Prophetic",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c083": {
         "name": "Neith",
@@ -1553,7 +1617,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tactician",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c085": {
         "name": "Paris",
@@ -1573,7 +1638,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Judge",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c086": {
         "name": "Goga",
@@ -1593,7 +1659,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Flavored",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c087": {
         "name": "Ninurta",
@@ -1633,7 +1700,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Reviving",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c091": {
         "name": "Myra",
@@ -1653,7 +1721,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Loyal",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c092": {
         "name": "Eames",
@@ -1669,7 +1738,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fastidious",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c095": {
         "name": "Vesta",
@@ -1689,7 +1759,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Passionate",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c099": {
         "name": "Melpomene",
@@ -1709,7 +1780,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Roaring",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c101": {
         "name": "Syrinx",
@@ -1733,7 +1805,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Praising",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c106": {
         "name": "Medeia",
@@ -1749,7 +1822,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Plotting",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c107": {
         "name": "Apollo",
@@ -1773,7 +1847,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Admirable",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c109": {
         "name": "阿瑞图萨",
@@ -1789,7 +1864,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Full Bloom",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c110": {
         "name": "Flins",
@@ -1813,7 +1889,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Venturer",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c112": {
         "name": "Elias",
@@ -1833,7 +1910,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sage",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c115": {
         "name": "Sonnet",
@@ -1853,7 +1931,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Reconciliatory",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c116": {
         "name": "Pluto",
@@ -1893,7 +1972,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pious",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c120": {
         "name": "Flora",
@@ -1913,7 +1993,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Free",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c121": {
         "name": "Muse",
@@ -1933,7 +2014,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Thundering",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c122": {
         "name": "萨马尔",
@@ -1941,6 +2023,10 @@ const CHILDS_CODE_MAP = {
         "attribute": "F",
         "id": "c122",
         "variants": {
+            "10": {
+                "title": "小兔子萨马尔",
+                "id": "10"
+            },
             "00": {
                 "title": "Human",
                 "id": "00"
@@ -1952,12 +2038,9 @@ const CHILDS_CODE_MAP = {
             "02": {
                 "title": "Covetous",
                 "id": "02"
-            },
-            "10": {
-                "title": "小兔子萨马尔",
-                "id": "10"
             }
-        }
+        },
+        "type": "J"
     },
     "c123": {
         "name": "Baphomet",
@@ -1977,7 +2060,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Cheerful",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c124": {
         "name": "Eve",
@@ -2009,7 +2093,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Original Sin",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c125": {
         "name": "Attis",
@@ -2037,7 +2122,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sworn Blade Hero",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c126": {
         "name": "Salmacis",
@@ -2057,7 +2143,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Exclusive",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c127": {
         "name": "Bastet",
@@ -2081,7 +2168,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Phantom Night",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c128": {
         "name": "Galatea",
@@ -2141,7 +2229,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Master",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c131": {
         "name": "Osiris",
@@ -2193,7 +2282,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉2",
                 "id": "sc373_01"
             }
-        }
+        },
+        "type": "J"
     },
     "c133": {
         "name": "Titania",
@@ -2213,7 +2303,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Showdown",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c134": {
         "name": "Mentes",
@@ -2237,7 +2328,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c135": {
         "name": "Valkyrie",
@@ -2257,7 +2349,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Loner",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c139": {
         "name": "Pomona",
@@ -2277,7 +2370,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Hidden",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c140": {
         "name": "Nodens",
@@ -2309,7 +2403,8 @@ const CHILDS_CODE_MAP = {
                 "title": "One Sided",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c142": {
         "name": "Hypnos",
@@ -2329,7 +2424,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dreamer",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c144": {
         "name": "Medea",
@@ -2349,7 +2445,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Festive",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c147": {
         "name": "Baal",
@@ -2369,7 +2466,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Bloody",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c148": {
         "name": "Inanna",
@@ -2397,7 +2495,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tyrannical",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c149": {
         "name": "Rusalka",
@@ -2417,7 +2516,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Confessing",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c152": {
         "name": "Hebe",
@@ -2437,7 +2537,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Youthful",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c153": {
         "name": "Epona",
@@ -2457,7 +2558,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Wandering",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c154": {
         "name": "Thoth",
@@ -2477,7 +2579,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Severe",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c155": {
         "name": "Echo",
@@ -2497,7 +2600,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Girl Group",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c156": {
         "name": "Elizabeth",
@@ -2533,7 +2637,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Empress",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c158": {
         "name": "Naias",
@@ -2557,7 +2662,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Märchen",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c159": {
         "name": "Semele",
@@ -2577,7 +2683,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Little Demon",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c160": {
         "name": "Sara",
@@ -2597,7 +2704,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Smiling",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c161": {
         "name": "Youth",
@@ -2637,7 +2745,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Liberated",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c167": {
         "name": "Chang'e",
@@ -2677,7 +2786,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Incarnated",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c168": {
         "name": "Thalia",
@@ -2697,11 +2807,12 @@ const CHILDS_CODE_MAP = {
                 "title": "Joyous",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c169": {
         "name": "Euros",
-        "star": "4",
+        "star": "3",
         "attribute": "W",
         "id": "c169",
         "variants": {
@@ -2717,7 +2828,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Glorious",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c172": {
         "name": "Yuna",
@@ -2737,7 +2849,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Glittering",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c173": {
         "name": "Daoine Sidhe",
@@ -2761,7 +2874,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Kid Sister",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c174": {
         "name": "A.I",
@@ -2793,7 +2907,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Limited",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c175": {
         "name": "Red Cross",
@@ -2813,7 +2928,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sentinel",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c176": {
         "name": "Eshu",
@@ -2829,7 +2945,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dealer",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c178": {
         "name": "Morgana",
@@ -2849,7 +2966,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fantasy",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c180": {
         "name": "Mammon",
@@ -2881,7 +2999,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Greedy",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c183": {
         "name": "Dana",
@@ -2901,7 +3020,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Declarative",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c184": {
         "name": "Elysion",
@@ -2921,7 +3041,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Paradise",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c185": {
         "name": "Hermod",
@@ -2941,7 +3062,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dictator",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c186": {
         "name": "Erebus",
@@ -2961,7 +3083,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ruler",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c187": {
         "name": "Thetis",
@@ -2997,7 +3120,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sorrowful",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c188": {
         "name": "Atalanta",
@@ -3017,7 +3141,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Renowned Assistant",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c189": {
         "name": "Kratos",
@@ -3037,7 +3162,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Liberated",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c190": {
         "name": "Isis",
@@ -3057,7 +3183,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Actress",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c191": {
         "name": "Sekhmet",
@@ -3077,7 +3204,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Furious",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c193": {
         "name": "Virupa",
@@ -3101,7 +3229,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Virupaksa",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c194": {
         "name": "Ashtoreth",
@@ -3133,7 +3262,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure White",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c195": {
         "name": "Cybele",
@@ -3157,7 +3287,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dark Princess",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c196": {
         "name": "Idun",
@@ -3177,7 +3308,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Alluring",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c198": {
         "name": "Zelos",
@@ -3201,7 +3333,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Turncoat",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c199": {
         "name": "Aurora",
@@ -3225,7 +3358,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Benevolent",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c200": {
         "name": "Seshat",
@@ -3245,11 +3379,12 @@ const CHILDS_CODE_MAP = {
                 "title": "Fixer",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c202": {
         "name": "Victorix",
-        "star": "3",
+        "star": "4",
         "attribute": "L",
         "id": "c202",
         "variants": {
@@ -3265,7 +3400,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Green",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c203": {
         "name": "Harmonia",
@@ -3285,7 +3421,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Guardian",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c205": {
         "name": "Merlin",
@@ -3305,7 +3442,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Visitor",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c206": {
         "name": "Jonah",
@@ -3329,7 +3467,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Talking",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c208": {
         "name": "Firo",
@@ -3349,7 +3488,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fiery",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c209": {
         "name": "Hecate",
@@ -3373,7 +3513,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Delusional",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c210": {
         "name": "Tartarus",
@@ -3393,7 +3534,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Emperor",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c213": {
         "name": "Naga",
@@ -3425,7 +3567,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c214": {
         "name": "Jupiter",
@@ -3449,7 +3592,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dominating",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c216": {
         "name": "Werewolf",
@@ -3481,7 +3625,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Samhain",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c218": {
         "name": "Alf",
@@ -3501,7 +3646,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Happy",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c219": {
         "name": "Ymir",
@@ -3521,7 +3667,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Psychopath",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c220": {
         "name": "Atropos",
@@ -3541,7 +3688,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Charging",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c221": {
         "name": "Jana",
@@ -3561,7 +3709,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Full Bloom",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c222": {
         "name": "El Dorado",
@@ -3581,7 +3730,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Golden",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c223": {
         "name": "Air",
@@ -3601,7 +3751,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Roaming Waters",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c225": {
         "name": "Rudolph",
@@ -3621,7 +3772,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Night Theif",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c226": {
         "name": "Ragnar",
@@ -3653,7 +3805,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dogmatic",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c228": {
         "name": "Vivian",
@@ -3685,11 +3838,12 @@ const CHILDS_CODE_MAP = {
                 "title": "Concealing",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c229": {
         "name": "Brownie",
-        "star": "3",
+        "star": "5",
         "attribute": "G",
         "id": "c229",
         "variants": {
@@ -3709,7 +3863,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Delivery Girl",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c230": {
         "name": "Skuld",
@@ -3729,7 +3884,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Extinct",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c231": {
         "name": "Rhea Silvia",
@@ -3753,7 +3909,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Temptress",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c232": {
         "name": "Daphne",
@@ -3773,7 +3930,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Utopian",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c233": {
         "name": "Arges",
@@ -3793,7 +3951,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Corona",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c234": {
         "name": "Hercules",
@@ -3817,7 +3976,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Triumphant",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c235": {
         "name": "Danu",
@@ -3837,7 +3997,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Antihero",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c236": {
         "name": "小丑兔",
@@ -3857,7 +4018,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Antihero",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c237": {
         "name": "Typhon",
@@ -3877,7 +4039,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Samhain",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c238": {
         "name": "火南瓜",
@@ -3901,7 +4064,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Prima",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c239": {
         "name": "Dianus",
@@ -3921,7 +4085,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Midnight Sun",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c241": {
         "name": "Orcus",
@@ -3953,7 +4118,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Parade",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c244": {
         "name": "春丽",
@@ -3969,7 +4135,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dress",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c245": {
         "name": "Cammy",
@@ -3985,7 +4152,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dolls",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c246": {
         "name": "Krampus",
@@ -4021,7 +4189,8 @@ const CHILDS_CODE_MAP = {
                 "title": "False",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c247": {
         "name": "Myrina",
@@ -4041,7 +4210,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Autocratic",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c250": {
         "name": "Xenie",
@@ -4061,7 +4231,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Water Sprite",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c251": {
         "name": "Ganymede",
@@ -4125,7 +4296,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Altruism",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c253": {
         "name": "Nicole",
@@ -4153,7 +4325,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Saint",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c254": {
         "name": "Davi",
@@ -4225,7 +4398,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ideal",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c261": {
         "name": "Sarasu",
@@ -4241,7 +4415,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Reality",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c262": {
         "name": "Daphnis",
@@ -4261,7 +4436,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Brave",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c265": {
         "name": "Mona",
@@ -4293,7 +4469,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ra",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c267": {
         "name": "Cleopatra",
@@ -4329,7 +4506,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pharoah",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c269": {
         "name": "Pixie",
@@ -4345,7 +4523,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Cosmos",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c270": {
         "name": "Pixie",
@@ -4361,7 +4540,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Platinum",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c271": {
         "name": "Pixie",
@@ -4377,7 +4557,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sapphire",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c272": {
         "name": "Pixie",
@@ -4393,7 +4574,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Verdure",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c274": {
         "name": "Bast",
@@ -4413,7 +4595,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Howling",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c275": {
         "name": "Harpy",
@@ -4433,7 +4616,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Escape",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c277": {
         "name": "Leuce",
@@ -4453,7 +4637,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Partner",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c278": {
         "name": "Hel",
@@ -4473,7 +4658,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Prototype",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c279": {
         "name": "Laufey",
@@ -4501,7 +4687,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Customized",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c280": {
         "name": "Tyche",
@@ -4517,7 +4704,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dreaming",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c281": {
         "name": "Thisbe",
@@ -4541,7 +4729,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Labyrinth",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c283": {
         "name": "Morgan",
@@ -4577,7 +4766,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Servant",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c285": {
         "name": "Natalis",
@@ -4613,7 +4803,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Revelator",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c286": {
         "name": "Verdelet",
@@ -4645,7 +4836,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Butler",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c287": {
         "name": "Salome",
@@ -4673,7 +4865,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Leaping",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c289": {
         "name": "Durandal",
@@ -4697,7 +4890,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Nightmare",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c290": {
         "name": "Brigid",
@@ -4717,7 +4911,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Scarlet",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c292": {
         "name": "Luin",
@@ -4737,7 +4932,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Spear of Vengeance",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c294": {
         "name": "Bathory",
@@ -4761,7 +4957,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Bloody",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c295": {
         "name": "Unknown",
@@ -4785,7 +4982,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Silence",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c296": {
         "name": "Hildr",
@@ -4805,7 +5003,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sniper",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c297": {
         "name": "Red Queen",
@@ -4825,7 +5024,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Flawless",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c299": {
         "name": "Santa Claus",
@@ -4845,7 +5045,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Satan",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c300": {
         "name": "Pietas",
@@ -4865,7 +5066,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Devoted",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c301": {
         "name": "Jacheongbi",
@@ -4881,7 +5083,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Revolutionary",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c302": {
         "name": "Atum",
@@ -4913,7 +5116,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Cosmic",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c305": {
         "name": "Rita",
@@ -4937,7 +5141,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dark Saint",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c308": {
         "name": "老太婆",
@@ -4961,7 +5166,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Revenge",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c310": {
         "name": "Bes",
@@ -4981,7 +5187,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Blossom",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c311": {
         "name": "Khepri",
@@ -5009,7 +5216,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Vicious",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c312": {
         "name": "Tyrving",
@@ -5029,7 +5237,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Cursed Sword",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c314": {
         "name": "Mona",
@@ -5065,7 +5274,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Seeker",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c316": {
         "name": "Wodan",
@@ -5085,7 +5295,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Seeker",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c317": {
         "name": "Babel",
@@ -5105,7 +5316,8 @@ const CHILDS_CODE_MAP = {
                 "title": "False Prophet",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c318": {
         "name": "Bari",
@@ -5149,7 +5361,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Prayer",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c319": {
         "name": "文道令",
@@ -5169,7 +5382,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Guardian",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c320": {
         "name": "Yan Zisuka",
@@ -5189,7 +5403,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Awakened",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c321": {
         "name": "Luna",
@@ -5205,7 +5420,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Full Moon",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c322": {
         "name": "Saladin",
@@ -5229,7 +5445,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Awakened",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c324": {
         "name": "Mona",
@@ -5249,7 +5466,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Rookie",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c325": {
         "name": "John",
@@ -5317,7 +5535,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dark Horse",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c330": {
         "name": "Ottoman",
@@ -5357,7 +5576,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Nandikesvara",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c333": {
         "name": "Deborah",
@@ -5381,7 +5601,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Capturing",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c334": {
         "name": "Lisa",
@@ -5397,7 +5618,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Disillusioned",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c335": {
         "name": "Hathor",
@@ -5417,7 +5639,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Extinction",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c336": {
         "name": "Pan",
@@ -5441,7 +5664,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Farm Sheep",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c337": {
         "name": "芙蕾雅",
@@ -5457,7 +5681,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sprinter",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c338": {
         "name": "Pomona",
@@ -5473,7 +5698,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure Bride",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c339": {
         "name": "Davi",
@@ -5489,7 +5715,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ambivalence",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c342": {
         "name": "Yami",
@@ -5513,7 +5740,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Phantosmia",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c343": {
         "name": "Tiamat",
@@ -5529,7 +5757,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Slashing",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c344": {
         "name": "Isolde",
@@ -5565,7 +5794,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Nova",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c345": {
         "name": "Anemone",
@@ -5601,7 +5831,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gambler",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c346": {
         "name": "特里斯丹",
@@ -5617,7 +5848,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Solitary",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c347": {
         "name": "Dana",
@@ -5633,7 +5865,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Second Advent",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c348": {
         "name": "Mars",
@@ -5657,7 +5890,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sweet Devi",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c349": {
         "name": "Saturn",
@@ -5677,7 +5911,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Starlight",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c350": {
         "name": "Neptune",
@@ -5697,7 +5932,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure Smile",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c351": {
         "name": "Venus",
@@ -5717,7 +5953,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heavenly Flower",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c353": {
         "name": "Charlotte",
@@ -5737,7 +5974,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Glorious",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c354": {
         "name": "Demeter",
@@ -5761,7 +5999,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Crimson",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c355": {
         "name": "Chang'e",
@@ -5777,7 +6016,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Inugami",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c357": {
         "name": "Occasio",
@@ -5793,7 +6033,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Opportune",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c358": {
         "name": "初音未来",
@@ -5809,7 +6050,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Diva",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c359": {
         "name": "雪初音",
@@ -5825,7 +6067,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Snow Priestess",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c360": {
         "name": "Maat",
@@ -5845,7 +6088,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Descended",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c361": {
         "name": "Caduceus",
@@ -5877,7 +6121,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Black Snake",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c362": {
         "name": "Leo",
@@ -5901,7 +6146,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Incubus",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c363": {
         "name": "Lupin",
@@ -5917,7 +6163,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Vanguard",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c364": {
         "name": "Sytry",
@@ -5937,7 +6184,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Lovey-Dovey",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c365": {
         "name": "Lisa",
@@ -5953,7 +6201,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Devil Buster",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c366": {
         "name": "Deino",
@@ -5969,7 +6218,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Hopeful",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c367": {
         "name": "Archfiend Davi",
@@ -6017,7 +6267,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Diver",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c371": {
         "name": "Lisa",
@@ -6037,7 +6288,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Summer Blue",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c372": {
         "name": "Davi",
@@ -6057,7 +6309,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Summer",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c374": {
         "name": "Hildr",
@@ -6073,7 +6326,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Wedding Gown",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c375": {
         "name": "Wodan",
@@ -6117,7 +6371,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Scarlet",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c378": {
         "name": "Pallas",
@@ -6137,7 +6392,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Darkness Clad",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c379": {
         "name": "Athena",
@@ -6153,7 +6409,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Benign Devotion",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c381": {
         "name": "Sytry",
@@ -6185,7 +6442,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Summer Love",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c382": {
         "name": "Neamhain",
@@ -6205,7 +6463,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Battle Kitty",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c384": {
         "name": "Narvi",
@@ -6249,7 +6508,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Battlesuit",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c386": {
         "name": "Kasumi",
@@ -6285,7 +6545,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Immaculate",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c387": {
         "name": "穗花",
@@ -6309,7 +6570,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Casual",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c388": {
         "name": "Kouka",
@@ -6325,7 +6587,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Mass Produced",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c390": {
         "name": "Eochaid",
@@ -6349,7 +6612,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Death March",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c391": {
         "name": "南瓜妹",
@@ -6365,7 +6629,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Party Night",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c392": {
         "name": "Davi",
@@ -6389,7 +6654,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Neo",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c393": {
         "name": "Mona",
@@ -6409,7 +6675,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heavenly Ray",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c394": {
         "name": "Bathory",
@@ -6425,7 +6692,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Supreme Courtesan",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c395": {
         "name": "Eve",
@@ -6441,7 +6709,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pink Blazer",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c396": {
         "name": "Werewolf",
@@ -6457,7 +6726,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Oracle",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c397": {
         "name": "Leda",
@@ -6473,7 +6743,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sexy Santa",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c398": {
         "name": "Jacheongbi",
@@ -6489,7 +6760,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gayageum",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c399": {
         "name": "Mona",
@@ -6517,7 +6789,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Scattering",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c401": {
         "name": "公主初音",
@@ -6533,7 +6806,8 @@ const CHILDS_CODE_MAP = {
                 "title": "PRINCESS",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c402": {
         "name": "诺尔",
@@ -6553,7 +6827,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fourth Squadron",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c403": {
         "name": "马科托",
@@ -6569,7 +6844,8 @@ const CHILDS_CODE_MAP = {
                 "title": "NOL Intel Dept",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c404": {
         "name": "拏音",
@@ -6585,7 +6861,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Six Heroes",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c405": {
         "name": "Luin",
@@ -6609,7 +6886,8 @@ const CHILDS_CODE_MAP = {
                 "title": "King's Lancer",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c406": {
         "name": "Serval",
@@ -6625,7 +6903,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Savanna",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c407": {
         "name": "Raccoon",
@@ -6641,7 +6920,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Arboreal",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c408": {
         "name": "Fennec",
@@ -6657,7 +6937,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Desert",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c409": {
         "name": "Limos",
@@ -6677,7 +6958,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Full",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c410": {
         "name": "Failnaught",
@@ -6697,7 +6979,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Demonic Deadeye",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c411": {
         "name": "Mei",
@@ -6737,7 +7020,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heretic",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c414": {
         "name": "Billy",
@@ -6761,7 +7045,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Deadshot",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c415": {
         "name": "Annie",
@@ -6781,7 +7066,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Wild Hunt",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c416": {
         "name": "Keino",
@@ -6809,7 +7095,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Phantom",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c417": {
         "name": "Tamamo",
@@ -6837,7 +7124,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Bewitching",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c418": {
         "name": "Mafdet",
@@ -6853,7 +7141,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Justice Incarnate",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c419": {
         "name": "凯瑟琳",
@@ -6869,7 +7158,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Inverted & Devilish",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c420": {
         "name": "凯瑟琳",
@@ -6893,7 +7183,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure Bride",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c421": {
         "name": "琳",
@@ -6909,7 +7200,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pure",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c422": {
         "name": "Heket",
@@ -6933,7 +7225,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Mother",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c423": {
         "name": "Laima",
@@ -6965,7 +7258,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Persistent",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c425": {
         "name": "Seth",
@@ -6997,7 +7291,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sacrificing",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c426": {
         "name": "Ophois",
@@ -7017,7 +7312,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pioneer",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c428": {
         "name": "Seth",
@@ -7041,7 +7337,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Avatar",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c429": {
         "name": "Ziva",
@@ -7069,7 +7366,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Frozen Wasteland",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c430": {
         "name": "Giltine",
@@ -7093,7 +7391,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ice Field Hunter",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c431": {
         "name": "Eshu",
@@ -7113,7 +7412,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Snow",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c432": {
         "name": "Artemis",
@@ -7133,7 +7433,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Berserk",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c433": {
         "name": "Pakhet",
@@ -7153,7 +7454,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Cutesy",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c434": {
         "name": "Leda",
@@ -7173,7 +7475,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Lovely",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c435": {
         "name": "Sytry",
@@ -7193,7 +7496,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Maid",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c436": {
         "name": "Serket",
@@ -7217,7 +7521,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Maid",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c437": {
         "name": "Euros",
@@ -7233,7 +7538,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Joyful",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c438": {
         "name": "Semele",
@@ -7261,7 +7567,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Enchant",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c439": {
         "name": "土星",
@@ -7277,7 +7584,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Actress",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c440": {
         "name": "Mona",
@@ -7297,7 +7605,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Lovely",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c441": {
         "name": "Robin",
@@ -7313,7 +7622,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Hero",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c442": {
         "name": "Nirrti",
@@ -7345,7 +7655,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tathata",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c443": {
         "name": "Raffles",
@@ -7361,7 +7672,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Phantom",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c444": {
         "name": "Mitra",
@@ -7421,7 +7733,8 @@ const CHILDS_CODE_MAP = {
                 "title": "First Dawn",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c446": {
         "name": "Argos",
@@ -7441,7 +7754,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Bodyguard",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c447": {
         "name": "Miriam",
@@ -7469,7 +7783,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Slanderous",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c448": {
         "name": "Mircalla",
@@ -7497,7 +7812,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Seductive",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c449": {
         "name": "Laura",
@@ -7513,7 +7829,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Chaser",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c450": {
         "name": "Rusalka",
@@ -7529,7 +7846,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heroine",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c451": {
         "name": "Ayane",
@@ -7549,7 +7867,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Peach Blossom",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c452": {
         "name": "Leifang",
@@ -7569,7 +7888,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Vermilion Bird",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c453": {
         "name": "Mercury",
@@ -7585,7 +7905,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Embracing",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c454": {
         "name": "Juno",
@@ -7609,7 +7930,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Pleading",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c455": {
         "name": "Tiwaz",
@@ -7645,7 +7967,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Passionate",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c456": {
         "name": "Clotho",
@@ -7661,11 +7984,12 @@ const CHILDS_CODE_MAP = {
                 "title": "Destiny",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c457": {
         "name": "Odysseus",
-        "star": "5",
+        "star": "4",
         "attribute": "G",
         "id": "c457",
         "variants": {
@@ -7677,7 +8001,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Neutral",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c458": {
         "name": "Zephyros",
@@ -7697,7 +8022,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gale",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c459": {
         "name": "Caca",
@@ -7713,7 +8039,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Shadow",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c460": {
         "name": "Cacus",
@@ -7737,7 +8064,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Freedom",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c461": {
         "name": "Aurora",
@@ -7757,7 +8085,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Confessing",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c462": {
         "name": "Theresa",
@@ -7773,7 +8102,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Rosary",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c463": {
         "name": "Eve",
@@ -7793,7 +8123,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dejected",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c464": {
         "name": "Arhat",
@@ -7817,7 +8148,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Immortal",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c465": {
         "name": "Sunah",
@@ -7837,7 +8169,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Upright",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c466": {
         "name": "Nezha",
@@ -7853,7 +8186,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Yearning",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c467": {
         "name": "Ziva",
@@ -7869,7 +8203,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Burning",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c468": {
         "name": "Metis",
@@ -7893,7 +8228,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Truth",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c469": {
         "name": "Aria",
@@ -7917,7 +8253,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Frozen Gale",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c470": {
         "name": "海王星",
@@ -7933,7 +8270,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Snowy",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c471": {
         "name": "Mars",
@@ -7953,7 +8291,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Snowfall",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c472": {
         "name": "Venus",
@@ -7969,7 +8308,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Winter",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c473": {
         "name": "Titania",
@@ -7985,7 +8325,8 @@ const CHILDS_CODE_MAP = {
                 "title": "High Spirit",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c474": {
         "name": "Hephaestus",
@@ -8013,7 +8354,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Blazing",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c475": {
         "name": "土星",
@@ -8029,7 +8371,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Frosty",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c476": {
         "name": "Nephthys",
@@ -8053,7 +8396,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Peaceful",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c479": {
         "name": "Maupin",
@@ -8077,7 +8421,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Legendary",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c480": {
         "name": "Bradamante",
@@ -8101,7 +8446,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Carefree",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c481": {
         "name": "Wyatt",
@@ -8125,7 +8471,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Gunslinger",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c482": {
         "name": "Theophano",
@@ -8149,7 +8496,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Quirky",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c483": {
         "name": "Artemisia",
@@ -8169,7 +8517,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Claw Commander",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c484": {
         "name": "Judas",
@@ -8201,7 +8550,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Apathetic Shade",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c486": {
         "name": "Kubaba",
@@ -8233,7 +8583,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Top Speed",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c488": {
         "name": "Driades",
@@ -8257,7 +8608,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Tomboy Fairy",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c489": {
         "name": "Loki",
@@ -8297,7 +8649,8 @@ const CHILDS_CODE_MAP = {
                 "title": "人间体",
                 "id": "c224_00"
             }
-        }
+        },
+        "type": "G"
     },
     "c490": {
         "name": "Guren",
@@ -8325,7 +8678,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Aspiring",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c491": {
         "name": "Souka",
@@ -8349,7 +8703,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Nihilistic",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c492": {
         "name": "何仙姑",
@@ -8369,7 +8724,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c493": {
         "name": "Messier",
@@ -8401,7 +8757,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Empress",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c494": {
         "name": "Rosanna",
@@ -8421,7 +8778,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Embracing",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c495": {
         "name": "Catsi",
@@ -8441,7 +8799,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Freed Kitty",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c496": {
         "name": "Lassi",
@@ -8461,7 +8820,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Happy Poppy",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c497": {
         "name": "Wodan",
@@ -8481,7 +8841,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Perfect",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c498": {
         "name": "索尔",
@@ -8505,7 +8866,8 @@ const CHILDS_CODE_MAP = {
                 "title": "满好感",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c499": {
         "name": "拉姆",
@@ -8521,7 +8883,8 @@ const CHILDS_CODE_MAP = {
                 "title": "满好感",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c500": {
         "name": "米莉娅",
@@ -8537,7 +8900,8 @@ const CHILDS_CODE_MAP = {
                 "title": "铁娘子",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c501": {
         "name": "Ragaraja",
@@ -8577,7 +8941,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Detached",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c502": {
         "name": "To Keika",
@@ -8601,7 +8966,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ghost-Calling",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c503": {
         "name": "Bari",
@@ -8625,7 +8991,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Haughty",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c504": {
         "name": "Marduk",
@@ -8645,7 +9012,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Governing Goddess",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c505": {
         "name": "Boreas",
@@ -8669,7 +9037,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sweeping",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c506": {
         "name": "Notus",
@@ -8689,7 +9058,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Stormy",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c507": {
         "name": "Phorcus",
@@ -8717,7 +9087,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Imbiber",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c508": {
         "name": "Chandra",
@@ -8733,7 +9104,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Blade of Vengeance",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c509": {
         "name": "Strigoy",
@@ -8765,7 +9137,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Immortal",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c510": {
         "name": "Krsnik",
@@ -8785,7 +9158,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Martyr",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c511": {
         "name": "Philotes",
@@ -8801,7 +9175,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Befriending",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c512": {
         "name": "Turan",
@@ -8817,7 +9192,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Liberated",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c513": {
         "name": "Akrasia",
@@ -8849,7 +9225,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Almighty",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c514": {
         "name": "Duetsha",
@@ -8865,7 +9242,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Deceiver",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c516": {
         "name": "Erysichthon",
@@ -8881,7 +9259,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Luscious",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c517": {
         "name": "Grendel",
@@ -8897,7 +9276,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Aggressor",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c518": {
         "name": "Sunny",
@@ -8917,7 +9297,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c519": {
         "name": "Orion",
@@ -8933,7 +9314,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c520": {
         "name": "Ishimi",
@@ -8965,7 +9347,8 @@ const CHILDS_CODE_MAP = {
                 "title": "False",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c521": {
         "name": "Zegati",
@@ -8997,7 +9380,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Free",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c522": {
         "name": "Dalia",
@@ -9013,7 +9397,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Charging",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c523": {
         "name": "Nicole",
@@ -9033,7 +9418,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Reincarnation",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c524": {
         "name": "Pepita",
@@ -9049,7 +9435,8 @@ const CHILDS_CODE_MAP = {
                 "title": "White Rain",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c525": {
         "name": "Grilla",
@@ -9069,7 +9456,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Snowfall",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c526": {
         "name": "Rani",
@@ -9101,7 +9489,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Black Tiger",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c527": {
         "name": "Reynard",
@@ -9129,7 +9518,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Selfish",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c528": {
         "name": "Zemyna",
@@ -9157,7 +9547,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "H"
     },
     "c529": {
         "name": "Kubera",
@@ -9173,7 +9564,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Wise",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c530": {
         "name": "Kanaloa",
@@ -9205,7 +9597,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Wild",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c532": {
         "name": "Anubis",
@@ -9225,7 +9618,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c533": {
         "name": "梦神",
@@ -9241,7 +9635,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Dreamy",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c534": {
         "name": "Legend",
@@ -9261,7 +9656,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "c537": {
         "name": "Elysion",
@@ -9281,7 +9677,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Freed",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c538": {
         "name": "Sallos",
@@ -9297,7 +9694,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Salacious",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c539": {
         "name": "Belial",
@@ -9329,7 +9727,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Destructive",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c540": {
         "name": "维利塔",
@@ -9345,7 +9744,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c541": {
         "name": "阿罗汉",
@@ -9365,7 +9765,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c543": {
         "name": "梅加拉",
@@ -9381,7 +9782,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c544": {
         "name": "青钢刀",
@@ -9397,7 +9799,8 @@ const CHILDS_CODE_MAP = {
                 "title": "满好感",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c545": {
         "name": "爱丽儿",
@@ -9413,7 +9816,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Messenger",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c547": {
         "name": "狄蜜特",
@@ -9429,7 +9833,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c548": {
         "name": "犹大",
@@ -9445,7 +9850,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c549": {
         "name": "妲努",
@@ -9461,7 +9867,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c550": {
         "name": "斯克鲁奇",
@@ -9481,7 +9888,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fiesta",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c552": {
         "name": "乌波斯",
@@ -9497,7 +9905,8 @@ const CHILDS_CODE_MAP = {
                 "title": "White",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c557": {
         "name": "鲁弗斯",
@@ -9533,7 +9942,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Neighbor",
                 "id": "c024_00"
             }
-        }
+        },
+        "type": "J"
     },
     "c558": {
         "name": "格琳达",
@@ -9553,7 +9963,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c560": {
         "name": "奈德",
@@ -9569,7 +9980,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c561": {
         "name": "摩根",
@@ -9585,7 +9997,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c562": {
         "name": "小圆",
@@ -9605,7 +10018,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c563": {
         "name": "薄荷",
@@ -9621,7 +10035,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c564": {
         "name": "奶光",
@@ -9641,7 +10056,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c565": {
         "name": "芙蕾雅",
@@ -9661,7 +10077,8 @@ const CHILDS_CODE_MAP = {
                 "title": "满好感",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c566": {
         "name": "欧罗巴",
@@ -9677,7 +10094,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c567": {
         "name": "火蝴蝶",
@@ -9693,7 +10111,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c568": {
         "name": "黛安娜",
@@ -9709,7 +10128,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c569": {
         "name": "黑卡蒂",
@@ -9729,7 +10149,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "c573": {
         "name": "雅娜",
@@ -9745,7 +10166,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c575": {
         "name": "苏内特",
@@ -9761,7 +10183,8 @@ const CHILDS_CODE_MAP = {
                 "title": "",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "c576": {
         "name": "凯龙",
@@ -9777,7 +10200,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Great Leader",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "c577": {
         "name": "瑟琳",
@@ -9793,7 +10217,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Ghostly",
                 "id": "02"
             }
-        }
+        },
+        "type": "S"
     },
     "m077": {
         "name": "魔方",
@@ -9821,7 +10246,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Big Cube",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m038": {
         "name": "白斩鸡",
@@ -9849,7 +10275,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Black Wing",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m057": {
         "name": "基佬龙",
@@ -9873,7 +10300,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Black Shadow",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m261": {
         "name": "摩亚",
@@ -9893,7 +10321,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Monochrome",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m054": {
         "name": "Gomorrah",
@@ -9913,7 +10342,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Extinct",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m045": {
         "name": "孤独的精灵",
@@ -9933,7 +10363,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Obsessed",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m056": {
         "name": "高达",
@@ -9953,7 +10384,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Heavy Fire",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "m154": {
         "name": "Gungnir",
@@ -9973,7 +10405,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Red",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "m215": {
         "name": "史莱姆王",
@@ -9997,7 +10430,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Fervent Ruler",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m224": {
         "name": "法老",
@@ -10017,7 +10451,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Immovable",
                 "id": "02"
             }
-        }
+        },
+        "type": "J"
     },
     "m264": {
         "name": "白斩鸡",
@@ -10041,7 +10476,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Abyssal",
                 "id": "02"
             }
-        }
+        },
+        "type": "G"
     },
     "m051": {
         "name": "哈迪斯",
@@ -10057,7 +10493,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Human",
                 "id": "00"
             }
-        }
+        },
+        "type": "J"
     },
     "m278": {
         "name": "Ox",
@@ -10073,7 +10510,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Water Cloud",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m279": {
         "name": "Ox",
@@ -10089,7 +10527,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Flame",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m280": {
         "name": "Ox",
@@ -10105,7 +10544,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Leaf",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m281": {
         "name": "Ox",
@@ -10121,7 +10561,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Sunlight",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m282": {
         "name": "Ox",
@@ -10137,7 +10578,8 @@ const CHILDS_CODE_MAP = {
                 "title": "Moon Shade",
                 "id": "02"
             }
-        }
+        },
+        "type": "F"
     },
     "m059": {
         "name": "Bazooka",
@@ -10157,7 +10599,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m063": {
         "name": "Ampoule",
@@ -10176,8 +10619,9 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         },
-        "star": "1",
-        "attribute": "G"
+        "star": "3",
+        "attribute": "G",
+        "type": "H"
     },
     "m191": {
         "name": "Chimera",
@@ -10197,7 +10641,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m200": {
         "name": "Ankh",
@@ -10217,7 +10662,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "J"
     },
     "m201": {
         "name": "Mech Commander",
@@ -10237,7 +10683,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "G"
     },
     "m202": {
         "name": "Mech Soldier",
@@ -10257,7 +10704,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m203": {
         "name": "Bremen",
@@ -10277,7 +10725,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "J"
     },
     "m008": {
         "name": "果冻",
@@ -10289,7 +10738,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "S"
     },
     "m009": {
         "name": "果冻",
@@ -10301,7 +10751,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "S"
     },
     "m010": {
         "name": "布灵",
@@ -10313,7 +10764,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "G"
     },
     "m011": {
         "name": "布灵",
@@ -10325,7 +10777,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m012": {
         "name": "Dondon",
@@ -10337,7 +10790,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "G"
     },
     "m018": {
         "name": "Pom",
@@ -10353,7 +10807,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m021": {
         "name": "Donkey",
@@ -10369,7 +10824,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "J"
     },
     "m022": {
         "name": "Puppy",
@@ -10385,7 +10841,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m026": {
         "name": "Chick",
@@ -10405,7 +10862,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m028": {
         "name": "松鼠",
@@ -10421,7 +10879,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m029": {
         "name": "Tooth",
@@ -10437,7 +10896,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "H"
     },
     "m030": {
         "name": "Ball",
@@ -10453,7 +10913,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "S"
     },
     "m031": {
         "name": "Tree",
@@ -10469,7 +10930,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m040": {
         "name": "链锯杀手",
@@ -10481,7 +10943,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m047": {
         "name": "Egg",
@@ -10497,7 +10960,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "S"
     },
     "m048": {
         "name": "Bunny",
@@ -10513,7 +10977,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m049": {
         "name": "剥制",
@@ -10525,7 +10990,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m050": {
         "name": "断头台",
@@ -10537,7 +11003,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "G"
     },
     "m052": {
         "name": "Basilisk",
@@ -10553,7 +11020,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m053": {
         "name": "锡德拉",
@@ -10565,7 +11033,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m061": {
         "name": "Syringe",
@@ -10581,7 +11050,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "H"
     },
     "m062": {
         "name": "Syringe",
@@ -10597,7 +11067,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "H"
     },
     "m064": {
         "name": "普可利",
@@ -10613,7 +11084,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "G"
     },
     "m065": {
         "name": "可可利",
@@ -10629,7 +11101,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "G"
     },
     "m066": {
         "name": "古可利",
@@ -10645,7 +11118,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m067": {
         "name": "Food",
@@ -10661,7 +11135,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "S"
     },
     "m068": {
         "name": "Food",
@@ -10677,7 +11152,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "S"
     },
     "m069": {
         "name": "Food",
@@ -10693,7 +11169,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "S"
     },
     "m070": {
         "name": "Red Chain",
@@ -10709,7 +11186,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m071": {
         "name": "Green Chain",
@@ -10725,7 +11203,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m072": {
         "name": "Blue Chain",
@@ -10741,7 +11220,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m073": {
         "name": "Cube",
@@ -10757,7 +11237,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "J"
     },
     "m074": {
         "name": "Cube",
@@ -10773,7 +11254,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m075": {
         "name": "Cube",
@@ -10789,7 +11271,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "J"
     },
     "m076": {
         "name": "Cube",
@@ -10805,7 +11288,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "J"
     },
     "m078": {
         "name": "Cocoon",
@@ -10821,7 +11305,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "J"
     },
     "m080": {
         "name": "Cocoon",
@@ -10837,7 +11322,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "J"
     },
     "m081": {
         "name": "Cocoon",
@@ -10853,7 +11339,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "J"
     },
     "m082": {
         "name": "Cocoon",
@@ -10869,7 +11356,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "J"
     },
     "m083": {
         "name": "Cocoon",
@@ -10885,7 +11373,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m084": {
         "name": "Cube",
@@ -10901,7 +11390,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "J"
     },
     "m086": {
         "name": "Light Chain",
@@ -10917,7 +11407,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m087": {
         "name": "Dark Chain",
@@ -10933,7 +11424,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m089": {
         "name": "姆可利",
@@ -10949,7 +11441,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "G"
     },
     "m090": {
         "name": "荷可利",
@@ -10965,7 +11458,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m092": {
         "name": "Syringe",
@@ -10981,7 +11475,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "H"
     },
     "m093": {
         "name": "Syringe",
@@ -10997,7 +11492,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "H"
     },
     "m095": {
         "name": "Syringe",
@@ -11013,7 +11509,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "H"
     },
     "m096": {
         "name": "Ball",
@@ -11029,7 +11526,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "S"
     },
     "m097": {
         "name": "Ball",
@@ -11045,7 +11543,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "S"
     },
     "m098": {
         "name": "Ball",
@@ -11061,7 +11560,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "S"
     },
     "m100": {
         "name": "Ball",
@@ -11077,7 +11577,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "S"
     },
     "m107": {
         "name": "Food",
@@ -11093,7 +11594,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "S"
     },
     "m109": {
         "name": "Food",
@@ -11109,7 +11611,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "1",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "S"
     },
     "m110": {
         "name": "Gron",
@@ -11125,7 +11628,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "G"
     },
     "m111": {
         "name": "Firon",
@@ -11141,7 +11645,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m112": {
         "name": "Bluron",
@@ -11157,7 +11662,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "G"
     },
     "m113": {
         "name": "Daron",
@@ -11173,7 +11679,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "G"
     },
     "m114": {
         "name": "Liron",
@@ -11189,7 +11696,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "G"
     },
     "m117": {
         "name": "多米",
@@ -11205,7 +11713,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "G"
     },
     "m124": {
         "name": "Watcher",
@@ -11221,7 +11730,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m125": {
         "name": "Watcher",
@@ -11237,7 +11747,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m126": {
         "name": "Watcher",
@@ -11253,7 +11764,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m127": {
         "name": "Watcher",
@@ -11269,7 +11781,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m128": {
         "name": "Watcher",
@@ -11285,7 +11798,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m136": {
         "name": "女士",
@@ -11297,7 +11811,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m141": {
         "name": "万圣节",
@@ -11309,7 +11824,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m142": {
         "name": "Revenge Girl",
@@ -11325,7 +11841,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "J"
     },
     "m143": {
         "name": "Revenge Girl",
@@ -11341,7 +11858,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "J"
     },
     "m144": {
         "name": "Revenge Girl",
@@ -11357,7 +11875,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "J"
     },
     "m145": {
         "name": "Revenge Girl",
@@ -11373,7 +11892,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "J"
     },
     "m146": {
         "name": "Revenge Girl",
@@ -11389,7 +11909,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m185": {
         "name": "Actyon",
@@ -11409,7 +11930,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m186": {
         "name": "Saab",
@@ -11425,7 +11947,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "H"
     },
     "m187": {
         "name": "Dagon",
@@ -11455,7 +11978,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m189": {
         "name": "Mimic",
@@ -11471,7 +11995,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "J"
     },
     "m190": {
         "name": "Boxer",
@@ -11487,7 +12012,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "G"
     },
     "m192": {
         "name": "Blood Dragon",
@@ -11503,7 +12029,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m193": {
         "name": "Pompoms",
@@ -11519,7 +12046,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "S"
     },
     "m194": {
         "name": "Gron",
@@ -11535,7 +12063,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "F"
     },
     "m195": {
         "name": "Liron",
@@ -11551,7 +12080,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m196": {
         "name": "Firon",
@@ -11567,7 +12097,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m197": {
         "name": "Charonn",
@@ -11583,7 +12114,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m198": {
         "name": "Daron",
@@ -11599,7 +12131,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "F"
     },
     "m199": {
         "name": "Azure Dragon",
@@ -11615,7 +12148,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "W"
+        "attribute": "W",
+        "type": "F"
     },
     "m205": {
         "name": "Barf",
@@ -11631,7 +12165,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m206": {
         "name": "Boss Pig",
@@ -11647,7 +12182,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m211": {
         "name": "Angel Lot",
@@ -11663,7 +12199,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "H"
     },
     "m212": {
         "name": "Rune",
@@ -11679,7 +12216,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m214": {
         "name": "Pumpkin",
@@ -11695,7 +12233,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "G"
     },
     "m216": {
         "name": "Fairy",
@@ -11711,7 +12250,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "F"
     },
     "m217": {
         "name": "Red Nose",
@@ -11727,7 +12267,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "G"
+        "attribute": "G",
+        "type": "S"
     },
     "m223": {
         "name": "Gift Bag",
@@ -11743,7 +12284,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "G"
     },
     "m231": {
         "name": "Cross",
@@ -11759,7 +12301,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "2",
-        "attribute": "D"
+        "attribute": "D",
+        "type": "J"
     },
     "m245": {
         "name": "Creature",
@@ -11775,7 +12318,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "4",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "S"
     },
     "m255": {
         "name": "Ampoule",
@@ -11791,7 +12335,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "F"
+        "attribute": "F",
+        "type": "J"
     },
     "m007": {
         "name": "泰迪",
@@ -11803,7 +12348,8 @@ const CHILDS_CODE_MAP = {
             }
         },
         "star": "3",
-        "attribute": "L"
+        "attribute": "L",
+        "type": "F"
     },
     "m227": {
         "name": "Crocell",
@@ -11988,26 +12534,28 @@ const CHILDS_CODE_MAP = {
     "m003": {
         "name": "炎龙",
         "star": "3",
-        "attribute": "D",
+        "attribute": "F",
         "id": "m003",
         "variants": {
             "sm003_01": {
                 "title": "温泉皮",
                 "id": "sm003_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m036": {
         "name": "传达者",
         "star": "3",
-        "attribute": "F",
+        "attribute": "D",
         "id": "m036",
         "variants": {
             "sm036_01": {
                 "title": "温泉皮",
                 "id": "sm036_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m037": {
         "name": "追逐者",
@@ -12019,7 +12567,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm037_01"
             }
-        }
+        },
+        "type": "H"
     },
     "m039": {
         "name": "利嘉",
@@ -12031,7 +12580,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm039_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m137": {
         "name": "铃铛男孩",
@@ -12043,7 +12593,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm137_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m148": {
         "name": "噪音圆",
@@ -12055,7 +12606,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm148_01"
             }
-        }
+        },
+        "type": "J"
     },
     "m149": {
         "name": "赫兹",
@@ -12067,7 +12619,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm149_01"
             }
-        }
+        },
+        "type": "S"
     },
     "m150": {
         "name": "帽子戏法",
@@ -12079,7 +12632,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm150_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m151": {
         "name": "疯狂兔子",
@@ -12091,7 +12645,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm151_01"
             }
-        }
+        },
+        "type": "F"
     },
     "m152": {
         "name": "格斗家",
@@ -12103,7 +12658,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm152_01"
             }
-        }
+        },
+        "type": "G"
     },
     "m153": {
         "name": "螳螂",
@@ -12115,7 +12671,8 @@ const CHILDS_CODE_MAP = {
                 "title": "温泉皮",
                 "id": "sm153_01"
             }
-        }
-    },
+        },
+        "type": "G"
+    }
 }
 module.exports = CHILDS_CODE_MAP
