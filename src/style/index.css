@@ -207,7 +207,6 @@ canvas {
 
 .attr-tab .el-tabs__item, .dolls-star-tab .el-tabs__item {
     position: relative;
-    padding-left: 25px!important;
     transition: all ease .2s;
     color: #f3b219;
     font-weight: bold;
@@ -230,6 +229,9 @@ canvas {
     width: unset!important;
     z-index: 5!important;
 }
+.dolls-star-tab .el-tabs__item {
+    padding-left: 20px!important;
+}
 .attr-tab .el-tabs__item {
     padding-left: 35px!important;
 }
@@ -241,7 +243,7 @@ canvas {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 8px;
+    left: 9px;
     top: 8px;
     background: url('../images/icon/attributes.webp');
 }
@@ -270,6 +272,9 @@ canvas {
 }
 .star-tab .el-tabs__item.is-active {
     background: linear-gradient(0deg, rgba(255,205,0,1) 0%, rgba(255,205,0,0.3) 40%, rgba(255,205,0,0) 70%);
+}
+.star-tab .el-tabs__item:last-of-type.is-active {
+    color: white!important;
 }
 .star-tab .el-tabs__item:before {
     content: '';
