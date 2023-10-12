@@ -14,9 +14,8 @@
  在当前文件目录下打开 cmd 或者 powershell，输入 ```npm start```
 
 #### ·关于更新
- [更新日志](https://github.com/Mobbbb/DCLive2D/releases)
- [更新地址](https://github.com/Mobbbb/DCLive2D/tree/without-static)
- 该地址下载内容仅包含更新部分（6MB），替换现有的文件即可
+ [更新日志&地址](https://github.com/Mobbbb/DCLive2D/releases)<br />
+ 下载最新版本下的 ```DCLive2D-without-static.zip``` 压缩包，用压缩包文件覆盖旧文件即可
 
 
 文 件 大 小 ：1.9g
