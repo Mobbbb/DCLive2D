@@ -7931,7 +7931,7 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         },
-        "type": "S"
+        "type": "J"
     },
     "c455": {
         "name": "Tiwaz",
@@ -8254,7 +8254,7 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         },
-        "type": "S"
+        "type": "J"
     },
     "c470": {
         "name": "海王星",
@@ -9598,7 +9598,7 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         },
-        "type": "J"
+        "type": "S"
     },
     "c532": {
         "name": "Anubis",
@@ -10276,7 +10276,7 @@ const CHILDS_CODE_MAP = {
                 "id": "02"
             }
         },
-        "type": "J"
+        "type": "F"
     },
     "m057": {
         "name": "基佬龙",
@@ -10494,7 +10494,7 @@ const CHILDS_CODE_MAP = {
                 "id": "00"
             }
         },
-        "type": "J"
+        "type": "F"
     },
     "m278": {
         "name": "Ox",
