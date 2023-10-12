@@ -51,7 +51,6 @@
 						<div class="avatar-item-wrap" v-for="item in ACTIVE_CHILDS_CODE_LIST" @click="selectItem(item)">
 							<img :src="`./src/static/${item.id}_01/icon.png`" :class="OTHERS_ICON_SRC[item.id] ? 'others-img' : ''">
 							<span>{{item.name}}</span>
-							<span style="background-color: red;" v-if="!item.type">aa</span>
 						</div>
 					</template>
 				</div>
