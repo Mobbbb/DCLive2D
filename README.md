@@ -14,7 +14,11 @@
  
 #### · 如何更新至对应版本
  > 下载对应版本的压缩包，用压缩包文件覆盖旧文件即可<br />
- > [v1.2.2](https://github.com/Mobbbb/DCLive2D/releases/download/v1.2.2/DCLive2D-without-static.zip)、[v1.2.1](https://github.com/Mobbbb/DCLive2D/releases/download/v1.2.1/DCLive2D-without-static.zip)
+ > [v1.2.2_update](https://github.com/Mobbbb/DCLive2D/releases/download/v1.2.2/DCLive2D-without-static.zip)、[v1.2.1_update](https://github.com/Mobbbb/DCLive2D/releases/download/v1.2.1/DCLive2D-without-static.zip)
+
+#### · 安卓版
+> [夸克网盘](https://pan.quark.cn/s/ba2228b5b362)
+> [百度网盘](https://pan.baidu.com/s/1Y3fdln4DS4uUdmF-1fmpYw?pwd=yx5k)
 
 ##
 
